@@ -134,7 +134,6 @@ We will now extend this example with a simple <code>.stop</code> command for the
 switch (packet)
 {
     case PlayerChatPacket { Message: &quot;.stop&quot; }:
-        c
         client.Disconnect();
         Environment.Exit(0);
         return;
