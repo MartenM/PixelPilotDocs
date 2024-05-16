@@ -1,0 +1,1029 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Player | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Player | PixelPilot ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/main/apiSpec/new?filename=PixelPilot_PixelGameClient_Players_Basic_Player.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Players.Basic.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PixelPilot.PixelGameClient.Players.Basic.Player">
+
+
+
+  <h1 id="PixelPilot_PixelGameClient_Players_Basic_Player" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player" class="text-break">
+Class Player  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.Players.html">Players</a>.<a class="xref" href="PixelPilot.PixelGameClient.Players.Basic.html">Basic</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Player : IPixelPlayer</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Player</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Players.IPixelPlayer.html">IPixelPlayer</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player__ctor_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.#ctor*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player__ctor_PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.#ctor(PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket)">
+  Player(PlayerJoinPacket)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Construct a new player from the incoming packet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player(PlayerJoinPacket packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>packet</code> <a class="xref" href="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html">PlayerJoinPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player__ctor_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.#ctor*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+  Player(int, string, string, int, bool, double, double, int, int, int, bool, bool, bool, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player(int id, string accountId, string username, int face, bool isAdmin, double x, double y, int coins, int blueCoins, int deaths, bool godmode, bool modmode, bool hasCrown, bool canGod, bool canEdit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>accountId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>face</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>isAdmin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>coins</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>blueCoins</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>deaths</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>godmode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>modmode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>hasCrown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>canGod</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>canEdit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_AccountId_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.AccountId*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_AccountId" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.AccountId">
+  AccountId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The account ID of this player.
+Use this for persistant storage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_BlueCoins_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.BlueCoins*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_BlueCoins" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.BlueCoins">
+  BlueCoins
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BlueCoins { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_CanEdit_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.CanEdit*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_CanEdit" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.CanEdit">
+  CanEdit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanEdit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_CanGod_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.CanGod*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_CanGod" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.CanGod">
+  CanGod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanGod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Deaths_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Deaths*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Deaths" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Deaths">
+  Deaths
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Deaths { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Face_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Face*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Face" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Face">
+  Face
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Face { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Godmode_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Godmode*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Godmode" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Godmode">
+  Godmode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Godmode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_GoldCoins_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.GoldCoins*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_GoldCoins" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.GoldCoins">
+  GoldCoins
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GoldCoins { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_HasCrown_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.HasCrown*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_HasCrown" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.HasCrown">
+  HasCrown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCrown { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Horizontal_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Horizontal*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Horizontal" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Horizontal">
+  Horizontal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Horizontal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Id_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Id*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Id" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The unique player ID of this player in this world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_IsAdmin_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.IsAdmin*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_IsAdmin" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.IsAdmin">
+  IsAdmin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAdmin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_ModX_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.ModX*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_ModX" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.ModX">
+  ModX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ModX { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_ModY_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.ModY*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_ModY" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.ModY">
+  ModY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ModY { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Modmode_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Modmode*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Modmode" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Modmode">
+  Modmode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Modmode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_SpaceJustDown_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.SpaceJustDown*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_SpaceJustDown" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.SpaceJustDown">
+  SpaceJustDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SpaceJustDown { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Spacedown_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Spacedown*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Spacedown" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Spacedown">
+  Spacedown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Spacedown { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_TickId_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.TickId*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_TickId" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.TickId">
+  TickId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TickId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Username_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Username*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Username" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Username">
+  Username
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The display name of the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Username { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_VelocityX_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.VelocityX*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_VelocityX" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.VelocityX">
+  VelocityX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double VelocityX { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_VelocityY_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.VelocityY*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_VelocityY" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.VelocityY">
+  VelocityY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double VelocityY { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Vertical_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Vertical*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Vertical" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Vertical">
+  Vertical
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Vertical { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_X_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.X*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_X" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double X { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Players_Basic_Player_Y_" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Y*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Players_Basic_Player_Y" data-uid="PixelPilot.PixelGameClient.Players.Basic.Player.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Y { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Players/Basic/Player.cs/#L5" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

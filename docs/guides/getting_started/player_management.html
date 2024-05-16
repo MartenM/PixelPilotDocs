@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Player Management | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Player Management | PixelPilot ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/main/docs/guides/getting_started/player_management.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides.GettingStarted.PlayerManagement">
+<h1 id="player-management">Player Management</h1>
+
+<p>The game only sends updates about players only once. In order to make keep track of players in your world you can use the <code>PlayerManager</code>.
+This manager keeps tracks of players in your world and easily allows you to fetch their latest information.</p>
+<p>The following code snippet initializes the manager and ensures it receives the packets from the client.</p>
+<pre><code class="lang-csharp">// Player manager allows you to easily keep track of player stats.
+// For advanced users, it can be extended to include relevant information for you.
+var playerManager = new PlayerManager();
+client.OnPacketReceived += playerManager.HandlePacket;
+</code></pre>
+<p>You now have access to the players stats at all time. This can be used in for example a <code>.ping</code> command that sends back the players name.</p>
+<pre><code class="lang-csharp">client.OnPacketReceived += (_, packet) =&gt;
+{
+    // Make use of strongly typed packets!
+    switch (packet)
+    {
+        case PlayerChatPacket { Message: &quot;.ping&quot; } chat:
+        {
+            var player = playerManager.GetPlayer(chat.PlayerId);
+            if (player == null) return;
+
+            client.Send(new PlayerChatOutPacket($&quot;Pong! ({player.Username}, {player.X}, {player.Y})&quot;));
+            break;
+        }
+    }
+};
+</code></pre>
+<h2 id="advanced-usage-making-your-own-player-class">Advanced usage: Making your own player class</h2>
+<p>When making a minigame you might need to store more information about the player. The API allows you to define your own player class that can still be used by the manager.
+The following steps should be taken:</p>
+<ol>
+<li>Create your own Player class that implements <code>IPixelPlayer</code>.</li>
+<li>Create your own PlayerManager which extends <code>PixelPlayerManager</code>.</li>
+<li>Start using your own implementation of <code>IPixelPlayer</code> and <code>PixelPlayerManger</code>!</li>
+</ol>
+<p>The default classes <code>Player</code> and <code>PlayerManager</code> used in this guide are created in the same way.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/main/docs/guides/getting_started/player_management.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

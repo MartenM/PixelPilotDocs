@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Start making a bot | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Start making a bot | PixelPilot ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/main/docs/guides/getting_started/first_bot.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides.GettingStarted.FirstBot">
+
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This guide assumes you have basic knowledge about C# and NuGet.
+If you don't, start learning it today!</p>
+</div>
+<h1 id="installation">Installation</h1>
+<p>The main package <code>PixelPilot.Core</code> can be found on NuGet. Install the latest version to start using the API.</p>
+<h1 id="your-first-bot">Your first bot</h1>
+<p><code>PixelPilot.Core</code> makes it easy to get a bot up and running. You can either provide the <code>PixelPilotClient</code> with a token, or by using your email and password directly.
+The token can be found in the local storage of your browser.</p>
+<pre><code class="lang-csharp"># Create a bot by using a token
+var client = new PixelPilotClient(&quot;Your account token&quot;);
+
+# Create a bot by using 
+var client = new PixelPilotClient(&quot;bot@pixelpilot.com&quot;, &quot;super secret password&quot;);
+</code></pre>
+<p>After creating the client you probably, you can let the bot connect to a world.
+Each world has an unique world ID. When you join a world, the URL bar will display the following <code>https://pixelwalker.net/world/&lt;WORLD_ID&gt;</code>.
+Copy the world ID and use it to connect to the world.</p>
+<pre><code class="lang-csharp">// Connect to a room.
+await client.Connect(&quot;r082b210d67df52&quot;);
+</code></pre>
+<p>Our bot has now joined the world but it since the end of the program has been reached it will terminate.
+You can prevent this by adding the following code to the end of your program.</p>
+<pre><code class="lang-csharp">// Don't terminate.
+Thread.Sleep(-1);
+</code></pre>
+<p>That's it, you have now connected your first bot to the world!</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/main/docs/guides/getting_started/first_bot.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
