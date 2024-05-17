@@ -7,7 +7,7 @@
       <meta name="title" content="Logging | PixelPilot ">
       
       
-      <link rel="icon" href="../../favicon.ico">
+      <link rel="icon" href="../../images/pixel_pilot.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
@@ -136,6 +136,10 @@ if (config == null)
     Console.WriteLine(&quot;The configuration file could not be loaded.&quot;);
     return;
 }
+</code></pre>
+<h3 id="grabbing-a-logger">Grabbing a logger</h3>
+<p>It can be useful to do your logging using the provided <code>LogManager</code>. In order to get a logger you can use the following code snippet:</p>
+<pre><code class="lang-csharp">private ILogger _logger = LogManager.GetLogger(&quot;YourLogger&quot;);
 </code></pre>
 
 </article>
