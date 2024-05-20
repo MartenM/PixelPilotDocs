@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PlayerCrownPacket | PixelPilot </title>
+      <title>Class PlayerTouchBlockPacket | PixelPilot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PlayerCrownPacket | PixelPilot ">
+      <meta name="title" content="Class PlayerTouchBlockPacket | PixelPilot ">
       
-      
+      <meta name="description" content="Received when a player actives a block. This can be done manually or when a player touched the block.">
       <link rel="icon" href="../images/pixel_pilot.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/main/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.2.0/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket">
+        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket">
 
 
 
-  <h1 id="PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket" class="text-break">
-Class PlayerCrownPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerCrownPacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  <h1 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket" class="text-break">
+Class PlayerTouchBlockPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Class PlayerCrownPacket  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Received when a player actives a block. This can be done manually or when a player touched the block.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerCrownPacket : IPixelGamePlayerPacket, IPixelGamePacket</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerTouchBlockPacket : IPixelGamePlayerPacket, IPixelGamePacket</code></pre>
   </div>
 
 
@@ -111,7 +112,7 @@ Class PlayerCrownPacket  <a class="header-action link-secondary" title="View sou
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PlayerCrownPacket</span></div>
+      <div><span class="xref">PlayerTouchBlockPacket</span></div>
     </dd>
   </dl>
 
@@ -159,23 +160,29 @@ Class PlayerCrownPacket  <a class="header-action link-secondary" title="View sou
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.#ctor*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket__ctor_System_Int32_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.#ctor(System.Int32)">
-  PlayerCrownPacket(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerCrownPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+  PlayerTouchBlockPacket(int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerCrownPacket(int id)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerTouchBlockPacket(int id, int x, int y, int blockId)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>blockId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -194,11 +201,42 @@ Class PlayerCrownPacket  <a class="header-action link-secondary" title="View sou
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket_PlayerId_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_BlockId_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId">
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_BlockId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId">
+  BlockId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BlockId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_PlayerId_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId">
   PlayerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerCrownPacket.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -225,11 +263,73 @@ Class PlayerCrownPacket  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_X_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_X" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int X { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_Y_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_Y" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerCrownPacket.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchBlockPacket.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class KeyPressedPacket | PixelPilot </title>
+      <title>Class PlayerPrivateMessagePacket | PixelPilot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class KeyPressedPacket | PixelPilot ">
+      <meta name="title" content="Class PlayerPrivateMessagePacket | PixelPilot ">
       
       
       <link rel="icon" href="../images/pixel_pilot.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/main/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.2.0/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket">
+        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket">
 
 
 
-  <h1 id="PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket" class="text-break">
-Class KeyPressedPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/KeyPressedPacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  <h1 id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket" class="text-break">
+Class PlayerPrivateMessagePacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerPrivateMessagePacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class KeyPressedPacket  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KeyPressedPacket : IPixelGamePacket</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerPrivateMessagePacket : IPixelGamePlayerPacket, IPixelGamePacket</code></pre>
   </div>
 
 
@@ -111,13 +111,14 @@ Class KeyPressedPacket  <a class="header-action link-secondary" title="View sour
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">KeyPressedPacket</span></div>
+      <div><span class="xref">PlayerPrivateMessagePacket</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePlayerPacket.html">IPixelGamePlayerPacket</a></div>
       <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html">IPixelGamePacket</a></div>
     </dd>
   </dl>
@@ -158,23 +159,25 @@ Class KeyPressedPacket  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.#ctor*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket__ctor_System_Byte_" data-uid="PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.#ctor(System.Byte)">
-  KeyPressedPacket(byte)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/KeyPressedPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket__ctor_System_Int32_System_String_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.#ctor(System.Int32,System.String)">
+  PlayerPrivateMessagePacket(int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerPrivateMessagePacket.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public KeyPressedPacket(byte key)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerPrivateMessagePacket(int id, string messsage)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>messsage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -193,18 +196,49 @@ Class KeyPressedPacket  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket_Key_" data-uid="PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_Messsage_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket_Key" data-uid="PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key">
-  Key
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/KeyPressedPacket.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_Messsage" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage">
+  Messsage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerPrivateMessagePacket.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Key { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Messsage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_PlayerId_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId">
+  PlayerId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerPrivateMessagePacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerId { get; }</code></pre>
   </div>
 
 
@@ -228,7 +262,7 @@ Class KeyPressedPacket  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/KeyPressedPacket.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerPrivateMessagePacket.cs/#L3" class="edit-link">Edit this page</a>
         </div>
 
 

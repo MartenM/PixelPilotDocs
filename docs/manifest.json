@@ -22,20 +22,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Common.yml",
+      "source_relative_path": "api/PixelPilot.Common.Logging.LogManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.Common.html"
+          "relative_path": "api/PixelPilot.Common.Logging.LogManager.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.LogManager.yml",
+      "source_relative_path": "api/PixelPilot.Common.Logging.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.LogManager.html"
+          "relative_path": "api/PixelPilot.Common.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Common.html"
         }
       },
       "version": ""
@@ -182,16 +192,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.yml",
       "output": {
         ".html": {
@@ -216,16 +216,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.html"
         }
       },
       "version": ""
@@ -266,16 +256,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.html"
         }
       },
       "version": ""
@@ -342,6 +322,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.yml",
       "output": {
         ".html": {
@@ -376,6 +366,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTeleportedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html"
         }
       },
       "version": ""
@@ -486,6 +486,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html"
         }
       },
       "version": ""
@@ -956,16 +966,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelHttpClient.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.html"
         }
       },
       "version": ""

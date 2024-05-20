@@ -16,12 +16,6 @@ references:
 - uid: Guides.GettingStarted.UsingPackets
   name: Using Packets
   href: guides/getting_started/using_packets.html
-- uid: PixelPilot
-  name: PixelPilot
-  href: api/PixelPilot.html
-  commentId: N:PixelPilot
-  fullName: PixelPilot
-  nameWithType: PixelPilot
 - uid: PixelPilot.Common
   name: PixelPilot.Common
   href: api/PixelPilot.Common.html
@@ -52,49 +46,55 @@ references:
   commentId: F:PixelPilot.Common.EndPoints.GameWebsocketEndpoint
   fullName: PixelPilot.Common.EndPoints.GameWebsocketEndpoint
   nameWithType: EndPoints.GameWebsocketEndpoint
-- uid: PixelPilot.LogManager
+- uid: PixelPilot.Common.Logging
+  name: PixelPilot.Common.Logging
+  href: api/PixelPilot.Common.Logging.html
+  commentId: N:PixelPilot.Common.Logging
+  fullName: PixelPilot.Common.Logging
+  nameWithType: PixelPilot.Common.Logging
+- uid: PixelPilot.Common.Logging.LogManager
   name: LogManager
-  href: api/PixelPilot.LogManager.html
-  commentId: T:PixelPilot.LogManager
-  fullName: PixelPilot.LogManager
+  href: api/PixelPilot.Common.Logging.LogManager.html
+  commentId: T:PixelPilot.Common.Logging.LogManager
+  fullName: PixelPilot.Common.Logging.LogManager
   nameWithType: LogManager
-- uid: PixelPilot.LogManager.Configure(Microsoft.Extensions.Configuration.IConfigurationSection)
+- uid: PixelPilot.Common.Logging.LogManager.Configure(Microsoft.Extensions.Configuration.IConfigurationSection)
   name: Configure(IConfigurationSection)
-  href: api/PixelPilot.LogManager.html#PixelPilot_LogManager_Configure_Microsoft_Extensions_Configuration_IConfigurationSection_
-  commentId: M:PixelPilot.LogManager.Configure(Microsoft.Extensions.Configuration.IConfigurationSection)
-  fullName: PixelPilot.LogManager.Configure(Microsoft.Extensions.Configuration.IConfigurationSection)
+  href: api/PixelPilot.Common.Logging.LogManager.html#PixelPilot_Common_Logging_LogManager_Configure_Microsoft_Extensions_Configuration_IConfigurationSection_
+  commentId: M:PixelPilot.Common.Logging.LogManager.Configure(Microsoft.Extensions.Configuration.IConfigurationSection)
+  fullName: PixelPilot.Common.Logging.LogManager.Configure(Microsoft.Extensions.Configuration.IConfigurationSection)
   nameWithType: LogManager.Configure(IConfigurationSection)
-- uid: PixelPilot.LogManager.Configure(System.Action{Microsoft.Extensions.Logging.ILoggingBuilder})
+- uid: PixelPilot.Common.Logging.LogManager.Configure(System.Action{Microsoft.Extensions.Logging.ILoggingBuilder})
   name: Configure(Action<ILoggingBuilder>)
-  href: api/PixelPilot.LogManager.html#PixelPilot_LogManager_Configure_System_Action_Microsoft_Extensions_Logging_ILoggingBuilder__
-  commentId: M:PixelPilot.LogManager.Configure(System.Action{Microsoft.Extensions.Logging.ILoggingBuilder})
+  href: api/PixelPilot.Common.Logging.LogManager.html#PixelPilot_Common_Logging_LogManager_Configure_System_Action_Microsoft_Extensions_Logging_ILoggingBuilder__
+  commentId: M:PixelPilot.Common.Logging.LogManager.Configure(System.Action{Microsoft.Extensions.Logging.ILoggingBuilder})
   name.vb: Configure(Action(Of ILoggingBuilder))
-  fullName: PixelPilot.LogManager.Configure(System.Action<Microsoft.Extensions.Logging.ILoggingBuilder>)
-  fullName.vb: PixelPilot.LogManager.Configure(System.Action(Of Microsoft.Extensions.Logging.ILoggingBuilder))
+  fullName: PixelPilot.Common.Logging.LogManager.Configure(System.Action<Microsoft.Extensions.Logging.ILoggingBuilder>)
+  fullName.vb: PixelPilot.Common.Logging.LogManager.Configure(System.Action(Of Microsoft.Extensions.Logging.ILoggingBuilder))
   nameWithType: LogManager.Configure(Action<ILoggingBuilder>)
   nameWithType.vb: LogManager.Configure(Action(Of ILoggingBuilder))
-- uid: PixelPilot.LogManager.Configure*
+- uid: PixelPilot.Common.Logging.LogManager.Configure*
   name: Configure
-  href: api/PixelPilot.LogManager.html#PixelPilot_LogManager_Configure_
-  commentId: Overload:PixelPilot.LogManager.Configure
+  href: api/PixelPilot.Common.Logging.LogManager.html#PixelPilot_Common_Logging_LogManager_Configure_
+  commentId: Overload:PixelPilot.Common.Logging.LogManager.Configure
   isSpec: "True"
-  fullName: PixelPilot.LogManager.Configure
+  fullName: PixelPilot.Common.Logging.LogManager.Configure
   nameWithType: LogManager.Configure
-- uid: PixelPilot.LogManager.GetLogger(System.String)
+- uid: PixelPilot.Common.Logging.LogManager.GetLogger(System.String)
   name: GetLogger(string)
-  href: api/PixelPilot.LogManager.html#PixelPilot_LogManager_GetLogger_System_String_
-  commentId: M:PixelPilot.LogManager.GetLogger(System.String)
+  href: api/PixelPilot.Common.Logging.LogManager.html#PixelPilot_Common_Logging_LogManager_GetLogger_System_String_
+  commentId: M:PixelPilot.Common.Logging.LogManager.GetLogger(System.String)
   name.vb: GetLogger(String)
-  fullName: PixelPilot.LogManager.GetLogger(string)
-  fullName.vb: PixelPilot.LogManager.GetLogger(String)
+  fullName: PixelPilot.Common.Logging.LogManager.GetLogger(string)
+  fullName.vb: PixelPilot.Common.Logging.LogManager.GetLogger(String)
   nameWithType: LogManager.GetLogger(string)
   nameWithType.vb: LogManager.GetLogger(String)
-- uid: PixelPilot.LogManager.GetLogger*
+- uid: PixelPilot.Common.Logging.LogManager.GetLogger*
   name: GetLogger
-  href: api/PixelPilot.LogManager.html#PixelPilot_LogManager_GetLogger_
-  commentId: Overload:PixelPilot.LogManager.GetLogger
+  href: api/PixelPilot.Common.Logging.LogManager.html#PixelPilot_Common_Logging_LogManager_GetLogger_
+  commentId: Overload:PixelPilot.Common.Logging.LogManager.GetLogger
   isSpec: "True"
-  fullName: PixelPilot.LogManager.GetLogger
+  fullName: PixelPilot.Common.Logging.LogManager.GetLogger
   nameWithType: LogManager.GetLogger
 - uid: PixelPilot.PixelGameClient
   name: PixelPilot.PixelGameClient
@@ -216,24 +216,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.GlobalSwitchReset
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.GlobalSwitchReset
   nameWithType: WorldMessageType.GlobalSwitchReset
-- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCheckpoint
-  name: PlayerCheckpoint
-  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerCheckpoint
-  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCheckpoint
-  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCheckpoint
-  nameWithType: WorldMessageType.PlayerCheckpoint
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCounters
   name: PlayerCounters
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerCounters
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCounters
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCounters
   nameWithType: WorldMessageType.PlayerCounters
-- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCrown
-  name: PlayerCrown
-  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerCrown
-  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCrown
-  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCrown
-  nameWithType: WorldMessageType.PlayerCrown
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerFace
   name: PlayerFace
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerFace
@@ -258,12 +246,6 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerJoined
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerJoined
   nameWithType: WorldMessageType.PlayerJoined
-- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerKeyPressed
-  name: PlayerKeyPressed
-  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerKeyPressed
-  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerKeyPressed
-  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerKeyPressed
-  nameWithType: WorldMessageType.PlayerKeyPressed
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerLeft
   name: PlayerLeft
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerLeft
@@ -294,6 +276,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerMoved
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerMoved
   nameWithType: WorldMessageType.PlayerMoved
+- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerPrivateMessage
+  name: PlayerPrivateMessage
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerPrivateMessage
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerPrivateMessage
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerPrivateMessage
+  nameWithType: WorldMessageType.PlayerPrivateMessage
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerReset
   name: PlayerReset
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerReset
@@ -312,12 +300,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTeleported
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTeleported
   nameWithType: WorldMessageType.PlayerTeleported
-- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerWin
-  name: PlayerWin
-  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerWin
-  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerWin
-  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerWin
-  nameWithType: WorldMessageType.PlayerWin
+- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTouchBlock
+  name: PlayerTouchBlock
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerTouchBlock
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTouchBlock
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTouchBlock
+  nameWithType: WorldMessageType.PlayerTouchBlock
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.SystemMessage
   name: SystemMessage
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_SystemMessage
@@ -681,57 +669,6 @@ references:
   commentId: N:PixelPilot.PixelGameClient.Messages.Received
   fullName: PixelPilot.PixelGameClient.Messages.Received
   nameWithType: PixelPilot.PixelGameClient.Messages.Received
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket
-  name: CheckpointPacket
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html
-  commentId: T:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket
-  nameWithType: CheckpointPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.#ctor(System.Int32,System.Int32)
-  name: CheckpointPacket(int, int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html#PixelPilot_PixelGameClient_Messages_Received_CheckpointPacket__ctor_System_Int32_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.#ctor(System.Int32,System.Int32)
-  name.vb: New(Integer, Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.CheckpointPacket(int, int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.New(Integer, Integer)
-  nameWithType: CheckpointPacket.CheckpointPacket(int, int)
-  nameWithType.vb: CheckpointPacket.New(Integer, Integer)
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.#ctor*
-  name: CheckpointPacket
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html#PixelPilot_PixelGameClient_Messages_Received_CheckpointPacket__ctor_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.CheckpointPacket
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.New
-  nameWithType: CheckpointPacket.CheckpointPacket
-  nameWithType.vb: CheckpointPacket.New
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.X
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html#PixelPilot_PixelGameClient_Messages_Received_CheckpointPacket_X
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.X
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.X
-  nameWithType: CheckpointPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.X*
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html#PixelPilot_PixelGameClient_Messages_Received_CheckpointPacket_X_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.X
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.X
-  nameWithType: CheckpointPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.Y
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html#PixelPilot_PixelGameClient_Messages_Received_CheckpointPacket_Y
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.Y
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.Y
-  nameWithType: CheckpointPacket.Y
-- uid: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.Y*
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.html#PixelPilot_PixelGameClient_Messages_Received_CheckpointPacket_Y_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.Y
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.CheckpointPacket.Y
-  nameWithType: CheckpointPacket.Y
 - uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket
   name: GlobalSwitchChangedPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.html
@@ -1093,44 +1030,6 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket.Y
   nameWithType: InitPacket.Y
-- uid: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket
-  name: KeyPressedPacket
-  href: api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.html
-  commentId: T:PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket
-  fullName: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket
-  nameWithType: KeyPressedPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.#ctor(System.Byte)
-  name: KeyPressedPacket(byte)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.html#PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket__ctor_System_Byte_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.#ctor(System.Byte)
-  name.vb: New(Byte)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.KeyPressedPacket(byte)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.New(Byte)
-  nameWithType: KeyPressedPacket.KeyPressedPacket(byte)
-  nameWithType.vb: KeyPressedPacket.New(Byte)
-- uid: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.#ctor*
-  name: KeyPressedPacket
-  href: api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.html#PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket__ctor_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.KeyPressedPacket
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.New
-  nameWithType: KeyPressedPacket.KeyPressedPacket
-  nameWithType.vb: KeyPressedPacket.New
-- uid: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key
-  name: Key
-  href: api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.html#PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket_Key
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key
-  fullName: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key
-  nameWithType: KeyPressedPacket.Key
-- uid: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key*
-  name: Key
-  href: api/PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.html#PixelPilot_PixelGameClient_Messages_Received_KeyPressedPacket_Key_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.KeyPressedPacket.Key
-  nameWithType: KeyPressedPacket.Key
 - uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket
   name: LocalSwitchChangedPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.html
@@ -1303,44 +1202,6 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.PlayerId
   nameWithType: PlayerChatPacket.PlayerId
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket
-  name: PlayerCrownPacket
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.html
-  commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket
-  nameWithType: PlayerCrownPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.#ctor(System.Int32)
-  name: PlayerCrownPacket(int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket__ctor_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.#ctor(System.Int32)
-  name.vb: New(Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerCrownPacket(int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.New(Integer)
-  nameWithType: PlayerCrownPacket.PlayerCrownPacket(int)
-  nameWithType.vb: PlayerCrownPacket.New(Integer)
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.#ctor*
-  name: PlayerCrownPacket
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket__ctor_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerCrownPacket
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.New
-  nameWithType: PlayerCrownPacket.PlayerCrownPacket
-  nameWithType.vb: PlayerCrownPacket.New
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId
-  name: PlayerId
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket_PlayerId
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId
-  nameWithType: PlayerCrownPacket.PlayerId
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId*
-  name: PlayerId
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerCrownPacket_PlayerId_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerCrownPacket.PlayerId
-  nameWithType: PlayerCrownPacket.PlayerId
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.html
@@ -1449,15 +1310,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket
   nameWithType: PlayerJoinPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
-  name: PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, byte[])
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Byte___
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
-  name.vb: New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Byte())
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, byte[])
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Byte())
-  nameWithType: PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, byte[])
-  nameWithType.vb: PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Byte())
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
+  name: PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Byte___
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
+  name.vb: New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
+  nameWithType: PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
+  nameWithType.vb: PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor*
   name: PlayerJoinPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_
@@ -1481,19 +1342,6 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.BlueCoins
   nameWithType: PlayerJoinPacket.BlueCoins
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer
-  name: Buffer
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Buffer
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer
-  nameWithType: PlayerJoinPacket.Buffer
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer*
-  name: Buffer
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Buffer_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer
-  nameWithType: PlayerJoinPacket.Buffer
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Coins
   name: Coins
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Coins
@@ -1559,6 +1407,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Godmode
   nameWithType: PlayerJoinPacket.Godmode
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld
+  name: HasCompletedWorld
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCompletedWorld
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld
+  nameWithType: PlayerJoinPacket.HasCompletedWorld
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld*
+  name: HasCompletedWorld
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCompletedWorld_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld
+  nameWithType: PlayerJoinPacket.HasCompletedWorld
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCrown
   name: HasCrown
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCrown
@@ -1637,6 +1498,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerId
   nameWithType: PlayerJoinPacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer
+  name: SwitchBuffer
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_SwitchBuffer
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer
+  nameWithType: PlayerJoinPacket.SwitchBuffer
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer*
+  name: SwitchBuffer
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_SwitchBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer
+  nameWithType: PlayerJoinPacket.SwitchBuffer
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Username
   name: Username
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Username
@@ -1946,6 +1820,57 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.Y
   nameWithType: PlayerMovePacket.Y
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket
+  name: PlayerPrivateMessagePacket
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket
+  nameWithType: PlayerPrivateMessagePacket
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.#ctor(System.Int32,System.String)
+  name: PlayerPrivateMessagePacket(int, string)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket__ctor_System_Int32_System_String_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.#ctor(System.Int32,System.String)
+  name.vb: New(Integer, String)
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerPrivateMessagePacket(int, string)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.New(Integer, String)
+  nameWithType: PlayerPrivateMessagePacket.PlayerPrivateMessagePacket(int, string)
+  nameWithType.vb: PlayerPrivateMessagePacket.New(Integer, String)
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.#ctor*
+  name: PlayerPrivateMessagePacket
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerPrivateMessagePacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.New
+  nameWithType: PlayerPrivateMessagePacket.PlayerPrivateMessagePacket
+  nameWithType.vb: PlayerPrivateMessagePacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage
+  name: Messsage
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_Messsage
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage
+  nameWithType: PlayerPrivateMessagePacket.Messsage
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage*
+  name: Messsage
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_Messsage_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.Messsage
+  nameWithType: PlayerPrivateMessagePacket.Messsage
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_PlayerId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId
+  nameWithType: PlayerPrivateMessagePacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId*
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerPrivateMessagePacket_PlayerId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.PlayerId
+  nameWithType: PlayerPrivateMessagePacket.PlayerId
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket
   name: PlayerResetPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html
@@ -2215,6 +2140,83 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTeleportedPacket.Y
   nameWithType: PlayerTeleportedPacket.Y
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket
+  name: PlayerTouchBlockPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket
+  nameWithType: PlayerTouchBlockPacket
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: PlayerTouchBlockPacket(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: New(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerTouchBlockPacket(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.New(Integer, Integer, Integer, Integer)
+  nameWithType: PlayerTouchBlockPacket.PlayerTouchBlockPacket(int, int, int, int)
+  nameWithType.vb: PlayerTouchBlockPacket.New(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.#ctor*
+  name: PlayerTouchBlockPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerTouchBlockPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.New
+  nameWithType: PlayerTouchBlockPacket.PlayerTouchBlockPacket
+  nameWithType.vb: PlayerTouchBlockPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId
+  name: BlockId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_BlockId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId
+  nameWithType: PlayerTouchBlockPacket.BlockId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId*
+  name: BlockId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_BlockId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId
+  nameWithType: PlayerTouchBlockPacket.BlockId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_PlayerId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId
+  nameWithType: PlayerTouchBlockPacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId*
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_PlayerId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.PlayerId
+  nameWithType: PlayerTouchBlockPacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X
+  name: X
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_X
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X
+  nameWithType: PlayerTouchBlockPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X*
+  name: X
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_X_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.X
+  nameWithType: PlayerTouchBlockPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y
+  name: Y
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_Y
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y
+  nameWithType: PlayerTouchBlockPacket.Y
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y*
+  name: Y
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_Y_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.Y
+  nameWithType: PlayerTouchBlockPacket.Y
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerUpdateRightsPacket
   name: PlayerUpdateRightsPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerUpdateRightsPacket.html
@@ -2926,6 +2928,70 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.Y
   nameWithType: PlayerMoveOutPacket.Y
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket
+  name: PlayerTouchBlockOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket
+  nameWithType: PlayerTouchBlockOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor
+  name: PlayerTouchBlockOutPacket()
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket__ctor
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor
+  name.vb: New()
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket()
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.New()
+  nameWithType: PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket()
+  nameWithType.vb: PlayerTouchBlockOutPacket.New()
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor*
+  name: PlayerTouchBlockOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.New
+  nameWithType: PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket
+  nameWithType.vb: PlayerTouchBlockOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.BlockId
+  name: BlockId
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket_BlockId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.BlockId
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.BlockId
+  nameWithType: PlayerTouchBlockOutPacket.BlockId
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.BlockId*
+  name: BlockId
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket_BlockId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.BlockId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.BlockId
+  nameWithType: PlayerTouchBlockOutPacket.BlockId
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.X
+  name: X
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket_X
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.X
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.X
+  nameWithType: PlayerTouchBlockOutPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.X*
+  name: X
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket_X_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.X
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.X
+  nameWithType: PlayerTouchBlockOutPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.Y
+  name: Y
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket_Y
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.Y
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.Y
+  nameWithType: PlayerTouchBlockOutPacket.Y
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.Y*
+  name: Y
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket_Y_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.Y
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.Y
+  nameWithType: PlayerTouchBlockOutPacket.Y
 - uid: PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket
   name: ReflectivePixelOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html
@@ -3503,6 +3569,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Players.Basic.Player.GoldCoins
   nameWithType: Player.GoldCoins
+- uid: PixelPilot.PixelGameClient.Players.Basic.Player.HasCompletedWorld
+  name: HasCompletedWorld
+  href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player_HasCompletedWorld
+  commentId: P:PixelPilot.PixelGameClient.Players.Basic.Player.HasCompletedWorld
+  fullName: PixelPilot.PixelGameClient.Players.Basic.Player.HasCompletedWorld
+  nameWithType: Player.HasCompletedWorld
+- uid: PixelPilot.PixelGameClient.Players.Basic.Player.HasCompletedWorld*
+  name: HasCompletedWorld
+  href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player_HasCompletedWorld_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.Basic.Player.HasCompletedWorld
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.Basic.Player.HasCompletedWorld
+  nameWithType: Player.HasCompletedWorld
 - uid: PixelPilot.PixelGameClient.Players.Basic.Player.HasCrown
   name: HasCrown
   href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player_HasCrown
@@ -3840,6 +3919,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.GoldCoins
   nameWithType: IPixelPlayer.GoldCoins
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCompletedWorld
+  name: HasCompletedWorld
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_HasCompletedWorld
+  commentId: P:PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCompletedWorld
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCompletedWorld
+  nameWithType: IPixelPlayer.HasCompletedWorld
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCompletedWorld*
+  name: HasCompletedWorld
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_HasCompletedWorld_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCompletedWorld
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCompletedWorld
+  nameWithType: IPixelPlayer.HasCompletedWorld
 - uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.HasCrown
   name: HasCrown
   href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_HasCrown
@@ -5669,6 +5761,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GlobalSwitchResetter
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GlobalSwitchResetter
   nameWithType: PixelBlock.GlobalSwitchResetter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GodModeActivator
+  name: GodModeActivator
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GodModeActivator
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GodModeActivator
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GodModeActivator
+  nameWithType: PixelBlock.GodModeActivator
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GravityDot
   name: GravityDot
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GravityDot
@@ -5711,6 +5809,120 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HazardStripes
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HazardStripes
   nameWithType: PixelBlock.HazardStripes
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlue
+  name: JungleBlue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleBlue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlue
+  nameWithType: PixelBlock.JungleBlue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlueBg
+  name: JungleBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlueBg
+  nameWithType: PixelBlock.JungleBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleFaceBlock
+  name: JungleFaceBlock
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleFaceBlock
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleFaceBlock
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleFaceBlock
+  nameWithType: PixelBlock.JungleFaceBlock
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleGray
+  name: JungleGray
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleGray
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleGray
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleGray
+  nameWithType: PixelBlock.JungleGray
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleGrayBg
+  name: JungleGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleGrayBg
+  nameWithType: PixelBlock.JungleGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesDarkBg
+  name: JungleLeavesDarkBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleLeavesDarkBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesDarkBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesDarkBg
+  nameWithType: PixelBlock.JungleLeavesDarkBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesLightBg
+  name: JungleLeavesLightBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleLeavesLightBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesLightBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesLightBg
+  nameWithType: PixelBlock.JungleLeavesLightBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesMediumBg
+  name: JungleLeavesMediumBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleLeavesMediumBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesMediumBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleLeavesMediumBg
+  nameWithType: PixelBlock.JungleLeavesMediumBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleOlive
+  name: JungleOlive
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleOlive
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleOlive
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleOlive
+  nameWithType: PixelBlock.JungleOlive
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleOliveBg
+  name: JungleOliveBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleOliveBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleOliveBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleOliveBg
+  nameWithType: PixelBlock.JungleOliveBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePlant
+  name: JunglePlant
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JunglePlant
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePlant
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePlant
+  nameWithType: PixelBlock.JunglePlant
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePlatform
+  name: JunglePlatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JunglePlatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePlatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePlatform
+  nameWithType: PixelBlock.JunglePlatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePot
+  name: JunglePot
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JunglePot
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePot
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePot
+  nameWithType: PixelBlock.JunglePot
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePotBroken
+  name: JunglePotBroken
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JunglePotBroken
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePotBroken
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JunglePotBroken
+  nameWithType: PixelBlock.JunglePotBroken
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleRed
+  name: JungleRed
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleRed
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleRed
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleRed
+  nameWithType: PixelBlock.JungleRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleRedBg
+  name: JungleRedBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleRedBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleRedBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleRedBg
+  nameWithType: PixelBlock.JungleRedBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleStatue
+  name: JungleStatue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleStatue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleStatue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleStatue
+  nameWithType: PixelBlock.JungleStatue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleVineHorizontal
+  name: JungleVineHorizontal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleVineHorizontal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleVineHorizontal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleVineHorizontal
+  nameWithType: PixelBlock.JungleVineHorizontal
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleVineVertical
+  name: JungleVineVertical
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleVineVertical
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleVineVertical
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleVineVertical
+  nameWithType: PixelBlock.JungleVineVertical
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.KeyBlue
   name: KeyBlue
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_KeyBlue
@@ -6035,6 +6247,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PortalInvisible
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PortalInvisible
   nameWithType: PixelBlock.PortalInvisible
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ResetPoint
+  name: ResetPoint
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ResetPoint
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ResetPoint
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ResetPoint
+  nameWithType: PixelBlock.ResetPoint
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SecretAppear
   name: SecretAppear
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SecretAppear
@@ -6071,6 +6289,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SpikesCenter
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SpikesCenter
   nameWithType: PixelBlock.SpikesCenter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Trophy
+  name: Trophy
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_Trophy
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.Trophy
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Trophy
+  nameWithType: PixelBlock.Trophy
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Water
   name: Water
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_Water

@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/main/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.2.0/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket" class="text-break">
-Class PlayerJoinPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
+Class PlayerJoinPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -161,16 +161,16 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Byte___" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Byte[])">
-  PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Byte___" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])">
+  PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerJoinPacket(int id, string cuid, string username, int face, bool isAdmin, bool hasGod, bool hasEdit, double x, double y, int coins, int blueCoins, int deaths, bool godmode, bool modmode, bool hasCrown, byte[] buffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerJoinPacket(int id, string cuid, string username, int face, bool isAdmin, bool hasGod, bool hasEdit, double x, double y, int coins, int blueCoins, int deaths, bool godmode, bool modmode, bool hasCrown, bool hasCompletedWorld, byte[] switchBuffer)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -205,7 +205,9 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
     <dd></dd>
     <dt><code>hasCrown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
-    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dt><code>hasCompletedWorld</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>switchBuffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
     <dd></dd>
   </dl>
 
@@ -228,7 +230,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_BlueCoins" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.BlueCoins">
   BlueCoins
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,42 +257,11 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Buffer_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Buffer" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Buffer">
-  Buffer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L40"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] Buffer { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Coins_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Coins*"></a>
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Coins" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Coins">
   Coins
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -321,7 +292,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Cuid" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Cuid">
   Cuid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -352,7 +323,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Deaths" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Deaths">
   Deaths
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -383,7 +354,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Face" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Face">
   Face
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -414,7 +385,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Godmode" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Godmode">
   Godmode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -441,11 +412,42 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCompletedWorld_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCompletedWorld" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCompletedWorld">
+  HasCompletedWorld
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCompletedWorld { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCrown_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCrown*"></a>
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasCrown" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasCrown">
   HasCrown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -476,7 +478,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasEdit" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasEdit">
   HasEdit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -507,7 +509,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_HasGod" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.HasGod">
   HasGod
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -538,7 +540,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_IsAdmin" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsAdmin">
   IsAdmin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -569,7 +571,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Modmode" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Modmode">
   Modmode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -600,7 +602,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerId">
   PlayerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -627,11 +629,42 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_SwitchBuffer_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_SwitchBuffer" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.SwitchBuffer">
+  SwitchBuffer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] SwitchBuffer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Username_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Username*"></a>
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Username" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Username">
   Username
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -662,7 +695,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_X" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.X">
   X
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -693,7 +726,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Y" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Y">
   Y
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -724,7 +757,7 @@ Class PlayerJoinPacket  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/main/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.2.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerJoinPacket.cs/#L3" class="edit-link">Edit this page</a>
         </div>
 
 
