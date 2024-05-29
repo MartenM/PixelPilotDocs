@@ -1,6 +1,12 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Guides.ExtraPackages.Introduction
+  name: Introduction
+  href: guides/extra_packages/introduction.html
+- uid: Guides.ExtraPackages.PixelPilot.Structures
+  name: PixelPilot.Structures
+  href: guides/extra_packages/pixelpilot_structures.html
 - uid: Guides.GettingStarted.ExtraTopics
   name: Logging
   href: guides/getting_started/extra_topics.html
@@ -663,6 +669,34 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.PacketConverter.ReadTypeLe
   nameWithType: PacketConverter.ReadTypeLe
+- uid: PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe(System.IO.BinaryWriter,System.Object)
+  name: WriteTypeBe(BinaryWriter, dynamic)
+  href: api/PixelPilot.PixelGameClient.Messages.PacketConverter.html#PixelPilot_PixelGameClient_Messages_PacketConverter_WriteTypeBe_System_IO_BinaryWriter_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe(System.IO.BinaryWriter,System.Object)
+  name.vb: WriteTypeBe(BinaryWriter, Object)
+  fullName: PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe(System.IO.BinaryWriter, dynamic)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe(System.IO.BinaryWriter, Object)
+  nameWithType: PacketConverter.WriteTypeBe(BinaryWriter, dynamic)
+  nameWithType.vb: PacketConverter.WriteTypeBe(BinaryWriter, Object)
+- uid: PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe*
+  name: WriteTypeBe
+  href: api/PixelPilot.PixelGameClient.Messages.PacketConverter.html#PixelPilot_PixelGameClient_Messages_PacketConverter_WriteTypeBe_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.PacketConverter.WriteTypeBe
+  nameWithType: PacketConverter.WriteTypeBe
+- uid: PixelPilot.PixelGameClient.Messages.Queue
+  name: PixelPilot.PixelGameClient.Messages.Queue
+  href: api/PixelPilot.PixelGameClient.Messages.Queue.html
+  commentId: N:PixelPilot.PixelGameClient.Messages.Queue
+  fullName: PixelPilot.PixelGameClient.Messages.Queue
+  nameWithType: PixelPilot.PixelGameClient.Messages.Queue
+- uid: PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue
+  name: PixelPacketOutQueue
+  href: api/PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue
+  fullName: PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue
+  nameWithType: PixelPacketOutQueue
 - uid: PixelPilot.PixelGameClient.Messages.Received
   name: PixelPilot.PixelGameClient.Messages.Received
   href: api/PixelPilot.PixelGameClient.Messages.Received.html
@@ -3218,6 +3252,31 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y
   nameWithType: WorldBlockPlacedOutPacket.Y
+- uid: PixelPilot.PixelGameClient.PixelGameException
+  name: PixelGameException
+  href: api/PixelPilot.PixelGameClient.PixelGameException.html
+  commentId: T:PixelPilot.PixelGameClient.PixelGameException
+  fullName: PixelPilot.PixelGameClient.PixelGameException
+  nameWithType: PixelGameException
+- uid: PixelPilot.PixelGameClient.PixelGameException.#ctor(System.String)
+  name: PixelGameException(string)
+  href: api/PixelPilot.PixelGameClient.PixelGameException.html#PixelPilot_PixelGameClient_PixelGameException__ctor_System_String_
+  commentId: M:PixelPilot.PixelGameClient.PixelGameException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: PixelPilot.PixelGameClient.PixelGameException.PixelGameException(string)
+  fullName.vb: PixelPilot.PixelGameClient.PixelGameException.New(String)
+  nameWithType: PixelGameException.PixelGameException(string)
+  nameWithType.vb: PixelGameException.New(String)
+- uid: PixelPilot.PixelGameClient.PixelGameException.#ctor*
+  name: PixelGameException
+  href: api/PixelPilot.PixelGameClient.PixelGameException.html#PixelPilot_PixelGameClient_PixelGameException__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelGameException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.PixelGameException.PixelGameException
+  fullName.vb: PixelPilot.PixelGameClient.PixelGameException.New
+  nameWithType: PixelGameException.PixelGameException
+  nameWithType.vb: PixelGameException.New
 - uid: PixelPilot.PixelGameClient.PixelPilotClient
   name: PixelPilotClient
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html
@@ -3270,6 +3329,12 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.New
   nameWithType: PixelPilotClient.PixelPilotClient
   nameWithType.vb: PixelPilotClient.New
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.ApiClient
+  name: ApiClient
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_ApiClient
+  commentId: F:PixelPilot.PixelGameClient.PixelPilotClient.ApiClient
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.ApiClient
+  nameWithType: PixelPilotClient.ApiClient
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.AutomaticReconnect
   name: AutomaticReconnect
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_AutomaticReconnect
@@ -4295,6 +4360,23 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).PlayerStatusChanged
   nameWithType: PixelPlayerManager<T>.PlayerStatusChanged
   nameWithType.vb: PixelPlayerManager(Of T).PlayerStatusChanged
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.Players
+  name: Players
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_Players
+  commentId: P:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.Players
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>.Players
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).Players
+  nameWithType: PixelPlayerManager<T>.Players
+  nameWithType.vb: PixelPlayerManager(Of T).Players
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.Players*
+  name: Players
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_Players_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.Players
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>.Players
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).Players
+  nameWithType: PixelPlayerManager<T>.Players
+  nameWithType.vb: PixelPlayerManager(Of T).Players
 - uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.PrePlayerStatusChange
   name: PixelPlayerManager<T>.PrePlayerStatusChange
   href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PrePlayerStatusChange.html
@@ -4357,6 +4439,57 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsPacketOut
   nameWithType: ActivatorBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: ActivatorBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: ActivatorBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsWorldBuffer
+  nameWithType: ActivatorBlock.AsWorldBuffer
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock)
+  name: Equals(ActivatorBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock)
+  nameWithType: ActivatorBlock.Equals(ActivatorBlock)
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_Equals_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(object?)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals(Object)
+  nameWithType: ActivatorBlock.Equals(object?)
+  nameWithType.vb: ActivatorBlock.Equals(Object)
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_Equals_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Equals
+  nameWithType: ActivatorBlock.Equals
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_GetHashCode
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.GetHashCode
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.GetHashCode()
+  nameWithType: ActivatorBlock.GetHashCode()
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_GetHashCode_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.GetHashCode
+  nameWithType: ActivatorBlock.GetHashCode
 - uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.Status
   name: Status
   href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_Status
@@ -4389,6 +4522,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.BasicBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock
   nameWithType: BasicBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  name: BasicBlock(PixelBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock__ctor_PixelPilot_PixelGameClient_World_Constants_PixelBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  name.vb: New(PixelBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.BasicBlock(PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.New(PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  nameWithType: BasicBlock.BasicBlock(PixelBlock)
+  nameWithType.vb: BasicBlock.New(PixelBlock)
 - uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.#ctor(System.Int32)
   name: BasicBlock(int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock__ctor_System_Int32_
@@ -4440,6 +4582,31 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsPlacedBlock
   nameWithType: BasicBlock.AsPlacedBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(Integer, Integer, Integer)
+  nameWithType: BasicBlock.AsWorldBuffer(int, int, int)
+  nameWithType.vb: BasicBlock.AsWorldBuffer(Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: BasicBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: BasicBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsWorldBuffer
+  nameWithType: BasicBlock.AsWorldBuffer
 - uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.BlockId
   name: BlockId
   href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_BlockId
@@ -4453,6 +4620,41 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.BlockId
   nameWithType: BasicBlock.BlockId
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.BasicBlock)
+  name: Equals(BasicBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_BasicBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.BasicBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.BasicBlock)
+  nameWithType: BasicBlock.Equals(BasicBlock)
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Equals_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(object?)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(Object)
+  nameWithType: BasicBlock.Equals(object?)
+  nameWithType.vb: BasicBlock.Equals(Object)
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Equals_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals
+  nameWithType: BasicBlock.Equals
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_GetHashCode
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.GetHashCode
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.GetHashCode()
+  nameWithType: BasicBlock.GetHashCode()
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_GetHashCode_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.GetHashCode
+  nameWithType: BasicBlock.GetHashCode
 - uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock
   name: IPixelBlock
   href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html
@@ -4491,6 +4693,31 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsPlacedBlock
   nameWithType: IPixelBlock.AsPlacedBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html#PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(Integer, Integer, Integer)
+  nameWithType: IPixelBlock.AsWorldBuffer(int, int, int)
+  nameWithType.vb: IPixelBlock.AsWorldBuffer(Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html#PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: IPixelBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: IPixelBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html#PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsWorldBuffer
+  nameWithType: IPixelBlock.AsWorldBuffer
 - uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.Block
   name: Block
   href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html#PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_Block
@@ -4558,6 +4785,57 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsPacketOut
   nameWithType: MorphableBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: MorphableBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: MorphableBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsWorldBuffer
+  nameWithType: MorphableBlock.AsWorldBuffer
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.MorphableBlock)
+  name: Equals(MorphableBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.MorphableBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.MorphableBlock)
+  nameWithType: MorphableBlock.Equals(MorphableBlock)
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_Equals_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(object?)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals(Object)
+  nameWithType: MorphableBlock.Equals(object?)
+  nameWithType.vb: MorphableBlock.Equals(Object)
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_Equals_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Equals
+  nameWithType: MorphableBlock.Equals
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_GetHashCode
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.GetHashCode
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.GetHashCode()
+  nameWithType: MorphableBlock.GetHashCode()
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_GetHashCode_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.GetHashCode
+  nameWithType: MorphableBlock.GetHashCode
 - uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.Morph
   name: Morph
   href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_Morph
@@ -4596,6 +4874,28 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsPacketOut
   nameWithType: IPlacedBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer
+  name: AsWorldBuffer()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock_AsWorldBuffer
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer()
+  nameWithType: IPlacedBlock.AsWorldBuffer()
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer(System.Int32)
+  name: AsWorldBuffer(int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock_AsWorldBuffer_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer(System.Int32)
+  name.vb: AsWorldBuffer(Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer(int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer(Integer)
+  nameWithType: IPlacedBlock.AsWorldBuffer(int)
+  nameWithType.vb: IPlacedBlock.AsWorldBuffer(Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.AsWorldBuffer
+  nameWithType: IPlacedBlock.AsWorldBuffer
 - uid: PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.Block
   name: Block
   href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock_Block
@@ -4686,6 +4986,28 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsPacketOut
   nameWithType: PlacedBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer
+  name: AsWorldBuffer()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_AsWorldBuffer
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer()
+  nameWithType: PlacedBlock.AsWorldBuffer()
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer(System.Int32)
+  name: AsWorldBuffer(int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_AsWorldBuffer_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer(System.Int32)
+  name.vb: AsWorldBuffer(Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer(int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer(Integer)
+  nameWithType: PlacedBlock.AsWorldBuffer(int)
+  nameWithType.vb: PlacedBlock.AsWorldBuffer(Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.AsWorldBuffer
+  nameWithType: PlacedBlock.AsWorldBuffer
 - uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Block
   name: Block
   href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Block
@@ -4699,6 +5021,41 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Block
   nameWithType: PlacedBlock.Block
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock)
+  name: Equals(PlacedBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock)
+  nameWithType: PlacedBlock.Equals(PlacedBlock)
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Equals_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(object?)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(Object)
+  nameWithType: PlacedBlock.Equals(object?)
+  nameWithType.vb: PlacedBlock.Equals(Object)
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Equals_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals
+  nameWithType: PlacedBlock.Equals
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_GetHashCode
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.GetHashCode
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.GetHashCode()
+  nameWithType: PlacedBlock.GetHashCode()
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_GetHashCode_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.GetHashCode
+  nameWithType: PlacedBlock.GetHashCode
 - uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Layer
   name: Layer
   href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Layer
@@ -4792,6 +5149,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsPacketOut
   nameWithType: PortalBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: PortalBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: PortalBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsWorldBuffer
+  nameWithType: PortalBlock.AsWorldBuffer
 - uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Direction
   name: Direction
   href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_Direction
@@ -4805,6 +5178,41 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Direction
   nameWithType: PortalBlock.Direction
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.PortalBlock)
+  name: Equals(PortalBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_PortalBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.PortalBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.PortalBlock)
+  nameWithType: PortalBlock.Equals(PortalBlock)
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_Equals_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(object?)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals(Object)
+  nameWithType: PortalBlock.Equals(object?)
+  nameWithType.vb: PortalBlock.Equals(Object)
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_Equals_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.Equals
+  nameWithType: PortalBlock.Equals
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_GetHashCode
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.GetHashCode
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.GetHashCode()
+  nameWithType: PortalBlock.GetHashCode()
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_GetHashCode_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.GetHashCode
+  nameWithType: PortalBlock.GetHashCode
 - uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.PortalId
   name: PortalId
   href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_PortalId
@@ -4872,6 +5280,57 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsPacketOut
   nameWithType: ResetterBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: ResetterBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: ResetterBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsWorldBuffer
+  nameWithType: ResetterBlock.AsWorldBuffer
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.ResetterBlock)
+  name: Equals(ResetterBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.ResetterBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.ResetterBlock)
+  nameWithType: ResetterBlock.Equals(ResetterBlock)
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_Equals_System_Object_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(object?)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals(Object)
+  nameWithType: ResetterBlock.Equals(object?)
+  nameWithType.vb: ResetterBlock.Equals(Object)
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_Equals_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Equals
+  nameWithType: ResetterBlock.Equals
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_GetHashCode
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.GetHashCode
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.GetHashCode()
+  nameWithType: ResetterBlock.GetHashCode()
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_GetHashCode_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.GetHashCode
+  nameWithType: ResetterBlock.GetHashCode
 - uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Status
   name: Status
   href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_Status
@@ -6443,6 +6902,12 @@ references:
   commentId: M:PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader)
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader)
   nameWithType: PixelWorld.DeserializeBlock(BinaryReader)
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader,PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  name: DeserializeBlock(BinaryReader, PixelBlock)
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_DeserializeBlock_System_IO_BinaryReader_PixelPilot_PixelGameClient_World_Constants_PixelBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader,PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader, PixelPilot.PixelGameClient.World.Constants.PixelBlock)
+  nameWithType: PixelWorld.DeserializeBlock(BinaryReader, PixelBlock)
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock*
   name: DeserializeBlock
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_DeserializeBlock_
@@ -6625,6 +7090,54 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetMappings
   nameWithType: PixelApiClient.GetMappings
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  name: GetOwnedWorlds(int, int, QueryArgumentBuilder?)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetOwnedWorlds_System_Int32_System_Int32_PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  name.vb: GetOwnedWorlds(Integer, Integer, QueryArgumentBuilder)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds(int, int, PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder?)
+  fullName.vb: PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds(Integer, Integer, PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  nameWithType: PixelApiClient.GetOwnedWorlds(int, int, QueryArgumentBuilder?)
+  nameWithType.vb: PixelApiClient.GetOwnedWorlds(Integer, Integer, QueryArgumentBuilder)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds*
+  name: GetOwnedWorlds
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetOwnedWorlds_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds
+  nameWithType: PixelApiClient.GetOwnedWorlds
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer(System.String)
+  name: GetPlayer(string)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPlayer_System_String_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer(System.String)
+  name.vb: GetPlayer(String)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer(string)
+  fullName.vb: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer(String)
+  nameWithType: PixelApiClient.GetPlayer(string)
+  nameWithType.vb: PixelApiClient.GetPlayer(String)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer*
+  name: GetPlayer
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPlayer_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayer
+  nameWithType: PixelApiClient.GetPlayer
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  name: GetPlayers(int, int, QueryArgumentBuilder?)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPlayers_System_Int32_System_Int32_PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  name.vb: GetPlayers(Integer, Integer, QueryArgumentBuilder)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers(int, int, PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder?)
+  fullName.vb: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers(Integer, Integer, PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  nameWithType: PixelApiClient.GetPlayers(int, int, QueryArgumentBuilder?)
+  nameWithType.vb: PixelApiClient.GetPlayers(Integer, Integer, QueryArgumentBuilder)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers*
+  name: GetPlayers
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPlayers_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers
+  nameWithType: PixelApiClient.GetPlayers
 - uid: PixelPilot.PixelHttpClient.PixelApiClient.GetRoomTypes
   name: GetRoomTypes()
   href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetRoomTypes
@@ -6638,6 +7151,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetRoomTypes
   nameWithType: PixelApiClient.GetRoomTypes
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetVisibleWorlds
+  name: GetVisibleWorlds()
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetVisibleWorlds
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetVisibleWorlds
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetVisibleWorlds()
+  nameWithType: PixelApiClient.GetVisibleWorlds()
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetVisibleWorlds*
+  name: GetVisibleWorlds
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetVisibleWorlds_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetVisibleWorlds
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetVisibleWorlds
+  nameWithType: PixelApiClient.GetVisibleWorlds
 - uid: PixelPilot.PixelHttpClient.PixelApiException
   name: PixelApiException
   href: api/PixelPilot.PixelHttpClient.PixelApiException.html
@@ -6745,6 +7271,506 @@ references:
   commentId: T:PixelPilot.PixelHttpClient.Responses.Auth.IAuthResponse
   fullName: PixelPilot.PixelHttpClient.Responses.Auth.IAuthResponse
   nameWithType: IAuthResponse
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1
+  name: CollectionResponse<T>
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1
+  name.vb: CollectionResponse(Of T)
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T)
+  nameWithType: CollectionResponse<T>
+  nameWithType.vb: CollectionResponse(Of T)
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Items
+  name: Items
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_Items
+  commentId: P:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Items
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.Items
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).Items
+  nameWithType: CollectionResponse<T>.Items
+  nameWithType.vb: CollectionResponse(Of T).Items
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Items*
+  name: Items
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_Items_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Items
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.Items
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).Items
+  nameWithType: CollectionResponse<T>.Items
+  nameWithType.vb: CollectionResponse(Of T).Items
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Page
+  name: Page
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_Page
+  commentId: P:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Page
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.Page
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).Page
+  nameWithType: CollectionResponse<T>.Page
+  nameWithType.vb: CollectionResponse(Of T).Page
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Page*
+  name: Page
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_Page_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.Page
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.Page
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).Page
+  nameWithType: CollectionResponse<T>.Page
+  nameWithType.vb: CollectionResponse(Of T).Page
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.PerPage
+  name: PerPage
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_PerPage
+  commentId: P:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.PerPage
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.PerPage
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).PerPage
+  nameWithType: CollectionResponse<T>.PerPage
+  nameWithType.vb: CollectionResponse(Of T).PerPage
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.PerPage*
+  name: PerPage
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_PerPage_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.PerPage
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.PerPage
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).PerPage
+  nameWithType: CollectionResponse<T>.PerPage
+  nameWithType.vb: CollectionResponse(Of T).PerPage
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalItems
+  name: TotalItems
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_TotalItems
+  commentId: P:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalItems
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.TotalItems
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).TotalItems
+  nameWithType: CollectionResponse<T>.TotalItems
+  nameWithType.vb: CollectionResponse(Of T).TotalItems
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalItems*
+  name: TotalItems
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_TotalItems_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalItems
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.TotalItems
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).TotalItems
+  nameWithType: CollectionResponse<T>.TotalItems
+  nameWithType.vb: CollectionResponse(Of T).TotalItems
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalPages
+  name: TotalPages
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_TotalPages
+  commentId: P:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalPages
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.TotalPages
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).TotalPages
+  nameWithType: CollectionResponse<T>.TotalPages
+  nameWithType.vb: CollectionResponse(Of T).TotalPages
+- uid: PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalPages*
+  name: TotalPages
+  href: api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html#PixelPilot_PixelHttpClient_Responses_CollectionResponse_1_TotalPages_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.CollectionResponse`1.TotalPages
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.CollectionResponse<T>.TotalPages
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.CollectionResponse(Of T).TotalPages
+  nameWithType: CollectionResponse<T>.TotalPages
+  nameWithType.vb: CollectionResponse(Of T).TotalPages
+- uid: PixelPilot.PixelHttpClient.Responses.Collections
+  name: PixelPilot.PixelHttpClient.Responses.Collections
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.html
+  commentId: N:PixelPilot.PixelHttpClient.Responses.Collections
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections
+  nameWithType: PixelPilot.PixelHttpClient.Responses.Collections
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry
+  name: ICollectionEntry
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry
+  nameWithType: ICollectionEntry
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionId
+  name: CollectionId
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_ICollectionEntry_CollectionId
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionId
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionId
+  nameWithType: ICollectionEntry.CollectionId
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionId*
+  name: CollectionId
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_ICollectionEntry_CollectionId_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionId
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionId
+  nameWithType: ICollectionEntry.CollectionId
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionName
+  name: CollectionName
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_ICollectionEntry_CollectionName
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionName
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionName
+  nameWithType: ICollectionEntry.CollectionName
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionName*
+  name: CollectionName
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_ICollectionEntry_CollectionName_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionName
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.CollectionName
+  nameWithType: ICollectionEntry.CollectionName
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.Created
+  name: Created
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_ICollectionEntry_Created
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.Created
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.Created
+  nameWithType: ICollectionEntry.Created
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.Created*
+  name: Created
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_ICollectionEntry_Created_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.Created
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.Created
+  nameWithType: ICollectionEntry.Created
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry
+  name: PlayerEntry
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry
+  nameWithType: PlayerEntry
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Admin
+  name: Admin
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Admin
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Admin
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Admin
+  nameWithType: PlayerEntry.Admin
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Admin*
+  name: Admin
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Admin_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Admin
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Admin
+  nameWithType: PlayerEntry.Admin
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Banned
+  name: Banned
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Banned
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Banned
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Banned
+  nameWithType: PlayerEntry.Banned
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Banned*
+  name: Banned
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Banned_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Banned
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Banned
+  nameWithType: PlayerEntry.Banned
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionId
+  name: CollectionId
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_CollectionId
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionId
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionId
+  nameWithType: PlayerEntry.CollectionId
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionId*
+  name: CollectionId
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_CollectionId_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionId
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionId
+  nameWithType: PlayerEntry.CollectionId
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionName
+  name: CollectionName
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_CollectionName
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionName
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionName
+  nameWithType: PlayerEntry.CollectionName
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionName*
+  name: CollectionName
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_CollectionName_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionName
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.CollectionName
+  nameWithType: PlayerEntry.CollectionName
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Created
+  name: Created
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Created
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Created
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Created
+  nameWithType: PlayerEntry.Created
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Created*
+  name: Created
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Created_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Created
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Created
+  nameWithType: PlayerEntry.Created
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Face
+  name: Face
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Face
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Face
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Face
+  nameWithType: PlayerEntry.Face
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Face*
+  name: Face
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Face_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Face
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Face
+  nameWithType: PlayerEntry.Face
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Id
+  name: Id
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Id
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Id
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Id
+  nameWithType: PlayerEntry.Id
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Id*
+  name: Id
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Id_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Id
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Id
+  nameWithType: PlayerEntry.Id
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Username
+  name: Username
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Username
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Username
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Username
+  nameWithType: PlayerEntry.Username
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Username*
+  name: Username
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_PlayerEntry_Username_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Username
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.Username
+  nameWithType: PlayerEntry.Username
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder
+  name: QueryArgumentBuilder
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder
+  nameWithType: QueryArgumentBuilder
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.#ctor
+  name: QueryArgumentBuilder()
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder__ctor
+  commentId: M:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.#ctor
+  name.vb: New()
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.QueryArgumentBuilder()
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.New()
+  nameWithType: QueryArgumentBuilder.QueryArgumentBuilder()
+  nameWithType.vb: QueryArgumentBuilder.New()
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.#ctor*
+  name: QueryArgumentBuilder
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder__ctor_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.QueryArgumentBuilder
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.New
+  nameWithType: QueryArgumentBuilder.QueryArgumentBuilder
+  nameWithType.vb: QueryArgumentBuilder.New
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter(System.String,System.Object)
+  name: AddFilter(string, dynamic)
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_AddFilter_System_String_System_Object_
+  commentId: M:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter(System.String,System.Object)
+  name.vb: AddFilter(String, Object)
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter(string, dynamic)
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter(String, Object)
+  nameWithType: QueryArgumentBuilder.AddFilter(string, dynamic)
+  nameWithType.vb: QueryArgumentBuilder.AddFilter(String, Object)
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter*
+  name: AddFilter
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_AddFilter_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.AddFilter
+  nameWithType: QueryArgumentBuilder.AddFilter
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.Build
+  name: Build()
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_Build
+  commentId: M:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.Build
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.Build()
+  nameWithType: QueryArgumentBuilder.Build()
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.Build*
+  name: Build
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_Build_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.Build
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.Build
+  nameWithType: QueryArgumentBuilder.Build
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortAscending
+  name: SortAscending()
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_SortAscending
+  commentId: M:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortAscending
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortAscending()
+  nameWithType: QueryArgumentBuilder.SortAscending()
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortAscending*
+  name: SortAscending
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_SortAscending_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortAscending
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortAscending
+  nameWithType: QueryArgumentBuilder.SortAscending
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy(System.String)
+  name: SortBy(string)
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_SortBy_System_String_
+  commentId: M:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy(System.String)
+  name.vb: SortBy(String)
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy(string)
+  fullName.vb: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy(String)
+  nameWithType: QueryArgumentBuilder.SortBy(string)
+  nameWithType.vb: QueryArgumentBuilder.SortBy(String)
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy*
+  name: SortBy
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_SortBy_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortBy
+  nameWithType: QueryArgumentBuilder.SortBy
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortDescending
+  name: SortDescending()
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_SortDescending
+  commentId: M:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortDescending
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortDescending()
+  nameWithType: QueryArgumentBuilder.SortDescending()
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortDescending*
+  name: SortDescending
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html#PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_SortDescending_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortDescending
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.SortDescending
+  nameWithType: QueryArgumentBuilder.SortDescending
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry
+  name: WorldEntry
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry
+  nameWithType: WorldEntry
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionId
+  name: CollectionId
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_CollectionId
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionId
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionId
+  nameWithType: WorldEntry.CollectionId
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionId*
+  name: CollectionId
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_CollectionId_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionId
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionId
+  nameWithType: WorldEntry.CollectionId
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionName
+  name: CollectionName
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_CollectionName
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionName
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionName
+  nameWithType: WorldEntry.CollectionName
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionName*
+  name: CollectionName
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_CollectionName_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionName
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.CollectionName
+  nameWithType: WorldEntry.CollectionName
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Created
+  name: Created
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Created
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Created
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Created
+  nameWithType: WorldEntry.Created
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Created*
+  name: Created
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Created_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Created
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Created
+  nameWithType: WorldEntry.Created
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Data
+  name: Data
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Data
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Data
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Data
+  nameWithType: WorldEntry.Data
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Data*
+  name: Data
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Data_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Data
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Data
+  nameWithType: WorldEntry.Data
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Height
+  name: Height
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Height
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Height
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Height
+  nameWithType: WorldEntry.Height
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Height*
+  name: Height
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Height_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Height
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Height
+  nameWithType: WorldEntry.Height
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
+  name: Id
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Id
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
+  nameWithType: WorldEntry.Id
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id*
+  name: Id
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Id_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
+  nameWithType: WorldEntry.Id
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays
+  name: Plays
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Plays
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays
+  nameWithType: WorldEntry.Plays
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays*
+  name: Plays
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Plays_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays
+  nameWithType: WorldEntry.Plays
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Title
+  name: Title
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Title
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Title
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Title
+  nameWithType: WorldEntry.Title
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Title*
+  name: Title
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Title_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Title
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Title
+  nameWithType: WorldEntry.Title
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Updated
+  name: Updated
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Updated
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Updated
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Updated
+  nameWithType: WorldEntry.Updated
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Updated*
+  name: Updated
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Updated_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Updated
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Updated
+  nameWithType: WorldEntry.Updated
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Visibility
+  name: Visibility
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Visibility
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Visibility
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Visibility
+  nameWithType: WorldEntry.Visibility
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Visibility*
+  name: Visibility
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Visibility_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Visibility
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Visibility
+  nameWithType: WorldEntry.Visibility
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Width
+  name: Width
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Width
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Width
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Width
+  nameWithType: WorldEntry.Width
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Width*
+  name: Width
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Width_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Width
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Width
+  nameWithType: WorldEntry.Width
 - uid: PixelPilot.PixelHttpClient.Responses.JoinKeyResponse
   name: JoinKeyResponse
   href: api/PixelPilot.PixelHttpClient.Responses.JoinKeyResponse.html
@@ -6873,3 +7899,651 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.Responses.PlayerData.Username
   nameWithType: PlayerData.Username
+- uid: PixelPilot.PixelHttpClient.Responses.visible
+  name: PixelPilot.PixelHttpClient.Responses.visible
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.html
+  commentId: N:PixelPilot.PixelHttpClient.Responses.visible
+  fullName: PixelPilot.PixelHttpClient.Responses.visible
+  nameWithType: PixelPilot.PixelHttpClient.Responses.visible
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse
+  name: PixelWalkerWorldsResponse
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse
+  nameWithType: PixelWalkerWorldsResponse
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlinePlayerCount
+  name: OnlinePlayerCount
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html#PixelPilot_PixelHttpClient_Responses_visible_PixelWalkerWorldsResponse_OnlinePlayerCount
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlinePlayerCount
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlinePlayerCount
+  nameWithType: PixelWalkerWorldsResponse.OnlinePlayerCount
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlinePlayerCount*
+  name: OnlinePlayerCount
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html#PixelPilot_PixelHttpClient_Responses_visible_PixelWalkerWorldsResponse_OnlinePlayerCount_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlinePlayerCount
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlinePlayerCount
+  nameWithType: PixelWalkerWorldsResponse.OnlinePlayerCount
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlineRoomCount
+  name: OnlineRoomCount
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html#PixelPilot_PixelHttpClient_Responses_visible_PixelWalkerWorldsResponse_OnlineRoomCount
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlineRoomCount
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlineRoomCount
+  nameWithType: PixelWalkerWorldsResponse.OnlineRoomCount
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlineRoomCount*
+  name: OnlineRoomCount
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html#PixelPilot_PixelHttpClient_Responses_visible_PixelWalkerWorldsResponse_OnlineRoomCount_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlineRoomCount
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.OnlineRoomCount
+  nameWithType: PixelWalkerWorldsResponse.OnlineRoomCount
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.VisibleRooms
+  name: VisibleRooms
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html#PixelPilot_PixelHttpClient_Responses_visible_PixelWalkerWorldsResponse_VisibleRooms
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.VisibleRooms
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.VisibleRooms
+  nameWithType: PixelWalkerWorldsResponse.VisibleRooms
+- uid: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.VisibleRooms*
+  name: VisibleRooms
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html#PixelPilot_PixelHttpClient_Responses_visible_PixelWalkerWorldsResponse_VisibleRooms_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.VisibleRooms
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.VisibleRooms
+  nameWithType: PixelWalkerWorldsResponse.VisibleRooms
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom
+  name: VisibleRoom
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom
+  nameWithType: VisibleRoom
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Data
+  name: Data
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Data
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Data
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Data
+  nameWithType: VisibleRoom.Data
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Data*
+  name: Data
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Data_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Data
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Data
+  nameWithType: VisibleRoom.Data
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Id
+  name: Id
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Id
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Id
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Id
+  nameWithType: VisibleRoom.Id
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Id*
+  name: Id
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Id_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Id
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Id
+  nameWithType: VisibleRoom.Id
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.MaxPlayers
+  name: MaxPlayers
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_MaxPlayers
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.MaxPlayers
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.MaxPlayers
+  nameWithType: VisibleRoom.MaxPlayers
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.MaxPlayers*
+  name: MaxPlayers
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_MaxPlayers_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.MaxPlayers
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.MaxPlayers
+  nameWithType: VisibleRoom.MaxPlayers
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Players
+  name: Players
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Players
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Players
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Players
+  nameWithType: VisibleRoom.Players
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Players*
+  name: Players
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Players_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Players
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Players
+  nameWithType: VisibleRoom.Players
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Plays
+  name: Plays
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Plays
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Plays
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Plays
+  nameWithType: VisibleRoom.Plays
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Plays*
+  name: Plays
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Plays_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Plays
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Plays
+  nameWithType: VisibleRoom.Plays
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Title
+  name: Title
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Title
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Title
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Title
+  nameWithType: VisibleRoom.Title
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Title*
+  name: Title
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoom_Title_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Title
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.Title
+  nameWithType: VisibleRoom.Title
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData
+  name: VisibleRoomData
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html
+  commentId: T:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData
+  nameWithType: VisibleRoomData
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Plays
+  name: Plays
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoomData_Plays
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Plays
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Plays
+  nameWithType: VisibleRoomData.Plays
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Plays*
+  name: Plays
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoomData_Plays_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Plays
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Plays
+  nameWithType: VisibleRoomData.Plays
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Title
+  name: Title
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoomData_Title
+  commentId: P:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Title
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Title
+  nameWithType: VisibleRoomData.Title
+- uid: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Title*
+  name: Title
+  href: api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html#PixelPilot_PixelHttpClient_Responses_visible_VisibleRoomData_Title_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Title
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.Title
+  nameWithType: VisibleRoomData.Title
+- uid: PixelPilot.Structures
+  name: PixelPilot.Structures
+  href: api/PixelPilot.Structures.html
+  commentId: N:PixelPilot.Structures
+  fullName: PixelPilot.Structures
+  nameWithType: PixelPilot.Structures
+- uid: PixelPilot.Structures.Converters.PilotSimple
+  name: PixelPilot.Structures.Converters.PilotSimple
+  href: api/PixelPilot.Structures.Converters.PilotSimple.html
+  commentId: N:PixelPilot.Structures.Converters.PilotSimple
+  fullName: PixelPilot.Structures.Converters.PilotSimple
+  nameWithType: PixelPilot.Structures.Converters.PilotSimple
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter
+  name: JsonBlockListConverter
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html
+  commentId: T:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter
+  nameWithType: JsonBlockListConverter
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.MappingsVersion
+  name: MappingsVersion
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_MappingsVersion
+  commentId: F:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.MappingsVersion
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.MappingsVersion
+  nameWithType: JsonBlockListConverter.MappingsVersion
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonBlockListConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: JsonBlockListConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read*
+  name: Read
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_Read_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read
+  nameWithType: JsonBlockListConverter.Read
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, List<IPlacedBlock>, JsonSerializerOptions)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_Write_System_Text_Json_Utf8JsonWriter_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__System_Text_Json_JsonSerializerOptions_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},System.Text.Json.JsonSerializerOptions)
+  name.vb: Write(Utf8JsonWriter, List(Of IPlacedBlock), JsonSerializerOptions)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.List<PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock>, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.List(Of PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock), System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonBlockListConverter.Write(Utf8JsonWriter, List<IPlacedBlock>, JsonSerializerOptions)
+  nameWithType.vb: JsonBlockListConverter.Write(Utf8JsonWriter, List(Of IPlacedBlock), JsonSerializerOptions)
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write*
+  name: Write
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_Write_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Write
+  nameWithType: JsonBlockListConverter.Write
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData
+  name: MappedBlockData
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html
+  commentId: T:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData
+  nameWithType: MappedBlockData
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.#ctor
+  name: MappedBlockData()
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData__ctor
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.MappedBlockData()
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.New()
+  nameWithType: MappedBlockData.MappedBlockData()
+  nameWithType.vb: MappedBlockData.New()
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.#ctor(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Constants.PixelBlock},System.Collections.Generic.List{System.String})
+  name: MappedBlockData(List<PixelBlock>, List<string>)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData__ctor_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Constants_PixelBlock__System_Collections_Generic_List_System_String__
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.#ctor(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Constants.PixelBlock},System.Collections.Generic.List{System.String})
+  name.vb: New(List(Of PixelBlock), List(Of String))
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.MappedBlockData(System.Collections.Generic.List<PixelPilot.PixelGameClient.World.Constants.PixelBlock>, System.Collections.Generic.List<string>)
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.New(System.Collections.Generic.List(Of PixelPilot.PixelGameClient.World.Constants.PixelBlock), System.Collections.Generic.List(Of String))
+  nameWithType: MappedBlockData.MappedBlockData(List<PixelBlock>, List<string>)
+  nameWithType.vb: MappedBlockData.New(List(Of PixelBlock), List(Of String))
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.#ctor*
+  name: MappedBlockData
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.MappedBlockData
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.New
+  nameWithType: MappedBlockData.MappedBlockData
+  nameWithType.vb: MappedBlockData.New
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.BlockData
+  name: BlockData
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_BlockData
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.BlockData
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.BlockData
+  nameWithType: MappedBlockData.BlockData
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.BlockData*
+  name: BlockData
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_BlockData_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.BlockData
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.BlockData
+  nameWithType: MappedBlockData.BlockData
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Mapping
+  name: Mapping
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_Mapping
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Mapping
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Mapping
+  nameWithType: MappedBlockData.Mapping
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Mapping*
+  name: Mapping
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_Mapping_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Mapping
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Mapping
+  nameWithType: MappedBlockData.Mapping
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version
+  name: Version
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_Version
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version
+  nameWithType: MappedBlockData.Version
+- uid: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version*
+  name: Version
+  href: api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html#PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_Version_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version
+  nameWithType: MappedBlockData.Version
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer
+  name: PilotSaveSerializer
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html
+  commentId: T:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer
+  nameWithType: PilotSaveSerializer
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(System.String)
+  name: Deserialize(string)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Deserialize_System_String_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(System.String)
+  name.vb: Deserialize(String)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(string)
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(String)
+  nameWithType: PilotSaveSerializer.Deserialize(string)
+  nameWithType.vb: PilotSaveSerializer.Deserialize(String)
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize*
+  name: Deserialize
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Deserialize_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize
+  nameWithType: PilotSaveSerializer.Deserialize
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
+  name: Serialize(Structure)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Serialize_PixelPilot_Structures_Structure_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
+  nameWithType: PilotSaveSerializer.Serialize(Structure)
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize*
+  name: Serialize
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Serialize_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize
+  nameWithType: PilotSaveSerializer.Serialize
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure
+  name: PilotSimpleStructure
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html
+  commentId: T:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure
+  nameWithType: PilotSimpleStructure
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.#ctor
+  name: PilotSimpleStructure()
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure__ctor
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.PilotSimpleStructure()
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.New()
+  nameWithType: PilotSimpleStructure.PilotSimpleStructure()
+  nameWithType.vb: PilotSimpleStructure.New()
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.#ctor*
+  name: PilotSimpleStructure
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.PilotSimpleStructure
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.New
+  nameWithType: PilotSimpleStructure.PilotSimpleStructure
+  nameWithType.vb: PilotSimpleStructure.New
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Blocks
+  name: Blocks
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Blocks
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Blocks
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Blocks
+  nameWithType: PilotSimpleStructure.Blocks
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Blocks*
+  name: Blocks
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Blocks_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Blocks
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Blocks
+  nameWithType: PilotSimpleStructure.Blocks
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ContainsEmpty
+  name: ContainsEmpty
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_ContainsEmpty
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ContainsEmpty
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ContainsEmpty
+  nameWithType: PilotSimpleStructure.ContainsEmpty
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ContainsEmpty*
+  name: ContainsEmpty
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_ContainsEmpty_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ContainsEmpty
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ContainsEmpty
+  nameWithType: PilotSimpleStructure.ContainsEmpty
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.FromStructure(PixelPilot.Structures.Structure)
+  name: FromStructure(Structure)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_FromStructure_PixelPilot_Structures_Structure_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.FromStructure(PixelPilot.Structures.Structure)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.FromStructure(PixelPilot.Structures.Structure)
+  nameWithType: PilotSimpleStructure.FromStructure(Structure)
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.FromStructure*
+  name: FromStructure
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_FromStructure_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.FromStructure
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.FromStructure
+  nameWithType: PilotSimpleStructure.FromStructure
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Height
+  name: Height
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Height
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Height
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Height
+  nameWithType: PilotSimpleStructure.Height
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Height*
+  name: Height
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Height_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Height
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Height
+  nameWithType: PilotSimpleStructure.Height
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Meta
+  name: Meta
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Meta
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Meta
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Meta
+  nameWithType: PilotSimpleStructure.Meta
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Meta*
+  name: Meta
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Meta_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Meta
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Meta
+  nameWithType: PilotSimpleStructure.Meta
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ToStructure
+  name: ToStructure()
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_ToStructure
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ToStructure
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ToStructure()
+  nameWithType: PilotSimpleStructure.ToStructure()
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ToStructure*
+  name: ToStructure
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_ToStructure_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ToStructure
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.ToStructure
+  nameWithType: PilotSimpleStructure.ToStructure
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Version
+  name: Version
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Version
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Version
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Version
+  nameWithType: PilotSimpleStructure.Version
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Version*
+  name: Version
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Version_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Version
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Version
+  nameWithType: PilotSimpleStructure.Version
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Width
+  name: Width
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Width
+  commentId: P:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Width
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Width
+  nameWithType: PilotSimpleStructure.Width
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Width*
+  name: Width
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleStructure_Width_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Width
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.Width
+  nameWithType: PilotSimpleStructure.Width
+- uid: PixelPilot.Structures.Extensions
+  name: PixelPilot.Structures.Extensions
+  href: api/PixelPilot.Structures.Extensions.html
+  commentId: N:PixelPilot.Structures.Extensions
+  fullName: PixelPilot.Structures.Extensions
+  nameWithType: PixelPilot.Structures.Extensions
+- uid: PixelPilot.Structures.Extensions.WorldExtensions
+  name: WorldExtensions
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html
+  commentId: T:PixelPilot.Structures.Extensions.WorldExtensions
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions
+  nameWithType: WorldExtensions
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32)
+  name: GetDifference(PixelWorld, Structure, int, int)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_PixelPilot_PixelGameClient_World_PixelWorld_PixelPilot_Structures_Structure_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32)
+  name.vb: GetDifference(PixelWorld, Structure, Integer, Integer)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld, PixelPilot.Structures.Structure, int, int)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld, PixelPilot.Structures.Structure, Integer, Integer)
+  nameWithType: WorldExtensions.GetDifference(PixelWorld, Structure, int, int)
+  nameWithType.vb: WorldExtensions.GetDifference(PixelWorld, Structure, Integer, Integer)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference*
+  name: GetDifference
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.GetDifference
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference
+  nameWithType: WorldExtensions.GetDifference
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld,System.Drawing.Point,System.Drawing.Point,System.Boolean)
+  name: GetStructure(PixelWorld, Point, Point, bool)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetStructure_PixelPilot_PixelGameClient_World_PixelWorld_System_Drawing_Point_System_Drawing_Point_System_Boolean_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld,System.Drawing.Point,System.Drawing.Point,System.Boolean)
+  name.vb: GetStructure(PixelWorld, Point, Point, Boolean)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld, System.Drawing.Point, System.Drawing.Point, bool)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld, System.Drawing.Point, System.Drawing.Point, Boolean)
+  nameWithType: WorldExtensions.GetStructure(PixelWorld, Point, Point, bool)
+  nameWithType.vb: WorldExtensions.GetStructure(PixelWorld, Point, Point, Boolean)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  name: GetStructure(PixelWorld, int, int, int, int, bool)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetStructure_PixelPilot_PixelGameClient_World_PixelWorld_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  name.vb: GetStructure(PixelWorld, Integer, Integer, Integer, Integer, Boolean)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld, int, int, int, int, bool)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld, Integer, Integer, Integer, Integer, Boolean)
+  nameWithType: WorldExtensions.GetStructure(PixelWorld, int, int, int, int, bool)
+  nameWithType.vb: WorldExtensions.GetStructure(PixelWorld, Integer, Integer, Integer, Integer, Boolean)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure*
+  name: GetStructure
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetStructure_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.GetStructure
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure
+  nameWithType: WorldExtensions.GetStructure
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)
+  name: PasteInOrder(List<IPlacedBlock>, PixelPilotClient, Point, int)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteInOrder_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__PixelPilot_PixelGameClient_PixelPilotClient_System_Drawing_Point_System_Int32_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)
+  name.vb: PasteInOrder(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder(System.Collections.Generic.List<PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock>, PixelPilot.PixelGameClient.PixelPilotClient, System.Drawing.Point, int)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder(System.Collections.Generic.List(Of PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock), PixelPilot.PixelGameClient.PixelPilotClient, System.Drawing.Point, Integer)
+  nameWithType: WorldExtensions.PasteInOrder(List<IPlacedBlock>, PixelPilotClient, Point, int)
+  nameWithType.vb: WorldExtensions.PasteInOrder(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder*
+  name: PasteInOrder
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteInOrder_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder
+  nameWithType: WorldExtensions.PasteInOrder
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)
+  name: PasteShuffled(List<IPlacedBlock>, PixelPilotClient, Point, int)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteShuffled_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__PixelPilot_PixelGameClient_PixelPilotClient_System_Drawing_Point_System_Int32_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)
+  name.vb: PasteShuffled(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled(System.Collections.Generic.List<PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock>, PixelPilot.PixelGameClient.PixelPilotClient, System.Drawing.Point, int)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled(System.Collections.Generic.List(Of PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock), PixelPilot.PixelGameClient.PixelPilotClient, System.Drawing.Point, Integer)
+  nameWithType: WorldExtensions.PasteShuffled(List<IPlacedBlock>, PixelPilotClient, Point, int)
+  nameWithType.vb: WorldExtensions.PasteShuffled(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled*
+  name: PasteShuffled
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteShuffled_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled
+  nameWithType: WorldExtensions.PasteShuffled
+- uid: PixelPilot.Structures.Structure
+  name: Structure
+  href: api/PixelPilot.Structures.Structure.html
+  commentId: T:PixelPilot.Structures.Structure
+  fullName: PixelPilot.Structures.Structure
+  nameWithType: Structure
+- uid: PixelPilot.Structures.Structure.#ctor(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})
+  name: Structure(int, int, Dictionary<string, string>, bool, List<IPlacedBlock>)
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure__ctor_System_Int32_System_Int32_System_Collections_Generic_Dictionary_System_String_System_String__System_Boolean_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__
+  commentId: M:PixelPilot.Structures.Structure.#ctor(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})
+  name.vb: New(Integer, Integer, Dictionary(Of String, String), Boolean, List(Of IPlacedBlock))
+  fullName: PixelPilot.Structures.Structure.Structure(int, int, System.Collections.Generic.Dictionary<string, string>, bool, System.Collections.Generic.List<PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock>)
+  fullName.vb: PixelPilot.Structures.Structure.New(Integer, Integer, System.Collections.Generic.Dictionary(Of String, String), Boolean, System.Collections.Generic.List(Of PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock))
+  nameWithType: Structure.Structure(int, int, Dictionary<string, string>, bool, List<IPlacedBlock>)
+  nameWithType.vb: Structure.New(Integer, Integer, Dictionary(Of String, String), Boolean, List(Of IPlacedBlock))
+- uid: PixelPilot.Structures.Structure.#ctor*
+  name: Structure
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure__ctor_
+  commentId: Overload:PixelPilot.Structures.Structure.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Structure.Structure
+  fullName.vb: PixelPilot.Structures.Structure.New
+  nameWithType: Structure.Structure
+  nameWithType.vb: Structure.New
+- uid: PixelPilot.Structures.Structure.Blocks
+  name: Blocks
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Blocks
+  commentId: P:PixelPilot.Structures.Structure.Blocks
+  fullName: PixelPilot.Structures.Structure.Blocks
+  nameWithType: Structure.Blocks
+- uid: PixelPilot.Structures.Structure.Blocks*
+  name: Blocks
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Blocks_
+  commentId: Overload:PixelPilot.Structures.Structure.Blocks
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.Blocks
+  nameWithType: Structure.Blocks
+- uid: PixelPilot.Structures.Structure.BlocksWithEmpty
+  name: BlocksWithEmpty
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_BlocksWithEmpty
+  commentId: P:PixelPilot.Structures.Structure.BlocksWithEmpty
+  fullName: PixelPilot.Structures.Structure.BlocksWithEmpty
+  nameWithType: Structure.BlocksWithEmpty
+- uid: PixelPilot.Structures.Structure.BlocksWithEmpty*
+  name: BlocksWithEmpty
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_BlocksWithEmpty_
+  commentId: Overload:PixelPilot.Structures.Structure.BlocksWithEmpty
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.BlocksWithEmpty
+  nameWithType: Structure.BlocksWithEmpty
+- uid: PixelPilot.Structures.Structure.ContainsEmpty
+  name: ContainsEmpty
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_ContainsEmpty
+  commentId: P:PixelPilot.Structures.Structure.ContainsEmpty
+  fullName: PixelPilot.Structures.Structure.ContainsEmpty
+  nameWithType: Structure.ContainsEmpty
+- uid: PixelPilot.Structures.Structure.ContainsEmpty*
+  name: ContainsEmpty
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_ContainsEmpty_
+  commentId: Overload:PixelPilot.Structures.Structure.ContainsEmpty
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.ContainsEmpty
+  nameWithType: Structure.ContainsEmpty
+- uid: PixelPilot.Structures.Structure.Height
+  name: Height
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Height
+  commentId: P:PixelPilot.Structures.Structure.Height
+  fullName: PixelPilot.Structures.Structure.Height
+  nameWithType: Structure.Height
+- uid: PixelPilot.Structures.Structure.Height*
+  name: Height
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Height_
+  commentId: Overload:PixelPilot.Structures.Structure.Height
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.Height
+  nameWithType: Structure.Height
+- uid: PixelPilot.Structures.Structure.Meta
+  name: Meta
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Meta
+  commentId: P:PixelPilot.Structures.Structure.Meta
+  fullName: PixelPilot.Structures.Structure.Meta
+  nameWithType: Structure.Meta
+- uid: PixelPilot.Structures.Structure.Meta*
+  name: Meta
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Meta_
+  commentId: Overload:PixelPilot.Structures.Structure.Meta
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.Meta
+  nameWithType: Structure.Meta
+- uid: PixelPilot.Structures.Structure.Width
+  name: Width
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Width
+  commentId: P:PixelPilot.Structures.Structure.Width
+  fullName: PixelPilot.Structures.Structure.Width
+  nameWithType: Structure.Width
+- uid: PixelPilot.Structures.Structure.Width*
+  name: Width
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Width_
+  commentId: Overload:PixelPilot.Structures.Structure.Width
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.Width
+  nameWithType: Structure.Width

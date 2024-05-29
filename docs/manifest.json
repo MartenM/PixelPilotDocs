@@ -192,6 +192,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.yml",
       "output": {
         ".html": {
@@ -536,6 +556,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelGameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.PixelGameException.html"
         }
       },
       "version": ""
@@ -922,6 +952,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.JoinKeyResponse.yml",
       "output": {
         ".html": {
@@ -952,6 +1042,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.yml",
       "output": {
         ".html": {
@@ -971,6 +1101,96 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Structure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Structure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
@@ -979,6 +1199,26 @@
         },
         ".html": {
           "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/extra_packages/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extra_packages/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/extra_packages/pixelpilot_structures.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extra_packages/pixelpilot_structures.html"
         }
       },
       "version": ""
