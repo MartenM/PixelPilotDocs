@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/v1.3.0/docs/guides/getting_started/first_bot.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/v1.4.0/docs/guides/getting_started/first_bot.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -95,13 +95,22 @@ If you don't, start learning it today!</p>
 <h1 id="installation">Installation</h1>
 <p>The main package <code>PixelPilot.Core</code> can be found on NuGet. Install the latest version to start using the API.</p>
 <h1 id="your-first-bot">Your first bot</h1>
-<p><code>PixelPilot.Core</code> makes it easy to get a bot up and running. You can either provide the <code>PixelPilotClient</code> with a token, or by using your email and password directly.
+<p><code>PixelPilot.Core</code> makes it easy to get a bot up and running. You can either provide the builder with a token, or by using your email and password directly.
 The token can be found in the local storage of your browser.</p>
 <pre><code class="lang-csharp"># Create a bot by using a token
-var client = new PixelPilotClient(&quot;Your account token&quot;);
+// Create a client.
+var client = PixelPilotClient.Builder()
+    .SetToken(config.AccountToken)
+    .SetAutomaticReconnect(false)
+    .Build();
 
-# Create a bot by using 
-var client = new PixelPilotClient(&quot;bot@pixelpilot.com&quot;, &quot;super secret password&quot;);
+
+# Create a bot by using email/password
+var client = PixelPilotClient.Builder()
+    .SetEmail(config.AccountEmail)
+    .SetPassword(config.AccountPassword)
+    .SetAutomaticReconnect(false)
+    .Build();
 </code></pre>
 <p>After creating the client you probably, you can let the bot connect to a world.
 Each world has an unique world ID. When you join a world, the URL bar will display the following <code>https://pixelwalker.net/world/&lt;WORLD_ID&gt;</code>.
@@ -110,16 +119,19 @@ Copy the world ID and use it to connect to the world.</p>
 await client.Connect(&quot;r082b210d67df52&quot;);
 </code></pre>
 <p>Our bot has now joined the world but it since the end of the program has been reached it will terminate.
-You can prevent this by adding the following code to the end of your program.</p>
+You can prevent this by adding either one of the following lines of code to the end of your program.</p>
 <pre><code class="lang-csharp">// Don't terminate.
 Thread.Sleep(-1);
+
+// Don't terminate. Unless disconnected
+await client.WaitForDisconnect();
 </code></pre>
 <p>That's it, you have now connected your first bot to the world!</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/docs/guides/getting_started/first_bot.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/docs/guides/getting_started/first_bot.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

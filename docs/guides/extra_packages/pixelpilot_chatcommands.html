@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>PixelPilot.ChatCommands | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="PixelPilot.ChatCommands | PixelPilot ">
+      
+      
+      <link rel="icon" href="../../images/pixel_pilot.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/v1.4.0/docs/guides/extra_packages/pixelpilot_chatcommands.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides.ExtraPackages.PixelPilot.Structures">
+<h1 id="introduction">Introduction</h1>
+
+<p>PixelPilot provides an additional package called <code>PixelPilot.ChatCommands</code>. This package allows users to execute commands in chat.</p>
+<h3 id="features">Features:</h3>
+<ul>
+<li>Supports permission strings</li>
+<li>Automatically generated <code>help</code> command.</li>
+<li>Format the help if you want.</li>
+<li>String based permissions. <code>root.command.subcommand.</code></li>
+<li>Nested commands</li>
+</ul>
+<h2 id="getting-started">Getting started</h2>
+<p>Install <code>PixelPilot.ChatCommands</code> by using NuGet into your current project. Ensure that the <code>PixelPilot.Core</code> version matches the <code>PixelPilot.ChatCommands</code> version.</p>
+<h2 id="creating-basic-commands">Creating basic commands</h2>
+<p>To create a basic command, extend the <code>ChatCommand</code> class. Implement your own logic that should run on command.</p>
+<pre><code class="lang-csharp">public class TestCommand : ChatCommand
+{
+    public TestCommand() : base(&quot;test&quot;, &quot;A test command&quot;, null)
+    {
+        
+    }
+
+    public override Task ExecuteCommand(ICommandSender sender, string fullCommand, string[] args)
+    {
+        sender.SendMessage(&quot;This is a test command!&quot;);
+        return Task.CompletedTask;
+    }
+}
+</code></pre>
+<p>Now create a command manager and hook it to the client. Register the command and add the optional help command.</p>
+<pre><code class="lang-csharp">var commandManager = new CustomCommandManager(client, playerManager);
+commandManager.AddHelpCommand();
+commandManager.AddCommand(new TestCommand());
+</code></pre>
+<p>That's it! Your command can now be executed in the game.</p>
+<h2 id="nested-commands">Nested commands</h2>
+<p>To nest commands use extend the <code>RootCommand</code>. Add your new commands in the constructor of this command.
+Note that these can also be RootCommands.</p>
+<pre><code class="lang-csharp">public class BotActionsRoot : RootCommand
+{
+    public BotActionsRoot(PixelPilotClient client) : base(&quot;bot&quot;, &quot;Bot commands&quot;, &quot;bot&quot;)
+    {
+        // Add the commands.
+        AddCommand(new DisconnectCommand(client));;
+        AddCommand(new BroadcastCommand(client));;
+    }
+}
+</code></pre>
+<p>Note that the base permission for this command is <code>bot</code>. The commands <code>Disconnect</code> and <code>Broadcast</code> extend this permission node by using the <code>+</code> sign.
+This means that the full permission will be <code>bot.disconnect</code>.</p>
+<pre><code class="lang-csharp">public class SubCommand : ChatCommand
+{
+    private PixelPilotClient _client;
+    
+    public DisconnectCommand(PixelPilotClient client) : base(&quot;disconnect&quot;, &quot;Disconnect the bot&quot;, &quot;+disconnect&quot;)
+    {
+        _client = client;
+    }
+
+    public override Task ExecuteCommand(ICommandSender sender, string fullCommand, string[] args)
+    {
+        // Logic
+        return Task.CompletedTask;
+    }
+}
+</code></pre>
+<h2 id="handling-permissions">Handling permissions</h2>
+<p>By default the bot handles permissions by allowing all. You can change this by implementing your own command manager. See the following example below.
+Based on the players rank we grab a list of permission nodes allowed. If the list contains the permission node, the command is allowed.</p>
+<pre><code class="lang-csharp">public class CustomCommandManager : PixelChatCommandManager&lt;Player&gt;
+{
+    private PixelPilotClient _client;
+    
+    public CustomCommandManager(PixelPilotClient client, PixelPlayerManager&lt;Player&gt; pixelPlayerManager) : base(client, pixelPlayerManager)
+    {
+        _client = client;
+    }
+    
+    protected override ICommandSender CreateSender(Player player)
+    {
+        // Create a custom sender that executes the permission check.
+        return new CustomSender(player, _client);
+    }
+}
+
+class CustomSender : CommandSender
+{
+    public CustomSender(IPixelPlayer player, PixelPilotClient client) : base(player, client)
+    {
+        
+    }
+
+    public override bool HasPermission(string? permission)
+    {
+        // Allow by default if no permission is set.
+        if (permission == null) return true;
+        
+        // Normally fetch the players rank here from the IPixelPlayer.
+        var playerRank = Rank.Default;
+        var permissions = playerRank.GetPermissions();
+        return permissions.Contains(permission);
+    }
+}
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/docs/guides/extra_packages/pixelpilot_chatcommands.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.3.0/apiSpec/new?filename=PixelPilot_PixelGameClient_PixelPilotClient.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.PixelPilotClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.4.0/apiSpec/new?filename=PixelPilot_PixelGameClient_PixelPilotClient.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.PixelPilotClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_PixelGameClient_PixelPilotClient" data-uid="PixelPilot.PixelGameClient.PixelPilotClient" class="text-break">
-Class PixelPilotClient  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class PixelPilotClient  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -161,137 +161,24 @@ Class PixelPilotClient  <a class="header-action link-secondary" title="View sour
 
   <a id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_System_String_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor(System.String)">
-  PixelPilotClient(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_PixelPilot_PixelHttpClient_PixelApiClient_System_Boolean_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor(PixelPilot.PixelHttpClient.PixelApiClient,System.Boolean)">
+  PixelPilotClient(PixelApiClient, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Create a PixelPilot client using an account token.
-Automatically reconnects.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PixelPilotClient(string accountToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public PixelPilotClient(PixelApiClient apiClient, bool automaticReconnect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>accountToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A valid account token</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_System_String_System_Boolean_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor(System.String,System.Boolean)">
-  PixelPilotClient(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L82"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Create a PixelPilot client using an account token.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PixelPilotClient(string accountToken, bool automaticReconnect)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>accountToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A valid account token</p>
-</dd>
+    <dt><code>apiClient</code> <a class="xref" href="PixelPilot.PixelHttpClient.PixelApiClient.html">PixelApiClient</a></dt>
+    <dd></dd>
     <dt><code>automaticReconnect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>If the bot should reconnect</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_System_String_System_String_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor(System.String,System.String)">
-  PixelPilotClient(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L94"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Create a PixelPilotClient using the email and password login method.
-Automatically reconnects.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PixelPilotClient(string email, string password)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Valid email</p>
-</dd>
-    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Valid password</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient__ctor_System_String_System_String_System_Boolean_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.#ctor(System.String,System.String,System.Boolean)">
-  PixelPilotClient(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L103"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Create a PixelPilotClient using the email and password login method.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PixelPilotClient(string email, string password, bool automaticReconnect)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Valid email</p>
-</dd>
-    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Valid password</p>
-</dd>
-    <dt><code>automaticReconnect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>If the bot should reconnect</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -312,7 +199,7 @@ Automatically reconnects.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_ApiClient" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.ApiClient">
   ApiClient
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -342,7 +229,7 @@ Automatically reconnects.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_SecondsBeforeGatewayTimeout" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SecondsBeforeGatewayTimeout">
   SecondsBeforeGatewayTimeout
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -377,7 +264,7 @@ Automatically reconnects.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_AutomaticReconnect" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.AutomaticReconnect">
   AutomaticReconnect
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Indicates if the client will try to automatically reconnect if the
@@ -410,7 +297,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_BotId" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.BotId">
   BotId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The player ID of the client.</p>
@@ -438,11 +325,42 @@ connection gets somehow lost.</p>
 
 
 
+  <a id="PixelPilot_PixelGameClient_PixelPilotClient_BotPrefix_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.BotPrefix*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_BotPrefix" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.BotPrefix">
+  BotPrefix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BotPrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="PixelPilot_PixelGameClient_PixelPilotClient_IsConnected_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.IsConnected*"></a>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_IsConnected" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.IsConnected">
   IsConnected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Indicates if the client is connected.</p>
@@ -474,7 +392,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_RoomType" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.RoomType">
   RoomType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -505,11 +423,42 @@ connection gets somehow lost.</p>
 </h2>
 
 
+  <a id="PixelPilot_PixelGameClient_PixelPilotClient_Builder_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Builder*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_Builder" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Builder">
+  Builder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PixelGameClientBuilder Builder()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.PixelGameClient.PixelGameClientBuilder.html">PixelGameClientBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="PixelPilot_PixelGameClient_PixelPilotClient_Connect_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Connect*"></a>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_Connect_System_String_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Connect(System.String)">
   Connect(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Connects to a game room using the specified room type and room ID.</p>
@@ -548,7 +497,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_Disconnect" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Disconnect">
   Disconnect()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Disconnects the socket client gracefully by stopping it with a normal closure status.</p>
@@ -581,7 +530,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_Dispose" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L310"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -608,10 +557,11 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_Send_PixelPilot_PixelGameClient_Messages_IPixelGamePacketOut_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.Send(PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut)">
   Send(IPixelGamePacketOut)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sends a pixel game packet.</p>
+  <div class="markdown level1 summary"><p>Sends a pixel game packet.
+Uses an internal rate limiter to limit packets.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -637,6 +587,145 @@ connection gets somehow lost.</p>
 
 
 
+  <a id="PixelPilot_PixelGameClient_PixelPilotClient_SendChat_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SendChat*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_SendChat_System_String_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SendChat(System.String)">
+  SendChat(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sends a chat message while ensuring that the message doesn't become too long.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendChat(string msg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_PixelPilotClient_SendDirect_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SendDirect*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_SendDirect_PixelPilot_PixelGameClient_Messages_IPixelGamePacketOut_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SendDirect(PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut)">
+  SendDirect(IPixelGamePacketOut)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sends a pixel game packet.
+Bypasses the internal rate limiter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendDirect(IPixelGamePacketOut packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>packet</code> <a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut.html">IPixelGamePacketOut</a></dt>
+    <dd><p>The pixel game packet to send.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_PixelPilotClient_SendPm_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SendPm*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_SendPm_System_String_System_String_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.SendPm(System.String,System.String)">
+  SendPm(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Same as SendChat but as PM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendPm(string username, string msg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Player username</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_PixelGameClient_PixelPilotClient_WaitForDisconnect_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.WaitForDisconnect*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_WaitForDisconnect_System_Threading_CancellationToken_" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.WaitForDisconnect(System.Threading.CancellationToken)">
+  WaitForDisconnect(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WaitForDisconnect(CancellationToken ct = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ct</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="events">Events
 </h2>
 
@@ -644,7 +733,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_OnClientConnected" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.OnClientConnected">
   OnClientConnected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fired once init has been received by the client.</p>
@@ -675,7 +764,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_OnPacketReceived" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.OnPacketReceived">
   OnPacketReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Event that occurs when a packet is received.</p>
@@ -706,7 +795,7 @@ connection gets somehow lost.</p>
 
   <h3 id="PixelPilot_PixelGameClient_PixelPilotClient_OnPacketSend" data-uid="PixelPilot.PixelGameClient.PixelPilotClient.OnPacketSend">
   OnPacketSend
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Event that occurs when a packet is send.</p>
@@ -738,7 +827,7 @@ connection gets somehow lost.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.3.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.4.0/src/PixelPilot.Core/PixelGameClient/PixelPilotClient.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

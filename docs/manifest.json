@@ -12,6 +12,176 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.CommandManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.CommandManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.CommandSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.CommandSender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.ChatCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.ChatCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.CommandNameFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.CommandNameFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.Help.BasicHelpCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.Help.BasicHelpCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.Help.IHelpFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.Help.IHelpFormatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.Help.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.Help.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.ICommandExecutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.ICommandExecutor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.RootCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.RootCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.IChatCommandManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.IChatCommandManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.ICommandSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.ICommandSender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Messages.CommandMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Messages.CommandMessages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.Messages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.PixelChatCommandManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.ChatCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.ChatCommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Common.EndPoints.yml",
       "output": {
         ".html": {
@@ -192,10 +362,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue.yml",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.PixelPacketOutQueue.html"
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.html"
         }
       },
       "version": ""
@@ -556,6 +736,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelGameClientBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html"
         }
       },
       "version": ""
@@ -1209,6 +1399,16 @@
       "output": {
         ".html": {
           "relative_path": "guides/extra_packages/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/extra_packages/pixelpilot_chatcommands.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extra_packages/pixelpilot_chatcommands.html"
         }
       },
       "version": ""
