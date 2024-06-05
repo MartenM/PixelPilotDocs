@@ -322,6 +322,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.ChatCommands.Commands.ChatCommand.HelpFormatter
   nameWithType: ChatCommand.HelpFormatter
+- uid: PixelPilot.ChatCommands.Commands.ChatCommand.IsAsync
+  name: IsAsync
+  href: api/PixelPilot.ChatCommands.Commands.ChatCommand.html#PixelPilot_ChatCommands_Commands_ChatCommand_IsAsync
+  commentId: P:PixelPilot.ChatCommands.Commands.ChatCommand.IsAsync
+  fullName: PixelPilot.ChatCommands.Commands.ChatCommand.IsAsync
+  nameWithType: ChatCommand.IsAsync
+- uid: PixelPilot.ChatCommands.Commands.ChatCommand.IsAsync*
+  name: IsAsync
+  href: api/PixelPilot.ChatCommands.Commands.ChatCommand.html#PixelPilot_ChatCommands_Commands_ChatCommand_IsAsync_
+  commentId: Overload:PixelPilot.ChatCommands.Commands.ChatCommand.IsAsync
+  isSpec: "True"
+  fullName: PixelPilot.ChatCommands.Commands.ChatCommand.IsAsync
+  nameWithType: ChatCommand.IsAsync
 - uid: PixelPilot.ChatCommands.Commands.ChatCommand.Name
   name: Name
   href: api/PixelPilot.ChatCommands.Commands.ChatCommand.html#PixelPilot_ChatCommands_Commands_ChatCommand_Name
@@ -1544,6 +1557,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.EnqueuePacket
   nameWithType: IPixelPacketQueue.EnqueuePacket
+- uid: PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.QueueSize
+  name: QueueSize
+  href: api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.html#PixelPilot_PixelGameClient_Messages_Queue_IPixelPacketQueue_QueueSize
+  commentId: P:PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.QueueSize
+  fullName: PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.QueueSize
+  nameWithType: IPixelPacketQueue.QueueSize
+- uid: PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.QueueSize*
+  name: QueueSize
+  href: api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.html#PixelPilot_PixelGameClient_Messages_Queue_IPixelPacketQueue_QueueSize_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.QueueSize
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.QueueSize
+  nameWithType: IPixelPacketQueue.QueueSize
 - uid: PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.Start
   name: Start()
   href: api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.html#PixelPilot_PixelGameClient_Messages_Queue_IPixelPacketQueue_Start
@@ -1634,6 +1660,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.IsProcessing
   nameWithType: TokenBucketPacketOutQueue.IsProcessing
+- uid: PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.QueueSize
+  name: QueueSize
+  href: api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.html#PixelPilot_PixelGameClient_Messages_Queue_TokenBucketPacketOutQueue_QueueSize
+  commentId: P:PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.QueueSize
+  fullName: PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.QueueSize
+  nameWithType: TokenBucketPacketOutQueue.QueueSize
+- uid: PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.QueueSize*
+  name: QueueSize
+  href: api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.html#PixelPilot_PixelGameClient_Messages_Queue_TokenBucketPacketOutQueue_QueueSize_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.QueueSize
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.QueueSize
+  nameWithType: TokenBucketPacketOutQueue.QueueSize
 - uid: PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.Start
   name: Start()
   href: api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.html#PixelPilot_PixelGameClient_Messages_Queue_TokenBucketPacketOutQueue_Start
@@ -4506,6 +4545,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.Dispose
   nameWithType: PixelPilotClient.Dispose
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.DisposeApi
+  name: DisposeApi
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_DisposeApi
+  commentId: P:PixelPilot.PixelGameClient.PixelPilotClient.DisposeApi
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.DisposeApi
+  nameWithType: PixelPilotClient.DisposeApi
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.DisposeApi*
+  name: DisposeApi
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_DisposeApi_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelPilotClient.DisposeApi
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.DisposeApi
+  nameWithType: PixelPilotClient.DisposeApi
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.IsConnected
   name: IsConnected
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_IsConnected
@@ -4537,6 +4589,19 @@ references:
   commentId: E:PixelPilot.PixelGameClient.PixelPilotClient.OnPacketSend
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.OnPacketSend
   nameWithType: PixelPilotClient.OnPacketSend
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.PacketQueueSize
+  name: PacketQueueSize
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_PacketQueueSize
+  commentId: P:PixelPilot.PixelGameClient.PixelPilotClient.PacketQueueSize
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.PacketQueueSize
+  nameWithType: PixelPilotClient.PacketQueueSize
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.PacketQueueSize*
+  name: PacketQueueSize
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_PacketQueueSize_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelPilotClient.PacketQueueSize
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.PacketQueueSize
+  nameWithType: PixelPilotClient.PacketQueueSize
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.PacketReceived
   name: PixelPilotClient.PacketReceived
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.PacketReceived.html
@@ -4626,6 +4691,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.SendPm
   nameWithType: PixelPilotClient.SendPm
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.Username
+  name: Username
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_Username
+  commentId: P:PixelPilot.PixelGameClient.PixelPilotClient.Username
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.Username
+  nameWithType: PixelPilotClient.Username
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.Username*
+  name: Username
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_Username_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelPilotClient.Username
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.Username
+  nameWithType: PixelPilotClient.Username
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.WaitForDisconnect(System.Threading.CancellationToken)
   name: WaitForDisconnect(CancellationToken)
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_WaitForDisconnect_System_Threading_CancellationToken_
@@ -4639,6 +4717,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.WaitForDisconnect
   nameWithType: PixelPilotClient.WaitForDisconnect
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue(System.Int32)
+  name: WaitForEmptyQueue(int)
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_WaitForEmptyQueue_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue(System.Int32)
+  name.vb: WaitForEmptyQueue(Integer)
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue(int)
+  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue(Integer)
+  nameWithType: PixelPilotClient.WaitForEmptyQueue(int)
+  nameWithType.vb: PixelPilotClient.WaitForEmptyQueue(Integer)
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue*
+  name: WaitForEmptyQueue
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_WaitForEmptyQueue_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.WaitForEmptyQueue
+  nameWithType: PixelPilotClient.WaitForEmptyQueue
 - uid: PixelPilot.PixelGameClient.Players
   name: PixelPilot.PixelGameClient.Players
   href: api/PixelPilot.PixelGameClient.Players.html
@@ -5473,6 +5567,14 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).HandlePacket
   nameWithType: PixelPlayerManager<T>.HandlePacket
   nameWithType.vb: PixelPlayerManager(Of T).HandlePacket
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.OnPlayerJoined
+  name: OnPlayerJoined
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_OnPlayerJoined
+  commentId: E:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.OnPlayerJoined
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>.OnPlayerJoined
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).OnPlayerJoined
+  nameWithType: PixelPlayerManager<T>.OnPlayerJoined
+  nameWithType.vb: PixelPlayerManager(Of T).OnPlayerJoined
 - uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.OnPlayerLeft
   name: OnPlayerLeft
   href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_OnPlayerLeft
@@ -5497,6 +5599,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).OnPrePlayerStatusChange
   nameWithType: PixelPlayerManager<T>.OnPrePlayerStatusChange
   nameWithType.vb: PixelPlayerManager(Of T).OnPrePlayerStatusChange
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.PlayerJoined
+  name: PixelPlayerManager<T>.PlayerJoined
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerJoined.html
+  commentId: T:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.PlayerJoined
+  name.vb: PixelPlayerManager(Of T).PlayerJoined
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>.PlayerJoined
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).PlayerJoined
+  nameWithType: PixelPlayerManager<T>.PlayerJoined
+  nameWithType.vb: PixelPlayerManager(Of T).PlayerJoined
 - uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.PlayerLeft
   name: PixelPlayerManager<T>.PlayerLeft
   href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerLeft.html
@@ -5541,6 +5652,14 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).PrePlayerStatusChange
   nameWithType: PixelPlayerManager<T>.PrePlayerStatusChange
   nameWithType.vb: PixelPlayerManager(Of T).PrePlayerStatusChange
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1._logger
+  name: _logger
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1__logger
+  commentId: F:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1._logger
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>._logger
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T)._logger
+  nameWithType: PixelPlayerManager<T>._logger
+  nameWithType.vb: PixelPlayerManager(Of T)._logger
 - uid: PixelPilot.PixelGameClient.World
   name: PixelPilot.PixelGameClient.World
   href: api/PixelPilot.PixelGameClient.World.html
@@ -8134,6 +8253,19 @@ references:
   commentId: E:PixelPilot.PixelGameClient.World.PixelWorld.OnBlockPlaced
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.OnBlockPlaced
   nameWithType: PixelWorld.OnBlockPlaced
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername
+  name: OwnerUsername
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OwnerUsername
+  commentId: P:PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername
+  nameWithType: PixelWorld.OwnerUsername
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername*
+  name: OwnerUsername
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OwnerUsername_
+  commentId: Overload:PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername
+  nameWithType: PixelWorld.OwnerUsername
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.Width
   name: Width
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_Width
@@ -8147,6 +8279,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.Width
   nameWithType: PixelWorld.Width
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.WorldName
+  name: WorldName
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_WorldName
+  commentId: P:PixelPilot.PixelGameClient.World.PixelWorld.WorldName
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.WorldName
+  nameWithType: PixelWorld.WorldName
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.WorldName*
+  name: WorldName
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_WorldName_
+  commentId: Overload:PixelPilot.PixelGameClient.World.PixelWorld.WorldName
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.WorldName
+  nameWithType: PixelWorld.WorldName
 - uid: PixelPilot.PixelHttpClient
   name: PixelPilot.PixelHttpClient
   href: api/PixelPilot.PixelHttpClient.html
@@ -8293,6 +8438,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers
   nameWithType: PixelApiClient.GetPlayers
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  name: GetPublicWorlds(int, int, QueryArgumentBuilder?)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPublicWorlds_System_Int32_System_Int32_PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  name.vb: GetPublicWorlds(Integer, Integer, QueryArgumentBuilder)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds(int, int, PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder?)
+  fullName.vb: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds(Integer, Integer, PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
+  nameWithType: PixelApiClient.GetPublicWorlds(int, int, QueryArgumentBuilder?)
+  nameWithType.vb: PixelApiClient.GetPublicWorlds(Integer, Integer, QueryArgumentBuilder)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds*
+  name: GetPublicWorlds
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPublicWorlds_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds
+  nameWithType: PixelApiClient.GetPublicWorlds
 - uid: PixelPilot.PixelHttpClient.PixelApiClient.GetRoomTypes
   name: GetRoomTypes()
   href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetRoomTypes
@@ -8861,6 +9022,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
   nameWithType: WorldEntry.Id
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner
+  name: Owner
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Owner
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner
+  nameWithType: WorldEntry.Owner
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner*
+  name: Owner
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Owner_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner
+  nameWithType: WorldEntry.Owner
 - uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Plays
   name: Plays
   href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Plays
