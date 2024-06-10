@@ -4,9 +4,12 @@ references:
 - uid: Guides.ExtraPackages.Introduction
   name: Introduction
   href: guides/extra_packages/introduction.html
-- uid: Guides.ExtraPackages.PixelPilot.Structures
+- uid: Guides.ExtraPackages.PixelPilot.ChatCommands
   name: PixelPilot.ChatCommands
   href: guides/extra_packages/pixelpilot_chatcommands.html
+- uid: Guides.ExtraPackages.PixelPilot.Structures
+  name: PixelPilot.Structures
+  href: guides/extra_packages/pixelpilot_structures.html
 - uid: Guides.GettingStarted.ExtraTopics
   name: Logging
   href: guides/getting_started/extra_topics.html
