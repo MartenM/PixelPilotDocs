@@ -4506,6 +4506,12 @@ references:
   commentId: T:PixelPilot.PixelGameClient.PixelPilotClient.ClientConnected
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.ClientConnected
   nameWithType: PixelPilotClient.ClientConnected
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected
+  name: PixelPilotClient.ClientDisconnected
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected.html
+  commentId: T:PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected
+  nameWithType: PixelPilotClient.ClientDisconnected
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.Connect(System.String)
   name: Connect(string)
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_Connect_System_String_
@@ -4580,6 +4586,12 @@ references:
   commentId: E:PixelPilot.PixelGameClient.PixelPilotClient.OnClientConnected
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.OnClientConnected
   nameWithType: PixelPilotClient.OnClientConnected
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.OnClientDisconnected
+  name: OnClientDisconnected
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_OnClientDisconnected
+  commentId: E:PixelPilot.PixelGameClient.PixelPilotClient.OnClientDisconnected
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.OnClientDisconnected
+  nameWithType: PixelPilotClient.OnClientDisconnected
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.OnPacketReceived
   name: OnPacketReceived
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_OnPacketReceived
