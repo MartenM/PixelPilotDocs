@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.5.2/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.6.0/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket" class="text-break">
-Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.5.2/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
+Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LocalSwitchChangedPacket : IPixelGamePacket</code></pre>
+    <pre><code class="lang-csharp hljs">public class LocalSwitchChangedPacket : IPixelGamePlayerPacket, IPixelGamePacket, IPacketOutConvertible</code></pre>
   </div>
 
 
@@ -118,7 +118,9 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePlayerPacket.html">IPixelGamePlayerPacket</a></div>
       <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html">IPixelGamePacket</a></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html">IPacketOutConvertible</a></div>
     </dd>
   </dl>
 
@@ -162,7 +164,7 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket__ctor_System_Int32_System_Int32_System_Byte_" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.#ctor(System.Int32,System.Int32,System.Byte)">
   LocalSwitchChangedPacket(int, int, byte)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.5.2/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -201,7 +203,7 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_Enabled" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.Enabled">
   Enabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.5.2/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -232,7 +234,7 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.PlayerId">
   PlayerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.5.2/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -263,7 +265,7 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
 
   <h3 id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_SwitchId" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.SwitchId">
   SwitchId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.5.2/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -290,11 +292,46 @@ Class LocalSwitchChangedPacket  <a class="header-action link-secondary" title="V
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_AsPacketOut_" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut*"></a>
+
+  <h3 id="PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_AsPacketOut" data-uid="PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut">
+  AsPacketOut()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPixelGamePacketOut AsPacketOut()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut.html">IPixelGamePacketOut</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.5.2/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/LocalSwitchChangedPacket.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

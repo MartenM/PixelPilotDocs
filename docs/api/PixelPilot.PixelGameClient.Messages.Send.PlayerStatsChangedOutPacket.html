@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class SystemMessagePacket | PixelPilot </title>
+      <title>Class PlayerStatsChangedOutPacket | PixelPilot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class SystemMessagePacket | PixelPilot ">
+      <meta name="title" content="Class PlayerStatsChangedOutPacket | PixelPilot ">
       
       
       <link rel="icon" href="../images/pixel_pilot.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.6.0/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.6.0/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket">
+        <article data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket">
 
 
 
-  <h1 id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket" class="text-break">
-Class SystemMessagePacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/SystemMessagePacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  <h1 id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket" class="text-break">
+Class PlayerStatsChangedOutPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerStatsChangedOutPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.html">Messages</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.Received.html">Received</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.html">Messages</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.html">Send</a></dd></dl>
   <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SystemMessagePacket : IPixelGamePacket</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerStatsChangedOutPacket : ReflectivePixelOutPacket, IPixelGamePacketOut</code></pre>
   </div>
 
 
@@ -111,14 +111,15 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">SystemMessagePacket</span></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html">ReflectivePixelOutPacket</a></div>
+      <div><span class="xref">PlayerStatsChangedOutPacket</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html">IPixelGamePacket</a></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut.html">IPixelGamePacketOut</a></div>
     </dd>
   </dl>
 
@@ -126,6 +127,18 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_messageType">ReflectivePixelOutPacket.messageType</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_GetFields_System_Boolean_">ReflectivePixelOutPacket.GetFields(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_GetFields">ReflectivePixelOutPacket.GetFields()</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_ToBinaryPacket">ReflectivePixelOutPacket.ToBinaryPacket()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -158,27 +171,27 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.#ctor*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket__ctor_System_String_System_String_System_Boolean_" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.#ctor(System.String,System.String,System.Boolean)">
-  SystemMessagePacket(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/SystemMessagePacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket__ctor_System_Int32_System_Int32_System_Int32_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.#ctor(System.Int32,System.Int32,System.Int32)">
+  PlayerStatsChangedOutPacket(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerStatsChangedOutPacket.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SystemMessagePacket(string prefix, string message, bool magic)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerStatsChangedOutPacket(int goldCoins, int blueCoins, int deathCount)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>prefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>goldCoins</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>blueCoins</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
-    <dt><code>magic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>deathCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -197,18 +210,18 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Magic_" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_BlueCoins_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Magic" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic">
-  Magic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/SystemMessagePacket.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_BlueCoins" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins">
+  BlueCoins
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerStatsChangedOutPacket.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Magic { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int BlueCoins { get; }</code></pre>
   </div>
 
 
@@ -217,7 +230,7 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -228,18 +241,18 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Message_" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Message*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_DeathCount_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Message" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Message">
-  Message
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/SystemMessagePacket.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_DeathCount" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount">
+  DeathCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerStatsChangedOutPacket.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int DeathCount { get; }</code></pre>
   </div>
 
 
@@ -248,7 +261,7 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -259,18 +272,18 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Prefix_" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Prefix*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_GoldCoins_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Prefix" data-uid="PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Prefix">
-  Prefix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/SystemMessagePacket.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_GoldCoins" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins">
+  GoldCoins
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerStatsChangedOutPacket.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Prefix { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int GoldCoins { get; }</code></pre>
   </div>
 
 
@@ -279,7 +292,7 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -294,7 +307,7 @@ Class SystemMessagePacket  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Received/SystemMessagePacket.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.6.0/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerStatsChangedOutPacket.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

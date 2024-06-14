@@ -1318,6 +1318,25 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Exceptions.PixelException.New
   nameWithType: PixelException.PixelException
   nameWithType.vb: PixelException.New
+- uid: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible
+  name: IPacketOutConvertible
+  href: api/PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.IPacketOutConvertible
+  fullName: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible
+  nameWithType: IPacketOutConvertible
+- uid: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html#PixelPilot_PixelGameClient_Messages_IPacketOutConvertible_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.AsPacketOut()
+  nameWithType: IPacketOutConvertible.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html#PixelPilot_PixelGameClient_Messages_IPacketOutConvertible_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.AsPacketOut
+  nameWithType: IPacketOutConvertible.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.IPixelGamePacket
   name: IPixelGamePacket
   href: api/PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html
@@ -1733,6 +1752,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.New
   nameWithType: GlobalSwitchChangedPacket.GlobalSwitchChangedPacket
   nameWithType.vb: GlobalSwitchChangedPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchChangedPacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.AsPacketOut()
+  nameWithType: GlobalSwitchChangedPacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchChangedPacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.AsPacketOut
+  nameWithType: GlobalSwitchChangedPacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.Enabled
   name: Enabled
   href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchChangedPacket_Enabled
@@ -1797,6 +1829,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.New
   nameWithType: GlobalSwitchResetPacket.GlobalSwitchResetPacket
   nameWithType.vb: GlobalSwitchResetPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.AsPacketOut()
+  nameWithType: GlobalSwitchResetPacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.AsPacketOut
+  nameWithType: GlobalSwitchResetPacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.Enabled
   name: Enabled
   href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_Enabled
@@ -1810,19 +1855,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.Enabled
   nameWithType: GlobalSwitchResetPacket.Enabled
-- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.SwitchId
-  name: SwitchId
-  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_SwitchId
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.SwitchId
-  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.SwitchId
-  nameWithType: GlobalSwitchResetPacket.SwitchId
-- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.SwitchId*
-  name: SwitchId
-  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_SwitchId_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.SwitchId
+- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.PlayerId
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_PlayerId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.PlayerId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.PlayerId
+  nameWithType: GlobalSwitchResetPacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.PlayerId*
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_GlobalSwitchResetPacket_PlayerId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.PlayerId
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.SwitchId
-  nameWithType: GlobalSwitchResetPacket.SwitchId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.PlayerId
+  nameWithType: GlobalSwitchResetPacket.PlayerId
 - uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket
   name: InitPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html
@@ -2094,6 +2139,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.New
   nameWithType: LocalSwitchChangedPacket.LocalSwitchChangedPacket
   nameWithType.vb: LocalSwitchChangedPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut()
+  nameWithType: LocalSwitchChangedPacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.AsPacketOut
+  nameWithType: LocalSwitchChangedPacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.Enabled
   name: Enabled
   href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchChangedPacket_Enabled
@@ -2158,6 +2216,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.New
   nameWithType: LocalSwitchResetPacket.LocalSwitchResetPacket
   nameWithType.vb: LocalSwitchResetPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.AsPacketOut()
+  nameWithType: LocalSwitchResetPacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.AsPacketOut
+  nameWithType: LocalSwitchResetPacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.Enabled
   name: Enabled
   href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_Enabled
@@ -2171,19 +2242,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.Enabled
   nameWithType: LocalSwitchResetPacket.Enabled
-- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.SwitchId
-  name: SwitchId
-  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_SwitchId
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.SwitchId
-  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.SwitchId
-  nameWithType: LocalSwitchResetPacket.SwitchId
-- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.SwitchId*
-  name: SwitchId
-  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_SwitchId_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.SwitchId
+- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_PlayerId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId
+  nameWithType: LocalSwitchResetPacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId*
+  name: PlayerId
+  href: api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_LocalSwitchResetPacket_PlayerId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.SwitchId
-  nameWithType: LocalSwitchResetPacket.SwitchId
+  fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId
+  nameWithType: LocalSwitchResetPacket.PlayerId
 - uid: PixelPilot.PixelGameClient.Messages.Received.PingPacket
   name: PingPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PingPacket.html
@@ -2215,6 +2286,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.New
   nameWithType: PlayerChatPacket.PlayerChatPacket
   nameWithType.vb: PlayerChatPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut()
+  nameWithType: PlayerChatPacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut
+  nameWithType: PlayerChatPacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.Message
   name: Message
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_Message
@@ -2266,6 +2350,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.New
   nameWithType: PlayerFacePacket.PlayerFacePacket
   nameWithType.vb: PlayerFacePacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerFacePacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.AsPacketOut()
+  nameWithType: PlayerFacePacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerFacePacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.AsPacketOut
+  nameWithType: PlayerFacePacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.Face
   name: Face
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerFacePacket_Face
@@ -2317,6 +2414,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.New
   nameWithType: PlayerGodmodePacket.PlayerGodmodePacket
   nameWithType.vb: PlayerGodmodePacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerGodmodePacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.AsPacketOut()
+  nameWithType: PlayerGodmodePacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerGodmodePacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.AsPacketOut
+  nameWithType: PlayerGodmodePacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.IsEnabled
   name: IsEnabled
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerGodmodePacket_IsEnabled
@@ -2652,6 +2762,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.New
   nameWithType: PlayerModMode.PlayerModMode
   nameWithType.vb: PlayerModMode.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.html#PixelPilot_PixelGameClient_Messages_Received_PlayerModMode_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.AsPacketOut()
+  nameWithType: PlayerModMode.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.html#PixelPilot_PixelGameClient_Messages_Received_PlayerModMode_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.AsPacketOut
+  nameWithType: PlayerModMode.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.IsEnabled
   name: IsEnabled
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.html#PixelPilot_PixelGameClient_Messages_Received_PlayerModMode_IsEnabled
@@ -2703,6 +2826,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.New
   nameWithType: PlayerMovePacket.PlayerMovePacket
   nameWithType.vb: PlayerMovePacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut()
+  nameWithType: PlayerMovePacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut
+  nameWithType: PlayerMovePacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.Horizontal
   name: Horizontal
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_Horizontal
@@ -3063,6 +3199,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.New
   nameWithType: PlayerStatsChangePacket.PlayerStatsChangePacket
   nameWithType.vb: PlayerStatsChangePacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerStatsChangePacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.AsPacketOut()
+  nameWithType: PlayerStatsChangePacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerStatsChangePacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.AsPacketOut
+  nameWithType: PlayerStatsChangePacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.BlueCoins
   name: BlueCoins
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerStatsChangePacket_BlueCoins
@@ -3204,6 +3353,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.New
   nameWithType: PlayerTouchBlockPacket.PlayerTouchBlockPacket
   nameWithType.vb: PlayerTouchBlockPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.AsPacketOut
+  name: AsPacketOut()
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_AsPacketOut
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.AsPacketOut
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.AsPacketOut()
+  nameWithType: PlayerTouchBlockPacket.AsPacketOut()
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.AsPacketOut
+  nameWithType: PlayerTouchBlockPacket.AsPacketOut
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.BlockId
   name: BlockId
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerTouchBlockPacket_BlockId
@@ -3698,6 +3860,95 @@ references:
   commentId: N:PixelPilot.PixelGameClient.Messages.Send
   fullName: PixelPilot.PixelGameClient.Messages.Send
   nameWithType: PixelPilot.PixelGameClient.Messages.Send
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket
+  name: GlobalSwitchChangeOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket
+  nameWithType: GlobalSwitchChangeOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor(System.Int32,System.Boolean)
+  name: GlobalSwitchChangeOutPacket(int, bool)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket__ctor_System_Int32_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor(System.Int32,System.Boolean)
+  name.vb: New(Integer, Boolean)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.GlobalSwitchChangeOutPacket(int, bool)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.New(Integer, Boolean)
+  nameWithType: GlobalSwitchChangeOutPacket.GlobalSwitchChangeOutPacket(int, bool)
+  nameWithType.vb: GlobalSwitchChangeOutPacket.New(Integer, Boolean)
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor*
+  name: GlobalSwitchChangeOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.GlobalSwitchChangeOutPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.New
+  nameWithType: GlobalSwitchChangeOutPacket.GlobalSwitchChangeOutPacket
+  nameWithType.vb: GlobalSwitchChangeOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.Enabled
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket_Enabled
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.Enabled
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.Enabled
+  nameWithType: GlobalSwitchChangeOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.Enabled*
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket_Enabled_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.Enabled
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.Enabled
+  nameWithType: GlobalSwitchChangeOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.SwitchId
+  name: SwitchId
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket_SwitchId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.SwitchId
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.SwitchId
+  nameWithType: GlobalSwitchChangeOutPacket.SwitchId
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.SwitchId*
+  name: SwitchId
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket_SwitchId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.SwitchId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.SwitchId
+  nameWithType: GlobalSwitchChangeOutPacket.SwitchId
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket
+  name: GlobalSwitchResetOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket
+  nameWithType: GlobalSwitchResetOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor(System.Boolean)
+  name: GlobalSwitchResetOutPacket(bool)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchResetOutPacket__ctor_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.GlobalSwitchResetOutPacket(bool)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.New(Boolean)
+  nameWithType: GlobalSwitchResetOutPacket.GlobalSwitchResetOutPacket(bool)
+  nameWithType.vb: GlobalSwitchResetOutPacket.New(Boolean)
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor*
+  name: GlobalSwitchResetOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchResetOutPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.GlobalSwitchResetOutPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.New
+  nameWithType: GlobalSwitchResetOutPacket.GlobalSwitchResetOutPacket
+  nameWithType.vb: GlobalSwitchResetOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.Enabled
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchResetOutPacket_Enabled
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.Enabled
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.Enabled
+  nameWithType: GlobalSwitchResetOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.Enabled*
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchResetOutPacket_Enabled_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.Enabled
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.Enabled
+  nameWithType: GlobalSwitchResetOutPacket.Enabled
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerChatOutPacket
   name: PlayerChatOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerChatOutPacket.html
@@ -3799,6 +4050,108 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.New
   nameWithType: PlayerGodmodeOutPacket.PlayerGodmodeOutPacket
   nameWithType.vb: PlayerGodmodeOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.Enabled
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerGodmodeOutPacket_Enabled
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.Enabled
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.Enabled
+  nameWithType: PlayerGodmodeOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.Enabled*
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerGodmodeOutPacket_Enabled_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.Enabled
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.Enabled
+  nameWithType: PlayerGodmodeOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket
+  name: PlayerLocalSwitchChangedOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket
+  nameWithType: PlayerLocalSwitchChangedOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor(System.Int32,System.Boolean)
+  name: PlayerLocalSwitchChangedOutPacket(int, bool)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket__ctor_System_Int32_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor(System.Int32,System.Boolean)
+  name.vb: New(Integer, Boolean)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.PlayerLocalSwitchChangedOutPacket(int, bool)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.New(Integer, Boolean)
+  nameWithType: PlayerLocalSwitchChangedOutPacket.PlayerLocalSwitchChangedOutPacket(int, bool)
+  nameWithType.vb: PlayerLocalSwitchChangedOutPacket.New(Integer, Boolean)
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor*
+  name: PlayerLocalSwitchChangedOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.PlayerLocalSwitchChangedOutPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.New
+  nameWithType: PlayerLocalSwitchChangedOutPacket.PlayerLocalSwitchChangedOutPacket
+  nameWithType.vb: PlayerLocalSwitchChangedOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.Enabled
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket_Enabled
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.Enabled
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.Enabled
+  nameWithType: PlayerLocalSwitchChangedOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.Enabled*
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket_Enabled_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.Enabled
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.Enabled
+  nameWithType: PlayerLocalSwitchChangedOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.SwitchId
+  name: SwitchId
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket_SwitchId
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.SwitchId
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.SwitchId
+  nameWithType: PlayerLocalSwitchChangedOutPacket.SwitchId
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.SwitchId*
+  name: SwitchId
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket_SwitchId_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.SwitchId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.SwitchId
+  nameWithType: PlayerLocalSwitchChangedOutPacket.SwitchId
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket
+  name: PlayerLocalSwitchResetOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket
+  nameWithType: PlayerLocalSwitchResetOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor(System.Boolean)
+  name: PlayerLocalSwitchResetOutPacket(bool)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchResetOutPacket__ctor_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.PlayerLocalSwitchResetOutPacket(bool)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.New(Boolean)
+  nameWithType: PlayerLocalSwitchResetOutPacket.PlayerLocalSwitchResetOutPacket(bool)
+  nameWithType.vb: PlayerLocalSwitchResetOutPacket.New(Boolean)
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor*
+  name: PlayerLocalSwitchResetOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchResetOutPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.PlayerLocalSwitchResetOutPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.New
+  nameWithType: PlayerLocalSwitchResetOutPacket.PlayerLocalSwitchResetOutPacket
+  nameWithType.vb: PlayerLocalSwitchResetOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.Enabled
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchResetOutPacket_Enabled
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.Enabled
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.Enabled
+  nameWithType: PlayerLocalSwitchResetOutPacket.Enabled
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.Enabled*
+  name: Enabled
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchResetOutPacket_Enabled_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.Enabled
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.Enabled
+  nameWithType: PlayerLocalSwitchResetOutPacket.Enabled
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket
   name: PlayerMoveOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html
@@ -3967,21 +4320,85 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.Y
   nameWithType: PlayerMoveOutPacket.Y
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket
+  name: PlayerStatsChangedOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket
+  nameWithType: PlayerStatsChangedOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.#ctor(System.Int32,System.Int32,System.Int32)
+  name: PlayerStatsChangedOutPacket(int, int, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket__ctor_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.#ctor(System.Int32,System.Int32,System.Int32)
+  name.vb: New(Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.PlayerStatsChangedOutPacket(int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.New(Integer, Integer, Integer)
+  nameWithType: PlayerStatsChangedOutPacket.PlayerStatsChangedOutPacket(int, int, int)
+  nameWithType.vb: PlayerStatsChangedOutPacket.New(Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.#ctor*
+  name: PlayerStatsChangedOutPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.PlayerStatsChangedOutPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.New
+  nameWithType: PlayerStatsChangedOutPacket.PlayerStatsChangedOutPacket
+  nameWithType.vb: PlayerStatsChangedOutPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins
+  name: BlueCoins
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_BlueCoins
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins
+  nameWithType: PlayerStatsChangedOutPacket.BlueCoins
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins*
+  name: BlueCoins
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_BlueCoins_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.BlueCoins
+  nameWithType: PlayerStatsChangedOutPacket.BlueCoins
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount
+  name: DeathCount
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_DeathCount
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount
+  nameWithType: PlayerStatsChangedOutPacket.DeathCount
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount*
+  name: DeathCount
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_DeathCount_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.DeathCount
+  nameWithType: PlayerStatsChangedOutPacket.DeathCount
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins
+  name: GoldCoins
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_GoldCoins
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins
+  nameWithType: PlayerStatsChangedOutPacket.GoldCoins
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins*
+  name: GoldCoins
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerStatsChangedOutPacket_GoldCoins_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.GoldCoins
+  nameWithType: PlayerStatsChangedOutPacket.GoldCoins
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket
   name: PlayerTouchBlockOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket
   nameWithType: PlayerTouchBlockOutPacket
-- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor
-  name: PlayerTouchBlockOutPacket()
-  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket__ctor
-  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor
-  name.vb: New()
-  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket()
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.New()
-  nameWithType: PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket()
-  nameWithType.vb: PlayerTouchBlockOutPacket.New()
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor(System.Int32,System.Int32,System.Int32)
+  name: PlayerTouchBlockOutPacket(int, int, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket__ctor_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor(System.Int32,System.Int32,System.Int32)
+  name.vb: New(Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket(int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.New(Integer, Integer, Integer)
+  nameWithType: PlayerTouchBlockOutPacket.PlayerTouchBlockOutPacket(int, int, int)
+  nameWithType.vb: PlayerTouchBlockOutPacket.New(Integer, Integer, Integer)
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.#ctor*
   name: PlayerTouchBlockOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerTouchBlockOutPacket__ctor_
@@ -4289,6 +4706,32 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.Build
   nameWithType: PixelGameClientBuilder.Build
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.ConfigurePacketQueue
+  name: ConfigurePacketQueue
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_ConfigurePacketQueue
+  commentId: P:PixelPilot.PixelGameClient.PixelGameClientBuilder.ConfigurePacketQueue
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.ConfigurePacketQueue
+  nameWithType: PixelGameClientBuilder.ConfigurePacketQueue
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.ConfigurePacketQueue*
+  name: ConfigurePacketQueue
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_ConfigurePacketQueue_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelGameClientBuilder.ConfigurePacketQueue
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.ConfigurePacketQueue
+  nameWithType: PixelGameClientBuilder.ConfigurePacketQueue
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.DisablePacketQueue
+  name: DisablePacketQueue()
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_DisablePacketQueue
+  commentId: M:PixelPilot.PixelGameClient.PixelGameClientBuilder.DisablePacketQueue
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.DisablePacketQueue()
+  nameWithType: PixelGameClientBuilder.DisablePacketQueue()
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.DisablePacketQueue*
+  name: DisablePacketQueue
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_DisablePacketQueue_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelGameClientBuilder.DisablePacketQueue
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.DisablePacketQueue
+  nameWithType: PixelGameClientBuilder.DisablePacketQueue
 - uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.Email
   name: Email
   href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_Email
@@ -4315,6 +4758,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.Password
   nameWithType: PixelGameClientBuilder.Password
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.Prefix
+  name: Prefix
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_Prefix
+  commentId: P:PixelPilot.PixelGameClient.PixelGameClientBuilder.Prefix
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.Prefix
+  nameWithType: PixelGameClientBuilder.Prefix
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.Prefix*
+  name: Prefix
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_Prefix_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelGameClientBuilder.Prefix
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.Prefix
+  nameWithType: PixelGameClientBuilder.Prefix
 - uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetAutomaticReconnect(System.Boolean)
   name: SetAutomaticReconnect(bool)
   href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetAutomaticReconnect_System_Boolean_
@@ -4363,6 +4819,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPassword
   nameWithType: PixelGameClientBuilder.SetPassword
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix(System.String)
+  name: SetPrefix(string?)
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetPrefix_System_String_
+  commentId: M:PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix(System.String)
+  name.vb: SetPrefix(String)
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix(string?)
+  fullName.vb: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix(String)
+  nameWithType: PixelGameClientBuilder.SetPrefix(string?)
+  nameWithType.vb: PixelGameClientBuilder.SetPrefix(String)
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix*
+  name: SetPrefix
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetPrefix_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix
+  nameWithType: PixelGameClientBuilder.SetPrefix
 - uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetToken(System.String)
   name: SetToken(string)
   href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetToken_System_String_
@@ -4423,15 +4895,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.PixelPilotClient
   fullName: PixelPilot.PixelGameClient.PixelPilotClient
   nameWithType: PixelPilotClient
-- uid: PixelPilot.PixelGameClient.PixelPilotClient.#ctor(PixelPilot.PixelHttpClient.PixelApiClient,System.Boolean)
-  name: PixelPilotClient(PixelApiClient, bool)
-  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient__ctor_PixelPilot_PixelHttpClient_PixelApiClient_System_Boolean_
-  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.#ctor(PixelPilot.PixelHttpClient.PixelApiClient,System.Boolean)
-  name.vb: New(PixelApiClient, Boolean)
-  fullName: PixelPilot.PixelGameClient.PixelPilotClient.PixelPilotClient(PixelPilot.PixelHttpClient.PixelApiClient, bool)
-  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.New(PixelPilot.PixelHttpClient.PixelApiClient, Boolean)
-  nameWithType: PixelPilotClient.PixelPilotClient(PixelApiClient, bool)
-  nameWithType.vb: PixelPilotClient.New(PixelApiClient, Boolean)
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.#ctor(PixelPilot.PixelHttpClient.PixelApiClient,System.Boolean,System.String,System.Func{PixelPilot.PixelGameClient.PixelPilotClient,PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue})
+  name: PixelPilotClient(PixelApiClient, bool, string?, Func<PixelPilotClient, IPixelPacketQueue?>)
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient__ctor_PixelPilot_PixelHttpClient_PixelApiClient_System_Boolean_System_String_System_Func_PixelPilot_PixelGameClient_PixelPilotClient_PixelPilot_PixelGameClient_Messages_Queue_IPixelPacketQueue__
+  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.#ctor(PixelPilot.PixelHttpClient.PixelApiClient,System.Boolean,System.String,System.Func{PixelPilot.PixelGameClient.PixelPilotClient,PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue})
+  name.vb: New(PixelApiClient, Boolean, String, Func(Of PixelPilotClient, IPixelPacketQueue))
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.PixelPilotClient(PixelPilot.PixelHttpClient.PixelApiClient, bool, string?, System.Func<PixelPilot.PixelGameClient.PixelPilotClient, PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue?>)
+  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.New(PixelPilot.PixelHttpClient.PixelApiClient, Boolean, String, System.Func(Of PixelPilot.PixelGameClient.PixelPilotClient, PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue))
+  nameWithType: PixelPilotClient.PixelPilotClient(PixelApiClient, bool, string?, Func<PixelPilotClient, IPixelPacketQueue?>)
+  nameWithType.vb: PixelPilotClient.New(PixelApiClient, Boolean, String, Func(Of PixelPilotClient, IPixelPacketQueue))
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.#ctor*
   name: PixelPilotClient
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient__ctor_
@@ -4661,15 +5133,15 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.Send
   nameWithType: PixelPilotClient.Send
-- uid: PixelPilot.PixelGameClient.PixelPilotClient.SendChat(System.String)
-  name: SendChat(string)
-  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SendChat_System_String_
-  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.SendChat(System.String)
-  name.vb: SendChat(String)
-  fullName: PixelPilot.PixelGameClient.PixelPilotClient.SendChat(string)
-  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.SendChat(String)
-  nameWithType: PixelPilotClient.SendChat(string)
-  nameWithType.vb: PixelPilotClient.SendChat(String)
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.SendChat(System.String,System.Boolean)
+  name: SendChat(string, bool)
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SendChat_System_String_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.SendChat(System.String,System.Boolean)
+  name.vb: SendChat(String, Boolean)
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.SendChat(string, bool)
+  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.SendChat(String, Boolean)
+  nameWithType: PixelPilotClient.SendChat(string, bool)
+  nameWithType.vb: PixelPilotClient.SendChat(String, Boolean)
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.SendChat*
   name: SendChat
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SendChat_
