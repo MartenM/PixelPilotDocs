@@ -4680,6 +4680,12 @@ references:
   commentId: T:PixelPilot.PixelGameClient.PixelGameClientBuilder
   fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder
   nameWithType: PixelGameClientBuilder
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.ApiClient
+  name: ApiClient
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_ApiClient
+  commentId: F:PixelPilot.PixelGameClient.PixelGameClientBuilder.ApiClient
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.ApiClient
+  nameWithType: PixelGameClientBuilder.ApiClient
 - uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.AutomaticReconnect
   name: AutomaticReconnect
   href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_AutomaticReconnect
@@ -4819,6 +4825,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPassword
   nameWithType: PixelGameClientBuilder.SetPassword
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi(PixelPilot.PixelHttpClient.PixelApiClient)
+  name: SetPixelApi(PixelApiClient?)
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetPixelApi_PixelPilot_PixelHttpClient_PixelApiClient_
+  commentId: M:PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi(PixelPilot.PixelHttpClient.PixelApiClient)
+  name.vb: SetPixelApi(PixelApiClient)
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi(PixelPilot.PixelHttpClient.PixelApiClient?)
+  fullName.vb: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi(PixelPilot.PixelHttpClient.PixelApiClient)
+  nameWithType: PixelGameClientBuilder.SetPixelApi(PixelApiClient?)
+  nameWithType.vb: PixelGameClientBuilder.SetPixelApi(PixelApiClient)
+- uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi*
+  name: SetPixelApi
+  href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetPixelApi_
+  commentId: Overload:PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPixelApi
+  nameWithType: PixelGameClientBuilder.SetPixelApi
 - uid: PixelPilot.PixelGameClient.PixelGameClientBuilder.SetPrefix(System.String)
   name: SetPrefix(string?)
   href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html#PixelPilot_PixelGameClient_PixelGameClientBuilder_SetPrefix_System_String_
