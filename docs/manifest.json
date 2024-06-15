@@ -262,6 +262,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorException.yml",
       "output": {
         ".html": {
@@ -296,6 +306,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket.html"
         }
       },
       "version": ""
@@ -446,6 +466,26 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html"
         }
       },
       "version": ""

@@ -1072,6 +1072,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.GlobalSwitchReset
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.GlobalSwitchReset
   nameWithType: WorldMessageType.GlobalSwitchReset
+- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.OldChatMessages
+  name: OldChatMessages
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_OldChatMessages
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.OldChatMessages
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.OldChatMessages
+  nameWithType: WorldMessageType.OldChatMessages
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCounters
   name: PlayerCounters
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerCounters
@@ -1204,6 +1210,31 @@ references:
   commentId: N:PixelPilot.PixelGameClient.Messages.Exceptions
   fullName: PixelPilot.PixelGameClient.Messages.Exceptions
   nameWithType: PixelPilot.PixelGameClient.Messages.Exceptions
+- uid: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException
+  name: PacketConstructorDynamicException
+  href: api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException
+  fullName: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException
+  nameWithType: PacketConstructorDynamicException
+- uid: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.#ctor(System.String)
+  name: PacketConstructorDynamicException(string)
+  href: api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.html#PixelPilot_PixelGameClient_Messages_Exceptions_PacketConstructorDynamicException__ctor_System_String_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.PacketConstructorDynamicException(string)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.New(String)
+  nameWithType: PacketConstructorDynamicException.PacketConstructorDynamicException(string)
+  nameWithType.vb: PacketConstructorDynamicException.New(String)
+- uid: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.#ctor*
+  name: PacketConstructorDynamicException
+  href: api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.html#PixelPilot_PixelGameClient_Messages_Exceptions_PacketConstructorDynamicException__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.PacketConstructorDynamicException
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.New
+  nameWithType: PacketConstructorDynamicException.PacketConstructorDynamicException
+  nameWithType.vb: PacketConstructorDynamicException.New
 - uid: PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorException
   name: PacketConstructorException
   href: api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorException.html
@@ -1318,6 +1349,12 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Exceptions.PixelException.New
   nameWithType: PixelException.PixelException
   nameWithType.vb: PixelException.New
+- uid: PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket
+  name: IDynamicConstructedPacket
+  href: api/PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket
+  fullName: PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket
+  nameWithType: IDynamicConstructedPacket
 - uid: PixelPilot.PixelGameClient.Messages.IPacketOutConvertible
   name: IPacketOutConvertible
   href: api/PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html
@@ -1874,15 +1911,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.InitPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket
   nameWithType: InitPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Boolean,System.Boolean,System.String,System.Int32,System.String,System.Byte[],System.Int32,System.Int32,System.Byte[])
-  name: InitPacket(int, string, string, int, bool, double, double, bool, bool, string, int, string, byte[], int, int, byte[])
-  href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html#PixelPilot_PixelGameClient_Messages_Received_InitPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Double_System_Double_System_Boolean_System_Boolean_System_String_System_Int32_System_String_System_Byte___System_Int32_System_Int32_System_Byte___
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.InitPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Boolean,System.Boolean,System.String,System.Int32,System.String,System.Byte[],System.Int32,System.Int32,System.Byte[])
-  name.vb: New(Integer, String, String, Integer, Boolean, Double, Double, Boolean, Boolean, String, Integer, String, Byte(), Integer, Integer, Byte())
-  fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket.InitPacket(int, string, string, int, bool, double, double, bool, bool, string, int, string, byte[], int, int, byte[])
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.InitPacket.New(Integer, String, String, Integer, Boolean, Double, Double, Boolean, Boolean, String, Integer, String, Byte(), Integer, Integer, Byte())
-  nameWithType: InitPacket.InitPacket(int, string, string, int, bool, double, double, bool, bool, string, int, string, byte[], int, int, byte[])
-  nameWithType.vb: InitPacket.New(Integer, String, String, Integer, Boolean, Double, Double, Boolean, Boolean, String, Integer, String, Byte(), Integer, Integer, Byte())
+- uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Int32,System.Boolean,System.Boolean,System.String,System.Int32,System.String,System.Byte[],System.Int32,System.Int32,System.Byte[])
+  name: InitPacket(int, string, string, int, bool, double, double, int, bool, bool, string, int, string, byte[], int, int, byte[])
+  href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html#PixelPilot_PixelGameClient_Messages_Received_InitPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Double_System_Double_System_Int32_System_Boolean_System_Boolean_System_String_System_Int32_System_String_System_Byte___System_Int32_System_Int32_System_Byte___
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.InitPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Int32,System.Boolean,System.Boolean,System.String,System.Int32,System.String,System.Byte[],System.Int32,System.Int32,System.Byte[])
+  name.vb: New(Integer, String, String, Integer, Boolean, Double, Double, Integer, Boolean, Boolean, String, Integer, String, Byte(), Integer, Integer, Byte())
+  fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket.InitPacket(int, string, string, int, bool, double, double, int, bool, bool, string, int, string, byte[], int, int, byte[])
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.InitPacket.New(Integer, String, String, Integer, Boolean, Double, Double, Integer, Boolean, Boolean, String, Integer, String, Byte(), Integer, Integer, Byte())
+  nameWithType: InitPacket.InitPacket(int, string, string, int, bool, double, double, int, bool, bool, string, int, string, byte[], int, int, byte[])
+  nameWithType.vb: InitPacket.New(Integer, String, String, Integer, Boolean, Double, Double, Integer, Boolean, Boolean, String, Integer, String, Byte(), Integer, Integer, Byte())
 - uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket.#ctor*
   name: InitPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html#PixelPilot_PixelGameClient_Messages_Received_InitPacket__ctor_
@@ -1945,6 +1982,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket.CanGod
   nameWithType: InitPacket.CanGod
+- uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket.ChatColor
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html#PixelPilot_PixelGameClient_Messages_Received_InitPacket_ChatColor
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.InitPacket.ChatColor
+  fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket.ChatColor
+  nameWithType: InitPacket.ChatColor
+- uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket.ChatColor*
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html#PixelPilot_PixelGameClient_Messages_Received_InitPacket_ChatColor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.InitPacket.ChatColor
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.InitPacket.ChatColor
+  nameWithType: InitPacket.ChatColor
 - uid: PixelPilot.PixelGameClient.Messages.Received.InitPacket.Face
   name: Face
   href: api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html#PixelPilot_PixelGameClient_Messages_Received_InitPacket_Face
@@ -2255,6 +2305,108 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.PlayerId
   nameWithType: LocalSwitchResetPacket.PlayerId
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket
+  name: OldChatMessagesPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket
+  nameWithType: OldChatMessagesPacket
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.#ctor(System.Collections.Generic.IReadOnlyList{System.Object})
+  name: OldChatMessagesPacket(IReadOnlyList<dynamic>)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket__ctor_System_Collections_Generic_IReadOnlyList_System_Object__
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.#ctor(System.Collections.Generic.IReadOnlyList{System.Object})
+  name.vb: New(IReadOnlyList(Of Object))
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.OldChatMessagesPacket(System.Collections.Generic.IReadOnlyList<dynamic>)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.New(System.Collections.Generic.IReadOnlyList(Of Object))
+  nameWithType: OldChatMessagesPacket.OldChatMessagesPacket(IReadOnlyList<dynamic>)
+  nameWithType.vb: OldChatMessagesPacket.New(IReadOnlyList(Of Object))
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.#ctor*
+  name: OldChatMessagesPacket
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.OldChatMessagesPacket
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.New
+  nameWithType: OldChatMessagesPacket.OldChatMessagesPacket
+  nameWithType.vb: OldChatMessagesPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage
+  name: OldChatMessagesPacket.ChatMessage
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage
+  nameWithType: OldChatMessagesPacket.ChatMessage
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.#ctor(System.String,System.String,System.Int32)
+  name: ChatMessage(string, string, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage__ctor_System_String_System_String_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.#ctor(System.String,System.String,System.Int32)
+  name.vb: New(String, String, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatMessage(string, string, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.New(String, String, Integer)
+  nameWithType: OldChatMessagesPacket.ChatMessage.ChatMessage(string, string, int)
+  nameWithType.vb: OldChatMessagesPacket.ChatMessage.New(String, String, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.#ctor*
+  name: ChatMessage
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatMessage
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.New
+  nameWithType: OldChatMessagesPacket.ChatMessage.ChatMessage
+  nameWithType.vb: OldChatMessagesPacket.ChatMessage.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatColor
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage_ChatColor
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatColor
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatColor
+  nameWithType: OldChatMessagesPacket.ChatMessage.ChatColor
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatColor*
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage_ChatColor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatColor
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.ChatColor
+  nameWithType: OldChatMessagesPacket.ChatMessage.ChatColor
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Message
+  name: Message
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage_Message
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Message
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Message
+  nameWithType: OldChatMessagesPacket.ChatMessage.Message
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Message*
+  name: Message
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage_Message_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Message
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Message
+  nameWithType: OldChatMessagesPacket.ChatMessage.Message
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Username
+  name: Username
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage_Username
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Username
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Username
+  nameWithType: OldChatMessagesPacket.ChatMessage.Username
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Username*
+  name: Username
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_ChatMessage_Username_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Username
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.Username
+  nameWithType: OldChatMessagesPacket.ChatMessage.Username
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.Messages
+  name: Messages
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_Messages
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.Messages
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.Messages
+  nameWithType: OldChatMessagesPacket.Messages
+- uid: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.Messages*
+  name: Messages
+  href: api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html#PixelPilot_PixelGameClient_Messages_Received_OldChatMessagesPacket_Messages_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.Messages
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.Messages
+  nameWithType: OldChatMessagesPacket.Messages
 - uid: PixelPilot.PixelGameClient.Messages.Received.PingPacket
   name: PingPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PingPacket.html
@@ -2459,15 +2611,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket
   nameWithType: PlayerJoinPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
-  name: PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Byte___
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
-  name.vb: New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
-  nameWithType: PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, bool, bool, bool, bool, byte[])
-  nameWithType.vb: PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
+  name: PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, int, bool, bool, bool, bool, byte[])
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Byte___
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte[])
+  name.vb: New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, int, bool, bool, bool, bool, byte[])
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
+  nameWithType: PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, double, double, int, int, int, int, bool, bool, bool, bool, byte[])
+  nameWithType.vb: PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Byte())
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor*
   name: PlayerJoinPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_
@@ -2491,6 +2643,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.BlueCoins
   nameWithType: PlayerJoinPacket.BlueCoins
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.ChatColor
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_ChatColor
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.ChatColor
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.ChatColor
+  nameWithType: PlayerJoinPacket.ChatColor
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.ChatColor*
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_ChatColor_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.ChatColor
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.ChatColor
+  nameWithType: PlayerJoinPacket.ChatColor
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.Coins
   name: Coins
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_Coins
@@ -5269,15 +5434,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Players.Basic.Player.New(PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket)
   nameWithType: Player.Player(PlayerJoinPacket)
   nameWithType.vb: Player.New(PlayerJoinPacket)
-- uid: PixelPilot.PixelGameClient.Players.Basic.Player.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  name: Player(int, string, string, int, bool, double, double, int, int, int, bool, bool, bool, bool, bool)
-  href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:PixelPilot.PixelGameClient.Players.Basic.Player.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  name.vb: New(Integer, String, String, Integer, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Boolean)
-  fullName: PixelPilot.PixelGameClient.Players.Basic.Player.Player(int, string, string, int, bool, double, double, int, int, int, bool, bool, bool, bool, bool)
-  fullName.vb: PixelPilot.PixelGameClient.Players.Basic.Player.New(Integer, String, String, Integer, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Boolean)
-  nameWithType: Player.Player(int, string, string, int, bool, double, double, int, int, int, bool, bool, bool, bool, bool)
-  nameWithType.vb: Player.New(Integer, String, String, Integer, Boolean, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Boolean)
+- uid: PixelPilot.PixelGameClient.Players.Basic.Player.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Drawing.Color,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Player(int, string, string, int, bool, Color, double, double, int, int, int, bool, bool, bool, bool, bool)
+  href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Drawing_Color_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.Players.Basic.Player.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Drawing.Color,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: New(Integer, String, String, Integer, Boolean, Color, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Boolean)
+  fullName: PixelPilot.PixelGameClient.Players.Basic.Player.Player(int, string, string, int, bool, System.Drawing.Color, double, double, int, int, int, bool, bool, bool, bool, bool)
+  fullName.vb: PixelPilot.PixelGameClient.Players.Basic.Player.New(Integer, String, String, Integer, Boolean, System.Drawing.Color, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: Player.Player(int, string, string, int, bool, Color, double, double, int, int, int, bool, bool, bool, bool, bool)
+  nameWithType.vb: Player.New(Integer, String, String, Integer, Boolean, Color, Double, Double, Integer, Integer, Integer, Boolean, Boolean, Boolean, Boolean, Boolean)
 - uid: PixelPilot.PixelGameClient.Players.Basic.Player.#ctor*
   name: Player
   href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player__ctor_
@@ -5340,6 +5505,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Players.Basic.Player.CanGod
   nameWithType: Player.CanGod
+- uid: PixelPilot.PixelGameClient.Players.Basic.Player.ChatColor
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player_ChatColor
+  commentId: P:PixelPilot.PixelGameClient.Players.Basic.Player.ChatColor
+  fullName: PixelPilot.PixelGameClient.Players.Basic.Player.ChatColor
+  nameWithType: Player.ChatColor
+- uid: PixelPilot.PixelGameClient.Players.Basic.Player.ChatColor*
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player_ChatColor_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.Basic.Player.ChatColor
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.Basic.Player.ChatColor
+  nameWithType: Player.ChatColor
 - uid: PixelPilot.PixelGameClient.Players.Basic.Player.Deaths
   name: Deaths
   href: api/PixelPilot.PixelGameClient.Players.Basic.Player.html#PixelPilot_PixelGameClient_Players_Basic_Player_Deaths
@@ -5690,6 +5868,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.CanGod
   nameWithType: IPixelPlayer.CanGod
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.ChatColor
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_ChatColor
+  commentId: P:PixelPilot.PixelGameClient.Players.IPixelPlayer.ChatColor
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.ChatColor
+  nameWithType: IPixelPlayer.ChatColor
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.ChatColor*
+  name: ChatColor
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_ChatColor_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.IPixelPlayer.ChatColor
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.ChatColor
+  nameWithType: IPixelPlayer.ChatColor
 - uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.Deaths
   name: Deaths
   href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_Deaths
@@ -7673,6 +7864,126 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CandyPlatformRed
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CandyPlatformRed
   nameWithType: PixelBlock.CandyPlatformRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasBlueBg
+  name: CanvasBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasBlueBg
+  nameWithType: PixelBlock.CanvasBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasCyanBg
+  name: CanvasCyanBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasCyanBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasCyanBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasCyanBg
+  nameWithType: PixelBlock.CanvasCyanBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasGrayBg
+  name: CanvasGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasGrayBg
+  nameWithType: PixelBlock.CanvasGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasGreenBg
+  name: CanvasGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasGreenBg
+  nameWithType: PixelBlock.CanvasGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasOrangeBg
+  name: CanvasOrangeBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasOrangeBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasOrangeBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasOrangeBg
+  nameWithType: PixelBlock.CanvasOrangeBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasPurpleBg
+  name: CanvasPurpleBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasPurpleBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasPurpleBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasPurpleBg
+  nameWithType: PixelBlock.CanvasPurpleBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasRedBg
+  name: CanvasRedBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasRedBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasRedBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasRedBg
+  nameWithType: PixelBlock.CanvasRedBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasTanBg
+  name: CanvasTanBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasTanBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasTanBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasTanBg
+  nameWithType: PixelBlock.CanvasTanBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasYellowBg
+  name: CanvasYellowBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CanvasYellowBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasYellowBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CanvasYellowBg
+  nameWithType: PixelBlock.CanvasYellowBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBlackBg
+  name: CaveBlackBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveBlackBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBlackBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBlackBg
+  nameWithType: PixelBlock.CaveBlackBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBlueBg
+  name: CaveBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBlueBg
+  nameWithType: PixelBlock.CaveBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBrownBg
+  name: CaveBrownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveBrownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBrownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveBrownBg
+  nameWithType: PixelBlock.CaveBrownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveCyanBg
+  name: CaveCyanBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveCyanBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveCyanBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveCyanBg
+  nameWithType: PixelBlock.CaveCyanBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveDarkgrayBg
+  name: CaveDarkgrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveDarkgrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveDarkgrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveDarkgrayBg
+  nameWithType: PixelBlock.CaveDarkgrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveGreenBg
+  name: CaveGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveGreenBg
+  nameWithType: PixelBlock.CaveGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveLightgrayBg
+  name: CaveLightgrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveLightgrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveLightgrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveLightgrayBg
+  nameWithType: PixelBlock.CaveLightgrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CavePinkBg
+  name: CavePinkBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CavePinkBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CavePinkBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CavePinkBg
+  nameWithType: PixelBlock.CavePinkBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CavePurpleBg
+  name: CavePurpleBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CavePurpleBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CavePurpleBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CavePurpleBg
+  nameWithType: PixelBlock.CavePurpleBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveRedBg
+  name: CaveRedBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveRedBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveRedBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveRedBg
+  nameWithType: PixelBlock.CaveRedBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveYellowBg
+  name: CaveYellowBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CaveYellowBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveYellowBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CaveYellowBg
+  nameWithType: PixelBlock.CaveYellowBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CheckerBlackBg
   name: CheckerBlackBg
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CheckerBlackBg
@@ -7739,6 +8050,192 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.Checkpoint
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Checkpoint
   nameWithType: PixelBlock.Checkpoint
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilebrickBg
+  name: ClayTilebrickBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClayTilebrickBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilebrickBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilebrickBg
+  nameWithType: PixelBlock.ClayTilebrickBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilediamondBg
+  name: ClayTilediamondBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClayTilediamondBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilediamondBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilediamondBg
+  nameWithType: PixelBlock.ClayTilediamondBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTileroughBg
+  name: ClayTileroughBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClayTileroughBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTileroughBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTileroughBg
+  nameWithType: PixelBlock.ClayTileroughBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilewhiteBg
+  name: ClayTilewhiteBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClayTilewhiteBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilewhiteBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilewhiteBg
+  nameWithType: PixelBlock.ClayTilewhiteBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilexBg
+  name: ClayTilexBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClayTilexBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilexBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClayTilexBg
+  nameWithType: PixelBlock.ClayTilexBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableChaindungeon
+  name: ClimbableChaindungeon
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableChaindungeon
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableChaindungeon
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableChaindungeon
+  nameWithType: PixelBlock.ClimbableChaindungeon
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableChainvertical
+  name: ClimbableChainvertical
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableChainvertical
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableChainvertical
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableChainvertical
+  nameWithType: PixelBlock.ClimbableChainvertical
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableFairytaleladder
+  name: ClimbableFairytaleladder
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableFairytaleladder
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableFairytaleladder
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableFairytaleladder
+  nameWithType: PixelBlock.ClimbableFairytaleladder
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableGardenladder
+  name: ClimbableGardenladder
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableGardenladder
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableGardenladder
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableGardenladder
+  nameWithType: PixelBlock.ClimbableGardenladder
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableGreenstalk
+  name: ClimbableGreenstalk
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableGreenstalk
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableGreenstalk
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableGreenstalk
+  nameWithType: PixelBlock.ClimbableGreenstalk
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableMetalladder
+  name: ClimbableMetalladder
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableMetalladder
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableMetalladder
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableMetalladder
+  nameWithType: PixelBlock.ClimbableMetalladder
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableNinjaladder
+  name: ClimbableNinjaladder
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableNinjaladder
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableNinjaladder
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableNinjaladder
+  nameWithType: PixelBlock.ClimbableNinjaladder
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableRope
+  name: ClimbableRope
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_ClimbableRope
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableRope
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ClimbableRope
+  nameWithType: PixelBlock.ClimbableRope
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottom
+  name: CloudBottom
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudBottom
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottom
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottom
+  nameWithType: PixelBlock.CloudBottom
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottomleftcorner
+  name: CloudBottomleftcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudBottomleftcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottomleftcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottomleftcorner
+  nameWithType: PixelBlock.CloudBottomleftcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottomrightcorner
+  name: CloudBottomrightcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudBottomrightcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottomrightcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudBottomrightcorner
+  nameWithType: PixelBlock.CloudBottomrightcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudCenter
+  name: CloudCenter
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudCenter
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudCenter
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudCenter
+  nameWithType: PixelBlock.CloudCenter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottom
+  name: CloudDarkbottom
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarkbottom
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottom
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottom
+  nameWithType: PixelBlock.CloudDarkbottom
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottomleftcorner
+  name: CloudDarkbottomleftcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarkbottomleftcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottomleftcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottomleftcorner
+  nameWithType: PixelBlock.CloudDarkbottomleftcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottomrightcorner
+  name: CloudDarkbottomrightcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarkbottomrightcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottomrightcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkbottomrightcorner
+  nameWithType: PixelBlock.CloudDarkbottomrightcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkcenter
+  name: CloudDarkcenter
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarkcenter
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkcenter
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkcenter
+  nameWithType: PixelBlock.CloudDarkcenter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkleft
+  name: CloudDarkleft
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarkleft
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkleft
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkleft
+  nameWithType: PixelBlock.CloudDarkleft
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkright
+  name: CloudDarkright
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarkright
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkright
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarkright
+  nameWithType: PixelBlock.CloudDarkright
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktop
+  name: CloudDarktop
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarktop
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktop
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktop
+  nameWithType: PixelBlock.CloudDarktop
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktopleftcorner
+  name: CloudDarktopleftcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarktopleftcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktopleftcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktopleftcorner
+  nameWithType: PixelBlock.CloudDarktopleftcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktoprightcorner
+  name: CloudDarktoprightcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudDarktoprightcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktoprightcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudDarktoprightcorner
+  nameWithType: PixelBlock.CloudDarktoprightcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudLeft
+  name: CloudLeft
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudLeft
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudLeft
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudLeft
+  nameWithType: PixelBlock.CloudLeft
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudRight
+  name: CloudRight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudRight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudRight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudRight
+  nameWithType: PixelBlock.CloudRight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudTop
+  name: CloudTop
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudTop
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudTop
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudTop
+  nameWithType: PixelBlock.CloudTop
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudTopleftcorner
+  name: CloudTopleftcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudTopleftcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudTopleftcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudTopleftcorner
+  nameWithType: PixelBlock.CloudTopleftcorner
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudToprightcorner
+  name: CloudToprightcorner
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_CloudToprightcorner
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudToprightcorner
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.CloudToprightcorner
+  nameWithType: PixelBlock.CloudToprightcorner
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Coin
   name: Coin
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_Coin
@@ -7877,6 +8374,66 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.Empty
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Empty
   nameWithType: PixelBlock.Empty
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentBamboo
+  name: EnvironmentBamboo
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentBamboo
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentBamboo
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentBamboo
+  nameWithType: PixelBlock.EnvironmentBamboo
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentBambooBg
+  name: EnvironmentBambooBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentBambooBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentBambooBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentBambooBg
+  nameWithType: PixelBlock.EnvironmentBambooBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentGrass
+  name: EnvironmentGrass
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentGrass
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentGrass
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentGrass
+  nameWithType: PixelBlock.EnvironmentGrass
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentGrassBg
+  name: EnvironmentGrassBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentGrassBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentGrassBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentGrassBg
+  nameWithType: PixelBlock.EnvironmentGrassBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLava
+  name: EnvironmentLava
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentLava
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLava
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLava
+  nameWithType: PixelBlock.EnvironmentLava
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLavaBg
+  name: EnvironmentLavaBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentLavaBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLavaBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLavaBg
+  nameWithType: PixelBlock.EnvironmentLavaBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLog
+  name: EnvironmentLog
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentLog
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLog
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLog
+  nameWithType: PixelBlock.EnvironmentLog
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLogBg
+  name: EnvironmentLogBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentLogBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLogBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentLogBg
+  nameWithType: PixelBlock.EnvironmentLogBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentObsidian
+  name: EnvironmentObsidian
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentObsidian
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentObsidian
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentObsidian
+  nameWithType: PixelBlock.EnvironmentObsidian
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentObsidianBg
+  name: EnvironmentObsidianBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_EnvironmentObsidianBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentObsidianBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.EnvironmentObsidianBg
+  nameWithType: PixelBlock.EnvironmentObsidianBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FaceBlock
   name: FaceBlock
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FaceBlock
@@ -7913,6 +8470,42 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FactoryWoodenCrate
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FactoryWoodenCrate
   nameWithType: PixelBlock.FactoryWoodenCrate
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmCorn
+  name: FarmCorn
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FarmCorn
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmCorn
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmCorn
+  nameWithType: PixelBlock.FarmCorn
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFencecenter
+  name: FarmFencecenter
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FarmFencecenter
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFencecenter
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFencecenter
+  nameWithType: PixelBlock.FarmFencecenter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFenceleft
+  name: FarmFenceleft
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FarmFenceleft
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFenceleft
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFenceleft
+  nameWithType: PixelBlock.FarmFenceleft
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFenceright
+  name: FarmFenceright
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FarmFenceright
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFenceright
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmFenceright
+  nameWithType: PixelBlock.FarmFenceright
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmHay
+  name: FarmHay
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FarmHay
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmHay
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmHay
+  nameWithType: PixelBlock.FarmHay
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmWheat
+  name: FarmWheat
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_FarmWheat
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmWheat
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FarmWheat
+  nameWithType: PixelBlock.FarmWheat
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Fire
   name: Fire
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_Fire
@@ -7925,6 +8518,144 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.FullBlackBlock
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.FullBlackBlock
   nameWithType: PixelBlock.FullBlackBlock
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenButterfly
+  name: GardenButterfly
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenButterfly
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenButterfly
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenButterfly
+  nameWithType: PixelBlock.GardenButterfly
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenFence
+  name: GardenFence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenFence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenFence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenFence
+  nameWithType: PixelBlock.GardenFence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrass
+  name: GardenGrass
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenGrass
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrass
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrass
+  nameWithType: PixelBlock.GardenGrass
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrassBg
+  name: GardenGrassBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenGrassBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrassBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrassBg
+  nameWithType: PixelBlock.GardenGrassBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrassplant
+  name: GardenGrassplant
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenGrassplant
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrassplant
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenGrassplant
+  nameWithType: PixelBlock.GardenGrassplant
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLattice
+  name: GardenLattice
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenLattice
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLattice
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLattice
+  nameWithType: PixelBlock.GardenLattice
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLeaves
+  name: GardenLeaves
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenLeaves
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLeaves
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLeaves
+  nameWithType: PixelBlock.GardenLeaves
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLeavesBg
+  name: GardenLeavesBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenLeavesBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLeavesBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenLeavesBg
+  nameWithType: PixelBlock.GardenLeavesBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayflower
+  name: GardenOnewayflower
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenOnewayflower
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayflower
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayflower
+  nameWithType: PixelBlock.GardenOnewayflower
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayleafl
+  name: GardenOnewayleafl
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenOnewayleafl
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayleafl
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayleafl
+  nameWithType: PixelBlock.GardenOnewayleafl
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayleafr
+  name: GardenOnewayleafr
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenOnewayleafr
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayleafr
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenOnewayleafr
+  nameWithType: PixelBlock.GardenOnewayleafr
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenRock
+  name: GardenRock
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenRock
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenRock
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenRock
+  nameWithType: PixelBlock.GardenRock
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenRockBg
+  name: GardenRockBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenRockBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenRockBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenRockBg
+  nameWithType: PixelBlock.GardenRockBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenSnail
+  name: GardenSnail
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenSnail
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenSnail
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenSnail
+  nameWithType: PixelBlock.GardenSnail
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenWood
+  name: GardenWood
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GardenWood
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenWood
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GardenWood
+  nameWithType: PixelBlock.GardenWood
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneBlack
+  name: GemstoneBlack
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneBlack
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneBlack
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneBlack
+  nameWithType: PixelBlock.GemstoneBlack
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneBlue
+  name: GemstoneBlue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneBlue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneBlue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneBlue
+  nameWithType: PixelBlock.GemstoneBlue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneCyan
+  name: GemstoneCyan
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneCyan
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneCyan
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneCyan
+  nameWithType: PixelBlock.GemstoneCyan
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneGreen
+  name: GemstoneGreen
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneGreen
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneGreen
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneGreen
+  nameWithType: PixelBlock.GemstoneGreen
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstonePurple
+  name: GemstonePurple
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstonePurple
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstonePurple
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstonePurple
+  nameWithType: PixelBlock.GemstonePurple
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneRed
+  name: GemstoneRed
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneRed
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneRed
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneRed
+  nameWithType: PixelBlock.GemstoneRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneWhite
+  name: GemstoneWhite
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneWhite
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneWhite
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneWhite
+  nameWithType: PixelBlock.GemstoneWhite
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneYellow
+  name: GemstoneYellow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GemstoneYellow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneYellow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GemstoneYellow
+  nameWithType: PixelBlock.GemstoneYellow
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GlassBlue
   name: GlassBlue
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_GlassBlue
@@ -8045,12 +8776,222 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.GravityUp
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.GravityUp
   nameWithType: PixelBlock.GravityUp
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenBlood
+  name: HalloweenBlood
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenBlood
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenBlood
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenBlood
+  nameWithType: PixelBlock.HalloweenBlood
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenFullbrick
+  name: HalloweenFullbrick
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenFullbrick
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenFullbrick
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenFullbrick
+  nameWithType: PixelBlock.HalloweenFullbrick
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenFullbrickBg
+  name: HalloweenFullbrickBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenFullbrickBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenFullbrickBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenFullbrickBg
+  nameWithType: PixelBlock.HalloweenFullbrickBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenGrayBg
+  name: HalloweenGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenGrayBg
+  nameWithType: PixelBlock.HalloweenGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenLeftcornercobweb
+  name: HalloweenLeftcornercobweb
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenLeftcornercobweb
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenLeftcornercobweb
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenLeftcornercobweb
+  nameWithType: PixelBlock.HalloweenLeftcornercobweb
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenRightcornercobweb
+  name: HalloweenRightcornercobweb
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenRightcornercobweb
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenRightcornercobweb
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenRightcornercobweb
+  nameWithType: PixelBlock.HalloweenRightcornercobweb
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenStairdownBg
+  name: HalloweenStairdownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenStairdownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenStairdownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenStairdownBg
+  nameWithType: PixelBlock.HalloweenStairdownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenStairupBg
+  name: HalloweenStairupBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenStairupBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenStairupBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenStairupBg
+  nameWithType: PixelBlock.HalloweenStairupBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenTombstone
+  name: HalloweenTombstone
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HalloweenTombstone
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenTombstone
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HalloweenTombstone
+  nameWithType: PixelBlock.HalloweenTombstone
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HazardStripes
   name: HazardStripes
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_HazardStripes
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.HazardStripes
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.HazardStripes
   nameWithType: PixelBlock.HazardStripes
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialBlueplateBg
+  name: IndustrialBlueplateBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialBlueplateBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialBlueplateBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialBlueplateBg
+  nameWithType: PixelBlock.IndustrialBlueplateBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiondeath
+  name: IndustrialCautiondeath
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialCautiondeath
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiondeath
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiondeath
+  nameWithType: PixelBlock.IndustrialCautiondeath
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionelectricity
+  name: IndustrialCautionelectricity
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialCautionelectricity
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionelectricity
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionelectricity
+  nameWithType: PixelBlock.IndustrialCautionelectricity
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionentry
+  name: IndustrialCautionentry
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialCautionentry
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionentry
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionentry
+  nameWithType: PixelBlock.IndustrialCautionentry
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionfire
+  name: IndustrialCautionfire
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialCautionfire
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionfire
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautionfire
+  nameWithType: PixelBlock.IndustrialCautionfire
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiontapehorizontal
+  name: IndustrialCautiontapehorizontal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialCautiontapehorizontal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiontapehorizontal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiontapehorizontal
+  nameWithType: PixelBlock.IndustrialCautiontapehorizontal
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiontapevertical
+  name: IndustrialCautiontapevertical
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialCautiontapevertical
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiontapevertical
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialCautiontapevertical
+  nameWithType: PixelBlock.IndustrialCautiontapevertical
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyorleft
+  name: IndustrialConveyorleft
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialConveyorleft
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyorleft
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyorleft
+  nameWithType: PixelBlock.IndustrialConveyorleft
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyormiddle
+  name: IndustrialConveyormiddle
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialConveyormiddle
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyormiddle
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyormiddle
+  nameWithType: PixelBlock.IndustrialConveyormiddle
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyormiddlepeg
+  name: IndustrialConveyormiddlepeg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialConveyormiddlepeg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyormiddlepeg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyormiddlepeg
+  nameWithType: PixelBlock.IndustrialConveyormiddlepeg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyorright
+  name: IndustrialConveyorright
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialConveyorright
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyorright
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialConveyorright
+  nameWithType: PixelBlock.IndustrialConveyorright
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialGrayplateBg
+  name: IndustrialGrayplateBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialGrayplateBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialGrayplateBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialGrayplateBg
+  nameWithType: PixelBlock.IndustrialGrayplateBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialGreenplateBg
+  name: IndustrialGreenplateBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialGreenplateBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialGreenplateBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialGreenplateBg
+  nameWithType: PixelBlock.IndustrialGreenplateBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialIron
+  name: IndustrialIron
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialIron
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialIron
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialIron
+  nameWithType: PixelBlock.IndustrialIron
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialLift
+  name: IndustrialLift
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialLift
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialLift
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialLift
+  nameWithType: PixelBlock.IndustrialLift
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialNoplateBg
+  name: IndustrialNoplateBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialNoplateBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialNoplateBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialNoplateBg
+  nameWithType: PixelBlock.IndustrialNoplateBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPipe
+  name: IndustrialPipe
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialPipe
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPipe
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPipe
+  nameWithType: PixelBlock.IndustrialPipe
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPipethin
+  name: IndustrialPipethin
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialPipethin
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPipethin
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPipethin
+  nameWithType: PixelBlock.IndustrialPipethin
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPiston
+  name: IndustrialPiston
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialPiston
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPiston
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPiston
+  nameWithType: PixelBlock.IndustrialPiston
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPlatform
+  name: IndustrialPlatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialPlatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPlatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialPlatform
+  nameWithType: PixelBlock.IndustrialPlatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialScaffoldinghorizontal
+  name: IndustrialScaffoldinghorizontal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialScaffoldinghorizontal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialScaffoldinghorizontal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialScaffoldinghorizontal
+  nameWithType: PixelBlock.IndustrialScaffoldinghorizontal
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialScaffoldingvertical
+  name: IndustrialScaffoldingvertical
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialScaffoldingvertical
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialScaffoldingvertical
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialScaffoldingvertical
+  nameWithType: PixelBlock.IndustrialScaffoldingvertical
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialTubehorizontal
+  name: IndustrialTubehorizontal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialTubehorizontal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialTubehorizontal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialTubehorizontal
+  nameWithType: PixelBlock.IndustrialTubehorizontal
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialTubevertical
+  name: IndustrialTubevertical
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialTubevertical
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialTubevertical
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialTubevertical
+  nameWithType: PixelBlock.IndustrialTubevertical
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialWires
+  name: IndustrialWires
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialWires
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialWires
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialWires
+  nameWithType: PixelBlock.IndustrialWires
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialYellowplateBg
+  name: IndustrialYellowplateBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_IndustrialYellowplateBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialYellowplateBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.IndustrialYellowplateBg
+  nameWithType: PixelBlock.IndustrialYellowplateBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.JungleBlue
   name: JungleBlue
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_JungleBlue
@@ -8249,6 +9190,66 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.LocalSwitchResetter
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.LocalSwitchResetter
   nameWithType: PixelBlock.LocalSwitchResetter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumnbottom
+  name: MarbleColumnbottom
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleColumnbottom
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumnbottom
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumnbottom
+  nameWithType: PixelBlock.MarbleColumnbottom
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumnmiddle
+  name: MarbleColumnmiddle
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleColumnmiddle
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumnmiddle
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumnmiddle
+  nameWithType: PixelBlock.MarbleColumnmiddle
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumntop
+  name: MarbleColumntop
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleColumntop
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumntop
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleColumntop
+  nameWithType: PixelBlock.MarbleColumntop
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGray
+  name: MarbleGray
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleGray
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGray
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGray
+  nameWithType: PixelBlock.MarbleGray
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGrayBg
+  name: MarbleGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGrayBg
+  nameWithType: PixelBlock.MarbleGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGreen
+  name: MarbleGreen
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleGreen
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGreen
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGreen
+  nameWithType: PixelBlock.MarbleGreen
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGreenBg
+  name: MarbleGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleGreenBg
+  nameWithType: PixelBlock.MarbleGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleOneway
+  name: MarbleOneway
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleOneway
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleOneway
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleOneway
+  nameWithType: PixelBlock.MarbleOneway
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleRed
+  name: MarbleRed
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleRed
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleRed
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleRed
+  nameWithType: PixelBlock.MarbleRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleRedBg
+  name: MarbleRedBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MarbleRedBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleRedBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MarbleRedBg
+  nameWithType: PixelBlock.MarbleRedBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MeadowBushLeft
   name: MeadowBushLeft
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MeadowBushLeft
@@ -8297,6 +9298,102 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MeadowYellowFlower
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MeadowYellowFlower
   nameWithType: PixelBlock.MeadowYellowFlower
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalAnvilBg
+  name: MedievalAnvilBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalAnvilBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalAnvilBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalAnvilBg
+  nameWithType: PixelBlock.MedievalAnvilBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBarrel
+  name: MedievalBarrel
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalBarrel
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBarrel
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBarrel
+  nameWithType: PixelBlock.MedievalBarrel
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrick
+  name: MedievalBrick
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalBrick
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrick
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrick
+  nameWithType: PixelBlock.MedievalBrick
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrickhouse
+  name: MedievalBrickhouse
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalBrickhouse
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrickhouse
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrickhouse
+  nameWithType: PixelBlock.MedievalBrickhouse
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrickwindow
+  name: MedievalBrickwindow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalBrickwindow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrickwindow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalBrickwindow
+  nameWithType: PixelBlock.MedievalBrickwindow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalGraygrayBg
+  name: MedievalGraygrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalGraygrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalGraygrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalGraygrayBg
+  nameWithType: PixelBlock.MedievalGraygrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalParapet
+  name: MedievalParapet
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalParapet
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalParapet
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalParapet
+  nameWithType: PixelBlock.MedievalParapet
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalPlatform
+  name: MedievalPlatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalPlatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalPlatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalPlatform
+  nameWithType: PixelBlock.MedievalPlatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofbrownBg
+  name: MedievalRoofbrownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalRoofbrownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofbrownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofbrownBg
+  nameWithType: PixelBlock.MedievalRoofbrownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofgreenBg
+  name: MedievalRoofgreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalRoofgreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofgreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofgreenBg
+  nameWithType: PixelBlock.MedievalRoofgreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofredBg
+  name: MedievalRoofredBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalRoofredBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofredBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalRoofredBg
+  nameWithType: PixelBlock.MedievalRoofredBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalShield
+  name: MedievalShield
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalShield
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalShield
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalShield
+  nameWithType: PixelBlock.MedievalShield
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalStrawBg
+  name: MedievalStrawBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalStrawBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalStrawBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalStrawBg
+  nameWithType: PixelBlock.MedievalStrawBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalTop
+  name: MedievalTop
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalTop
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalTop
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalTop
+  nameWithType: PixelBlock.MedievalTop
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalWindow
+  name: MedievalWindow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalWindow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalWindow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalWindow
+  nameWithType: PixelBlock.MedievalWindow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalWoodBg
+  name: MedievalWoodBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MedievalWoodBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalWoodBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MedievalWoodBg
+  nameWithType: PixelBlock.MedievalWoodBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MetalCopper
   name: MetalCopper
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_MetalCopper
@@ -8363,6 +9460,42 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.MineralsYellow
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.MineralsYellow
   nameWithType: PixelBlock.MineralsYellow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonBlueBg
+  name: NeonBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NeonBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonBlueBg
+  nameWithType: PixelBlock.NeonBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonCyanBg
+  name: NeonCyanBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NeonCyanBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonCyanBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonCyanBg
+  nameWithType: PixelBlock.NeonCyanBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonGreenBg
+  name: NeonGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NeonGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonGreenBg
+  nameWithType: PixelBlock.NeonGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonMagentaBg
+  name: NeonMagentaBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NeonMagentaBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonMagentaBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonMagentaBg
+  nameWithType: PixelBlock.NeonMagentaBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonOrangeBg
+  name: NeonOrangeBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NeonOrangeBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonOrangeBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonOrangeBg
+  nameWithType: PixelBlock.NeonOrangeBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonYellowBg
+  name: NeonYellowBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NeonYellowBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonYellowBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NeonYellowBg
+  nameWithType: PixelBlock.NeonYellowBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NoFaceBlock
   name: NoFaceBlock
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_NoFaceBlock
@@ -8429,6 +9562,138 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.NormalYellowBg
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.NormalYellowBg
   nameWithType: PixelBlock.NormalYellowBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBlue
+  name: OuterspaceBlue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceBlue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBlue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBlue
+  nameWithType: PixelBlock.OuterspaceBlue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBlueBg
+  name: OuterspaceBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBlueBg
+  nameWithType: PixelBlock.OuterspaceBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBluelight
+  name: OuterspaceBluelight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceBluelight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBluelight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceBluelight
+  nameWithType: PixelBlock.OuterspaceBluelight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceComputer
+  name: OuterspaceComputer
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceComputer
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceComputer
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceComputer
+  nameWithType: PixelBlock.OuterspaceComputer
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceCyanlight
+  name: OuterspaceCyanlight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceCyanlight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceCyanlight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceCyanlight
+  nameWithType: PixelBlock.OuterspaceCyanlight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreen
+  name: OuterspaceGreen
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceGreen
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreen
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreen
+  nameWithType: PixelBlock.OuterspaceGreen
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreenBg
+  name: OuterspaceGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreenBg
+  nameWithType: PixelBlock.OuterspaceGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreenlight
+  name: OuterspaceGreenlight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceGreenlight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreenlight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceGreenlight
+  nameWithType: PixelBlock.OuterspaceGreenlight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceMagentalight
+  name: OuterspaceMagentalight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceMagentalight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceMagentalight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceMagentalight
+  nameWithType: PixelBlock.OuterspaceMagentalight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceMoon
+  name: OuterspaceMoon
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceMoon
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceMoon
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceMoon
+  nameWithType: PixelBlock.OuterspaceMoon
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRed
+  name: OuterspaceRed
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceRed
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRed
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRed
+  nameWithType: PixelBlock.OuterspaceRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRedBg
+  name: OuterspaceRedBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceRedBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRedBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRedBg
+  nameWithType: PixelBlock.OuterspaceRedBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRedlight
+  name: OuterspaceRedlight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceRedlight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRedlight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRedlight
+  nameWithType: PixelBlock.OuterspaceRedlight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRockgray
+  name: OuterspaceRockgray
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceRockgray
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRockgray
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceRockgray
+  nameWithType: PixelBlock.OuterspaceRockgray
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceSand
+  name: OuterspaceSand
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceSand
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceSand
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceSand
+  nameWithType: PixelBlock.OuterspaceSand
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceSign
+  name: OuterspaceSign
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceSign
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceSign
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceSign
+  nameWithType: PixelBlock.OuterspaceSign
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStarblue
+  name: OuterspaceStarblue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceStarblue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStarblue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStarblue
+  nameWithType: PixelBlock.OuterspaceStarblue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStarred
+  name: OuterspaceStarred
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceStarred
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStarred
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStarred
+  nameWithType: PixelBlock.OuterspaceStarred
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStaryellow
+  name: OuterspaceStaryellow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceStaryellow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStaryellow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceStaryellow
+  nameWithType: PixelBlock.OuterspaceStaryellow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceWhite
+  name: OuterspaceWhite
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceWhite
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceWhite
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceWhite
+  nameWithType: PixelBlock.OuterspaceWhite
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceWhiteBg
+  name: OuterspaceWhiteBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceWhiteBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceWhiteBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceWhiteBg
+  nameWithType: PixelBlock.OuterspaceWhiteBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceYellowlight
+  name: OuterspaceYellowlight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_OuterspaceYellowlight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceYellowlight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.OuterspaceYellowlight
+  nameWithType: PixelBlock.OuterspaceYellowlight
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PastelBlueBg
   name: PastelBlueBg
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PastelBlueBg
@@ -8477,6 +9742,42 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PastelYellowBg
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PastelYellowBg
   nameWithType: PixelBlock.PastelYellowBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesDown
+  name: PipesDown
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PipesDown
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesDown
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesDown
+  nameWithType: PixelBlock.PipesDown
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesHorizontal
+  name: PipesHorizontal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PipesHorizontal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesHorizontal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesHorizontal
+  nameWithType: PixelBlock.PipesHorizontal
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesLeft
+  name: PipesLeft
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PipesLeft
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesLeft
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesLeft
+  nameWithType: PixelBlock.PipesLeft
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesRight
+  name: PipesRight
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PipesRight
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesRight
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesRight
+  nameWithType: PixelBlock.PipesRight
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesUp
+  name: PipesUp
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PipesUp
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesUp
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesUp
+  nameWithType: PixelBlock.PipesUp
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesVertical
+  name: PipesVertical
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_PipesVertical
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesVertical
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.PipesVertical
+  nameWithType: PixelBlock.PipesVertical
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Portal
   name: Portal
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_Portal
@@ -8495,6 +9796,114 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.ResetPoint
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.ResetPoint
   nameWithType: PixelBlock.ResetPoint
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkbrown
+  name: SandDarkbrown
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDarkbrown
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkbrown
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkbrown
+  nameWithType: PixelBlock.SandDarkbrown
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkbrownBg
+  name: SandDarkbrownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDarkbrownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkbrownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkbrownBg
+  nameWithType: PixelBlock.SandDarkbrownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkyellowBg
+  name: SandDarkyellowBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDarkyellowBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkyellowBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDarkyellowBg
+  nameWithType: PixelBlock.SandDarkyellowBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunedarkbrown
+  name: SandDunedarkbrown
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDunedarkbrown
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunedarkbrown
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunedarkbrown
+  nameWithType: PixelBlock.SandDunedarkbrown
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunegray
+  name: SandDunegray
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDunegray
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunegray
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunegray
+  nameWithType: PixelBlock.SandDunegray
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunelightbrown
+  name: SandDunelightbrown
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDunelightbrown
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunelightbrown
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunelightbrown
+  nameWithType: PixelBlock.SandDunelightbrown
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDuneorange
+  name: SandDuneorange
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDuneorange
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDuneorange
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDuneorange
+  nameWithType: PixelBlock.SandDuneorange
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunewhite
+  name: SandDunewhite
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDunewhite
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunewhite
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDunewhite
+  nameWithType: PixelBlock.SandDunewhite
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDuneyellow
+  name: SandDuneyellow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandDuneyellow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDuneyellow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandDuneyellow
+  nameWithType: PixelBlock.SandDuneyellow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandGrayBg
+  name: SandGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandGrayBg
+  nameWithType: PixelBlock.SandGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandGrey
+  name: SandGrey
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandGrey
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandGrey
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandGrey
+  nameWithType: PixelBlock.SandGrey
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightbrown
+  name: SandLightbrown
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandLightbrown
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightbrown
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightbrown
+  nameWithType: PixelBlock.SandLightbrown
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightbrownBg
+  name: SandLightbrownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandLightbrownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightbrownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightbrownBg
+  nameWithType: PixelBlock.SandLightbrownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightyellowBg
+  name: SandLightyellowBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandLightyellowBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightyellowBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandLightyellowBg
+  nameWithType: PixelBlock.SandLightyellowBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandOrange
+  name: SandOrange
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandOrange
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandOrange
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandOrange
+  nameWithType: PixelBlock.SandOrange
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandOrangeBg
+  name: SandOrangeBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandOrangeBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandOrangeBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandOrangeBg
+  nameWithType: PixelBlock.SandOrangeBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandWhite
+  name: SandWhite
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandWhite
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandWhite
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandWhite
+  nameWithType: PixelBlock.SandWhite
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandYellow
+  name: SandYellow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SandYellow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandYellow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SandYellow
+  nameWithType: PixelBlock.SandYellow
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SecretAppear
   name: SecretAppear
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SecretAppear
@@ -8531,6 +9940,102 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SpikesCenter
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SpikesCenter
   nameWithType: PixelBlock.SpikesCenter
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBlue
+  name: StoneBlue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneBlue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBlue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBlue
+  nameWithType: PixelBlock.StoneBlue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBlueBg
+  name: StoneBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBlueBg
+  nameWithType: PixelBlock.StoneBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBrown
+  name: StoneBrown
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneBrown
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBrown
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBrown
+  nameWithType: PixelBlock.StoneBrown
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBrownBg
+  name: StoneBrownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneBrownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBrownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneBrownBg
+  nameWithType: PixelBlock.StoneBrownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGray
+  name: StoneGray
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneGray
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGray
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGray
+  nameWithType: PixelBlock.StoneGray
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGrayBg
+  name: StoneGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGrayBg
+  nameWithType: PixelBlock.StoneGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGreen
+  name: StoneGreen
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneGreen
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGreen
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGreen
+  nameWithType: PixelBlock.StoneGreen
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGreenBg
+  name: StoneGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneGreenBg
+  nameWithType: PixelBlock.StoneGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfBlueBg
+  name: StoneHalfBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneHalfBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfBlueBg
+  nameWithType: PixelBlock.StoneHalfBlueBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfBrownBg
+  name: StoneHalfBrownBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneHalfBrownBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfBrownBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfBrownBg
+  nameWithType: PixelBlock.StoneHalfBrownBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfGrayBg
+  name: StoneHalfGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneHalfGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfGrayBg
+  nameWithType: PixelBlock.StoneHalfGrayBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfGreenBg
+  name: StoneHalfGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_StoneHalfGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.StoneHalfGreenBg
+  nameWithType: PixelBlock.StoneHalfGreenBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerBeach
+  name: SummerBeach
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SummerBeach
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerBeach
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerBeach
+  nameWithType: PixelBlock.SummerBeach
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerDrink
+  name: SummerDrink
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SummerDrink
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerDrink
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerDrink
+  nameWithType: PixelBlock.SummerDrink
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerPail
+  name: SummerPail
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SummerPail
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerPail
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerPail
+  nameWithType: PixelBlock.SummerPail
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerShovel
+  name: SummerShovel
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_SummerShovel
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerShovel
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.SummerShovel
+  nameWithType: PixelBlock.SummerShovel
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.Trophy
   name: Trophy
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_Trophy
@@ -8549,6 +10054,240 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WaterSurface
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WaterSurface
   nameWithType: PixelBlock.WaterSurface
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluefence
+  name: WildwestBluefence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBluefence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluefence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluefence
+  nameWithType: PixelBlock.WildwestBluefence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBlueleftdoor
+  name: WildwestBlueleftdoor
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBlueleftdoor
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBlueleftdoor
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBlueleftdoor
+  nameWithType: PixelBlock.WildwestBlueleftdoor
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBlueplatform
+  name: WildwestBlueplatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBlueplatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBlueplatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBlueplatform
+  nameWithType: PixelBlock.WildwestBlueplatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluerightdoor
+  name: WildwestBluerightdoor
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBluerightdoor
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluerightdoor
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluerightdoor
+  nameWithType: PixelBlock.WildwestBluerightdoor
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluesidingBg
+  name: WildwestBluesidingBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBluesidingBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluesidingBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBluesidingBg
+  nameWithType: PixelBlock.WildwestBluesidingBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownfence
+  name: WildwestBrownfence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBrownfence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownfence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownfence
+  nameWithType: PixelBlock.WildwestBrownfence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownleftdoor
+  name: WildwestBrownleftdoor
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBrownleftdoor
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownleftdoor
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownleftdoor
+  nameWithType: PixelBlock.WildwestBrownleftdoor
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownplatform
+  name: WildwestBrownplatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBrownplatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownplatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownplatform
+  nameWithType: PixelBlock.WildwestBrownplatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownrightdoor
+  name: WildwestBrownrightdoor
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBrownrightdoor
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownrightdoor
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownrightdoor
+  nameWithType: PixelBlock.WildwestBrownrightdoor
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownsidingBg
+  name: WildwestBrownsidingBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestBrownsidingBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownsidingBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestBrownsidingBg
+  nameWithType: PixelBlock.WildwestBrownsidingBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbluefence
+  name: WildwestDarkbluefence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkbluefence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbluefence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbluefence
+  nameWithType: PixelBlock.WildwestDarkbluefence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkblueplatform
+  name: WildwestDarkblueplatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkblueplatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkblueplatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkblueplatform
+  nameWithType: PixelBlock.WildwestDarkblueplatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbluesidingBg
+  name: WildwestDarkbluesidingBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkbluesidingBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbluesidingBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbluesidingBg
+  nameWithType: PixelBlock.WildwestDarkbluesidingBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbrownfence
+  name: WildwestDarkbrownfence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkbrownfence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbrownfence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbrownfence
+  nameWithType: PixelBlock.WildwestDarkbrownfence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbrownsidingBg
+  name: WildwestDarkbrownsidingBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkbrownsidingBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbrownsidingBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkbrownsidingBg
+  nameWithType: PixelBlock.WildwestDarkbrownsidingBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkplatform
+  name: WildwestDarkplatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkplatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkplatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkplatform
+  nameWithType: PixelBlock.WildwestDarkplatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredfence
+  name: WildwestDarkredfence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkredfence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredfence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredfence
+  nameWithType: PixelBlock.WildwestDarkredfence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredplatform
+  name: WildwestDarkredplatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkredplatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredplatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredplatform
+  nameWithType: PixelBlock.WildwestDarkredplatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredsidingBg
+  name: WildwestDarkredsidingBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkredsidingBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredsidingBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkredsidingBg
+  nameWithType: PixelBlock.WildwestDarkredsidingBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkverticalpole
+  name: WildwestDarkverticalpole
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestDarkverticalpole
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkverticalpole
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestDarkverticalpole
+  nameWithType: PixelBlock.WildwestDarkverticalpole
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestGrayhorizontalpole
+  name: WildwestGrayhorizontalpole
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestGrayhorizontalpole
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestGrayhorizontalpole
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestGrayhorizontalpole
+  nameWithType: PixelBlock.WildwestGrayhorizontalpole
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedfence
+  name: WildwestRedfence
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestRedfence
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedfence
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedfence
+  nameWithType: PixelBlock.WildwestRedfence
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedleftdoor
+  name: WildwestRedleftdoor
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestRedleftdoor
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedleftdoor
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedleftdoor
+  nameWithType: PixelBlock.WildwestRedleftdoor
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedplatform
+  name: WildwestRedplatform
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestRedplatform
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedplatform
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedplatform
+  nameWithType: PixelBlock.WildwestRedplatform
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedrightdoor
+  name: WildwestRedrightdoor
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestRedrightdoor
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedrightdoor
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedrightdoor
+  nameWithType: PixelBlock.WildwestRedrightdoor
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedsidingBg
+  name: WildwestRedsidingBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestRedsidingBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedsidingBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestRedsidingBg
+  nameWithType: PixelBlock.WildwestRedsidingBg
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWhitehorizontalpole
+  name: WildwestWhitehorizontalpole
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestWhitehorizontalpole
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWhitehorizontalpole
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWhitehorizontalpole
+  nameWithType: PixelBlock.WildwestWhitehorizontalpole
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWhiteverticalpole
+  name: WildwestWhiteverticalpole
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestWhiteverticalpole
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWhiteverticalpole
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWhiteverticalpole
+  nameWithType: PixelBlock.WildwestWhiteverticalpole
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWindow
+  name: WildwestWindow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WildwestWindow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWindow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WildwestWindow
+  nameWithType: PixelBlock.WildwestWindow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowBlue
+  name: WindowBlue
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowBlue
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowBlue
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowBlue
+  nameWithType: PixelBlock.WindowBlue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowClear
+  name: WindowClear
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowClear
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowClear
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowClear
+  nameWithType: PixelBlock.WindowClear
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowGreen
+  name: WindowGreen
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowGreen
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowGreen
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowGreen
+  nameWithType: PixelBlock.WindowGreen
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowOrange
+  name: WindowOrange
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowOrange
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowOrange
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowOrange
+  nameWithType: PixelBlock.WindowOrange
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowPink
+  name: WindowPink
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowPink
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowPink
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowPink
+  nameWithType: PixelBlock.WindowPink
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowPurple
+  name: WindowPurple
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowPurple
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowPurple
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowPurple
+  nameWithType: PixelBlock.WindowPurple
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowRed
+  name: WindowRed
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowRed
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowRed
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowRed
+  nameWithType: PixelBlock.WindowRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowTeal
+  name: WindowTeal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowTeal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowTeal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowTeal
+  nameWithType: PixelBlock.WindowTeal
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowYellow
+  name: WindowYellow
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WindowYellow
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowYellow
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WindowYellow
+  nameWithType: PixelBlock.WindowYellow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WorldPortal
+  name: WorldPortal
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_WorldPortal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.WorldPortal
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.WorldPortal
+  nameWithType: PixelBlock.WorldPortal
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlockExtensions
   name: PixelBlockExtensions
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlockExtensions.html
