@@ -3717,60 +3717,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket
   nameWithType: WorldBlockPlacedPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  name: WorldBlockPlacedPacket(int, int, int, int, int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: New(Integer, Integer, Integer, Integer, Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer)
-  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int)
-  nameWithType.vb: WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer)
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte)
-  name: WorldBlockPlacedPacket(int, int, int, int, int, byte)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte)
-  name.vb: New(Integer, Integer, Integer, Integer, Integer, Byte)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, byte)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Byte)
-  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, byte)
-  nameWithType.vb: WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Byte)
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  name: WorldBlockPlacedPacket(int, int, int, int, int, int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: New(Integer, Integer, Integer, Integer, Integer, Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer)
-  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int)
-  nameWithType.vb: WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer)
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
-  name: WorldBlockPlacedPacket(int, int, int, int, int, int, bool)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
-  name.vb: New(Integer, Integer, Integer, Integer, Integer, Integer, Boolean)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int, bool)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer, Boolean)
-  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int, bool)
-  nameWithType.vb: WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer, Boolean)
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte)
-  name: WorldBlockPlacedPacket(int, int, int, int, int, int, byte)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte)
-  name.vb: New(Integer, Integer, Integer, Integer, Integer, Integer, Byte)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int, byte)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer, Byte)
-  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int, byte)
-  nameWithType.vb: WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer, Byte)
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  name: WorldBlockPlacedPacket(int, int, int, int, int, int, int, int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: New(Integer, Integer, Integer, Integer, Integer, Integer, Integer, Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int, int, int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer, Integer, Integer)
-  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(int, int, int, int, int, int, int, int)
-  nameWithType.vb: WorldBlockPlacedPacket.New(Integer, Integer, Integer, Integer, Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Collections.Generic.List{System.Object})
+  name: WorldBlockPlacedPacket(List<dynamic>)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_System_Collections_Generic_List_System_Object__
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor(System.Collections.Generic.List{System.Object})
+  name.vb: New(List(Of Object))
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.WorldBlockPlacedPacket(System.Collections.Generic.List<dynamic>)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.New(System.Collections.Generic.List(Of Object))
+  nameWithType: WorldBlockPlacedPacket.WorldBlockPlacedPacket(List<dynamic>)
+  nameWithType.vb: WorldBlockPlacedPacket.New(List(Of Object))
 - uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.#ctor*
   name: WorldBlockPlacedPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket__ctor_
@@ -3794,71 +3749,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.BlockId
   nameWithType: WorldBlockPlacedPacket.BlockId
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraBool
-  name: ExtraBool
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraBool
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraBool
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraBool
-  nameWithType: WorldBlockPlacedPacket.ExtraBool
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraBool*
-  name: ExtraBool
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraBool_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraBool
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields
+  name: ExtraFields
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraFields
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields
+  nameWithType: WorldBlockPlacedPacket.ExtraFields
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields*
+  name: ExtraFields
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraFields_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraBool
-  nameWithType: WorldBlockPlacedPacket.ExtraBool
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraByte
-  name: ExtraByte
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraByte
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraByte
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraByte
-  nameWithType: WorldBlockPlacedPacket.ExtraByte
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraByte*
-  name: ExtraByte
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraByte_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraByte
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraByte
-  nameWithType: WorldBlockPlacedPacket.ExtraByte
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt1
-  name: ExtraInt1
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraInt1
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt1
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt1
-  nameWithType: WorldBlockPlacedPacket.ExtraInt1
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt1*
-  name: ExtraInt1
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraInt1_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt1
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt1
-  nameWithType: WorldBlockPlacedPacket.ExtraInt1
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt2
-  name: ExtraInt2
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraInt2
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt2
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt2
-  nameWithType: WorldBlockPlacedPacket.ExtraInt2
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt2*
-  name: ExtraInt2
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraInt2_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt2
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt2
-  nameWithType: WorldBlockPlacedPacket.ExtraInt2
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt3
-  name: ExtraInt3
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraInt3
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt3
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt3
-  nameWithType: WorldBlockPlacedPacket.ExtraInt3
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt3*
-  name: ExtraInt3
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_ExtraInt3_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt3
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraInt3
-  nameWithType: WorldBlockPlacedPacket.ExtraInt3
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields
+  nameWithType: WorldBlockPlacedPacket.ExtraFields
 - uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Layer
   name: Layer
   href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_Layer
@@ -4694,24 +4597,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer)
   nameWithType: WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int)
   nameWithType.vb: WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer)
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Int32})
-  name: WorldBlockPlacedOutPacket(int, int, int, int, int?)
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Int32__
-  commentId: M:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Int32})
-  name.vb: New(Integer, Integer, Integer, Integer, Integer?)
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int, int?)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer, Integer?)
-  nameWithType: WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int, int?)
-  nameWithType.vb: WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer, Integer?)
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Byte})
-  name: WorldBlockPlacedOutPacket(int, int, int, int, int?, int?, int?, byte?)
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Byte__
-  commentId: M:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Byte})
-  name.vb: New(Integer, Integer, Integer, Integer, Integer?, Integer?, Integer?, Byte?)
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int, int?, int?, int?, byte?)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer, Integer?, Integer?, Integer?, Byte?)
-  nameWithType: WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int, int?, int?, int?, byte?)
-  nameWithType.vb: WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer, Integer?, Integer?, Integer?, Byte?)
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Object[])
+  name: WorldBlockPlacedOutPacket(int, int, int, int, dynamic[])
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Object___
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Object[])
+  name.vb: New(Integer, Integer, Integer, Integer, Object())
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int, dynamic[])
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer, Object())
+  nameWithType: WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(int, int, int, int, dynamic[])
+  nameWithType.vb: WorldBlockPlacedOutPacket.New(Integer, Integer, Integer, Integer, Object())
 - uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor*
   name: WorldBlockPlacedOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_
@@ -4735,58 +4629,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.BlockId
   nameWithType: WorldBlockPlacedOutPacket.BlockId
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraByte
-  name: ExtraByte
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraByte
-  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraByte
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraByte
-  nameWithType: WorldBlockPlacedOutPacket.ExtraByte
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraByte*
-  name: ExtraByte
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraByte_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraByte
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraData
+  name: ExtraData
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraData
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraData
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraData
+  nameWithType: WorldBlockPlacedOutPacket.ExtraData
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraData*
+  name: ExtraData
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraData_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraData
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraByte
-  nameWithType: WorldBlockPlacedOutPacket.ExtraByte
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt1
-  name: ExtraInt1
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraInt1
-  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt1
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt1
-  nameWithType: WorldBlockPlacedOutPacket.ExtraInt1
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt1*
-  name: ExtraInt1
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraInt1_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt1
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt1
-  nameWithType: WorldBlockPlacedOutPacket.ExtraInt1
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt2
-  name: ExtraInt2
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraInt2
-  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt2
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt2
-  nameWithType: WorldBlockPlacedOutPacket.ExtraInt2
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt2*
-  name: ExtraInt2
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraInt2_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt2
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt2
-  nameWithType: WorldBlockPlacedOutPacket.ExtraInt2
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt3
-  name: ExtraInt3
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraInt3
-  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt3
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt3
-  nameWithType: WorldBlockPlacedOutPacket.ExtraInt3
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt3*
-  name: ExtraInt3
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_ExtraInt3_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt3
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraInt3
-  nameWithType: WorldBlockPlacedOutPacket.ExtraInt3
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.ExtraData
+  nameWithType: WorldBlockPlacedOutPacket.ExtraData
 - uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.GetFields
   name: GetFields()
   href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_GetFields
@@ -7318,6 +7173,60 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.Status
   nameWithType: ResetterBlock.Status
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock
+  name: WorldPortalBlock
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html
+  commentId: T:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock
+  nameWithType: WorldPortalBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.#ctor(System.String)
+  name: WorldPortalBlock(string)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock__ctor_System_String_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.#ctor(System.String)
+  name.vb: New(String)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldPortalBlock(string)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.New(String)
+  nameWithType: WorldPortalBlock.WorldPortalBlock(string)
+  nameWithType.vb: WorldPortalBlock.New(String)
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.#ctor*
+  name: WorldPortalBlock
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock__ctor_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldPortalBlock
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.New
+  nameWithType: WorldPortalBlock.WorldPortalBlock
+  nameWithType.vb: WorldPortalBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name: AsPacketOut(int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name.vb: AsPacketOut(Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(Integer, Integer, Integer)
+  nameWithType: WorldPortalBlock.AsPacketOut(int, int, int)
+  nameWithType.vb: WorldPortalBlock.AsPacketOut(Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsPacketOut_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut
+  nameWithType: WorldPortalBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
+  name: WorldId
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_WorldId
+  commentId: P:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
+  nameWithType: WorldPortalBlock.WorldId
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId*
+  name: WorldId
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_WorldId_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
+  nameWithType: WorldPortalBlock.WorldId
 - uid: PixelPilot.PixelGameClient.World.Constants
   name: PixelPilot.PixelGameClient.World.Constants
   href: api/PixelPilot.PixelGameClient.World.Constants.html
@@ -7360,6 +7269,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.BlockType.SwitchResetter
   fullName: PixelPilot.PixelGameClient.World.Constants.BlockType.SwitchResetter
   nameWithType: BlockType.SwitchResetter
+- uid: PixelPilot.PixelGameClient.World.Constants.BlockType.WorldPortal
+  name: WorldPortal
+  href: api/PixelPilot.PixelGameClient.World.Constants.BlockType.html#PixelPilot_PixelGameClient_World_Constants_BlockType_WorldPortal
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.BlockType.WorldPortal
+  fullName: PixelPilot.PixelGameClient.World.Constants.BlockType.WorldPortal
+  nameWithType: BlockType.WorldPortal
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock
   name: PixelBlock
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html
@@ -10437,19 +10352,6 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock
   nameWithType: PixelWorld.DeserializeBlock
-- uid: PixelPilot.PixelGameClient.World.PixelWorld.DeserializePlacedBlock(PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket)
-  name: DeserializePlacedBlock(WorldBlockPlacedPacket)
-  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_DeserializePlacedBlock_PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_
-  commentId: M:PixelPilot.PixelGameClient.World.PixelWorld.DeserializePlacedBlock(PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket)
-  fullName: PixelPilot.PixelGameClient.World.PixelWorld.DeserializePlacedBlock(PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket)
-  nameWithType: PixelWorld.DeserializePlacedBlock(WorldBlockPlacedPacket)
-- uid: PixelPilot.PixelGameClient.World.PixelWorld.DeserializePlacedBlock*
-  name: DeserializePlacedBlock
-  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_DeserializePlacedBlock_
-  commentId: Overload:PixelPilot.PixelGameClient.World.PixelWorld.DeserializePlacedBlock
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.World.PixelWorld.DeserializePlacedBlock
-  nameWithType: PixelWorld.DeserializePlacedBlock
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.HandlePacket(System.Object,PixelPilot.PixelGameClient.Messages.IPixelGamePacket)
   name: HandlePacket(object, IPixelGamePacket)
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_HandlePacket_System_Object_PixelPilot_PixelGameClient_Messages_IPixelGamePacket_

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PlayerChatPacket | PixelPilot </title>
+      <title>Class WorldPortalBlock | PixelPilot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PlayerChatPacket | PixelPilot ">
+      <meta name="title" content="Class WorldPortalBlock | PixelPilot ">
       
       
       <link rel="icon" href="../images/pixel_pilot.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.6.3/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.6.3/apiSpec/new?filename=PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket">
+        <article data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock">
 
 
 
-  <h1 id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket" class="text-break">
-Class PlayerChatPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerChatPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock" class="text-break">
+Class WorldPortalBlock  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/World/Blocks/WorldPortalBlock.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.html">Messages</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.Received.html">Received</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.World.html">World</a>.<a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.html">Blocks</a></dd></dl>
   <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerChatPacket : IPixelGamePlayerPacket, IPixelGamePacket, IPacketOutConvertible</code></pre>
+    <pre><code class="lang-csharp hljs">public class WorldPortalBlock : BasicBlock, IPixelBlock</code></pre>
   </div>
 
 
@@ -111,16 +111,15 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PlayerChatPacket</span></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html">BasicBlock</a></div>
+      <div><span class="xref">WorldPortalBlock</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePlayerPacket.html">IPixelGamePlayerPacket</a></div>
-      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html">IPixelGamePacket</a></div>
-      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html">IPacketOutConvertible</a></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html">IPixelBlock</a></div>
     </dd>
   </dl>
 
@@ -129,13 +128,28 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_BlockId">BasicBlock.BlockId</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsPlacedBlock_System_Int32_System_Int32_System_Int32_">BasicBlock.AsPlacedBlock(int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_">BasicBlock.AsWorldBuffer(int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_">BasicBlock.AsWorldBuffer(int, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_BasicBlock_">BasicBlock.Equals(BasicBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Equals_System_Object_">BasicBlock.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_GetHashCode">BasicBlock.GetHashCode()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
@@ -160,25 +174,23 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.#ctor*"></a>
+  <a id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock__ctor_" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket__ctor_System_Int32_System_String_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.#ctor(System.Int32,System.String)">
-  PlayerChatPacket(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerChatPacket.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock__ctor_System_String_" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.#ctor(System.String)">
+  WorldPortalBlock(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/World/Blocks/WorldPortalBlock.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerChatPacket(int id, string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public WorldPortalBlock(string worldId)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>worldId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -197,18 +209,18 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_Message_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.Message*"></a>
+  <a id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_WorldId_" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_Message" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.Message">
-  Message
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerChatPacket.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_WorldId" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId">
+  WorldId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/World/Blocks/WorldPortalBlock.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string WorldId { get; set; }</code></pre>
   </div>
 
 
@@ -228,55 +240,33 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
 
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_PlayerId_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.PlayerId*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.PlayerId">
-  PlayerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerChatPacket.cs/#L13"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PlayerId { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_AsPacketOut_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut*"></a>
+  <a id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsPacketOut_" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerChatPacket_AsPacketOut" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.AsPacketOut">
-  AsPacketOut()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerChatPacket.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_" data-uid="PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)">
+  AsPacketOut(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/World/Blocks/WorldPortalBlock.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPixelGamePacketOut AsPacketOut()</code></pre>
+    <pre><code class="lang-csharp hljs">public override IPixelGamePacketOut AsPacketOut(int x, int y, int layer)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -298,7 +288,7 @@ Class PlayerChatPacket  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerChatPacket.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.6.3/src/PixelPilot.Core/PixelGameClient/World/Blocks/WorldPortalBlock.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

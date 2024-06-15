@@ -1102,6 +1102,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.yml",
       "output": {
         ".html": {
