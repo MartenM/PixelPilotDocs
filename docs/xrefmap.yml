@@ -10540,6 +10540,28 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetMappings
   nameWithType: PixelApiClient.GetMappings
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry)
+  name: GetMinimap(WorldEntry)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetMinimap_PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry)
+  nameWithType: PixelApiClient.GetMinimap(WorldEntry)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(System.String)
+  name: GetMinimap(string)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetMinimap_System_String_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(System.String)
+  name.vb: GetMinimap(String)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(string)
+  fullName.vb: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap(String)
+  nameWithType: PixelApiClient.GetMinimap(string)
+  nameWithType.vb: PixelApiClient.GetMinimap(String)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap*
+  name: GetMinimap
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetMinimap_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetMinimap
+  nameWithType: PixelApiClient.GetMinimap
 - uid: PixelPilot.PixelHttpClient.PixelApiClient.GetOwnedWorlds(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
   name: GetOwnedWorlds(int, int, QueryArgumentBuilder?)
   href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetOwnedWorlds_System_Int32_System_Int32_PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_
@@ -10588,6 +10610,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPlayers
   nameWithType: PixelApiClient.GetPlayers
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld(System.String)
+  name: GetPublicWorld(string)
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPublicWorld_System_String_
+  commentId: M:PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld(System.String)
+  name.vb: GetPublicWorld(String)
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld(string)
+  fullName.vb: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld(String)
+  nameWithType: PixelApiClient.GetPublicWorld(string)
+  nameWithType.vb: PixelApiClient.GetPublicWorld(String)
+- uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld*
+  name: GetPublicWorld
+  href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPublicWorld_
+  commentId: Overload:PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorld
+  nameWithType: PixelApiClient.GetPublicWorld
 - uid: PixelPilot.PixelHttpClient.PixelApiClient.GetPublicWorlds(System.Int32,System.Int32,PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder)
   name: GetPublicWorlds(int, int, QueryArgumentBuilder?)
   href: api/PixelPilot.PixelHttpClient.PixelApiClient.html#PixelPilot_PixelHttpClient_PixelApiClient_GetPublicWorlds_System_Int32_System_Int32_PixelPilot_PixelHttpClient_Responses_Collections_QueryArgumentBuilder_
@@ -11172,6 +11210,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Id
   nameWithType: WorldEntry.Id
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Minimap
+  name: Minimap
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Minimap
+  commentId: P:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Minimap
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Minimap
+  nameWithType: WorldEntry.Minimap
+- uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Minimap*
+  name: Minimap
+  href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Minimap_
+  commentId: Overload:PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Minimap
+  isSpec: "True"
+  fullName: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Minimap
+  nameWithType: WorldEntry.Minimap
 - uid: PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.Owner
   name: Owner
   href: api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html#PixelPilot_PixelHttpClient_Responses_Collections_WorldEntry_Owner
