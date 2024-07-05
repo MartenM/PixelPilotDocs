@@ -3934,6 +3934,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket
   nameWithType: GlobalSwitchChangeOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor
+  name: GlobalSwitchChangeOutPacket()
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket__ctor
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor
+  name.vb: New()
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.GlobalSwitchChangeOutPacket()
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.New()
+  nameWithType: GlobalSwitchChangeOutPacket.GlobalSwitchChangeOutPacket()
+  nameWithType.vb: GlobalSwitchChangeOutPacket.New()
 - uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.#ctor(System.Int32,System.Boolean)
   name: GlobalSwitchChangeOutPacket(int, bool)
   href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchChangeOutPacket__ctor_System_Int32_System_Boolean_
@@ -3985,6 +3994,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket
   nameWithType: GlobalSwitchResetOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor
+  name: GlobalSwitchResetOutPacket()
+  href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchResetOutPacket__ctor
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor
+  name.vb: New()
+  fullName: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.GlobalSwitchResetOutPacket()
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.New()
+  nameWithType: GlobalSwitchResetOutPacket.GlobalSwitchResetOutPacket()
+  nameWithType.vb: GlobalSwitchResetOutPacket.New()
 - uid: PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.#ctor(System.Boolean)
   name: GlobalSwitchResetOutPacket(bool)
   href: api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_GlobalSwitchResetOutPacket__ctor_System_Boolean_
@@ -4137,6 +4155,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket
   nameWithType: PlayerLocalSwitchChangedOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor
+  name: PlayerLocalSwitchChangedOutPacket()
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket__ctor
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor
+  name.vb: New()
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.PlayerLocalSwitchChangedOutPacket()
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.New()
+  nameWithType: PlayerLocalSwitchChangedOutPacket.PlayerLocalSwitchChangedOutPacket()
+  nameWithType.vb: PlayerLocalSwitchChangedOutPacket.New()
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.#ctor(System.Int32,System.Boolean)
   name: PlayerLocalSwitchChangedOutPacket(int, bool)
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchChangedOutPacket__ctor_System_Int32_System_Boolean_
@@ -4188,6 +4215,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket
   nameWithType: PlayerLocalSwitchResetOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor
+  name: PlayerLocalSwitchResetOutPacket()
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchResetOutPacket__ctor
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor
+  name.vb: New()
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.PlayerLocalSwitchResetOutPacket()
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.New()
+  nameWithType: PlayerLocalSwitchResetOutPacket.PlayerLocalSwitchResetOutPacket()
+  nameWithType.vb: PlayerLocalSwitchResetOutPacket.New()
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.#ctor(System.Boolean)
   name: PlayerLocalSwitchResetOutPacket(bool)
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerLocalSwitchResetOutPacket__ctor_System_Boolean_
