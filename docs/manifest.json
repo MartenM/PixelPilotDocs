@@ -1282,6 +1282,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldInit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldInit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.yml",
       "output": {
         ".html": {

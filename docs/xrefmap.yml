@@ -15902,6 +15902,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.DeserializeBlock
   nameWithType: PixelWorld.DeserializeBlock
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks(System.Boolean)
+  name: GetBlocks(bool)
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_GetBlocks_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks(System.Boolean)
+  name.vb: GetBlocks(Boolean)
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks(bool)
+  fullName.vb: PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks(Boolean)
+  nameWithType: PixelWorld.GetBlocks(bool)
+  nameWithType.vb: PixelWorld.GetBlocks(Boolean)
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks*
+  name: GetBlocks
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_GetBlocks_
+  commentId: Overload:PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.GetBlocks
+  nameWithType: PixelWorld.GetBlocks
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.HandlePacket(System.Object,PixelPilot.PixelGameClient.Messages.IPixelGamePacket)
   name: HandlePacket(object, IPixelGamePacket)
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_HandlePacket_System_Object_PixelPilot_PixelGameClient_Messages_IPixelGamePacket_
@@ -15953,6 +15969,24 @@ references:
   commentId: E:PixelPilot.PixelGameClient.World.PixelWorld.OnBlockPlaced
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.OnBlockPlaced
   nameWithType: PixelWorld.OnBlockPlaced
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.OnWorldCleared
+  name: OnWorldCleared
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OnWorldCleared
+  commentId: E:PixelPilot.PixelGameClient.World.PixelWorld.OnWorldCleared
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.OnWorldCleared
+  nameWithType: PixelWorld.OnWorldCleared
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.OnWorldInit
+  name: OnWorldInit
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OnWorldInit
+  commentId: E:PixelPilot.PixelGameClient.World.PixelWorld.OnWorldInit
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.OnWorldInit
+  nameWithType: PixelWorld.OnWorldInit
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.OnWorldReloaded
+  name: OnWorldReloaded
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OnWorldReloaded
+  commentId: E:PixelPilot.PixelGameClient.World.PixelWorld.OnWorldReloaded
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.OnWorldReloaded
+  nameWithType: PixelWorld.OnWorldReloaded
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.OwnerUsername
   name: OwnerUsername
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OwnerUsername
@@ -15979,6 +16013,18 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.Width
   nameWithType: PixelWorld.Width
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared
+  name: PixelWorld.WorldCleared
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared.html
+  commentId: T:PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared
+  nameWithType: PixelWorld.WorldCleared
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.WorldInit
+  name: PixelWorld.WorldInit
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.WorldInit.html
+  commentId: T:PixelPilot.PixelGameClient.World.PixelWorld.WorldInit
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.WorldInit
+  nameWithType: PixelWorld.WorldInit
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.WorldName
   name: WorldName
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_WorldName
@@ -15992,6 +16038,12 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.WorldName
   nameWithType: PixelWorld.WorldName
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded
+  name: PixelWorld.WorldReloaded
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded.html
+  commentId: T:PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded
+  nameWithType: PixelWorld.WorldReloaded
 - uid: PixelPilot.PixelHttpClient
   name: PixelPilot.PixelHttpClient
   href: api/PixelPilot.PixelHttpClient.html
