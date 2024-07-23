@@ -3996,19 +3996,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.New
   nameWithType: SystemMessagePacket.SystemMessagePacket
   nameWithType.vb: SystemMessagePacket.New
-- uid: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic
-  name: Magic
-  href: api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Magic
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic
-  fullName: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic
-  nameWithType: SystemMessagePacket.Magic
-- uid: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic*
-  name: Magic
-  href: api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Magic_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic
+- uid: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Kicked
+  name: Kicked
+  href: api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Kicked
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Kicked
+  fullName: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Kicked
+  nameWithType: SystemMessagePacket.Kicked
+- uid: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Kicked*
+  name: Kicked
+  href: api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Kicked_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Kicked
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Magic
-  nameWithType: SystemMessagePacket.Magic
+  fullName: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Kicked
+  nameWithType: SystemMessagePacket.Kicked
 - uid: PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.Message
   name: Message
   href: api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.html#PixelPilot_PixelGameClient_Messages_Received_SystemMessagePacket_Message
