@@ -4112,32 +4112,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.PlayerId
   nameWithType: WorldBlockPlacedPacket.PlayerId
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.X
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_X
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.X
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.X
-  nameWithType: WorldBlockPlacedPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.X*
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_X_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Positions
+  name: Positions
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_Positions
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Positions
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Positions
+  nameWithType: WorldBlockPlacedPacket.Positions
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Positions*
+  name: Positions
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_Positions_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Positions
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.X
-  nameWithType: WorldBlockPlacedPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Y
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_Y
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Y
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Y
-  nameWithType: WorldBlockPlacedPacket.Y
-- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Y*
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_Y_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Y
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Y
-  nameWithType: WorldBlockPlacedPacket.Y
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Positions
+  nameWithType: WorldBlockPlacedPacket.Positions
 - uid: PixelPilot.PixelGameClient.Messages.Received.WorldClearedPacket
   name: WorldClearedPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.WorldClearedPacket.html
@@ -5028,32 +5015,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Layer
   nameWithType: WorldBlockPlacedOutPacket.Layer
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.X
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_X
-  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.X
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.X
-  nameWithType: WorldBlockPlacedOutPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.X*
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_X_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.RawPositions
+  name: RawPositions
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_RawPositions
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.RawPositions
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.RawPositions
+  nameWithType: WorldBlockPlacedOutPacket.RawPositions
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.RawPositions*
+  name: RawPositions
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_RawPositions_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.RawPositions
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.X
-  nameWithType: WorldBlockPlacedOutPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_Y
-  commentId: P:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y
-  nameWithType: WorldBlockPlacedOutPacket.Y
-- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y*
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket_Y_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.Y
-  nameWithType: WorldBlockPlacedOutPacket.Y
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.RawPositions
+  nameWithType: WorldBlockPlacedOutPacket.RawPositions
 - uid: PixelPilot.PixelGameClient.PixelGameClientBuilder
   name: PixelGameClientBuilder
   href: api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html
