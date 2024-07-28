@@ -4935,6 +4935,24 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket
   nameWithType: WorldBlockPlacedOutPacket
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Collections.Generic.List{System.Drawing.Point},System.Int32,System.Int32)
+  name: WorldBlockPlacedOutPacket(List<Point>, int, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_System_Collections_Generic_List_System_Drawing_Point__System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Collections.Generic.List{System.Drawing.Point},System.Int32,System.Int32)
+  name.vb: New(List(Of Point), Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(System.Collections.Generic.List<System.Drawing.Point>, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.New(System.Collections.Generic.List(Of System.Drawing.Point), Integer, Integer)
+  nameWithType: WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(List<Point>, int, int)
+  nameWithType.vb: WorldBlockPlacedOutPacket.New(List(Of Point), Integer, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Collections.Generic.List{System.Drawing.Point},System.Int32,System.Int32,System.Object[])
+  name: WorldBlockPlacedOutPacket(List<Point>, int, int, dynamic[])
+  href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_System_Collections_Generic_List_System_Drawing_Point__System_Int32_System_Int32_System_Object___
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Collections.Generic.List{System.Drawing.Point},System.Int32,System.Int32,System.Object[])
+  name.vb: New(List(Of Point), Integer, Integer, Object())
+  fullName: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(System.Collections.Generic.List<System.Drawing.Point>, int, int, dynamic[])
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.New(System.Collections.Generic.List(Of System.Drawing.Point), Integer, Integer, Object())
+  nameWithType: WorldBlockPlacedOutPacket.WorldBlockPlacedOutPacket(List<Point>, int, int, dynamic[])
+  nameWithType.vb: WorldBlockPlacedOutPacket.New(List(Of Point), Integer, Integer, Object())
 - uid: PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   name: WorldBlockPlacedOutPacket(int, int, int, int)
   href: api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_WorldBlockPlacedOutPacket__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -6586,6 +6604,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.New
   nameWithType: ActivatorBlock.ActivatorBlock
   nameWithType.vb: ActivatorBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: ActivatorBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: ActivatorBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -6713,6 +6740,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.New
   nameWithType: BasicBlock.BasicBlock
   nameWithType.vb: BasicBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: BasicBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: BasicBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -6858,6 +6894,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.New
   nameWithType: LeveledEffectBlock.LeveledEffectBlock
   nameWithType.vb: LeveledEffectBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.html#PixelPilot_PixelGameClient_World_Blocks_Effects_LeveledEffectBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: LeveledEffectBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: LeveledEffectBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.html#PixelPilot_PixelGameClient_World_Blocks_Effects_LeveledEffectBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -6972,6 +7017,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.New
   nameWithType: TimedEffectBlock.TimedEffectBlock
   nameWithType.vb: TimedEffectBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.html#PixelPilot_PixelGameClient_World_Blocks_Effects_TimedEffectBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: TimedEffectBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: TimedEffectBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.html#PixelPilot_PixelGameClient_World_Blocks_Effects_TimedEffectBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7086,6 +7140,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.New
   nameWithType: ToggleEffectBlock.ToggleEffectBlock
   nameWithType.vb: ToggleEffectBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.html#PixelPilot_PixelGameClient_World_Blocks_Effects_ToggleEffectBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: ToggleEffectBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: ToggleEffectBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.html#PixelPilot_PixelGameClient_World_Blocks_Effects_ToggleEffectBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7172,6 +7235,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.IPixelBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock
   nameWithType: IPixelBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html#PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: IPixelBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: IPixelBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html#PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7280,6 +7352,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.New
   nameWithType: MorphableBlock.MorphableBlock
   nameWithType.vb: MorphableBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: MorphableBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: MorphableBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7644,6 +7725,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.New
   nameWithType: PortalBlock.PortalBlock
   nameWithType.vb: PortalBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: PortalBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: PortalBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7775,6 +7865,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.New
   nameWithType: ResetterBlock.ResetterBlock
   nameWithType.vb: ResetterBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: ResetterBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: ResetterBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7889,6 +7988,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.SignBlock.New
   nameWithType: SignBlock.SignBlock
   nameWithType.vb: SignBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.SignBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.SignBlock.html#PixelPilot_PixelGameClient_World_Blocks_SignBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.SignBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.SignBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.SignBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: SignBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: SignBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.SignBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.SignBlock.html#PixelPilot_PixelGameClient_World_Blocks_SignBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -7994,6 +8102,15 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.New
   nameWithType: WorldPortalBlock.WorldPortalBlock
   nameWithType.vb: WorldPortalBlock.New
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: WorldPortalBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: WorldPortalBlock.AsPacketOut(List(Of Point), Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
   name: AsPacketOut(int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
@@ -17693,6 +17810,12 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure
   nameWithType: WorldExtensions.GetStructure
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.MaxChunkBlockCount
+  name: MaxChunkBlockCount
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_MaxChunkBlockCount
+  commentId: F:PixelPilot.Structures.Extensions.WorldExtensions.MaxChunkBlockCount
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.MaxChunkBlockCount
+  nameWithType: WorldExtensions.MaxChunkBlockCount
 - uid: PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)
   name: PasteInOrder(List<IPlacedBlock>, PixelPilotClient, Point, int)
   href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteInOrder_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__PixelPilot_PixelGameClient_PixelPilotClient_System_Drawing_Point_System_Int32_
@@ -17725,6 +17848,38 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled
   nameWithType: WorldExtensions.PasteShuffled
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})
+  name: ToChunkedPacket(List<IPlacedBlock>)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_ToChunkedPacket_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})
+  name.vb: ToChunkedPacket(List(Of IPlacedBlock))
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket(System.Collections.Generic.List<PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock>)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket(System.Collections.Generic.List(Of PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock))
+  nameWithType: WorldExtensions.ToChunkedPacket(List<IPlacedBlock>)
+  nameWithType.vb: WorldExtensions.ToChunkedPacket(List(Of IPlacedBlock))
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket*
+  name: ToChunkedPacket
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_ToChunkedPacket_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket
+  nameWithType: WorldExtensions.ToChunkedPacket
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})
+  name: ToChunkedPackets(IEnumerable<IPlacedBlock>)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_ToChunkedPackets_System_Collections_Generic_IEnumerable_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})
+  name.vb: ToChunkedPackets(IEnumerable(Of IPlacedBlock))
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable<PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock>)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable(Of PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock))
+  nameWithType: WorldExtensions.ToChunkedPackets(IEnumerable<IPlacedBlock>)
+  nameWithType.vb: WorldExtensions.ToChunkedPackets(IEnumerable(Of IPlacedBlock))
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets*
+  name: ToChunkedPackets
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_ToChunkedPackets_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets
+  nameWithType: WorldExtensions.ToChunkedPackets
 - uid: PixelPilot.Structures.Structure
   name: Structure
   href: api/PixelPilot.Structures.Structure.html
