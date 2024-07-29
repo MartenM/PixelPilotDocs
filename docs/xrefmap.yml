@@ -970,6 +970,72 @@ references:
   commentId: N:PixelPilot.PixelGameClient.Messages.Constants
   fullName: PixelPilot.PixelGameClient.Messages.Constants
   nameWithType: PixelPilot.PixelGameClient.Messages.Constants
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType
+  name: EffectType
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html
+  commentId: T:PixelPilot.PixelGameClient.Messages.Constants.EffectType
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType
+  nameWithType: EffectType
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Curse
+  name: Curse
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_Curse
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.Curse
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Curse
+  nameWithType: EffectType.Curse
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Fly
+  name: Fly
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_Fly
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.Fly
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Fly
+  nameWithType: EffectType.Fly
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityDirection
+  name: GravityDirection
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_GravityDirection
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityDirection
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityDirection
+  nameWithType: EffectType.GravityDirection
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityForce
+  name: GravityForce
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_GravityForce
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityForce
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityForce
+  nameWithType: EffectType.GravityForce
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityMultiJump
+  name: GravityMultiJump
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_GravityMultiJump
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityMultiJump
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.GravityMultiJump
+  nameWithType: EffectType.GravityMultiJump
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Invulnerability
+  name: Invulnerability
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_Invulnerability
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.Invulnerability
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Invulnerability
+  nameWithType: EffectType.Invulnerability
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.JumpHeight
+  name: JumpHeight
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_JumpHeight
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.JumpHeight
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.JumpHeight
+  nameWithType: EffectType.JumpHeight
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Magic
+  name: Magic
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_Magic
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.Magic
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Magic
+  nameWithType: EffectType.Magic
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Speed
+  name: Speed
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_Speed
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.Speed
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Speed
+  nameWithType: EffectType.Speed
+- uid: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Zombie
+  name: Zombie
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html#PixelPilot_PixelGameClient_Messages_Constants_EffectType_Zombie
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.EffectType.Zombie
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.EffectType.Zombie
+  nameWithType: EffectType.Zombie
 - uid: PixelPilot.PixelGameClient.Messages.Constants.MessageType
   name: MessageType
   href: api/PixelPilot.PixelGameClient.Messages.Constants.MessageType.html
@@ -2545,6 +2611,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectId
   nameWithType: PlayerEffectPacket.EffectId
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectType
+  name: EffectType
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerEffectPacket_EffectType
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectType
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectType
+  nameWithType: PlayerEffectPacket.EffectType
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectType*
+  name: EffectType
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerEffectPacket_EffectType_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectType
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.EffectType
+  nameWithType: PlayerEffectPacket.EffectType
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.ExtraFields
   name: ExtraFields
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerEffectPacket_ExtraFields
@@ -2558,6 +2637,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.ExtraFields
   nameWithType: PlayerEffectPacket.ExtraFields
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.Magic
+  name: Magic
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerEffectPacket_Magic
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.Magic
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.Magic
+  nameWithType: PlayerEffectPacket.Magic
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.Magic*
+  name: Magic
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerEffectPacket_Magic_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.Magic
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.Magic
+  nameWithType: PlayerEffectPacket.Magic
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.PlayerId
   name: PlayerId
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerEffectPacket_PlayerId
@@ -5495,19 +5587,6 @@ references:
   commentId: T:PixelPilot.PixelGameClient.PixelPilotClient.PacketSend
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.PacketSend
   nameWithType: PixelPilotClient.PacketSend
-- uid: PixelPilot.PixelGameClient.PixelPilotClient.RoomType
-  name: RoomType
-  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_RoomType
-  commentId: P:PixelPilot.PixelGameClient.PixelPilotClient.RoomType
-  fullName: PixelPilot.PixelGameClient.PixelPilotClient.RoomType
-  nameWithType: PixelPilotClient.RoomType
-- uid: PixelPilot.PixelGameClient.PixelPilotClient.RoomType*
-  name: RoomType
-  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_RoomType_
-  commentId: Overload:PixelPilot.PixelGameClient.PixelPilotClient.RoomType
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.PixelPilotClient.RoomType
-  nameWithType: PixelPilotClient.RoomType
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.SecondsBeforeGatewayTimeout
   name: SecondsBeforeGatewayTimeout
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SecondsBeforeGatewayTimeout
@@ -16054,6 +16133,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.PixelWorld.Init
   nameWithType: PixelWorld.Init
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.InitTask
+  name: InitTask
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_InitTask
+  commentId: P:PixelPilot.PixelGameClient.World.PixelWorld.InitTask
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.InitTask
+  nameWithType: PixelWorld.InitTask
+- uid: PixelPilot.PixelGameClient.World.PixelWorld.InitTask*
+  name: InitTask
+  href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_InitTask_
+  commentId: Overload:PixelPilot.PixelGameClient.World.PixelWorld.InitTask
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.PixelWorld.InitTask
+  nameWithType: PixelWorld.InitTask
 - uid: PixelPilot.PixelGameClient.World.PixelWorld.OnBlockPlaced
   name: OnBlockPlaced
   href: api/PixelPilot.PixelGameClient.World.PixelWorld.html#PixelPilot_PixelGameClient_World_PixelWorld_OnBlockPlaced
