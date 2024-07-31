@@ -3518,6 +3518,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket
   nameWithType: PlayerResetPacket
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.#ctor(System.Int32)
+  name: PlayerResetPacket(int)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket__ctor_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.PlayerResetPacket(int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.New(Integer)
+  nameWithType: PlayerResetPacket.PlayerResetPacket(int)
+  nameWithType.vb: PlayerResetPacket.New(Integer)
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.#ctor(System.Int32,System.Int32,System.Int32)
   name: PlayerResetPacket(int, int, int)
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket__ctor_System_Int32_System_Int32_System_Int32_
@@ -3550,32 +3559,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.PlayerId
   nameWithType: PlayerResetPacket.PlayerId
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.X
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket_X
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.X
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.X
-  nameWithType: PlayerResetPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.X*
-  name: X
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket_X_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.X
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Position
+  name: Position
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket_Position
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Position
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Position
+  nameWithType: PlayerResetPacket.Position
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Position*
+  name: Position
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket_Position_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Position
   isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.X
-  nameWithType: PlayerResetPacket.X
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Y
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket_Y
-  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Y
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Y
-  nameWithType: PlayerResetPacket.Y
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Y*
-  name: Y
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetPacket_Y_
-  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Y
-  isSpec: "True"
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Y
-  nameWithType: PlayerResetPacket.Y
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.Position
+  nameWithType: PlayerResetPacket.Position
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerRespawnPacket
   name: PlayerRespawnPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerRespawnPacket.html
