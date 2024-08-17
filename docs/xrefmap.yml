@@ -958,6 +958,51 @@ references:
   commentId: N:PixelPilot.PixelGameClient
   fullName: PixelPilot.PixelGameClient
   nameWithType: PixelPilot.PixelGameClient
+- uid: PixelPilot.PixelGameClient.JoinData
+  name: JoinData
+  href: api/PixelPilot.PixelGameClient.JoinData.html
+  commentId: T:PixelPilot.PixelGameClient.JoinData
+  fullName: PixelPilot.PixelGameClient.JoinData
+  nameWithType: JoinData
+- uid: PixelPilot.PixelGameClient.JoinData.WorldHeight
+  name: WorldHeight
+  href: api/PixelPilot.PixelGameClient.JoinData.html#PixelPilot_PixelGameClient_JoinData_WorldHeight
+  commentId: P:PixelPilot.PixelGameClient.JoinData.WorldHeight
+  fullName: PixelPilot.PixelGameClient.JoinData.WorldHeight
+  nameWithType: JoinData.WorldHeight
+- uid: PixelPilot.PixelGameClient.JoinData.WorldHeight*
+  name: WorldHeight
+  href: api/PixelPilot.PixelGameClient.JoinData.html#PixelPilot_PixelGameClient_JoinData_WorldHeight_
+  commentId: Overload:PixelPilot.PixelGameClient.JoinData.WorldHeight
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.JoinData.WorldHeight
+  nameWithType: JoinData.WorldHeight
+- uid: PixelPilot.PixelGameClient.JoinData.WorldTitle
+  name: WorldTitle
+  href: api/PixelPilot.PixelGameClient.JoinData.html#PixelPilot_PixelGameClient_JoinData_WorldTitle
+  commentId: P:PixelPilot.PixelGameClient.JoinData.WorldTitle
+  fullName: PixelPilot.PixelGameClient.JoinData.WorldTitle
+  nameWithType: JoinData.WorldTitle
+- uid: PixelPilot.PixelGameClient.JoinData.WorldTitle*
+  name: WorldTitle
+  href: api/PixelPilot.PixelGameClient.JoinData.html#PixelPilot_PixelGameClient_JoinData_WorldTitle_
+  commentId: Overload:PixelPilot.PixelGameClient.JoinData.WorldTitle
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.JoinData.WorldTitle
+  nameWithType: JoinData.WorldTitle
+- uid: PixelPilot.PixelGameClient.JoinData.WorldWidth
+  name: WorldWidth
+  href: api/PixelPilot.PixelGameClient.JoinData.html#PixelPilot_PixelGameClient_JoinData_WorldWidth
+  commentId: P:PixelPilot.PixelGameClient.JoinData.WorldWidth
+  fullName: PixelPilot.PixelGameClient.JoinData.WorldWidth
+  nameWithType: JoinData.WorldWidth
+- uid: PixelPilot.PixelGameClient.JoinData.WorldWidth*
+  name: WorldWidth
+  href: api/PixelPilot.PixelGameClient.JoinData.html#PixelPilot_PixelGameClient_JoinData_WorldWidth_
+  commentId: Overload:PixelPilot.PixelGameClient.JoinData.WorldWidth
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.JoinData.WorldWidth
+  nameWithType: JoinData.WorldWidth
 - uid: PixelPilot.PixelGameClient.Messages
   name: PixelPilot.PixelGameClient.Messages
   href: api/PixelPilot.PixelGameClient.Messages.html
@@ -3564,15 +3609,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket
   nameWithType: PlayerResetEffectsPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.#ctor(System.Int32)
-  name: PlayerResetEffectsPacket(int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetEffectsPacket__ctor_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.#ctor(System.Int32)
-  name.vb: New(Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.PlayerResetEffectsPacket(int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.New(Integer)
-  nameWithType: PlayerResetEffectsPacket.PlayerResetEffectsPacket(int)
-  nameWithType.vb: PlayerResetEffectsPacket.New(Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.#ctor(System.Int32,System.Boolean)
+  name: PlayerResetEffectsPacket(int, bool)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetEffectsPacket__ctor_System_Int32_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.#ctor(System.Int32,System.Boolean)
+  name.vb: New(Integer, Boolean)
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.PlayerResetEffectsPacket(int, bool)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.New(Integer, Boolean)
+  nameWithType: PlayerResetEffectsPacket.PlayerResetEffectsPacket(int, bool)
+  nameWithType.vb: PlayerResetEffectsPacket.New(Integer, Boolean)
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.#ctor*
   name: PlayerResetEffectsPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetEffectsPacket__ctor_
@@ -3583,6 +3628,19 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.New
   nameWithType: PlayerResetEffectsPacket.PlayerResetEffectsPacket
   nameWithType.vb: PlayerResetEffectsPacket.New
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.Magic
+  name: Magic
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetEffectsPacket_Magic
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.Magic
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.Magic
+  nameWithType: PlayerResetEffectsPacket.Magic
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.Magic*
+  name: Magic
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetEffectsPacket_Magic_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.Magic
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.Magic
+  nameWithType: PlayerResetEffectsPacket.Magic
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.PlayerId
   name: PlayerId
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerResetEffectsPacket_PlayerId
@@ -5602,15 +5660,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected
   nameWithType: PixelPilotClient.ClientDisconnected
-- uid: PixelPilot.PixelGameClient.PixelPilotClient.Connect(System.String)
-  name: Connect(string)
-  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_Connect_System_String_
-  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.Connect(System.String)
-  name.vb: Connect(String)
-  fullName: PixelPilot.PixelGameClient.PixelPilotClient.Connect(string)
-  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.Connect(String)
-  nameWithType: PixelPilotClient.Connect(string)
-  nameWithType.vb: PixelPilotClient.Connect(String)
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.Connect(System.String,PixelPilot.PixelGameClient.JoinData)
+  name: Connect(string, JoinData?)
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_Connect_System_String_PixelPilot_PixelGameClient_JoinData_
+  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.Connect(System.String,PixelPilot.PixelGameClient.JoinData)
+  name.vb: Connect(String, JoinData)
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.Connect(string, PixelPilot.PixelGameClient.JoinData?)
+  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.Connect(String, PixelPilot.PixelGameClient.JoinData)
+  nameWithType: PixelPilotClient.Connect(string, JoinData?)
+  nameWithType.vb: PixelPilotClient.Connect(String, JoinData)
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.Connect*
   name: Connect
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_Connect_
