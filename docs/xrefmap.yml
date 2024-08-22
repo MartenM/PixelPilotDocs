@@ -6725,6 +6725,24 @@ references:
   fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).GetPlayer
   nameWithType: PixelPlayerManager<T>.GetPlayer
   nameWithType.vb: PixelPlayerManager(Of T).GetPlayer
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.GetPlayerByUsername(System.String)
+  name: GetPlayerByUsername(string)
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_GetPlayerByUsername_System_String_
+  commentId: M:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.GetPlayerByUsername(System.String)
+  name.vb: GetPlayerByUsername(String)
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>.GetPlayerByUsername(string)
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).GetPlayerByUsername(String)
+  nameWithType: PixelPlayerManager<T>.GetPlayerByUsername(string)
+  nameWithType.vb: PixelPlayerManager(Of T).GetPlayerByUsername(String)
+- uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.GetPlayerByUsername*
+  name: GetPlayerByUsername
+  href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_GetPlayerByUsername_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.GetPlayerByUsername
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.PixelPlayerManager<T>.GetPlayerByUsername
+  fullName.vb: PixelPilot.PixelGameClient.Players.PixelPlayerManager(Of T).GetPlayerByUsername
+  nameWithType: PixelPlayerManager<T>.GetPlayerByUsername
+  nameWithType.vb: PixelPlayerManager(Of T).GetPlayerByUsername
 - uid: PixelPilot.PixelGameClient.Players.PixelPlayerManager`1.HandlePacket(System.Object,PixelPilot.PixelGameClient.Messages.IPixelGamePacket)
   name: HandlePacket(object, IPixelGamePacket)
   href: api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html#PixelPilot_PixelGameClient_Players_PixelPlayerManager_1_HandlePacket_System_Object_PixelPilot_PixelGameClient_Messages_IPixelGamePacket_
