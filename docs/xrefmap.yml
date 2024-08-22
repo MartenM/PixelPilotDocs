@@ -7833,6 +7833,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock
   nameWithType: PlacedBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.#ctor(System.Int32,System.Int32,PixelPilot.PixelGameClient.World.Constants.WorldLayer,PixelPilot.PixelGameClient.World.Blocks.IPixelBlock)
+  name: PlacedBlock(int, int, WorldLayer, IPixelBlock)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock__ctor_System_Int32_System_Int32_PixelPilot_PixelGameClient_World_Constants_WorldLayer_PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.#ctor(System.Int32,System.Int32,PixelPilot.PixelGameClient.World.Constants.WorldLayer,PixelPilot.PixelGameClient.World.Blocks.IPixelBlock)
+  name.vb: New(Integer, Integer, WorldLayer, IPixelBlock)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.PlacedBlock(int, int, PixelPilot.PixelGameClient.World.Constants.WorldLayer, PixelPilot.PixelGameClient.World.Blocks.IPixelBlock)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.New(Integer, Integer, PixelPilot.PixelGameClient.World.Constants.WorldLayer, PixelPilot.PixelGameClient.World.Blocks.IPixelBlock)
+  nameWithType: PlacedBlock.PlacedBlock(int, int, WorldLayer, IPixelBlock)
+  nameWithType.vb: PlacedBlock.New(Integer, Integer, WorldLayer, IPixelBlock)
 - uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.#ctor(System.Int32,System.Int32,System.Int32,PixelPilot.PixelGameClient.World.Blocks.IPixelBlock)
   name: PlacedBlock(int, int, int, IPixelBlock)
   href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock__ctor_System_Int32_System_Int32_System_Int32_PixelPilot_PixelGameClient_World_Blocks_IPixelBlock_
