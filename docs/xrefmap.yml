@@ -1165,12 +1165,6 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType
   nameWithType: WorldMessageType
-- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.ChatMessage
-  name: ChatMessage
-  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_ChatMessage
-  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.ChatMessage
-  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.ChatMessage
-  nameWithType: WorldMessageType.ChatMessage
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.GlobalSwitchChanged
   name: GlobalSwitchChanged
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_GlobalSwitchChanged
@@ -1201,6 +1195,12 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerAddEffect
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerAddEffect
   nameWithType: WorldMessageType.PlayerAddEffect
+- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerChatMessage
+  name: PlayerChatMessage
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerChatMessage
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerChatMessage
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerChatMessage
+  nameWithType: WorldMessageType.PlayerChatMessage
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerCounters
   name: PlayerCounters
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerCounters
@@ -1315,24 +1315,30 @@ references:
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTouchPlayer
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerTouchPlayer
   nameWithType: WorldMessageType.PlayerTouchPlayer
+- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerUpdateRights
+  name: PlayerUpdateRights
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_PlayerUpdateRights
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerUpdateRights
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.PlayerUpdateRights
+  nameWithType: WorldMessageType.PlayerUpdateRights
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.SystemMessage
   name: SystemMessage
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_SystemMessage
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.SystemMessage
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.SystemMessage
   nameWithType: WorldMessageType.SystemMessage
-- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.UpdateRights
-  name: UpdateRights
-  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_UpdateRights
-  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.UpdateRights
-  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.UpdateRights
-  nameWithType: WorldMessageType.UpdateRights
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.UpdateWorldMetadata
   name: UpdateWorldMetadata
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_UpdateWorldMetadata
   commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.UpdateWorldMetadata
   fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.UpdateWorldMetadata
   nameWithType: WorldMessageType.UpdateWorldMetadata
+- uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.WorldBlockFilled
+  name: WorldBlockFilled
+  href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_WorldBlockFilled
+  commentId: F:PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.WorldBlockFilled
+  fullName: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.WorldBlockFilled
+  nameWithType: WorldMessageType.WorldBlockFilled
 - uid: PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.WorldBlockPlaced
   name: WorldBlockPlaced
   href: api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html#PixelPilot_PixelGameClient_Messages_Constants_WorldMessageType_WorldBlockPlaced
@@ -3313,15 +3319,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket
   nameWithType: PlayerMovePacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.#ctor(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32)
-  name: PlayerMovePacket(int, double, double, double, double, double, double, int, int, bool, bool, int)
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket__ctor_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.#ctor(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32)
-  name.vb: New(Integer, Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.PlayerMovePacket(int, double, double, double, double, double, double, int, int, bool, bool, int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.New(Integer, Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Integer)
-  nameWithType: PlayerMovePacket.PlayerMovePacket(int, double, double, double, double, double, double, int, int, bool, bool, int)
-  nameWithType.vb: PlayerMovePacket.New(Integer, Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.#ctor(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)
+  name: PlayerMovePacket(int, double, double, double, double, double, double, int, int, bool, bool, bool, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket__ctor_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.#ctor(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)
+  name.vb: New(Integer, Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Boolean, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.PlayerMovePacket(int, double, double, double, double, double, double, int, int, bool, bool, bool, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.New(Integer, Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Boolean, Integer)
+  nameWithType: PlayerMovePacket.PlayerMovePacket(int, double, double, double, double, double, double, int, int, bool, bool, bool, int)
+  nameWithType.vb: PlayerMovePacket.New(Integer, Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Boolean, Integer)
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.#ctor*
   name: PlayerMovePacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket__ctor_
@@ -3358,6 +3364,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.Horizontal
   nameWithType: PlayerMovePacket.Horizontal
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.JustTeleported
+  name: JustTeleported
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_JustTeleported
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.JustTeleported
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.JustTeleported
+  nameWithType: PlayerMovePacket.JustTeleported
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.JustTeleported*
+  name: JustTeleported
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_JustTeleported_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.JustTeleported
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.JustTeleported
+  nameWithType: PlayerMovePacket.JustTeleported
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.ModX
   name: ModX
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_ModX
@@ -4855,15 +4874,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket
   nameWithType: PlayerMoveOutPacket
-- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32)
-  name: PlayerMoveOutPacket(double, double, double, double, double, double, int, int, bool, bool, int)
-  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerMoveOutPacket__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Int32_
-  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32)
-  name.vb: New(Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Integer)
-  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.PlayerMoveOutPacket(double, double, double, double, double, double, int, int, bool, bool, int)
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.New(Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Integer)
-  nameWithType: PlayerMoveOutPacket.PlayerMoveOutPacket(double, double, double, double, double, double, int, int, bool, bool, int)
-  nameWithType.vb: PlayerMoveOutPacket.New(Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Integer)
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)
+  name: PlayerMoveOutPacket(double, double, double, double, double, double, int, int, bool, bool, bool, int)
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerMoveOutPacket__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)
+  name.vb: New(Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Boolean, Integer)
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.PlayerMoveOutPacket(double, double, double, double, double, double, int, int, bool, bool, bool, int)
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.New(Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Boolean, Integer)
+  nameWithType: PlayerMoveOutPacket.PlayerMoveOutPacket(double, double, double, double, double, double, int, int, bool, bool, bool, int)
+  nameWithType.vb: PlayerMoveOutPacket.New(Double, Double, Double, Double, Double, Double, Integer, Integer, Boolean, Boolean, Boolean, Integer)
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.#ctor*
   name: PlayerMoveOutPacket
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerMoveOutPacket__ctor_
@@ -4887,6 +4906,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.Horizontal
   nameWithType: PlayerMoveOutPacket.Horizontal
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.JustTeleported
+  name: JustTeleported
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerMoveOutPacket_JustTeleported
+  commentId: P:PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.JustTeleported
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.JustTeleported
+  nameWithType: PlayerMoveOutPacket.JustTeleported
+- uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.JustTeleported*
+  name: JustTeleported
+  href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerMoveOutPacket_JustTeleported_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.JustTeleported
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.JustTeleported
+  nameWithType: PlayerMoveOutPacket.JustTeleported
 - uid: PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.ModX
   name: ModX
   href: api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_PlayerMoveOutPacket_ModX
@@ -6872,6 +6904,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock
   nameWithType: ActivatorBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Int32,System.Boolean)
+  name: ActivatorBlock(PixelBlock, int, bool)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock__ctor_PixelPilot_PixelGameClient_World_Constants_PixelBlock_System_Int32_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Int32,System.Boolean)
+  name.vb: New(PixelBlock, Integer, Boolean)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.ActivatorBlock(PixelPilot.PixelGameClient.World.Constants.PixelBlock, int, bool)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.New(PixelPilot.PixelGameClient.World.Constants.PixelBlock, Integer, Boolean)
+  nameWithType: ActivatorBlock.ActivatorBlock(PixelBlock, int, bool)
+  nameWithType.vb: ActivatorBlock.New(PixelBlock, Integer, Boolean)
 - uid: PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.#ctor(System.Int32,System.Int32,System.Boolean)
   name: ActivatorBlock(int, int, bool)
   href: api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html#PixelPilot_PixelGameClient_World_Blocks_ActivatorBlock__ctor_System_Int32_System_Int32_System_Boolean_
@@ -7620,6 +7661,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock
   nameWithType: MorphableBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Int32)
+  name: MorphableBlock(PixelBlock, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock__ctor_PixelPilot_PixelGameClient_World_Constants_PixelBlock_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Int32)
+  name.vb: New(PixelBlock, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.MorphableBlock(PixelPilot.PixelGameClient.World.Constants.PixelBlock, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.New(PixelPilot.PixelGameClient.World.Constants.PixelBlock, Integer)
+  nameWithType: MorphableBlock.MorphableBlock(PixelBlock, int)
+  nameWithType.vb: MorphableBlock.New(PixelBlock, Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.#ctor(System.Int32,System.Int32)
   name: MorphableBlock(int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html#PixelPilot_PixelGameClient_World_Blocks_MorphableBlock__ctor_System_Int32_System_Int32_
@@ -8002,6 +8052,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.PortalBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock
   nameWithType: PortalBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Int32,System.Int32,System.Int32)
+  name: PortalBlock(PixelBlock, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock__ctor_PixelPilot_PixelGameClient_World_Constants_PixelBlock_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.PortalBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Int32,System.Int32,System.Int32)
+  name.vb: New(PixelBlock, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.PortalBlock(PixelPilot.PixelGameClient.World.Constants.PixelBlock, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.New(PixelPilot.PixelGameClient.World.Constants.PixelBlock, Integer, Integer, Integer)
+  nameWithType: PortalBlock.PortalBlock(PixelBlock, int, int, int)
+  nameWithType.vb: PortalBlock.New(PixelBlock, Integer, Integer, Integer)
 - uid: PixelPilot.PixelGameClient.World.Blocks.PortalBlock.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   name: PortalBlock(int, int, int, int)
   href: api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_PortalBlock__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -8142,6 +8201,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock
   fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock
   nameWithType: ResetterBlock
+- uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Boolean)
+  name: ResetterBlock(PixelBlock, bool)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock__ctor_PixelPilot_PixelGameClient_World_Constants_PixelBlock_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.#ctor(PixelPilot.PixelGameClient.World.Constants.PixelBlock,System.Boolean)
+  name.vb: New(PixelBlock, Boolean)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.ResetterBlock(PixelPilot.PixelGameClient.World.Constants.PixelBlock, bool)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.New(PixelPilot.PixelGameClient.World.Constants.PixelBlock, Boolean)
+  nameWithType: ResetterBlock.ResetterBlock(PixelBlock, bool)
+  nameWithType.vb: ResetterBlock.New(PixelBlock, Boolean)
 - uid: PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.#ctor(System.Int32,System.Boolean)
   name: ResetterBlock(int, bool)
   href: api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html#PixelPilot_PixelGameClient_World_Blocks_ResetterBlock__ctor_System_Int32_System_Boolean_
