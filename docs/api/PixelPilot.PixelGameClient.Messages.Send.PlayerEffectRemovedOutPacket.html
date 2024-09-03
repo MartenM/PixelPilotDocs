@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PlayerTouchPlayerPacket | PixelPilot </title>
+      <title>Class PlayerEffectRemovedOutPacket | PixelPilot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PlayerTouchPlayerPacket | PixelPilot ">
+      <meta name="title" content="Class PlayerEffectRemovedOutPacket | PixelPilot ">
       
       
       <link rel="icon" href="../images/pixel_pilot.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.9.1/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.9.1/apiSpec/new?filename=PixelPilot_PixelGameClient_Messages_Send_PlayerEffectRemovedOutPacket.md&amp;value=---%0Auid%3A%20PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket">
+        <article data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket">
 
 
 
-  <h1 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket" class="text-break">
-Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchPlayerPacket.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  <h1 id="PixelPilot_PixelGameClient_Messages_Send_PlayerEffectRemovedOutPacket" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket" class="text-break">
+Class PlayerEffectRemovedOutPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerEffectRemovedOutPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.html">Messages</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.Received.html">Received</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.PixelGameClient.html">PixelGameClient</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.html">Messages</a>.<a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.html">Send</a></dd></dl>
   <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="Vi
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerTouchPlayerPacket : IPixelGamePlayerPacket, IPixelGamePacket</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerEffectRemovedOutPacket : ReflectivePixelOutPacket, IPixelGamePacketOut</code></pre>
   </div>
 
 
@@ -111,15 +111,15 @@ Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="Vi
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PlayerTouchPlayerPacket</span></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html">ReflectivePixelOutPacket</a></div>
+      <div><span class="xref">PlayerEffectRemovedOutPacket</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePlayerPacket.html">IPixelGamePlayerPacket</a></div>
-      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html">IPixelGamePacket</a></div>
+      <div><a class="xref" href="PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut.html">IPixelGamePacketOut</a></div>
     </dd>
   </dl>
 
@@ -127,6 +127,18 @@ Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="Vi
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_messageType">ReflectivePixelOutPacket.messageType</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_GetFields_System_Boolean_">ReflectivePixelOutPacket.GetFields(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_GetFields">ReflectivePixelOutPacket.GetFields()</a>
+    </div>
+    <div>
+      <a class="xref" href="PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html#PixelPilot_PixelGameClient_Messages_Send_ReflectivePixelOutPacket_ToBinaryPacket">ReflectivePixelOutPacket.ToBinaryPacket()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -159,27 +171,23 @@ Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.#ctor*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Send_PlayerEffectRemovedOutPacket__ctor_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.#ctor*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket__ctor_System_Int32_System_Int32_System_Byte_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.#ctor(System.Int32,System.Int32,System.Byte)">
-  PlayerTouchPlayerPacket(int, int, byte)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchPlayerPacket.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Send_PlayerEffectRemovedOutPacket__ctor_System_Int32_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.#ctor(System.Int32)">
+  PlayerEffectRemovedOutPacket(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerEffectRemovedOutPacket.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerTouchPlayerPacket(int id, int touchedPlayer, byte isTouching)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerEffectRemovedOutPacket(int effectId)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>touchedPlayer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>isTouching</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dt><code>effectId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -198,80 +206,18 @@ Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket_IsToucing_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.IsToucing*"></a>
+  <a id="PixelPilot_PixelGameClient_Messages_Send_PlayerEffectRemovedOutPacket_EffectId_" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.EffectId*"></a>
 
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket_IsToucing" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.IsToucing">
-  IsToucing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchPlayerPacket.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_PixelGameClient_Messages_Send_PlayerEffectRemovedOutPacket_EffectId" data-uid="PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.EffectId">
+  EffectId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerEffectRemovedOutPacket.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsToucing { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket_PlayerId_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.PlayerId*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket_PlayerId" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.PlayerId">
-  PlayerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchPlayerPacket.cs/#L12"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PlayerId { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket_TouchedPlayer_" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.TouchedPlayer*"></a>
-
-  <h3 id="PixelPilot_PixelGameClient_Messages_Received_PlayerTouchPlayerPacket_TouchedPlayer" data-uid="PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.TouchedPlayer">
-  TouchedPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchPlayerPacket.cs/#L13"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int TouchedPlayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int EffectId { get; set; }</code></pre>
   </div>
 
 
@@ -295,7 +241,7 @@ Class PlayerTouchPlayerPacket  <a class="header-action link-secondary" title="Vi
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Received/PlayerTouchPlayerPacket.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.9.1/src/PixelPilot.Core/PixelGameClient/Messages/Send/PlayerEffectRemovedOutPacket.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

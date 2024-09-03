@@ -522,20 +522,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.yml",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerAddEffectPacket.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html"
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerAddEffectPacket.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.yml",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerEffectPacket.html"
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html"
         }
       },
       "version": ""
@@ -792,10 +792,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerAddEffectOutPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerAddEffectOutPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerChatOutPacket.yml",
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerChatOutPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.html"
         }
       },
       "version": ""
@@ -846,6 +866,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerResetEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerResetEffects.html"
         }
       },
       "version": ""
