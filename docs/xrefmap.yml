@@ -4424,6 +4424,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.ExtraFields
   nameWithType: WorldBlockPlacedPacket.ExtraFields
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.IsFillOperation
+  name: IsFillOperation
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_IsFillOperation
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.IsFillOperation
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.IsFillOperation
+  nameWithType: WorldBlockPlacedPacket.IsFillOperation
+- uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.IsFillOperation*
+  name: IsFillOperation
+  href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_IsFillOperation_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.IsFillOperation
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.IsFillOperation
+  nameWithType: WorldBlockPlacedPacket.IsFillOperation
 - uid: PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.Layer
   name: Layer
   href: api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html#PixelPilot_PixelGameClient_Messages_Received_WorldBlockPlacedPacket_Layer
