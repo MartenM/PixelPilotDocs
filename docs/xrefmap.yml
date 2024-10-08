@@ -8720,6 +8720,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsPacketOut
   nameWithType: WorldPortalBlock.AsPacketOut
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: WorldPortalBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: WorldPortalBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer
+  nameWithType: WorldPortalBlock.AsWorldBuffer
 - uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
   name: WorldId
   href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_WorldId
