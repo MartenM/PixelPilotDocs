@@ -3414,6 +3414,32 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.AsPacketOut
   nameWithType: PlayerMovePacket.AsPacketOut
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockX
+  name: BlockX
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_BlockX
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockX
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockX
+  nameWithType: PlayerMovePacket.BlockX
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockX*
+  name: BlockX
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_BlockX_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockX
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockX
+  nameWithType: PlayerMovePacket.BlockX
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockY
+  name: BlockY
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_BlockY
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockY
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockY
+  nameWithType: PlayerMovePacket.BlockY
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockY*
+  name: BlockY
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_BlockY_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockY
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.BlockY
+  nameWithType: PlayerMovePacket.BlockY
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.Horizontal
   name: Horizontal
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerMovePacket_Horizontal
@@ -6566,6 +6592,32 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.AccountId
   nameWithType: IPixelPlayer.AccountId
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockX
+  name: BlockX
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_BlockX
+  commentId: P:PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockX
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockX
+  nameWithType: IPixelPlayer.BlockX
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockX*
+  name: BlockX
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_BlockX_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockX
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockX
+  nameWithType: IPixelPlayer.BlockX
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockY
+  name: BlockY
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_BlockY
+  commentId: P:PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockY
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockY
+  nameWithType: IPixelPlayer.BlockY
+- uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockY*
+  name: BlockY
+  href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_BlockY_
+  commentId: Overload:PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockY
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlockY
+  nameWithType: IPixelPlayer.BlockY
 - uid: PixelPilot.PixelGameClient.Players.IPixelPlayer.BlueCoins
   name: BlueCoins
   href: api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html#PixelPilot_PixelGameClient_Players_IPixelPlayer_BlueCoins
