@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.9.5/apiSpec/new?filename=PixelPilot_Structures_Extensions_WorldExtensions.md&amp;value=---%0Auid%3A%20PixelPilot.Structures.Extensions.WorldExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.9.6/apiSpec/new?filename=PixelPilot_Structures_Extensions_WorldExtensions.md&amp;value=---%0Auid%3A%20PixelPilot.Structures.Extensions.WorldExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_Structures_Extensions_WorldExtensions" data-uid="PixelPilot.Structures.Extensions.WorldExtensions" class="text-break">
-Class WorldExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class WorldExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -155,7 +155,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_MaxChunkBlockCount" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.MaxChunkBlockCount">
   MaxChunkBlockCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -188,28 +188,38 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <a id="PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.GetDifference*"></a>
 
-  <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_PixelPilot_PixelGameClient_World_PixelWorld_PixelPilot_Structures_Structure_System_Int32_System_Int32_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32)">
-  GetDifference(PixelWorld, Structure, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_PixelPilot_PixelGameClient_World_PixelWorld_PixelPilot_Structures_Structure_System_Int32_System_Int32_System_Boolean_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32,System.Boolean)">
+  GetDifference(PixelWorld, Structure, int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the difference between the world and structure at a specified place in the world.
+The returned list will be translated towards the origin point (unless disabled using the parameters) by copying the original blocks.
+If not translated the original references will be kept.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;IPlacedBlock&gt; GetDifference(this PixelWorld world, Structure structure, int x = 0, int y = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;IPlacedBlock&gt; GetDifference(this PixelWorld world, Structure structure, int x = 0, int y = 0, bool translate = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>world</code> <a class="xref" href="PixelPilot.PixelGameClient.World.PixelWorld.html">PixelWorld</a></dt>
-    <dd></dd>
+    <dd><p>The from which to check if blocks are already placed</p>
+</dd>
     <dt><code>structure</code> <a class="xref" href="PixelPilot.Structures.Structure.html">Structure</a></dt>
-    <dd></dd>
+    <dd><p>The structure to be placed.</p>
+</dd>
     <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The X location (Top Left)</p>
+</dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The Y location (Top Left)</p>
+</dd>
+    <dt><code>translate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If the output should be translated to the differences in the world.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -225,6 +235,11 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.PixelGameClient.PixelGameException.html">PixelGameException</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -232,7 +247,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_GetStructure_PixelPilot_PixelGameClient_World_PixelWorld_System_Drawing_Point_System_Drawing_Point_System_Boolean_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld,System.Drawing.Point,System.Drawing.Point,System.Boolean)">
   GetStructure(PixelWorld, Point, Point, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -274,7 +289,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_GetStructure_PixelPilot_PixelGameClient_World_PixelWorld_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.GetStructure(PixelPilot.PixelGameClient.World.PixelWorld,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
   GetStructure(PixelWorld, int, int, int, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -320,7 +335,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_PasteInOrder_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__PixelPilot_PixelGameClient_PixelPilotClient_System_Drawing_Point_System_Int32_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)">
   PasteInOrder(List&lt;IPlacedBlock&gt;, PixelPilotClient, Point, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -362,7 +377,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_PasteShuffled_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__PixelPilot_PixelGameClient_PixelPilotClient_System_Drawing_Point_System_Int32_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock},PixelPilot.PixelGameClient.PixelPilotClient,System.Drawing.Point,System.Int32)">
   PasteShuffled(List&lt;IPlacedBlock&gt;, PixelPilotClient, Point, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -404,7 +419,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_ToChunkedPacket_System_Collections_Generic_List_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})">
   ToChunkedPacket(List&lt;IPlacedBlock&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a packet out of a blocks that are all the same.</p>
@@ -449,7 +464,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_ToChunkedPackets_System_Collections_Generic_IEnumerable_PixelPilot_PixelGameClient_World_Blocks_Placed_IPlacedBlock__" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock})">
   ToChunkedPackets(IEnumerable&lt;IPlacedBlock&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Group blocks that are the same into a single packet that can be send.</p>
@@ -488,7 +503,7 @@ Class WorldExtensions  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.9.5/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.9.6/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -7428,6 +7428,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.BlockId
   nameWithType: BasicBlock.BlockId
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Clone
+  name: Clone()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Clone
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Clone
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Clone()
+  nameWithType: BasicBlock.Clone()
+- uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Clone*
+  name: Clone
+  href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Clone_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Clone
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Clone
+  nameWithType: BasicBlock.Clone
 - uid: PixelPilot.PixelGameClient.World.Blocks.BasicBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.BasicBlock)
   name: Equals(BasicBlock)
   href: api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html#PixelPilot_PixelGameClient_World_Blocks_BasicBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_BasicBlock_
@@ -8240,6 +8253,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Block
   nameWithType: PlacedBlock.Block
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Clone
+  name: Clone()
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Clone
+  commentId: M:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Clone
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Clone()
+  nameWithType: PlacedBlock.Clone()
+- uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Clone*
+  name: Clone
+  href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Clone_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Clone
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Clone
+  nameWithType: PlacedBlock.Clone
 - uid: PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.Equals(PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock)
   name: Equals(PlacedBlock)
   href: api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html#PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_Equals_PixelPilot_PixelGameClient_World_Blocks_Placed_PlacedBlock_
@@ -18536,15 +18562,15 @@ references:
   commentId: T:PixelPilot.Structures.Extensions.WorldExtensions
   fullName: PixelPilot.Structures.Extensions.WorldExtensions
   nameWithType: WorldExtensions
-- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32)
-  name: GetDifference(PixelWorld, Structure, int, int)
-  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_PixelPilot_PixelGameClient_World_PixelWorld_PixelPilot_Structures_Structure_System_Int32_System_Int32_
-  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32)
-  name.vb: GetDifference(PixelWorld, Structure, Integer, Integer)
-  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld, PixelPilot.Structures.Structure, int, int)
-  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld, PixelPilot.Structures.Structure, Integer, Integer)
-  nameWithType: WorldExtensions.GetDifference(PixelWorld, Structure, int, int)
-  nameWithType.vb: WorldExtensions.GetDifference(PixelWorld, Structure, Integer, Integer)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32,System.Boolean)
+  name: GetDifference(PixelWorld, Structure, int, int, bool)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_PixelPilot_PixelGameClient_World_PixelWorld_PixelPilot_Structures_Structure_System_Int32_System_Int32_System_Boolean_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld,PixelPilot.Structures.Structure,System.Int32,System.Int32,System.Boolean)
+  name.vb: GetDifference(PixelWorld, Structure, Integer, Integer, Boolean)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld, PixelPilot.Structures.Structure, int, int, bool)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference(PixelPilot.PixelGameClient.World.PixelWorld, PixelPilot.Structures.Structure, Integer, Integer, Boolean)
+  nameWithType: WorldExtensions.GetDifference(PixelWorld, Structure, int, int, bool)
+  nameWithType.vb: WorldExtensions.GetDifference(PixelWorld, Structure, Integer, Integer, Boolean)
 - uid: PixelPilot.Structures.Extensions.WorldExtensions.GetDifference*
   name: GetDifference
   href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetDifference_
