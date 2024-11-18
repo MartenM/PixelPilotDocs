@@ -6125,15 +6125,15 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.PixelPilotClient.SendDirect
   nameWithType: PixelPilotClient.SendDirect
-- uid: PixelPilot.PixelGameClient.PixelPilotClient.SendPm(System.String,System.String)
-  name: SendPm(string, string)
-  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SendPm_System_String_System_String_
-  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.SendPm(System.String,System.String)
-  name.vb: SendPm(String, String)
-  fullName: PixelPilot.PixelGameClient.PixelPilotClient.SendPm(string, string)
-  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.SendPm(String, String)
-  nameWithType: PixelPilotClient.SendPm(string, string)
-  nameWithType.vb: PixelPilotClient.SendPm(String, String)
+- uid: PixelPilot.PixelGameClient.PixelPilotClient.SendPm(System.String,System.String,System.Boolean)
+  name: SendPm(string, string, bool)
+  href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SendPm_System_String_System_String_System_Boolean_
+  commentId: M:PixelPilot.PixelGameClient.PixelPilotClient.SendPm(System.String,System.String,System.Boolean)
+  name.vb: SendPm(String, String, Boolean)
+  fullName: PixelPilot.PixelGameClient.PixelPilotClient.SendPm(string, string, bool)
+  fullName.vb: PixelPilot.PixelGameClient.PixelPilotClient.SendPm(String, String, Boolean)
+  nameWithType: PixelPilotClient.SendPm(string, string, bool)
+  nameWithType.vb: PixelPilotClient.SendPm(String, String, Boolean)
 - uid: PixelPilot.PixelGameClient.PixelPilotClient.SendPm*
   name: SendPm
   href: api/PixelPilot.PixelGameClient.PixelPilotClient.html#PixelPilot_PixelGameClient_PixelPilotClient_SendPm_
