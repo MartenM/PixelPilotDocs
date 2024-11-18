@@ -2982,15 +2982,15 @@ references:
   commentId: T:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket
   nameWithType: PlayerJoinPacket
-- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Byte[])
-  name: PlayerJoinPacket(int, string, string, int, bool, bool, bool, bool, double, double, int, int, int, int, byte[], bool, bool, bool, bool, int, byte[])
-  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Int32_System_Byte___
-  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Byte[])
-  name.vb: New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Byte(), Boolean, Boolean, Boolean, Boolean, Integer, Byte())
-  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, bool, double, double, int, int, int, int, byte[], bool, bool, bool, bool, int, byte[])
-  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Byte(), Boolean, Boolean, Boolean, Boolean, Integer, Byte())
-  nameWithType: PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, bool, double, double, int, int, int, int, byte[], bool, bool, bool, bool, int, byte[])
-  nameWithType.vb: PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Byte(), Boolean, Boolean, Boolean, Boolean, Integer, Byte())
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Byte[])
+  name: PlayerJoinPacket(int, string, string, int, bool, bool, bool, bool, bool, double, double, int, int, int, int, byte[], bool, bool, bool, bool, int, byte[])
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Double_System_Double_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Int32_System_Byte___
+  commentId: M:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Byte[])
+  name.vb: New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Byte(), Boolean, Boolean, Boolean, Boolean, Integer, Byte())
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, bool, bool, double, double, int, int, int, int, byte[], bool, bool, bool, bool, int, byte[])
+  fullName.vb: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Byte(), Boolean, Boolean, Boolean, Boolean, Integer, Byte())
+  nameWithType: PlayerJoinPacket.PlayerJoinPacket(int, string, string, int, bool, bool, bool, bool, bool, double, double, int, int, int, int, byte[], bool, bool, bool, bool, int, byte[])
+  nameWithType.vb: PlayerJoinPacket.New(Integer, String, String, Integer, Boolean, Boolean, Boolean, Boolean, Boolean, Double, Double, Integer, Integer, Integer, Integer, Byte(), Boolean, Boolean, Boolean, Boolean, Integer, Byte())
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.#ctor*
   name: PlayerJoinPacket
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket__ctor_
@@ -3170,6 +3170,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsAdmin
   nameWithType: PlayerJoinPacket.IsAdmin
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsFriend
+  name: IsFriend
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_IsFriend
+  commentId: P:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsFriend
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsFriend
+  nameWithType: PlayerJoinPacket.IsFriend
+- uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsFriend*
+  name: IsFriend
+  href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_IsFriend_
+  commentId: Overload:PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsFriend
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsFriend
+  nameWithType: PlayerJoinPacket.IsFriend
 - uid: PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.IsOwner
   name: IsOwner
   href: api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html#PixelPilot_PixelGameClient_Messages_Received_PlayerJoinPacket_IsOwner
