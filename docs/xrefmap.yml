@@ -9138,60 +9138,120 @@ references:
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlack
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlack
   nameWithType: PixelBlock.BeveledBlack
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlackBg
+  name: BeveledBlackBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledBlackBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlackBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlackBg
+  nameWithType: PixelBlock.BeveledBlackBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlue
   name: BeveledBlue
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledBlue
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlue
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlue
   nameWithType: PixelBlock.BeveledBlue
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlueBg
+  name: BeveledBlueBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledBlueBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlueBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledBlueBg
+  nameWithType: PixelBlock.BeveledBlueBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledCyan
   name: BeveledCyan
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledCyan
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledCyan
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledCyan
   nameWithType: PixelBlock.BeveledCyan
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledCyanBg
+  name: BeveledCyanBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledCyanBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledCyanBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledCyanBg
+  nameWithType: PixelBlock.BeveledCyanBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGray
   name: BeveledGray
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledGray
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGray
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGray
   nameWithType: PixelBlock.BeveledGray
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGrayBg
+  name: BeveledGrayBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledGrayBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGrayBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGrayBg
+  nameWithType: PixelBlock.BeveledGrayBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGreen
   name: BeveledGreen
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledGreen
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGreen
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGreen
   nameWithType: PixelBlock.BeveledGreen
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGreenBg
+  name: BeveledGreenBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledGreenBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGreenBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledGreenBg
+  nameWithType: PixelBlock.BeveledGreenBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledMagenta
   name: BeveledMagenta
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledMagenta
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledMagenta
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledMagenta
   nameWithType: PixelBlock.BeveledMagenta
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledMagentaBg
+  name: BeveledMagentaBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledMagentaBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledMagentaBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledMagentaBg
+  nameWithType: PixelBlock.BeveledMagentaBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledOrange
   name: BeveledOrange
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledOrange
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledOrange
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledOrange
   nameWithType: PixelBlock.BeveledOrange
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledOrangeBg
+  name: BeveledOrangeBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledOrangeBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledOrangeBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledOrangeBg
+  nameWithType: PixelBlock.BeveledOrangeBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledRed
   name: BeveledRed
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledRed
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledRed
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledRed
   nameWithType: PixelBlock.BeveledRed
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledRedBg
+  name: BeveledRedBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledRedBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledRedBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledRedBg
+  nameWithType: PixelBlock.BeveledRedBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledWhite
   name: BeveledWhite
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledWhite
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledWhite
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledWhite
   nameWithType: PixelBlock.BeveledWhite
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledWhiteBg
+  name: BeveledWhiteBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledWhiteBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledWhiteBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledWhiteBg
+  nameWithType: PixelBlock.BeveledWhiteBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledYellow
   name: BeveledYellow
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledYellow
   commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledYellow
   fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledYellow
   nameWithType: PixelBlock.BeveledYellow
+- uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledYellowBg
+  name: BeveledYellowBg
+  href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BeveledYellowBg
+  commentId: F:PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledYellowBg
+  fullName: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BeveledYellowBg
+  nameWithType: PixelBlock.BeveledYellowBg
 - uid: PixelPilot.PixelGameClient.World.Constants.PixelBlock.BoostDown
   name: BoostDown
   href: api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html#PixelPilot_PixelGameClient_World_Constants_PixelBlock_BoostDown
