@@ -794,6 +794,21 @@
     "title": "Namespace PixelPilot.PixelHttpClient | PixelPilot",
     "keywords": "Namespace PixelPilot.PixelHttpClient Classes PixelApiClient Used to make HTTP API request instead of using the websocket. Required for obtaining information used to join a world. PixelApiException"
   },
+  "api/PixelPilot.Structures.Converters.Changes.VersionManager.html": {
+    "href": "api/PixelPilot.Structures.Converters.Changes.VersionManager.html",
+    "title": "Class VersionManager | PixelPilot",
+    "keywords": "Class VersionManager Namespace PixelPilot.Structures.Converters.Changes Assembly PixelPilot.Structures.dll public class VersionManager Inheritance object VersionManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors VersionManager() public VersionManager() Methods ApplyMigrations(MappedBlockData) public void ApplyMigrations(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
+  },
+  "api/PixelPilot.Structures.Converters.Changes.VersionMigration.html": {
+    "href": "api/PixelPilot.Structures.Converters.Changes.VersionMigration.html",
+    "title": "Class VersionMigration | PixelPilot",
+    "keywords": "Class VersionMigration Namespace PixelPilot.Structures.Converters.Changes Assembly PixelPilot.Structures.dll public abstract class VersionMigration Inheritance object VersionMigration Derived Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors VersionMigration(int) protected VersionMigration(int fromVersion) Parameters fromVersion int Properties FromVersion public int FromVersion { get; } Property Value int ToVersion public int ToVersion { get; } Property Value int Methods ApplyMigration(MappedBlockData) public void ApplyMigration(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData DoUpdate(MappedBlockData) protected abstract void DoUpdate(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
+  },
+  "api/PixelPilot.Structures.Converters.Changes.html": {
+    "href": "api/PixelPilot.Structures.Converters.Changes.html",
+    "title": "Namespace PixelPilot.Structures.Converters.Changes | PixelPilot",
+    "keywords": "Namespace PixelPilot.Structures.Converters.Changes Classes VersionManager VersionMigration"
+  },
   "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_07_18.html": {
     "href": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_07_18.html",
     "title": "Class Migration_2024_07_18 | PixelPilot",
@@ -813,21 +828,6 @@
     "href": "api/PixelPilot.Structures.Converters.Migrations.Migrations.html",
     "title": "Namespace PixelPilot.Structures.Converters.Migrations.Migrations | PixelPilot",
     "keywords": "Namespace PixelPilot.Structures.Converters.Migrations.Migrations Classes Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18"
-  },
-  "api/PixelPilot.Structures.Converters.Migrations.VersionManager.html": {
-    "href": "api/PixelPilot.Structures.Converters.Migrations.VersionManager.html",
-    "title": "Class VersionManager | PixelPilot",
-    "keywords": "Class VersionManager Namespace PixelPilot.Structures.Converters.Migrations Assembly PixelPilot.Structures.dll public class VersionManager Inheritance object VersionManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors VersionManager() public VersionManager() Methods ApplyMigrations(MappedBlockData) public void ApplyMigrations(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
-  },
-  "api/PixelPilot.Structures.Converters.Migrations.VersionMigration.html": {
-    "href": "api/PixelPilot.Structures.Converters.Migrations.VersionMigration.html",
-    "title": "Class VersionMigration | PixelPilot",
-    "keywords": "Class VersionMigration Namespace PixelPilot.Structures.Converters.Migrations Assembly PixelPilot.Structures.dll public abstract class VersionMigration Inheritance object VersionMigration Derived Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors VersionMigration(int) protected VersionMigration(int fromVersion) Parameters fromVersion int Properties FromVersion public int FromVersion { get; } Property Value int ToVersion public int ToVersion { get; } Property Value int Methods ApplyMigration(MappedBlockData) public void ApplyMigration(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData DoUpdate(MappedBlockData) protected abstract void DoUpdate(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
-  },
-  "api/PixelPilot.Structures.Converters.Migrations.html": {
-    "href": "api/PixelPilot.Structures.Converters.Migrations.html",
-    "title": "Namespace PixelPilot.Structures.Converters.Migrations | PixelPilot",
-    "keywords": "Namespace PixelPilot.Structures.Converters.Migrations Classes VersionManager VersionMigration"
   },
   "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html": {
     "href": "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html",

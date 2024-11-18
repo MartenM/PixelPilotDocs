@@ -1602,6 +1602,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Changes.VersionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Changes.VersionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Changes.VersionMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Changes.VersionMigration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Changes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Changes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_07_18.yml",
       "output": {
         ".html": {
@@ -1636,36 +1666,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.VersionManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.VersionManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.VersionMigration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.VersionMigration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.html"
         }
       },
       "version": ""
