@@ -8843,6 +8843,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.AsWorldBuffer
   nameWithType: WorldPortalBlock.AsWorldBuffer
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.SpawnId
+  name: SpawnId
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_SpawnId
+  commentId: P:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.SpawnId
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.SpawnId
+  nameWithType: WorldPortalBlock.SpawnId
+- uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.SpawnId*
+  name: SpawnId
+  href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_SpawnId_
+  commentId: Overload:PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.SpawnId
+  isSpec: "True"
+  fullName: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.SpawnId
+  nameWithType: WorldPortalBlock.SpawnId
 - uid: PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.WorldId
   name: WorldId
   href: api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html#PixelPilot_PixelGameClient_World_Blocks_WorldPortalBlock_WorldId
