@@ -12,6 +12,216 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.PixelApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.PixelApiClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.PixelApiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.PixelApiException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Auth.AuthErrorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Auth.AuthErrorResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Auth.AuthSuccessResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Auth.AuthSuccessResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Auth.IAuthResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Auth.IAuthResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Auth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.CollectionResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.CollectionResponse-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.ICollectionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.ICollectionEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.PlayerEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.PlayerEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.QueryArgumentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.QueryArgumentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.WorldEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.WorldEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.JoinKeyResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.JoinKeyResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.MappingsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.MappingsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.PlayerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.PlayerData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.visible.PixelWalkerWorldsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.visible.PixelWalkerWorldsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.visible.VisibleRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.visible.VisibleRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.visible.VisibleRoomData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.visible.VisibleRoomData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.visible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.visible.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.ChatCommands.CommandManager.yml",
       "output": {
         ".html": {
@@ -182,6 +392,716 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.JoinData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.JoinData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.BinaryDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.BinaryDataList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.BinaryFieldConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.BinaryFieldConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Constants.EffectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Constants.EffectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Constants.PacketFieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Constants.PacketFieldType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Constants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Exceptions.PixelException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Exceptions.PixelException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.IDynamicConstructedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.IDynamicConstructedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.IPacketOutConvertible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.IPacketOutConvertible.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.IPixelGamePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.IPixelGamePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.IPixelGamePacketOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.IPixelGamePacketOut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.IPixelGamePlayerPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.IPixelGamePlayerPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Misc.BinaryReaderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Misc.BinaryReaderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Misc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Misc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Packets.Exceptions.PacketWrapException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Packets.Exceptions.PacketWrapException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Packets.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Packets.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.PartExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.PartExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.WorldBlockPacketBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.WorldBlockPacketBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Packets.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Queue.IPixelPacketQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Queue.IPixelPacketQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Queue.TokenBucketPacketOutQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Queue.TokenBucketPacketOutQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Messages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelGameClientBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelGameClientBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelGameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelGameException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelPilotClient.ClientConnected.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelPilotClient.ClientConnected.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelPilotClient.ClientDisconnected.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelPilotClient.ClientDisconnected.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelPilotClient.PacketReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelPilotClient.PacketReceived.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelPilotClient.PacketSend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelPilotClient.PacketSend.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.PixelPilotClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.PixelPilotClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.Basic.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.Basic.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.Basic.PlayerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.Basic.PlayerManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.Basic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.Basic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.IPixelPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.IPixelPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PlayerJoined.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PlayerJoined.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PlayerLeft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PlayerLeft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PlayerStatusChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PlayerStatusChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PrePlayerStatusChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.PrePlayerStatusChange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.PixelPlayerManager-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Players.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Players.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.BasicBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.BasicBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.IPixelBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.IPixelBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.MorphableBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.MorphableBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Placed.IPlacedBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Placed.IPlacedBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Placed.PlacedBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Placed.PlacedBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Placed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Placed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.ActivatorBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.ActivatorBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.LeveledEffectBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.LeveledEffectBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.TimedEffectBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.TimedEffectBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.ToggleEffectBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.ToggleEffectBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.Effects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.PortalBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.ResetterBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.ResetterBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.SignBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.SignBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.WorldPortalBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.WorldPortalBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Constants.BlockType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Constants.BlockType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Constants.PixelBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Constants.PixelBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Constants.PixelBlockExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Constants.PixelBlockExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Constants.WorldLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Constants.WorldLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Constants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.BlockPlaced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.BlockPlaced.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldCleared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldCleared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldInit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldInit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldReloaded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldReloaded.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Common.EndPoints.yml",
       "output": {
         ".html": {
@@ -216,1386 +1136,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Common.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.JoinData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.JoinData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.EffectType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.MessageType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.MessageType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.PacketFieldType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.PacketFieldType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.WorldMessageType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Constants.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorDynamicException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketConstructorException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketTypeNotFoundException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PacketTypeNotFoundException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PixelException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.PixelException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Exceptions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.IDynamicConstructedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.IPacketOutConvertible.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.IPixelGamePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.IPixelGamePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.IPixelGamePacketOut.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.IPixelGamePlayerPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.IPixelGamePlayerPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Misc.BinaryReaderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Misc.BinaryReaderExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Misc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Misc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.PacketConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.PacketConverter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.IPixelPacketQueue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.TokenBucketPacketOutQueue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Queue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchChangedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.GlobalSwitchResetPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.InitPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchChangedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.LocalSwitchResetPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.ChatMessage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.OldChatMessagesPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PingPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PingPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerAddEffectPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerAddEffectPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerChatPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerFacePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerGodmodePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerJoinPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerLeftPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerLeftPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerModMode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerMovePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerPrivateMessagePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerRemoveEffectPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerRemoveEffectPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetEffectsPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerResetPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerRespawnPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerRespawnPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerStatsChangePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTeamPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTeamPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTeleportedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTeleportedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchBlockPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerTouchPlayerPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerUpdateRightsPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.PlayerUpdateRightsPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.SystemMessagePacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldBlockPlacedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldClearedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldClearedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldMetaPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldMetaPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldReloadedPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.WorldReloadedPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Received.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchChangeOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.GlobalSwitchResetOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerAddEffectOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerAddEffectOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerChatOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerChatOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerEffectRemovedOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerFaceOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerFaceOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerGodmodeOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchChangedOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerLocalSwitchResetOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerMoveOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerResetEffects.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerResetEffects.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerStatsChangedOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.PlayerTouchBlockOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.ReflectivePixelOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.WorldBlockPlacedOutPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.Send.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Messages.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Messages.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelGameClientBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelGameClientBuilder.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelGameException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelGameException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.ClientConnected.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.ClientConnected.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.ClientDisconnected.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.PacketReceived.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.PacketReceived.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.PacketSend.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.PacketSend.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.PixelPilotClient.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.Basic.Player.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.Basic.Player.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.Basic.PlayerManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.Basic.PlayerManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.Basic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.Basic.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.IPixelPlayer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.IPixelPlayer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerJoined.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerJoined.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerLeft.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerLeft.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerStatusChanged.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PlayerStatusChanged.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PrePlayerStatusChange.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.PrePlayerStatusChange.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.PixelPlayerManager-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.Players.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.Players.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.ActivatorBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.BasicBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.LeveledEffectBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.TimedEffectBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.ToggleEffectBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Effects.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.IPixelBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.MorphableBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Placed.IPlacedBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Placed.PlacedBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Placed.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.Placed.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.PortalBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.ResetterBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.SignBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.SignBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.WorldPortalBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Blocks.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Constants.BlockType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Constants.BlockType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Constants.PixelBlock.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Constants.PixelBlockExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Constants.PixelBlockExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Constants.WorldLayer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Constants.WorldLayer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.Constants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.Constants.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.BlockPlaced.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.BlockPlaced.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldCleared.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldInit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldInit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.WorldReloaded.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.PixelWorld.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.World.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.World.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelGameClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelGameClient.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.PixelApiClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.PixelApiClient.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.PixelApiException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.PixelApiException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.AuthErrorResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.AuthErrorResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.AuthSuccessResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.AuthSuccessResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.IAuthResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.IAuthResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Auth.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.CollectionResponse-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.ICollectionEntry.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.PlayerEntry.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.QueryArgumentBuilder.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.WorldEntry.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.Collections.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.JoinKeyResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.JoinKeyResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.MappingsResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.MappingsResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.PlayerData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.PlayerData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.PixelWalkerWorldsResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoom.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.VisibleRoomData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.visible.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.Responses.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.Responses.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.PixelHttpClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelPilot.PixelHttpClient.html"
         }
       },
       "version": ""
@@ -1766,6 +1306,486 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Structures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.OldChatMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.OldChatMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.OldChatMessagesPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.OldChatMessagesPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.Ping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.Ping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCountersUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCountersUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerDirectMessagePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerDirectMessagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerFacePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerFacePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerGodModePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerGodModePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitReceivedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitReceivedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerJoinedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerJoinedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLeftPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLeftPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerModModePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerModModePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMovedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMovedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRespawnPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRespawnPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTeamUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTeamUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTeleportedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTeleportedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWorldState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWorldState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PointDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PointDouble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PointInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PointInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.SystemMessagePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.SystemMessagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldClearedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldClearedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMetaUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMetaUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.html"
         }
       },
       "version": ""

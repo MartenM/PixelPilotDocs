@@ -1,0 +1,883 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerLocalSwitchChangedPacket | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerLocalSwitchChangedPacket | PixelPilot ">
+      
+      
+      <link rel="icon" href="../images/pixel_pilot.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.10.0-alpha/apiSpec/new?filename=PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket.md&amp;value=---%0Auid%3A%20PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket">
+
+
+
+  <h1 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket" class="text-break">
+Class PlayerLocalSwitchChangedPacket  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10716"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelWalker.html">PixelWalker</a>.<a class="xref" href="PixelWalker.Networking.html">Networking</a>.<a class="xref" href="PixelWalker.Networking.Protobuf.html">Protobuf</a>.<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.html">WorldPackets</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PlayerLocalSwitchChangedPacket : IMessage&lt;PlayerLocalSwitchChangedPacket&gt;, IEquatable&lt;PlayerLocalSwitchChangedPacket&gt;, IDeepCloneable&lt;PlayerLocalSwitchChangedPacket&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PlayerLocalSwitchChangedPacket</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_GetPlayerId_Google_Protobuf_IMessage_">WorldPacketExtensions.GetPlayerId(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_IsReplayable_Google_Protobuf_IMessage_">WorldPacketExtensions.IsReplayable(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_RemovePlayerId_Google_Protobuf_IMessage_">WorldPacketExtensions.RemovePlayerId(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_ToWorldPacket_Google_Protobuf_IMessage_">WorldPacketExtensions.ToWorldPacket(IMessage)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket__ctor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.#ctor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket__ctor" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.#ctor">
+  PlayerLocalSwitchChangedPacket()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10741"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerLocalSwitchChangedPacket()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket__ctor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.#ctor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket)">
+  PlayerLocalSwitchChangedPacket(PlayerLocalSwitchChangedPacket)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10749"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerLocalSwitchChangedPacket(PlayerLocalSwitchChangedPacket other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_PlayerIdFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.PlayerIdFieldNumber">
+  PlayerIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10766"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;player_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_SwitchEnabledFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.SwitchEnabledFieldNumber">
+  SwitchEnabledFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10805"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;switch_enabled&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SwitchEnabledFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_SwitchIdFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.SwitchIdFieldNumber">
+  SwitchIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10793"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;switch_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SwitchIdFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Descriptor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Descriptor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Descriptor" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10729"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_HasPlayerId_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.HasPlayerId*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_HasPlayerId" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.HasPlayerId">
+  HasPlayerId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10780"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets whether the &quot;player_id&quot; field is set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Parser_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Parser*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Parser" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10725"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;PlayerLocalSwitchChangedPacket&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_PlayerId_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.PlayerId*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_PlayerId" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.PlayerId">
+  PlayerId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10770"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_SwitchEnabled_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.SwitchEnabled*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_SwitchEnabled" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.SwitchEnabled">
+  SwitchEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10807"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SwitchEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_SwitchId_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.SwitchId*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_SwitchId" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.SwitchId">
+  SwitchId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10795"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SwitchId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_CalculateSize_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.CalculateSize*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_CalculateSize" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10902"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_ClearPlayerId_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.ClearPlayerId*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_ClearPlayerId" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.ClearPlayerId">
+  ClearPlayerId()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10786"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears the value of the &quot;player_id&quot; field</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Clone_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Clone*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Clone" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10759"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerLocalSwitchChangedPacket Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Equals_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Equals*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket)">
+  Equals(PlayerLocalSwitchChangedPacket)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10822"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(PlayerLocalSwitchChangedPacket other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Equals_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Equals*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_Equals_System_Object_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10816"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_GetHashCode_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.GetHashCode*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_GetHashCode" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10837"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_MergeFrom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.MergeFrom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10939"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_MergeFrom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.MergeFrom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket)">
+  MergeFrom(PlayerLocalSwitchChangedPacket)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10921"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(PlayerLocalSwitchChangedPacket other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.html">PlayerLocalSwitchChangedPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_ToString_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.ToString*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_ToString" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10850"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_WriteTo_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.WriteTo*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchChangedPacket_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchChangedPacket.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10856"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.10.0-alpha/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L10716" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
