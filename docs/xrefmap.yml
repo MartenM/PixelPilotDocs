@@ -5766,6 +5766,128 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Blocks.Types.Effects.ToggleEffectBlock.GetHashCode
   nameWithType: ToggleEffectBlock.GetHashCode
+- uid: PixelPilot.Client.World.Blocks.Types.Music
+  name: PixelPilot.Client.World.Blocks.Types.Music
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.html
+  commentId: N:PixelPilot.Client.World.Blocks.Types.Music
+  fullName: PixelPilot.Client.World.Blocks.Types.Music
+  nameWithType: PixelPilot.Client.World.Blocks.Types.Music
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock
+  name: NoteBlock
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html
+  commentId: T:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock
+  nameWithType: NoteBlock
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Byte[])
+  name: NoteBlock(PixelBlock, byte[])
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_Byte___
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Byte[])
+  name.vb: New(PixelBlock, Byte())
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.NoteBlock(PixelPilot.Client.World.Constants.PixelBlock, byte[])
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.New(PixelPilot.Client.World.Constants.PixelBlock, Byte())
+  nameWithType: NoteBlock.NoteBlock(PixelBlock, byte[])
+  nameWithType.vb: NoteBlock.New(PixelBlock, Byte())
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.#ctor(System.Int32,System.Byte[])
+  name: NoteBlock(int, byte[])
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock__ctor_System_Int32_System_Byte___
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.#ctor(System.Int32,System.Byte[])
+  name.vb: New(Integer, Byte())
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.NoteBlock(int, byte[])
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.New(Integer, Byte())
+  nameWithType: NoteBlock.NoteBlock(int, byte[])
+  nameWithType.vb: NoteBlock.New(Integer, Byte())
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.#ctor*
+  name: NoteBlock
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock__ctor_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.NoteBlock
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.New
+  nameWithType: NoteBlock.NoteBlock
+  nameWithType.vb: NoteBlock.New
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: NoteBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: NoteBlock.AsPacketOut(List(Of Point), Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name: AsPacketOut(int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name.vb: AsPacketOut(Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut(Integer, Integer, Integer)
+  nameWithType: NoteBlock.AsPacketOut(int, int, int)
+  nameWithType.vb: NoteBlock.AsPacketOut(Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_AsPacketOut_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsPacketOut
+  nameWithType: NoteBlock.AsPacketOut
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: NoteBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: NoteBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.AsWorldBuffer
+  nameWithType: NoteBlock.AsWorldBuffer
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(PixelPilot.Client.World.Blocks.Types.Music.NoteBlock)
+  name: Equals(NoteBlock)
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_Equals_PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(PixelPilot.Client.World.Blocks.Types.Music.NoteBlock)
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(PixelPilot.Client.World.Blocks.Types.Music.NoteBlock)
+  nameWithType: NoteBlock.Equals(NoteBlock)
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_Equals_System_Object_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(object?)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals(Object)
+  nameWithType: NoteBlock.Equals(object?)
+  nameWithType.vb: NoteBlock.Equals(Object)
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_Equals_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Equals
+  nameWithType: NoteBlock.Equals
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_GetHashCode
+  commentId: M:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.GetHashCode
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.GetHashCode()
+  nameWithType: NoteBlock.GetHashCode()
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_GetHashCode_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.GetHashCode
+  nameWithType: NoteBlock.GetHashCode
+- uid: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Notes
+  name: Notes
+  href: api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html#PixelPilot_Client_World_Blocks_Types_Music_NoteBlock_Notes
+  commentId: F:PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Notes
+  fullName: PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.Notes
+  nameWithType: NoteBlock.Notes
 - uid: PixelPilot.Client.World.Blocks.Types.PortalBlock
   name: PortalBlock
   href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html
@@ -6295,6 +6417,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.BlockType.Normal
   fullName: PixelPilot.Client.World.Constants.BlockType.Normal
   nameWithType: BlockType.Normal
+- uid: PixelPilot.Client.World.Constants.BlockType.NoteBlock
+  name: NoteBlock
+  href: api/PixelPilot.Client.World.Constants.BlockType.html#PixelPilot_Client_World_Constants_BlockType_NoteBlock
+  commentId: F:PixelPilot.Client.World.Constants.BlockType.NoteBlock
+  fullName: PixelPilot.Client.World.Constants.BlockType.NoteBlock
+  nameWithType: BlockType.NoteBlock
 - uid: PixelPilot.Client.World.Constants.BlockType.Portal
   name: Portal
   href: api/PixelPilot.Client.World.Constants.BlockType.html#PixelPilot_Client_World_Constants_BlockType_Portal

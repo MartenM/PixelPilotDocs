@@ -922,6 +922,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.Music.NoteBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.Music.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.Types.Music.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.World.Blocks.Types.PortalBlock.yml",
       "output": {
         ".html": {
