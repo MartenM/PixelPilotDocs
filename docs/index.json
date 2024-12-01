@@ -547,7 +547,7 @@
   "api/PixelPilot.Common.EndPoints.html": {
     "href": "api/PixelPilot.Common.EndPoints.html",
     "title": "Class EndPoints | PixelPilot",
-    "keywords": "Class EndPoints Namespace PixelPilot.Common Assembly PixelPilot.Core.dll public static class EndPoints Inheritance object EndPoints Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields ApiEndpoint public const string ApiEndpoint = \"http://localhost:8090\" Field Value string GameHttpEndpoint public const string GameHttpEndpoint = \"http://localhost:5148\" Field Value string GameWebsocketEndpoint public const string GameWebsocketEndpoint = \"ws://localhost:5148\" Field Value string"
+    "keywords": "Class EndPoints Namespace PixelPilot.Common Assembly PixelPilot.Core.dll public static class EndPoints Inheritance object EndPoints Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields ApiEndpoint public const string ApiEndpoint = \"https://api.pixelwalker.net\" Field Value string GameHttpEndpoint public const string GameHttpEndpoint = \"https://game.pixelwalker.net\" Field Value string GameWebsocketEndpoint public const string GameWebsocketEndpoint = \"wss://game.pixelwalker.net\" Field Value string"
   },
   "api/PixelPilot.Common.Logging.LogManager.html": {
     "href": "api/PixelPilot.Common.Logging.LogManager.html",
