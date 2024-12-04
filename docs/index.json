@@ -582,7 +582,7 @@
   "api/PixelPilot.Structures.Converters.Changes.VersionMigration.html": {
     "href": "api/PixelPilot.Structures.Converters.Changes.VersionMigration.html",
     "title": "Class VersionMigration | PixelPilot",
-    "keywords": "Class VersionMigration Namespace PixelPilot.Structures.Converters.Changes Assembly PixelPilot.Structures.dll public abstract class VersionMigration Inheritance object VersionMigration Derived Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors VersionMigration(int) protected VersionMigration(int fromVersion) Parameters fromVersion int Properties FromVersion public int FromVersion { get; } Property Value int ToVersion public int ToVersion { get; } Property Value int Methods ApplyMigration(MappedBlockData) public void ApplyMigration(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData DoUpdate(MappedBlockData) protected abstract void DoUpdate(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
+    "keywords": "Class VersionMigration Namespace PixelPilot.Structures.Converters.Changes Assembly PixelPilot.Structures.dll public abstract class VersionMigration Inheritance object VersionMigration Derived Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18 Migration_2024_12_04 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors VersionMigration(int) protected VersionMigration(int fromVersion) Parameters fromVersion int Properties FromVersion public int FromVersion { get; } Property Value int ToVersion public int ToVersion { get; } Property Value int Methods ApplyMigration(MappedBlockData) public void ApplyMigration(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData DoUpdate(MappedBlockData) protected abstract void DoUpdate(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
   },
   "api/PixelPilot.Structures.Converters.Changes.html": {
     "href": "api/PixelPilot.Structures.Converters.Changes.html",
@@ -604,10 +604,15 @@
     "title": "Class Migration_2024_11_18 | PixelPilot",
     "keywords": "Class Migration_2024_11_18 Namespace PixelPilot.Structures.Converters.Migrations.Migrations Assembly PixelPilot.Structures.dll public class Migration_2024_11_18 : VersionMigration Inheritance object VersionMigration Migration_2024_11_18 Inherited Members VersionMigration.FromVersion VersionMigration.ToVersion VersionMigration.ApplyMigration(MappedBlockData) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Migration_2024_11_18() public Migration_2024_11_18() Methods DoUpdate(MappedBlockData) protected override void DoUpdate(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
   },
+  "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html": {
+    "href": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html",
+    "title": "Class Migration_2024_12_04 | PixelPilot",
+    "keywords": "Class Migration_2024_12_04 Namespace PixelPilot.Structures.Converters.Migrations.Migrations Assembly PixelPilot.Structures.dll public class Migration_2024_12_04 : VersionMigration Inheritance object VersionMigration Migration_2024_12_04 Inherited Members VersionMigration.FromVersion VersionMigration.ToVersion VersionMigration.ApplyMigration(MappedBlockData) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Migration_2024_12_04() public Migration_2024_12_04() Methods DoUpdate(MappedBlockData) protected override void DoUpdate(MappedBlockData mappedBlockData) Parameters mappedBlockData MappedBlockData"
+  },
   "api/PixelPilot.Structures.Converters.Migrations.Migrations.html": {
     "href": "api/PixelPilot.Structures.Converters.Migrations.Migrations.html",
     "title": "Namespace PixelPilot.Structures.Converters.Migrations.Migrations | PixelPilot",
-    "keywords": "Namespace PixelPilot.Structures.Converters.Migrations.Migrations Classes Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18"
+    "keywords": "Namespace PixelPilot.Structures.Converters.Migrations.Migrations Classes Migration_2024_07_18 Migration_2024_07_29 Migration_2024_11_18 Migration_2024_12_04"
   },
   "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html": {
     "href": "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html",

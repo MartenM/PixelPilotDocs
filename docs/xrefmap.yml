@@ -15016,6 +15016,44 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_11_18.DoUpdate
   nameWithType: Migration_2024_11_18.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04
+  name: Migration_2024_12_04
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04
+  nameWithType: Migration_2024_12_04
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.#ctor
+  name: Migration_2024_12_04()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2024_12_04__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.Migration_2024_12_04()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.New()
+  nameWithType: Migration_2024_12_04.Migration_2024_12_04()
+  nameWithType.vb: Migration_2024_12_04.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.#ctor*
+  name: Migration_2024_12_04
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2024_12_04__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.Migration_2024_12_04
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.New
+  nameWithType: Migration_2024_12_04.Migration_2024_12_04
+  nameWithType.vb: Migration_2024_12_04.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2024_12_04_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2024_12_04.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2024_12_04_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate
+  nameWithType: Migration_2024_12_04.DoUpdate
 - uid: PixelPilot.Structures.Converters.PilotSimple
   name: PixelPilot.Structures.Converters.PilotSimple
   href: api/PixelPilot.Structures.Converters.PilotSimple.html
