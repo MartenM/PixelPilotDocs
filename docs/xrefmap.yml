@@ -2391,6 +2391,12 @@ references:
   commentId: F:PixelPilot.Client.Messages.Constants.PacketFieldType.String
   fullName: PixelPilot.Client.Messages.Constants.PacketFieldType.String
   nameWithType: PacketFieldType.String
+- uid: PixelPilot.Client.Messages.Constants.PacketFieldType.UInt32
+  name: UInt32
+  href: api/PixelPilot.Client.Messages.Constants.PacketFieldType.html#PixelPilot_Client_Messages_Constants_PacketFieldType_UInt32
+  commentId: F:PixelPilot.Client.Messages.Constants.PacketFieldType.UInt32
+  fullName: PixelPilot.Client.Messages.Constants.PacketFieldType.UInt32
+  nameWithType: PacketFieldType.UInt32
 - uid: PixelPilot.Client.Messages.Exceptions
   name: PixelPilot.Client.Messages.Exceptions
   href: api/PixelPilot.Client.Messages.Exceptions.html
@@ -5417,6 +5423,116 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Blocks.Types.ActivatorBlock.SwitchId
   nameWithType: ActivatorBlock.SwitchId
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock
+  name: ColoredBlock
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html
+  commentId: T:PixelPilot.Client.World.Blocks.Types.ColoredBlock
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock
+  nameWithType: ColoredBlock
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Drawing.Color)
+  name: ColoredBlock(PixelBlock, Color)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_Drawing_Color_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Drawing.Color)
+  name.vb: New(PixelBlock, Color)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.ColoredBlock(PixelPilot.Client.World.Constants.PixelBlock, System.Drawing.Color)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New(PixelPilot.Client.World.Constants.PixelBlock, System.Drawing.Color)
+  nameWithType: ColoredBlock.ColoredBlock(PixelBlock, Color)
+  nameWithType.vb: ColoredBlock.New(PixelBlock, Color)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.UInt32)
+  name: ColoredBlock(PixelBlock, uint)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_UInt32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.UInt32)
+  name.vb: New(PixelBlock, UInteger)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.ColoredBlock(PixelPilot.Client.World.Constants.PixelBlock, uint)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New(PixelPilot.Client.World.Constants.PixelBlock, UInteger)
+  nameWithType: ColoredBlock.ColoredBlock(PixelBlock, uint)
+  nameWithType.vb: ColoredBlock.New(PixelBlock, UInteger)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(System.Int32,System.UInt32)
+  name: ColoredBlock(int, uint)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_System_Int32_System_UInt32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(System.Int32,System.UInt32)
+  name.vb: New(Integer, UInteger)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.ColoredBlock(int, uint)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New(Integer, UInteger)
+  nameWithType: ColoredBlock.ColoredBlock(int, uint)
+  nameWithType.vb: ColoredBlock.New(Integer, UInteger)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor*
+  name: ColoredBlock
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.ColoredBlock
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New
+  nameWithType: ColoredBlock.ColoredBlock
+  nameWithType.vb: ColoredBlock.New
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: ColoredBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: ColoredBlock.AsPacketOut(List(Of Point), Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name: AsPacketOut(int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name.vb: AsPacketOut(Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut(Integer, Integer, Integer)
+  nameWithType: ColoredBlock.AsPacketOut(int, int, int)
+  nameWithType.vb: ColoredBlock.AsPacketOut(Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_AsPacketOut_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsPacketOut
+  nameWithType: ColoredBlock.AsPacketOut
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: ColoredBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: ColoredBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer
+  nameWithType: ColoredBlock.AsWorldBuffer
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
+  name: BlockColor
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_BlockColor
+  commentId: P:PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
+  nameWithType: ColoredBlock.BlockColor
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor*
+  name: BlockColor
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_BlockColor_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
+  nameWithType: ColoredBlock.BlockColor
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
+  name: RawBlockColor
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_RawBlockColor
+  commentId: P:PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
+  nameWithType: ColoredBlock.RawBlockColor
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor*
+  name: RawBlockColor
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_RawBlockColor_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
+  nameWithType: ColoredBlock.RawBlockColor
 - uid: PixelPilot.Client.World.Blocks.Types.Effects
   name: PixelPilot.Client.World.Blocks.Types.Effects
   href: api/PixelPilot.Client.World.Blocks.Types.Effects.html
@@ -6413,6 +6529,12 @@ references:
   commentId: T:PixelPilot.Client.World.Constants.BlockType
   fullName: PixelPilot.Client.World.Constants.BlockType
   nameWithType: BlockType
+- uid: PixelPilot.Client.World.Constants.BlockType.ColorBlock
+  name: ColorBlock
+  href: api/PixelPilot.Client.World.Constants.BlockType.html#PixelPilot_Client_World_Constants_BlockType_ColorBlock
+  commentId: F:PixelPilot.Client.World.Constants.BlockType.ColorBlock
+  fullName: PixelPilot.Client.World.Constants.BlockType.ColorBlock
+  nameWithType: BlockType.ColorBlock
 - uid: PixelPilot.Client.World.Constants.BlockType.EffectLeveled
   name: EffectLeveled
   href: api/PixelPilot.Client.World.Constants.BlockType.html#PixelPilot_Client_World_Constants_BlockType_EffectLeveled
@@ -8045,6 +8167,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CrownSilverGate
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CrownSilverGate
   nameWithType: PixelBlock.CrownSilverGate
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CustomCheckerBg
+  name: CustomCheckerBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CustomCheckerBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CustomCheckerBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CustomCheckerBg
+  nameWithType: PixelBlock.CustomCheckerBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CustomSolidBg
+  name: CustomSolidBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CustomSolidBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CustomSolidBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CustomSolidBg
+  nameWithType: PixelBlock.CustomSolidBg
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DarkBlackBg
   name: DarkBlackBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DarkBlackBg
