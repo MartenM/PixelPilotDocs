@@ -1352,6 +1352,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.yml",
       "output": {
         ".html": {
