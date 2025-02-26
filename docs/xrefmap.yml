@@ -8137,6 +8137,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlackConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackConsumable
   nameWithType: PixelBlock.CounterBlackConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackConsumableSet
+  name: CounterBlackConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlackConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlackConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackConsumableSet
+  nameWithType: PixelBlock.CounterBlackConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackDoor
   name: CounterBlackDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlackDoor
@@ -8155,12 +8161,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusable
   nameWithType: PixelBlock.CounterBlackReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableSet
+  name: CounterBlackReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlackReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableSet
+  nameWithType: PixelBlock.CounterBlackReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueConsumable
   name: CounterBlueConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlueConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlueConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueConsumable
   nameWithType: PixelBlock.CounterBlueConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueConsumableSet
+  name: CounterBlueConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlueConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlueConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueConsumableSet
+  nameWithType: PixelBlock.CounterBlueConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueDoor
   name: CounterBlueDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlueDoor
@@ -8179,12 +8197,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusable
   nameWithType: PixelBlock.CounterBlueReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableSet
+  name: CounterBlueReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlueReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableSet
+  nameWithType: PixelBlock.CounterBlueReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanConsumable
   name: CounterCyanConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterCyanConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterCyanConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanConsumable
   nameWithType: PixelBlock.CounterCyanConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanConsumableSet
+  name: CounterCyanConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterCyanConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterCyanConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanConsumableSet
+  nameWithType: PixelBlock.CounterCyanConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanDoor
   name: CounterCyanDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterCyanDoor
@@ -8203,12 +8233,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusable
   nameWithType: PixelBlock.CounterCyanReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableSet
+  name: CounterCyanReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterCyanReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableSet
+  nameWithType: PixelBlock.CounterCyanReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayConsumable
   name: CounterGrayConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGrayConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGrayConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayConsumable
   nameWithType: PixelBlock.CounterGrayConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayConsumableSet
+  name: CounterGrayConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGrayConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGrayConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayConsumableSet
+  nameWithType: PixelBlock.CounterGrayConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayDoor
   name: CounterGrayDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGrayDoor
@@ -8227,12 +8269,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusable
   nameWithType: PixelBlock.CounterGrayReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableSet
+  name: CounterGrayReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGrayReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableSet
+  nameWithType: PixelBlock.CounterGrayReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenConsumable
   name: CounterGreenConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGreenConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGreenConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenConsumable
   nameWithType: PixelBlock.CounterGreenConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenConsumableSet
+  name: CounterGreenConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGreenConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGreenConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenConsumableSet
+  nameWithType: PixelBlock.CounterGreenConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenDoor
   name: CounterGreenDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGreenDoor
@@ -8251,12 +8305,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusable
   nameWithType: PixelBlock.CounterGreenReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableSet
+  name: CounterGreenReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGreenReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableSet
+  nameWithType: PixelBlock.CounterGreenReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaConsumable
   name: CounterMagentaConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterMagentaConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaConsumable
   nameWithType: PixelBlock.CounterMagentaConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaConsumableSet
+  name: CounterMagentaConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterMagentaConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaConsumableSet
+  nameWithType: PixelBlock.CounterMagentaConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaDoor
   name: CounterMagentaDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterMagentaDoor
@@ -8275,12 +8341,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusable
   nameWithType: PixelBlock.CounterMagentaReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableSet
+  name: CounterMagentaReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterMagentaReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableSet
+  nameWithType: PixelBlock.CounterMagentaReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeConsumable
   name: CounterOrangeConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterOrangeConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeConsumable
   nameWithType: PixelBlock.CounterOrangeConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeConsumableSet
+  name: CounterOrangeConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterOrangeConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeConsumableSet
+  nameWithType: PixelBlock.CounterOrangeConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeDoor
   name: CounterOrangeDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterOrangeDoor
@@ -8299,12 +8377,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusable
   nameWithType: PixelBlock.CounterOrangeReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableSet
+  name: CounterOrangeReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterOrangeReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableSet
+  nameWithType: PixelBlock.CounterOrangeReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterRedConsumable
   name: CounterRedConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterRedConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterRedConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterRedConsumable
   nameWithType: PixelBlock.CounterRedConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterRedConsumableSet
+  name: CounterRedConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterRedConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterRedConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterRedConsumableSet
+  nameWithType: PixelBlock.CounterRedConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterRedDoor
   name: CounterRedDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterRedDoor
@@ -8323,12 +8413,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusable
   nameWithType: PixelBlock.CounterRedReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableSet
+  name: CounterRedReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterRedReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableSet
+  nameWithType: PixelBlock.CounterRedReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteConsumable
   name: CounterWhiteConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterWhiteConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteConsumable
   nameWithType: PixelBlock.CounterWhiteConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteConsumableSet
+  name: CounterWhiteConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterWhiteConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteConsumableSet
+  nameWithType: PixelBlock.CounterWhiteConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteDoor
   name: CounterWhiteDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterWhiteDoor
@@ -8347,12 +8449,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusable
   nameWithType: PixelBlock.CounterWhiteReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableSet
+  name: CounterWhiteReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterWhiteReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableSet
+  nameWithType: PixelBlock.CounterWhiteReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowConsumable
   name: CounterYellowConsumable
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterYellowConsumable
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterYellowConsumable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowConsumable
   nameWithType: PixelBlock.CounterYellowConsumable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowConsumableSet
+  name: CounterYellowConsumableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterYellowConsumableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterYellowConsumableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowConsumableSet
+  nameWithType: PixelBlock.CounterYellowConsumableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowDoor
   name: CounterYellowDoor
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterYellowDoor
@@ -8371,6 +8485,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusable
   nameWithType: PixelBlock.CounterYellowReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableSet
+  name: CounterYellowReusableSet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterYellowReusableSet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableSet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableSet
+  nameWithType: PixelBlock.CounterYellowReusableSet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CrownGold
   name: CrownGold
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CrownGold
