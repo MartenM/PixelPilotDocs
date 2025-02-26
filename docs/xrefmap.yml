@@ -1245,15 +1245,15 @@ references:
   commentId: T:PixelPilot.ChatCommands.CommandSender
   fullName: PixelPilot.ChatCommands.CommandSender
   nameWithType: CommandSender
-- uid: PixelPilot.ChatCommands.CommandSender.#ctor(PixelPilot.Client.Players.IPixelPlayer,PixelPilot.Client.PixelPilotClient)
-  name: CommandSender(IPixelPlayer, PixelPilotClient)
-  href: api/PixelPilot.ChatCommands.CommandSender.html#PixelPilot_ChatCommands_CommandSender__ctor_PixelPilot_Client_Players_IPixelPlayer_PixelPilot_Client_PixelPilotClient_
-  commentId: M:PixelPilot.ChatCommands.CommandSender.#ctor(PixelPilot.Client.Players.IPixelPlayer,PixelPilot.Client.PixelPilotClient)
-  name.vb: New(IPixelPlayer, PixelPilotClient)
-  fullName: PixelPilot.ChatCommands.CommandSender.CommandSender(PixelPilot.Client.Players.IPixelPlayer, PixelPilot.Client.PixelPilotClient)
-  fullName.vb: PixelPilot.ChatCommands.CommandSender.New(PixelPilot.Client.Players.IPixelPlayer, PixelPilot.Client.PixelPilotClient)
-  nameWithType: CommandSender.CommandSender(IPixelPlayer, PixelPilotClient)
-  nameWithType.vb: CommandSender.New(IPixelPlayer, PixelPilotClient)
+- uid: PixelPilot.ChatCommands.CommandSender.#ctor(PixelPilot.Client.Players.IPixelPlayer,PixelPilot.Client.PixelPilotClient,System.String)
+  name: CommandSender(IPixelPlayer, PixelPilotClient, string)
+  href: api/PixelPilot.ChatCommands.CommandSender.html#PixelPilot_ChatCommands_CommandSender__ctor_PixelPilot_Client_Players_IPixelPlayer_PixelPilot_Client_PixelPilotClient_System_String_
+  commentId: M:PixelPilot.ChatCommands.CommandSender.#ctor(PixelPilot.Client.Players.IPixelPlayer,PixelPilot.Client.PixelPilotClient,System.String)
+  name.vb: New(IPixelPlayer, PixelPilotClient, String)
+  fullName: PixelPilot.ChatCommands.CommandSender.CommandSender(PixelPilot.Client.Players.IPixelPlayer, PixelPilot.Client.PixelPilotClient, string)
+  fullName.vb: PixelPilot.ChatCommands.CommandSender.New(PixelPilot.Client.Players.IPixelPlayer, PixelPilot.Client.PixelPilotClient, String)
+  nameWithType: CommandSender.CommandSender(IPixelPlayer, PixelPilotClient, string)
+  nameWithType.vb: CommandSender.New(IPixelPlayer, PixelPilotClient, String)
 - uid: PixelPilot.ChatCommands.CommandSender.#ctor*
   name: CommandSender
   href: api/PixelPilot.ChatCommands.CommandSender.html#PixelPilot_ChatCommands_CommandSender__ctor_
@@ -1293,6 +1293,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.ChatCommands.CommandSender.Player
   nameWithType: CommandSender.Player
+- uid: PixelPilot.ChatCommands.CommandSender.PrefixUsed
+  name: PrefixUsed
+  href: api/PixelPilot.ChatCommands.CommandSender.html#PixelPilot_ChatCommands_CommandSender_PrefixUsed
+  commentId: P:PixelPilot.ChatCommands.CommandSender.PrefixUsed
+  fullName: PixelPilot.ChatCommands.CommandSender.PrefixUsed
+  nameWithType: CommandSender.PrefixUsed
+- uid: PixelPilot.ChatCommands.CommandSender.PrefixUsed*
+  name: PrefixUsed
+  href: api/PixelPilot.ChatCommands.CommandSender.html#PixelPilot_ChatCommands_CommandSender_PrefixUsed_
+  commentId: Overload:PixelPilot.ChatCommands.CommandSender.PrefixUsed
+  isSpec: "True"
+  fullName: PixelPilot.ChatCommands.CommandSender.PrefixUsed
+  nameWithType: CommandSender.PrefixUsed
 - uid: PixelPilot.ChatCommands.CommandSender.SendMessage(System.String)
   name: SendMessage(string)
   href: api/PixelPilot.ChatCommands.CommandSender.html#PixelPilot_ChatCommands_CommandSender_SendMessage_System_String_
@@ -1637,12 +1650,6 @@ references:
   commentId: T:PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter
   fullName: PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter
   nameWithType: BasicHelpFormatter
-- uid: PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.Prefix
-  name: Prefix
-  href: api/PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.html#PixelPilot_ChatCommands_Commands_Help_BasicHelpFormatter_Prefix
-  commentId: F:PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.Prefix
-  fullName: PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.Prefix
-  nameWithType: BasicHelpFormatter.Prefix
 - uid: PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.SendHelp(PixelPilot.ChatCommands.ICommandSender,System.Collections.Generic.List{PixelPilot.ChatCommands.Commands.ChatCommand})
   name: SendHelp(ICommandSender, List<ChatCommand>)
   href: api/PixelPilot.ChatCommands.Commands.Help.BasicHelpFormatter.html#PixelPilot_ChatCommands_Commands_Help_BasicHelpFormatter_SendHelp_PixelPilot_ChatCommands_ICommandSender_System_Collections_Generic_List_PixelPilot_ChatCommands_Commands_ChatCommand__
@@ -1850,6 +1857,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.ChatCommands.ICommandSender.Player
   nameWithType: ICommandSender.Player
+- uid: PixelPilot.ChatCommands.ICommandSender.PrefixUsed
+  name: PrefixUsed
+  href: api/PixelPilot.ChatCommands.ICommandSender.html#PixelPilot_ChatCommands_ICommandSender_PrefixUsed
+  commentId: P:PixelPilot.ChatCommands.ICommandSender.PrefixUsed
+  fullName: PixelPilot.ChatCommands.ICommandSender.PrefixUsed
+  nameWithType: ICommandSender.PrefixUsed
+- uid: PixelPilot.ChatCommands.ICommandSender.PrefixUsed*
+  name: PrefixUsed
+  href: api/PixelPilot.ChatCommands.ICommandSender.html#PixelPilot_ChatCommands_ICommandSender_PrefixUsed_
+  commentId: Overload:PixelPilot.ChatCommands.ICommandSender.PrefixUsed
+  isSpec: "True"
+  fullName: PixelPilot.ChatCommands.ICommandSender.PrefixUsed
+  nameWithType: ICommandSender.PrefixUsed
 - uid: PixelPilot.ChatCommands.ICommandSender.SendMessage(System.String)
   name: SendMessage(string)
   href: api/PixelPilot.ChatCommands.ICommandSender.html#PixelPilot_ChatCommands_ICommandSender_SendMessage_System_String_
@@ -1890,6 +1910,12 @@ references:
   commentId: F:PixelPilot.ChatCommands.Messages.CommandMessages.UnknownArgument
   fullName: PixelPilot.ChatCommands.Messages.CommandMessages.UnknownArgument
   nameWithType: CommandMessages.UnknownArgument
+- uid: PixelPilot.ChatCommands.Messages.CommandMessages.UnkownCommand
+  name: UnkownCommand
+  href: api/PixelPilot.ChatCommands.Messages.CommandMessages.html#PixelPilot_ChatCommands_Messages_CommandMessages_UnkownCommand
+  commentId: F:PixelPilot.ChatCommands.Messages.CommandMessages.UnkownCommand
+  fullName: PixelPilot.ChatCommands.Messages.CommandMessages.UnkownCommand
+  nameWithType: CommandMessages.UnkownCommand
 - uid: PixelPilot.ChatCommands.PixelChatCommandManager`1
   name: PixelChatCommandManager<T>
   href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html
@@ -1986,14 +2012,15 @@ references:
   fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).CommandPrefixes
   nameWithType: PixelChatCommandManager<T>.CommandPrefixes
   nameWithType.vb: PixelChatCommandManager(Of T).CommandPrefixes
-- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.CreateSender(`0)
-  name: CreateSender(T)
-  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_CreateSender__0_
-  commentId: M:PixelPilot.ChatCommands.PixelChatCommandManager`1.CreateSender(`0)
-  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.CreateSender(T)
-  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).CreateSender(T)
-  nameWithType: PixelChatCommandManager<T>.CreateSender(T)
-  nameWithType.vb: PixelChatCommandManager(Of T).CreateSender(T)
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.CreateSender(`0,System.String)
+  name: CreateSender(T, string)
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_CreateSender__0_System_String_
+  commentId: M:PixelPilot.ChatCommands.PixelChatCommandManager`1.CreateSender(`0,System.String)
+  name.vb: CreateSender(T, String)
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.CreateSender(T, string)
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).CreateSender(T, String)
+  nameWithType: PixelChatCommandManager<T>.CreateSender(T, string)
+  nameWithType.vb: PixelChatCommandManager(Of T).CreateSender(T, String)
 - uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.CreateSender*
   name: CreateSender
   href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_CreateSender_
@@ -2037,24 +2064,75 @@ references:
   fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).HelpFormatter
   nameWithType: PixelChatCommandManager<T>.HelpFormatter
   nameWithType.vb: PixelChatCommandManager(Of T).HelpFormatter
-- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerPacket(System.Object,Google.Protobuf.IMessage)
-  name: OnPlayerPacket(object, IMessage)
-  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_OnPlayerPacket_System_Object_Google_Protobuf_IMessage_
-  commentId: M:PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerPacket(System.Object,Google.Protobuf.IMessage)
-  name.vb: OnPlayerPacket(Object, IMessage)
-  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.OnPlayerPacket(object, Google.Protobuf.IMessage)
-  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).OnPlayerPacket(Object, Google.Protobuf.IMessage)
-  nameWithType: PixelChatCommandManager<T>.OnPlayerPacket(object, IMessage)
-  nameWithType.vb: PixelChatCommandManager(Of T).OnPlayerPacket(Object, IMessage)
-- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerPacket*
-  name: OnPlayerPacket
-  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_OnPlayerPacket_
-  commentId: Overload:PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerPacket
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerCommand(System.String,PixelPilot.ChatCommands.ICommandSender,System.String)
+  name: OnPlayerCommand(string, ICommandSender, string)
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_OnPlayerCommand_System_String_PixelPilot_ChatCommands_ICommandSender_System_String_
+  commentId: M:PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerCommand(System.String,PixelPilot.ChatCommands.ICommandSender,System.String)
+  name.vb: OnPlayerCommand(String, ICommandSender, String)
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.OnPlayerCommand(string, PixelPilot.ChatCommands.ICommandSender, string)
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).OnPlayerCommand(String, PixelPilot.ChatCommands.ICommandSender, String)
+  nameWithType: PixelChatCommandManager<T>.OnPlayerCommand(string, ICommandSender, string)
+  nameWithType.vb: PixelChatCommandManager(Of T).OnPlayerCommand(String, ICommandSender, String)
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerCommand*
+  name: OnPlayerCommand
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_OnPlayerCommand_
+  commentId: Overload:PixelPilot.ChatCommands.PixelChatCommandManager`1.OnPlayerCommand
   isSpec: "True"
-  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.OnPlayerPacket
-  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).OnPlayerPacket
-  nameWithType: PixelChatCommandManager<T>.OnPlayerPacket
-  nameWithType.vb: PixelChatCommandManager(Of T).OnPlayerPacket
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.OnPlayerCommand
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).OnPlayerCommand
+  nameWithType: PixelChatCommandManager<T>.OnPlayerCommand
+  nameWithType.vb: PixelChatCommandManager(Of T).OnPlayerCommand
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterCustomCommands
+  name: RegisterCustomCommands
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_RegisterCustomCommands
+  commentId: P:PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterCustomCommands
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.RegisterCustomCommands
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).RegisterCustomCommands
+  nameWithType: PixelChatCommandManager<T>.RegisterCustomCommands
+  nameWithType.vb: PixelChatCommandManager(Of T).RegisterCustomCommands
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterCustomCommands*
+  name: RegisterCustomCommands
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_RegisterCustomCommands_
+  commentId: Overload:PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterCustomCommands
+  isSpec: "True"
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.RegisterCustomCommands
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).RegisterCustomCommands
+  nameWithType: PixelChatCommandManager<T>.RegisterCustomCommands
+  nameWithType.vb: PixelChatCommandManager(Of T).RegisterCustomCommands
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterRestrictedCustomCommands
+  name: RegisterRestrictedCustomCommands
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_RegisterRestrictedCustomCommands
+  commentId: P:PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterRestrictedCustomCommands
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.RegisterRestrictedCustomCommands
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).RegisterRestrictedCustomCommands
+  nameWithType: PixelChatCommandManager<T>.RegisterRestrictedCustomCommands
+  nameWithType.vb: PixelChatCommandManager(Of T).RegisterRestrictedCustomCommands
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterRestrictedCustomCommands*
+  name: RegisterRestrictedCustomCommands
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_RegisterRestrictedCustomCommands_
+  commentId: Overload:PixelPilot.ChatCommands.PixelChatCommandManager`1.RegisterRestrictedCustomCommands
+  isSpec: "True"
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.RegisterRestrictedCustomCommands
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).RegisterRestrictedCustomCommands
+  nameWithType: PixelChatCommandManager<T>.RegisterRestrictedCustomCommands
+  nameWithType.vb: PixelChatCommandManager(Of T).RegisterRestrictedCustomCommands
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.SendHelp
+  name: SendHelp
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_SendHelp
+  commentId: P:PixelPilot.ChatCommands.PixelChatCommandManager`1.SendHelp
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.SendHelp
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).SendHelp
+  nameWithType: PixelChatCommandManager<T>.SendHelp
+  nameWithType.vb: PixelChatCommandManager(Of T).SendHelp
+- uid: PixelPilot.ChatCommands.PixelChatCommandManager`1.SendHelp*
+  name: SendHelp
+  href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html#PixelPilot_ChatCommands_PixelChatCommandManager_1_SendHelp_
+  commentId: Overload:PixelPilot.ChatCommands.PixelChatCommandManager`1.SendHelp
+  isSpec: "True"
+  fullName: PixelPilot.ChatCommands.PixelChatCommandManager<T>.SendHelp
+  fullName.vb: PixelPilot.ChatCommands.PixelChatCommandManager(Of T).SendHelp
+  nameWithType: PixelChatCommandManager<T>.SendHelp
+  nameWithType.vb: PixelChatCommandManager(Of T).SendHelp
 - uid: PixelPilot.Client
   name: PixelPilot.Client
   href: api/PixelPilot.Client.html
