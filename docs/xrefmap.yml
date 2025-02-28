@@ -1910,12 +1910,12 @@ references:
   commentId: F:PixelPilot.ChatCommands.Messages.CommandMessages.UnknownArgument
   fullName: PixelPilot.ChatCommands.Messages.CommandMessages.UnknownArgument
   nameWithType: CommandMessages.UnknownArgument
-- uid: PixelPilot.ChatCommands.Messages.CommandMessages.UnkownCommand
-  name: UnkownCommand
-  href: api/PixelPilot.ChatCommands.Messages.CommandMessages.html#PixelPilot_ChatCommands_Messages_CommandMessages_UnkownCommand
-  commentId: F:PixelPilot.ChatCommands.Messages.CommandMessages.UnkownCommand
-  fullName: PixelPilot.ChatCommands.Messages.CommandMessages.UnkownCommand
-  nameWithType: CommandMessages.UnkownCommand
+- uid: PixelPilot.ChatCommands.Messages.CommandMessages.UnknownCommand
+  name: UnknownCommand
+  href: api/PixelPilot.ChatCommands.Messages.CommandMessages.html#PixelPilot_ChatCommands_Messages_CommandMessages_UnknownCommand
+  commentId: F:PixelPilot.ChatCommands.Messages.CommandMessages.UnknownCommand
+  fullName: PixelPilot.ChatCommands.Messages.CommandMessages.UnknownCommand
+  nameWithType: CommandMessages.UnknownCommand
 - uid: PixelPilot.ChatCommands.PixelChatCommandManager`1
   name: PixelChatCommandManager<T>
   href: api/PixelPilot.ChatCommands.PixelChatCommandManager-1.html

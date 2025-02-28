@@ -172,7 +172,7 @@
   "api/PixelPilot.ChatCommands.Messages.CommandMessages.html": {
     "href": "api/PixelPilot.ChatCommands.Messages.CommandMessages.html",
     "title": "Class CommandMessages | PixelPilot",
-    "keywords": "Class CommandMessages Namespace PixelPilot.ChatCommands.Messages Assembly PixelPilot.ChatCommands.dll public static class CommandMessages Inheritance object CommandMessages Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields NoPermission public static string NoPermission Field Value string UnknownArgument public static string UnknownArgument Field Value string UnkownCommand public static string? UnkownCommand Field Value string"
+    "keywords": "Class CommandMessages Namespace PixelPilot.ChatCommands.Messages Assembly PixelPilot.ChatCommands.dll public static class CommandMessages Inheritance object CommandMessages Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields NoPermission public static string NoPermission Field Value string UnknownArgument public static string UnknownArgument Field Value string UnknownCommand public static string? UnknownCommand Field Value string"
   },
   "api/PixelPilot.ChatCommands.Messages.html": {
     "href": "api/PixelPilot.ChatCommands.Messages.html",
