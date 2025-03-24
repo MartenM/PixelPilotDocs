@@ -16254,229 +16254,191 @@ references:
   commentId: N:PixelWalker.Networking.Protobuf.WorldPackets
   fullName: PixelWalker.Networking.Protobuf.WorldPackets
   nameWithType: PixelWalker.Networking.Protobuf.WorldPackets
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket
-  name: CounterTransactionPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html
-  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket
-  nameWithType: CounterTransactionPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.#ctor
-  name: CounterTransactionPacket()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket__ctor
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.#ctor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket
+  name: ChangeSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket
+  nameWithType: ChangeSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.#ctor
+  name: ChangeSecretEditKeyPacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.#ctor
   name.vb: New()
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterTransactionPacket()
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.New()
-  nameWithType: CounterTransactionPacket.CounterTransactionPacket()
-  nameWithType.vb: CounterTransactionPacket.New()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  name: CounterTransactionPacket(CounterTransactionPacket)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  name.vb: New(CounterTransactionPacket)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterTransactionPacket(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  nameWithType: CounterTransactionPacket.CounterTransactionPacket(CounterTransactionPacket)
-  nameWithType.vb: CounterTransactionPacket.New(CounterTransactionPacket)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.#ctor*
-  name: CounterTransactionPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket__ctor_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.#ctor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ChangeSecretEditKeyPacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.New()
+  nameWithType: ChangeSecretEditKeyPacket.ChangeSecretEditKeyPacket()
+  nameWithType.vb: ChangeSecretEditKeyPacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  name: ChangeSecretEditKeyPacket(ChangeSecretEditKeyPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  name.vb: New(ChangeSecretEditKeyPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ChangeSecretEditKeyPacket(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  nameWithType: ChangeSecretEditKeyPacket.ChangeSecretEditKeyPacket(ChangeSecretEditKeyPacket)
+  nameWithType.vb: ChangeSecretEditKeyPacket.New(ChangeSecretEditKeyPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.#ctor*
+  name: ChangeSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterTransactionPacket
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.New
-  nameWithType: CounterTransactionPacket.CounterTransactionPacket
-  nameWithType.vb: CounterTransactionPacket.New
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ChangeSecretEditKeyPacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.New
+  nameWithType: ChangeSecretEditKeyPacket.ChangeSecretEditKeyPacket
+  nameWithType.vb: ChangeSecretEditKeyPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.CalculateSize
   name: CalculateSize()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_CalculateSize
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CalculateSize
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CalculateSize()
-  nameWithType: CounterTransactionPacket.CalculateSize()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CalculateSize*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.CalculateSize()
+  nameWithType: ChangeSecretEditKeyPacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.CalculateSize*
   name: CalculateSize
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_CalculateSize_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.CalculateSize
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CalculateSize
-  nameWithType: CounterTransactionPacket.CalculateSize
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.CalculateSize
+  nameWithType: ChangeSecretEditKeyPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Clone
   name: Clone()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Clone
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Clone
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Clone()
-  nameWithType: CounterTransactionPacket.Clone()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Clone*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Clone()
+  nameWithType: ChangeSecretEditKeyPacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Clone*
   name: Clone
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Clone_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Clone
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Clone
-  nameWithType: CounterTransactionPacket.Clone
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Count
-  name: Count
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Count
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Count
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Count
-  nameWithType: CounterTransactionPacket.Count
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Count*
-  name: Count
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Count_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Count
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Count
-  nameWithType: CounterTransactionPacket.Count
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CountFieldNumber
-  name: CountFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_CountFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CountFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CountFieldNumber
-  nameWithType: CounterTransactionPacket.CountFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterId
-  name: CounterId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_CounterId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterId
-  nameWithType: CounterTransactionPacket.CounterId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterId*
-  name: CounterId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_CounterId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterId
-  nameWithType: CounterTransactionPacket.CounterId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterIdFieldNumber
-  name: CounterIdFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_CounterIdFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterIdFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.CounterIdFieldNumber
-  nameWithType: CounterTransactionPacket.CounterIdFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Clone
+  nameWithType: ChangeSecretEditKeyPacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Descriptor
   name: Descriptor
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Descriptor
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Descriptor
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Descriptor
-  nameWithType: CounterTransactionPacket.Descriptor
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Descriptor*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Descriptor
+  nameWithType: ChangeSecretEditKeyPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Descriptor*
   name: Descriptor
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Descriptor_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Descriptor
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Descriptor
-  nameWithType: CounterTransactionPacket.Descriptor
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  name: Equals(CounterTransactionPacket)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  nameWithType: CounterTransactionPacket.Equals(CounterTransactionPacket)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(System.Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Descriptor
+  nameWithType: ChangeSecretEditKeyPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  name: Equals(ChangeSecretEditKeyPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  nameWithType: ChangeSecretEditKeyPacket.Equals(ChangeSecretEditKeyPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(System.Object)
   name: Equals(object)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Equals_System_Object_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(System.Object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(System.Object)
   name.vb: Equals(Object)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(object)
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals(Object)
-  nameWithType: CounterTransactionPacket.Equals(object)
-  nameWithType.vb: CounterTransactionPacket.Equals(Object)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals*
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals(Object)
+  nameWithType: ChangeSecretEditKeyPacket.Equals(object)
+  nameWithType.vb: ChangeSecretEditKeyPacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals*
   name: Equals
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Equals_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Equals
-  nameWithType: CounterTransactionPacket.Equals
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Equals
+  nameWithType: ChangeSecretEditKeyPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.GetHashCode
   name: GetHashCode()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_GetHashCode
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.GetHashCode
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.GetHashCode()
-  nameWithType: CounterTransactionPacket.GetHashCode()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.GetHashCode*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.GetHashCode()
+  nameWithType: ChangeSecretEditKeyPacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.GetHashCode*
   name: GetHashCode
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_GetHashCode_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.GetHashCode
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.GetHashCode
-  nameWithType: CounterTransactionPacket.GetHashCode
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.GetHashCode
+  nameWithType: ChangeSecretEditKeyPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_MergeFrom_Google_Protobuf_CodedInputStream_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom(Google.Protobuf.CodedInputStream)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom(Google.Protobuf.CodedInputStream)
-  nameWithType: CounterTransactionPacket.MergeFrom(CodedInputStream)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  name: MergeFrom(CounterTransactionPacket)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket)
-  nameWithType: CounterTransactionPacket.MergeFrom(CounterTransactionPacket)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: ChangeSecretEditKeyPacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  name: MergeFrom(ChangeSecretEditKeyPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket)
+  nameWithType: ChangeSecretEditKeyPacket.MergeFrom(ChangeSecretEditKeyPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom*
   name: MergeFrom
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_MergeFrom_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.MergeFrom
-  nameWithType: CounterTransactionPacket.MergeFrom
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.MergeFrom
+  nameWithType: ChangeSecretEditKeyPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKey
+  name: NewEditKey
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_NewEditKey
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKey
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKey
+  nameWithType: ChangeSecretEditKeyPacket.NewEditKey
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKey*
+  name: NewEditKey
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_NewEditKey_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKey
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKey
+  nameWithType: ChangeSecretEditKeyPacket.NewEditKey
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKeyFieldNumber
+  name: NewEditKeyFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_NewEditKeyFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKeyFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.NewEditKeyFieldNumber
+  nameWithType: ChangeSecretEditKeyPacket.NewEditKeyFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Parser
   name: Parser
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Parser
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Parser
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Parser
-  nameWithType: CounterTransactionPacket.Parser
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Parser*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Parser
+  nameWithType: ChangeSecretEditKeyPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Parser*
   name: Parser
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_Parser_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Parser
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.Parser
-  nameWithType: CounterTransactionPacket.Parser
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerId
-  name: PlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_PlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerId
-  nameWithType: CounterTransactionPacket.PlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerId*
-  name: PlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_PlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerId
-  nameWithType: CounterTransactionPacket.PlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerIdFieldNumber
-  name: PlayerIdFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_PlayerIdFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerIdFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.PlayerIdFieldNumber
-  nameWithType: CounterTransactionPacket.PlayerIdFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.Parser
+  nameWithType: ChangeSecretEditKeyPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ToString
   name: ToString()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_ToString
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.ToString
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.ToString()
-  nameWithType: CounterTransactionPacket.ToString()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.ToString*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ToString()
+  nameWithType: ChangeSecretEditKeyPacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ToString*
   name: ToString
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_ToString_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ToString
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.ToString
-  nameWithType: CounterTransactionPacket.ToString
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.ToString
+  nameWithType: ChangeSecretEditKeyPacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo(Google.Protobuf.CodedOutputStream)
   name: WriteTo(CodedOutputStream)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_WriteTo_Google_Protobuf_CodedOutputStream_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.WriteTo(Google.Protobuf.CodedOutputStream)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.WriteTo(Google.Protobuf.CodedOutputStream)
-  nameWithType: CounterTransactionPacket.WriteTo(CodedOutputStream)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.WriteTo*
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: ChangeSecretEditKeyPacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo*
   name: WriteTo
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_CounterTransactionPacket_WriteTo_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_ChangeSecretEditKeyPacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.WriteTo
-  nameWithType: CounterTransactionPacket.WriteTo
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo
+  nameWithType: ChangeSecretEditKeyPacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket
   name: GlobalSwitchChangedPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html
@@ -18098,6 +18060,19 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.CalculateSize
   nameWithType: PlayerChatPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.ClearPlayerId
+  name: ClearPlayerId()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerChatPacket_ClearPlayerId
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.ClearPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.ClearPlayerId()
+  nameWithType: PlayerChatPacket.ClearPlayerId()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.ClearPlayerId*
+  name: ClearPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerChatPacket_ClearPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.ClearPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.ClearPlayerId
+  nameWithType: PlayerChatPacket.ClearPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.Clone
   name: Clone()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerChatPacket_Clone
@@ -18159,6 +18134,19 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.GetHashCode
   nameWithType: PlayerChatPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.HasPlayerId
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerChatPacket_HasPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.HasPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.HasPlayerId
+  nameWithType: PlayerChatPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.HasPlayerId*
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerChatPacket_HasPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.HasPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.HasPlayerId
+  nameWithType: PlayerChatPacket.HasPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerChatPacket_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -18255,6 +18243,255 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerChatPacket.WriteTo
   nameWithType: PlayerChatPacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket
+  name: PlayerCounterTransactionPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket
+  nameWithType: PlayerCounterTransactionPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.#ctor
+  name: PlayerCounterTransactionPacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerCounterTransactionPacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.New()
+  nameWithType: PlayerCounterTransactionPacket.PlayerCounterTransactionPacket()
+  nameWithType.vb: PlayerCounterTransactionPacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  name: PlayerCounterTransactionPacket(PlayerCounterTransactionPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  name.vb: New(PlayerCounterTransactionPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerCounterTransactionPacket(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  nameWithType: PlayerCounterTransactionPacket.PlayerCounterTransactionPacket(PlayerCounterTransactionPacket)
+  nameWithType.vb: PlayerCounterTransactionPacket.New(PlayerCounterTransactionPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.#ctor*
+  name: PlayerCounterTransactionPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerCounterTransactionPacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.New
+  nameWithType: PlayerCounterTransactionPacket.PlayerCounterTransactionPacket
+  nameWithType.vb: PlayerCounterTransactionPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CalculateSize()
+  nameWithType: PlayerCounterTransactionPacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CalculateSize
+  nameWithType: PlayerCounterTransactionPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ClearPlayerId
+  name: ClearPlayerId()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_ClearPlayerId
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ClearPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ClearPlayerId()
+  nameWithType: PlayerCounterTransactionPacket.ClearPlayerId()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ClearPlayerId*
+  name: ClearPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_ClearPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ClearPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ClearPlayerId
+  nameWithType: PlayerCounterTransactionPacket.ClearPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Clone()
+  nameWithType: PlayerCounterTransactionPacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Clone
+  nameWithType: PlayerCounterTransactionPacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Count
+  name: Count
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Count
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Count
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Count
+  nameWithType: PlayerCounterTransactionPacket.Count
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Count*
+  name: Count
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Count_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Count
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Count
+  nameWithType: PlayerCounterTransactionPacket.Count
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CountFieldNumber
+  name: CountFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_CountFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CountFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CountFieldNumber
+  nameWithType: PlayerCounterTransactionPacket.CountFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterId
+  name: CounterId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_CounterId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterId
+  nameWithType: PlayerCounterTransactionPacket.CounterId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterId*
+  name: CounterId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_CounterId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterId
+  nameWithType: PlayerCounterTransactionPacket.CounterId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterIdFieldNumber
+  name: CounterIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_CounterIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.CounterIdFieldNumber
+  nameWithType: PlayerCounterTransactionPacket.CounterIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Descriptor
+  nameWithType: PlayerCounterTransactionPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Descriptor
+  nameWithType: PlayerCounterTransactionPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  name: Equals(PlayerCounterTransactionPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  nameWithType: PlayerCounterTransactionPacket.Equals(PlayerCounterTransactionPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals(Object)
+  nameWithType: PlayerCounterTransactionPacket.Equals(object)
+  nameWithType.vb: PlayerCounterTransactionPacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Equals
+  nameWithType: PlayerCounterTransactionPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.GetHashCode()
+  nameWithType: PlayerCounterTransactionPacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.GetHashCode
+  nameWithType: PlayerCounterTransactionPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.HasPlayerId
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_HasPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.HasPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.HasPlayerId
+  nameWithType: PlayerCounterTransactionPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.HasPlayerId*
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_HasPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.HasPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.HasPlayerId
+  nameWithType: PlayerCounterTransactionPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PlayerCounterTransactionPacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  name: MergeFrom(PlayerCounterTransactionPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket)
+  nameWithType: PlayerCounterTransactionPacket.MergeFrom(PlayerCounterTransactionPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.MergeFrom
+  nameWithType: PlayerCounterTransactionPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Parser
+  nameWithType: PlayerCounterTransactionPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.Parser
+  nameWithType: PlayerCounterTransactionPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerId
+  name: PlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_PlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerId
+  nameWithType: PlayerCounterTransactionPacket.PlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerId*
+  name: PlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_PlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerId
+  nameWithType: PlayerCounterTransactionPacket.PlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerIdFieldNumber
+  name: PlayerIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_PlayerIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.PlayerIdFieldNumber
+  nameWithType: PlayerCounterTransactionPacket.PlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ToString()
+  nameWithType: PlayerCounterTransactionPacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.ToString
+  nameWithType: PlayerCounterTransactionPacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PlayerCounterTransactionPacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerCounterTransactionPacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.WriteTo
+  nameWithType: PlayerCounterTransactionPacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerCountersUpdatePacket
   name: PlayerCountersUpdatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCountersUpdatePacket.html
@@ -18765,6 +19002,191 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerDirectMessagePacket.WriteTo
   nameWithType: PlayerDirectMessagePacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket
+  name: PlayerEnterSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket
+  nameWithType: PlayerEnterSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.#ctor
+  name: PlayerEnterSecretEditKeyPacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.PlayerEnterSecretEditKeyPacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.New()
+  nameWithType: PlayerEnterSecretEditKeyPacket.PlayerEnterSecretEditKeyPacket()
+  nameWithType.vb: PlayerEnterSecretEditKeyPacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  name: PlayerEnterSecretEditKeyPacket(PlayerEnterSecretEditKeyPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  name.vb: New(PlayerEnterSecretEditKeyPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.PlayerEnterSecretEditKeyPacket(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  nameWithType: PlayerEnterSecretEditKeyPacket.PlayerEnterSecretEditKeyPacket(PlayerEnterSecretEditKeyPacket)
+  nameWithType.vb: PlayerEnterSecretEditKeyPacket.New(PlayerEnterSecretEditKeyPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.#ctor*
+  name: PlayerEnterSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.PlayerEnterSecretEditKeyPacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.New
+  nameWithType: PlayerEnterSecretEditKeyPacket.PlayerEnterSecretEditKeyPacket
+  nameWithType.vb: PlayerEnterSecretEditKeyPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.CalculateSize()
+  nameWithType: PlayerEnterSecretEditKeyPacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.CalculateSize
+  nameWithType: PlayerEnterSecretEditKeyPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Clone()
+  nameWithType: PlayerEnterSecretEditKeyPacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Clone
+  nameWithType: PlayerEnterSecretEditKeyPacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Descriptor
+  nameWithType: PlayerEnterSecretEditKeyPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Descriptor
+  nameWithType: PlayerEnterSecretEditKeyPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  name: Equals(PlayerEnterSecretEditKeyPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  nameWithType: PlayerEnterSecretEditKeyPacket.Equals(PlayerEnterSecretEditKeyPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals(Object)
+  nameWithType: PlayerEnterSecretEditKeyPacket.Equals(object)
+  nameWithType.vb: PlayerEnterSecretEditKeyPacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Equals
+  nameWithType: PlayerEnterSecretEditKeyPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.GetHashCode()
+  nameWithType: PlayerEnterSecretEditKeyPacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.GetHashCode
+  nameWithType: PlayerEnterSecretEditKeyPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PlayerEnterSecretEditKeyPacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  name: MergeFrom(PlayerEnterSecretEditKeyPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket)
+  nameWithType: PlayerEnterSecretEditKeyPacket.MergeFrom(PlayerEnterSecretEditKeyPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.MergeFrom
+  nameWithType: PlayerEnterSecretEditKeyPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Parser
+  nameWithType: PlayerEnterSecretEditKeyPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.Parser
+  nameWithType: PlayerEnterSecretEditKeyPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKey
+  name: SecretEditKey
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_SecretEditKey
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKey
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKey
+  nameWithType: PlayerEnterSecretEditKeyPacket.SecretEditKey
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKey*
+  name: SecretEditKey
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_SecretEditKey_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKey
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKey
+  nameWithType: PlayerEnterSecretEditKeyPacket.SecretEditKey
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKeyFieldNumber
+  name: SecretEditKeyFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_SecretEditKeyFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKeyFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.SecretEditKeyFieldNumber
+  nameWithType: PlayerEnterSecretEditKeyPacket.SecretEditKeyFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.ToString()
+  nameWithType: PlayerEnterSecretEditKeyPacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.ToString
+  nameWithType: PlayerEnterSecretEditKeyPacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PlayerEnterSecretEditKeyPacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEnterSecretEditKeyPacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo
+  nameWithType: PlayerEnterSecretEditKeyPacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerFacePacket.html
@@ -23985,19 +24407,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.CalculateSize
   nameWithType: PlayerUpdateRightsPacket.CalculateSize
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.ClearPlayerId
-  name: ClearPlayerId()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerUpdateRightsPacket_ClearPlayerId
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.ClearPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.ClearPlayerId()
-  nameWithType: PlayerUpdateRightsPacket.ClearPlayerId()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.ClearPlayerId*
-  name: ClearPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerUpdateRightsPacket_ClearPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.ClearPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.ClearPlayerId
-  nameWithType: PlayerUpdateRightsPacket.ClearPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.Clone
   name: Clone()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerUpdateRightsPacket_Clone
@@ -24059,19 +24468,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.GetHashCode
   nameWithType: PlayerUpdateRightsPacket.GetHashCode
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.HasPlayerId
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerUpdateRightsPacket_HasPlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.HasPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.HasPlayerId
-  nameWithType: PlayerUpdateRightsPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.HasPlayerId*
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerUpdateRightsPacket_HasPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.HasPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.HasPlayerId
-  nameWithType: PlayerUpdateRightsPacket.HasPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerUpdateRightsPacket_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -26034,6 +26430,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.GetHashCode
   nameWithType: WorldMeta.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey
+  name: HasSecretEditKey
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasSecretEditKey
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey
+  nameWithType: WorldMeta.HasSecretEditKey
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey*
+  name: HasSecretEditKey
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasSecretEditKey_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey
+  nameWithType: WorldMeta.HasSecretEditKey
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKeyFieldNumber
+  name: HasSecretEditKeyFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasSecretEditKeyFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKeyFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKeyFieldNumber
+  nameWithType: WorldMeta.HasSecretEditKeyFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasUnsavedChanges
   name: HasUnsavedChanges
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasUnsavedChanges
@@ -26525,6 +26940,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CalculateSize
   nameWithType: WorldPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacket
+  name: ChangeSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_ChangeSecretEditKeyPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacket
+  nameWithType: WorldPacket.ChangeSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacket*
+  name: ChangeSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_ChangeSecretEditKeyPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacket
+  nameWithType: WorldPacket.ChangeSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacketFieldNumber
+  name: ChangeSecretEditKeyPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_ChangeSecretEditKeyPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ChangeSecretEditKeyPacketFieldNumber
+  nameWithType: WorldPacket.ChangeSecretEditKeyPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.ClearPacket
   name: ClearPacket()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_ClearPacket
@@ -26551,25 +26985,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.Clone
   nameWithType: WorldPacket.Clone
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacket
-  name: CounterTransactionPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_CounterTransactionPacket
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacket
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacket
-  nameWithType: WorldPacket.CounterTransactionPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacket*
-  name: CounterTransactionPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_CounterTransactionPacket_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacket
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacket
-  nameWithType: WorldPacket.CounterTransactionPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacketFieldNumber
-  name: CounterTransactionPacketFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_CounterTransactionPacketFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacketFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.CounterTransactionPacketFieldNumber
-  nameWithType: WorldPacket.CounterTransactionPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.Descriptor
   name: Descriptor
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_Descriptor
@@ -26713,12 +27128,12 @@ references:
   commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase
   nameWithType: WorldPacket.PacketOneofCase
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.CounterTransactionPacket
-  name: CounterTransactionPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_CounterTransactionPacket
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.CounterTransactionPacket
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.CounterTransactionPacket
-  nameWithType: WorldPacket.PacketOneofCase.CounterTransactionPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
+  name: ChangeSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_ChangeSecretEditKeyPacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
+  nameWithType: WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GlobalSwitchChangedPacket
   name: GlobalSwitchChangedPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_GlobalSwitchChangedPacket
@@ -26767,6 +27182,12 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerChatPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerChatPacket
   nameWithType: WorldPacket.PacketOneofCase.PlayerChatPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerCounterTransactionPacket
+  name: PlayerCounterTransactionPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerCounterTransactionPacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerCounterTransactionPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerCounterTransactionPacket
+  nameWithType: WorldPacket.PacketOneofCase.PlayerCounterTransactionPacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerCountersUpdatePacket
   name: PlayerCountersUpdatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerCountersUpdatePacket
@@ -26779,6 +27200,12 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerDirectMessagePacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerDirectMessagePacket
   nameWithType: WorldPacket.PacketOneofCase.PlayerDirectMessagePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
+  name: PlayerEnterSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerEnterSecretEditKeyPacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
+  nameWithType: WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerFacePacket
@@ -27024,6 +27451,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerChatPacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerChatPacketFieldNumber
   nameWithType: WorldPacket.PlayerChatPacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacket
+  name: PlayerCounterTransactionPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerCounterTransactionPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacket
+  nameWithType: WorldPacket.PlayerCounterTransactionPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacket*
+  name: PlayerCounterTransactionPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerCounterTransactionPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacket
+  nameWithType: WorldPacket.PlayerCounterTransactionPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacketFieldNumber
+  name: PlayerCounterTransactionPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerCounterTransactionPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCounterTransactionPacketFieldNumber
+  nameWithType: WorldPacket.PlayerCounterTransactionPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerCountersUpdatePacket
   name: PlayerCountersUpdatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerCountersUpdatePacket
@@ -27062,6 +27508,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerDirectMessagePacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerDirectMessagePacketFieldNumber
   nameWithType: WorldPacket.PlayerDirectMessagePacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacket
+  name: PlayerEnterSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerEnterSecretEditKeyPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacket
+  nameWithType: WorldPacket.PlayerEnterSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacket*
+  name: PlayerEnterSecretEditKeyPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerEnterSecretEditKeyPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacket
+  nameWithType: WorldPacket.PlayerEnterSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
+  name: PlayerEnterSecretEditKeyPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerEnterSecretEditKeyPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
+  nameWithType: WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerFacePacket

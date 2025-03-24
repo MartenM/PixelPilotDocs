@@ -1352,10 +1352,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.yml",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.CounterTransactionPacket.html"
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html"
         }
       },
       "version": ""
@@ -1462,6 +1462,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCounterTransactionPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerCountersUpdatePacket.yml",
       "output": {
         ".html": {
@@ -1476,6 +1486,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerDirectMessagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html"
         }
       },
       "version": ""
