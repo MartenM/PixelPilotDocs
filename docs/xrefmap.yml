@@ -7255,6 +7255,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasBlueBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasBlueBg
   nameWithType: PixelBlock.CanvasBlueBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasCyan
+  name: CanvasCyan
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasCyan
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasCyan
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasCyan
+  nameWithType: PixelBlock.CanvasCyan
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasCyanBg
   name: CanvasCyanBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasCyanBg
@@ -7279,12 +7285,24 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasGreenBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasGreenBg
   nameWithType: PixelBlock.CanvasGreenBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasOrange
+  name: CanvasOrange
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasOrange
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasOrange
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasOrange
+  nameWithType: PixelBlock.CanvasOrange
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasOrangeBg
   name: CanvasOrangeBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasOrangeBg
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasOrangeBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasOrangeBg
   nameWithType: PixelBlock.CanvasOrangeBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasPurple
+  name: CanvasPurple
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasPurple
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasPurple
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasPurple
+  nameWithType: PixelBlock.CanvasPurple
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasPurpleBg
   name: CanvasPurpleBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasPurpleBg
@@ -7309,6 +7327,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasTanBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasTanBg
   nameWithType: PixelBlock.CanvasTanBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasYellow
+  name: CanvasYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CanvasYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CanvasYellow
+  nameWithType: PixelBlock.CanvasYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CanvasYellowBg
   name: CanvasYellowBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CanvasYellowBg
@@ -9979,6 +10003,60 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FarmWheat
   fullName: PixelPilot.Client.World.Constants.PixelBlock.FarmWheat
   nameWithType: PixelBlock.FarmWheat
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogBottom
+  name: FogBottom
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogBottom
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogBottom
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogBottom
+  nameWithType: PixelBlock.FogBottom
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogBottomLeft
+  name: FogBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogBottomLeft
+  nameWithType: PixelBlock.FogBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogBottomRight
+  name: FogBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogBottomRight
+  nameWithType: PixelBlock.FogBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogCenter
+  name: FogCenter
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogCenter
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogCenter
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogCenter
+  nameWithType: PixelBlock.FogCenter
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogLeft
+  name: FogLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogLeft
+  nameWithType: PixelBlock.FogLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogRight
+  name: FogRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogRight
+  nameWithType: PixelBlock.FogRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogTop
+  name: FogTop
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogTop
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogTop
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogTop
+  nameWithType: PixelBlock.FogTop
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogTopLeft
+  name: FogTopLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogTopLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogTopLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogTopLeft
+  nameWithType: PixelBlock.FogTopLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.FogTopRight
+  name: FogTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FogTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.FogTopRight
+  nameWithType: PixelBlock.FogTopRight
 - uid: PixelPilot.Client.World.Constants.PixelBlock.GardenButterfly
   name: GardenButterfly
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GardenButterfly
@@ -10165,6 +10243,150 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GenericYellowFaceSmile
   fullName: PixelPilot.Client.World.Constants.PixelBlock.GenericYellowFaceSmile
   nameWithType: PixelBlock.GenericYellowFaceSmile
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBasic
+  name: GildedBronzeBasic
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeBasic
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBasic
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBasic
+  nameWithType: PixelBlock.GildedBronzeBasic
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBasicBg
+  name: GildedBronzeBasicBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeBasicBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBasicBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBasicBg
+  nameWithType: PixelBlock.GildedBronzeBasicBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBrick
+  name: GildedBronzeBrick
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeBrick
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBrick
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBrick
+  nameWithType: PixelBlock.GildedBronzeBrick
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBrickBg
+  name: GildedBronzeBrickBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeBrickBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBrickBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeBrickBg
+  nameWithType: PixelBlock.GildedBronzeBrickBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeChiseled
+  name: GildedBronzeChiseled
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeChiseled
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeChiseled
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeChiseled
+  nameWithType: PixelBlock.GildedBronzeChiseled
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeChiseledBg
+  name: GildedBronzeChiseledBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeChiseledBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeChiseledBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeChiseledBg
+  nameWithType: PixelBlock.GildedBronzeChiseledBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeMantleOnewayTop
+  name: GildedBronzeMantleOnewayTop
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeMantleOnewayTop
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeMantleOnewayTop
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeMantleOnewayTop
+  nameWithType: PixelBlock.GildedBronzeMantleOnewayTop
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeTile
+  name: GildedBronzeTile
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedBronzeTile
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeTile
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedBronzeTile
+  nameWithType: PixelBlock.GildedBronzeTile
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBasic
+  name: GildedGoldBasic
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldBasic
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBasic
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBasic
+  nameWithType: PixelBlock.GildedGoldBasic
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBasicBg
+  name: GildedGoldBasicBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldBasicBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBasicBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBasicBg
+  nameWithType: PixelBlock.GildedGoldBasicBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBrick
+  name: GildedGoldBrick
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldBrick
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBrick
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBrick
+  nameWithType: PixelBlock.GildedGoldBrick
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBrickBg
+  name: GildedGoldBrickBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldBrickBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBrickBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldBrickBg
+  nameWithType: PixelBlock.GildedGoldBrickBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldChiseled
+  name: GildedGoldChiseled
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldChiseled
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldChiseled
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldChiseled
+  nameWithType: PixelBlock.GildedGoldChiseled
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldChiseledBg
+  name: GildedGoldChiseledBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldChiseledBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldChiseledBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldChiseledBg
+  nameWithType: PixelBlock.GildedGoldChiseledBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldMantleOnewayTop
+  name: GildedGoldMantleOnewayTop
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldMantleOnewayTop
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldMantleOnewayTop
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldMantleOnewayTop
+  nameWithType: PixelBlock.GildedGoldMantleOnewayTop
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldTile
+  name: GildedGoldTile
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedGoldTile
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedGoldTile
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedGoldTile
+  nameWithType: PixelBlock.GildedGoldTile
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBasic
+  name: GildedSilverBasic
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverBasic
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBasic
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBasic
+  nameWithType: PixelBlock.GildedSilverBasic
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBasicBg
+  name: GildedSilverBasicBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverBasicBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBasicBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBasicBg
+  nameWithType: PixelBlock.GildedSilverBasicBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBrick
+  name: GildedSilverBrick
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverBrick
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBrick
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBrick
+  nameWithType: PixelBlock.GildedSilverBrick
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBrickBg
+  name: GildedSilverBrickBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverBrickBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBrickBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverBrickBg
+  nameWithType: PixelBlock.GildedSilverBrickBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverChiseled
+  name: GildedSilverChiseled
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverChiseled
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverChiseled
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverChiseled
+  nameWithType: PixelBlock.GildedSilverChiseled
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverChiseledBg
+  name: GildedSilverChiseledBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverChiseledBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverChiseledBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverChiseledBg
+  nameWithType: PixelBlock.GildedSilverChiseledBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverMantleOnewayTop
+  name: GildedSilverMantleOnewayTop
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverMantleOnewayTop
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverMantleOnewayTop
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverMantleOnewayTop
+  nameWithType: PixelBlock.GildedSilverMantleOnewayTop
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverTile
+  name: GildedSilverTile
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GildedSilverTile
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GildedSilverTile
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GildedSilverTile
+  nameWithType: PixelBlock.GildedSilverTile
 - uid: PixelPilot.Client.World.Constants.PixelBlock.GlassBlue
   name: GlassBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlassBlue
@@ -10213,54 +10435,6 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlassYellow
   fullName: PixelPilot.Client.World.Constants.PixelBlock.GlassYellow
   nameWithType: PixelBlock.GlassYellow
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldBasic
-  name: GoldBasic
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldBasic
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldBasic
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldBasic
-  nameWithType: PixelBlock.GoldBasic
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldBasicBg
-  name: GoldBasicBg
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldBasicBg
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldBasicBg
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldBasicBg
-  nameWithType: PixelBlock.GoldBasicBg
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldBrick
-  name: GoldBrick
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldBrick
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldBrick
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldBrick
-  nameWithType: PixelBlock.GoldBrick
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldBrickBg
-  name: GoldBrickBg
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldBrickBg
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldBrickBg
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldBrickBg
-  nameWithType: PixelBlock.GoldBrickBg
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldChisled
-  name: GoldChisled
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldChisled
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldChisled
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldChisled
-  nameWithType: PixelBlock.GoldChisled
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldChisledBg
-  name: GoldChisledBg
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldChisledBg
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldChisledBg
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldChisledBg
-  nameWithType: PixelBlock.GoldChisledBg
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldMantleOnewayTop
-  name: GoldMantleOnewayTop
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldMantleOnewayTop
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldMantleOnewayTop
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldMantleOnewayTop
-  nameWithType: PixelBlock.GoldMantleOnewayTop
-- uid: PixelPilot.Client.World.Constants.PixelBlock.GoldTile
-  name: GoldTile
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GoldTile
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GoldTile
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.GoldTile
-  nameWithType: PixelBlock.GoldTile
 - uid: PixelPilot.Client.World.Constants.PixelBlock.GrassBrickLeft
   name: GrassBrickLeft
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GrassBrickLeft
@@ -15093,6 +15267,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.WorldLayer.Foreground
   fullName: PixelPilot.Client.World.Constants.WorldLayer.Foreground
   nameWithType: WorldLayer.Foreground
+- uid: PixelPilot.Client.World.Constants.WorldLayer.Overlay
+  name: Overlay
+  href: api/PixelPilot.Client.World.Constants.WorldLayer.html#PixelPilot_Client_World_Constants_WorldLayer_Overlay
+  commentId: F:PixelPilot.Client.World.Constants.WorldLayer.Overlay
+  fullName: PixelPilot.Client.World.Constants.WorldLayer.Overlay
+  nameWithType: WorldLayer.Overlay
 - uid: PixelPilot.Client.World.PixelWorld
   name: PixelWorld
   href: api/PixelPilot.Client.World.PixelWorld.html
@@ -15712,6 +15892,82 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate
   nameWithType: Migration_2024_12_04.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04
+  name: Migration_2025_08_04
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04
+  nameWithType: Migration_2025_08_04
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor
+  name: Migration_2025_08_04()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.Migration_2025_08_04()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.New()
+  nameWithType: Migration_2025_08_04.Migration_2025_08_04()
+  nameWithType.vb: Migration_2025_08_04.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor*
+  name: Migration_2025_08_04
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.Migration_2025_08_04
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.New
+  nameWithType: Migration_2025_08_04.Migration_2025_08_04
+  nameWithType.vb: Migration_2025_08_04.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_08_04.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate
+  nameWithType: Migration_2025_08_04.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05
+  name: Migration_2025_08_05
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05
+  nameWithType: Migration_2025_08_05
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor
+  name: Migration_2025_08_05()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.Migration_2025_08_05()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.New()
+  nameWithType: Migration_2025_08_05.Migration_2025_08_05()
+  nameWithType.vb: Migration_2025_08_05.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor*
+  name: Migration_2025_08_05
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.Migration_2025_08_05
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.New
+  nameWithType: Migration_2025_08_05.Migration_2025_08_05
+  nameWithType.vb: Migration_2025_08_05.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_08_05.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate
+  nameWithType: Migration_2025_08_05.DoUpdate
 - uid: PixelPilot.Structures.Converters.PilotSimple
   name: PixelPilot.Structures.Converters.PilotSimple
   href: api/PixelPilot.Structures.Converters.PilotSimple.html
