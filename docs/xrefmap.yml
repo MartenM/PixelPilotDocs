@@ -8263,6 +8263,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusable
   nameWithType: PixelBlock.CounterBlackReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableConsumableReset
+  name: CounterBlackReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlackReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableConsumableReset
+  nameWithType: PixelBlock.CounterBlackReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlackReusableSet
   name: CounterBlackReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlackReusableSet
@@ -8299,6 +8305,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusable
   nameWithType: PixelBlock.CounterBlueReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableConsumableReset
+  name: CounterBlueReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlueReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableConsumableReset
+  nameWithType: PixelBlock.CounterBlueReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterBlueReusableSet
   name: CounterBlueReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterBlueReusableSet
@@ -8335,6 +8347,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusable
   nameWithType: PixelBlock.CounterCyanReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableConsumableReset
+  name: CounterCyanReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterCyanReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableConsumableReset
+  nameWithType: PixelBlock.CounterCyanReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterCyanReusableSet
   name: CounterCyanReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterCyanReusableSet
@@ -8371,6 +8389,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusable
   nameWithType: PixelBlock.CounterGrayReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableConsumableReset
+  name: CounterGrayReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGrayReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableConsumableReset
+  nameWithType: PixelBlock.CounterGrayReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGrayReusableSet
   name: CounterGrayReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGrayReusableSet
@@ -8407,6 +8431,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusable
   nameWithType: PixelBlock.CounterGreenReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableConsumableReset
+  name: CounterGreenReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGreenReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableConsumableReset
+  nameWithType: PixelBlock.CounterGreenReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterGreenReusableSet
   name: CounterGreenReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterGreenReusableSet
@@ -8443,6 +8473,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusable
   nameWithType: PixelBlock.CounterMagentaReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableConsumableReset
+  name: CounterMagentaReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterMagentaReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableConsumableReset
+  nameWithType: PixelBlock.CounterMagentaReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterMagentaReusableSet
   name: CounterMagentaReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterMagentaReusableSet
@@ -8479,6 +8515,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusable
   nameWithType: PixelBlock.CounterOrangeReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableConsumableReset
+  name: CounterOrangeReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterOrangeReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableConsumableReset
+  nameWithType: PixelBlock.CounterOrangeReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterOrangeReusableSet
   name: CounterOrangeReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterOrangeReusableSet
@@ -8515,6 +8557,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusable
   nameWithType: PixelBlock.CounterRedReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableConsumableReset
+  name: CounterRedReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterRedReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableConsumableReset
+  nameWithType: PixelBlock.CounterRedReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterRedReusableSet
   name: CounterRedReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterRedReusableSet
@@ -8551,6 +8599,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusable
   nameWithType: PixelBlock.CounterWhiteReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableConsumableReset
+  name: CounterWhiteReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterWhiteReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableConsumableReset
+  nameWithType: PixelBlock.CounterWhiteReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterWhiteReusableSet
   name: CounterWhiteReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterWhiteReusableSet
@@ -8587,6 +8641,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusable
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusable
   nameWithType: PixelBlock.CounterYellowReusable
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableConsumableReset
+  name: CounterYellowReusableConsumableReset
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterYellowReusableConsumableReset
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableConsumableReset
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableConsumableReset
+  nameWithType: PixelBlock.CounterYellowReusableConsumableReset
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CounterYellowReusableSet
   name: CounterYellowReusableSet
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CounterYellowReusableSet
@@ -17990,19 +18050,19 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearDuration
   nameWithType: PlayerAddEffectPacket.ClearDuration
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearPlayerId
-  name: ClearPlayerId()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_ClearPlayerId
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearPlayerId()
-  nameWithType: PlayerAddEffectPacket.ClearPlayerId()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearPlayerId*
-  name: ClearPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_ClearPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearFromPlayerId
+  name: ClearFromPlayerId()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_ClearFromPlayerId
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearFromPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearFromPlayerId()
+  nameWithType: PlayerAddEffectPacket.ClearFromPlayerId()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearFromPlayerId*
+  name: ClearFromPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_ClearFromPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearFromPlayerId
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearPlayerId
-  nameWithType: PlayerAddEffectPacket.ClearPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearFromPlayerId
+  nameWithType: PlayerAddEffectPacket.ClearFromPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.ClearStrength
   name: ClearStrength()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_ClearStrength
@@ -18102,25 +18162,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.Equals
   nameWithType: PlayerAddEffectPacket.Equals
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServer
-  name: FromServer
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_FromServer
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServer
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServer
-  nameWithType: PlayerAddEffectPacket.FromServer
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServer*
-  name: FromServer
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_FromServer_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServer
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerId
+  name: FromPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_FromPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerId
+  nameWithType: PlayerAddEffectPacket.FromPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerId*
+  name: FromPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_FromPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerId
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServer
-  nameWithType: PlayerAddEffectPacket.FromServer
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServerFieldNumber
-  name: FromServerFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_FromServerFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServerFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromServerFieldNumber
-  nameWithType: PlayerAddEffectPacket.FromServerFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerId
+  nameWithType: PlayerAddEffectPacket.FromPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerIdFieldNumber
+  name: FromPlayerIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_FromPlayerIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.FromPlayerIdFieldNumber
+  nameWithType: PlayerAddEffectPacket.FromPlayerIdFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_GetHashCode
@@ -18147,19 +18207,19 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasDuration
   nameWithType: PlayerAddEffectPacket.HasDuration
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasPlayerId
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_HasPlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasPlayerId
-  nameWithType: PlayerAddEffectPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasPlayerId*
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_HasPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasFromPlayerId
+  name: HasFromPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_HasFromPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasFromPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasFromPlayerId
+  nameWithType: PlayerAddEffectPacket.HasFromPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasFromPlayerId*
+  name: HasFromPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_HasFromPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasFromPlayerId
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasPlayerId
-  nameWithType: PlayerAddEffectPacket.HasPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasFromPlayerId
+  nameWithType: PlayerAddEffectPacket.HasFromPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.HasStrength
   name: HasStrength
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerAddEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerAddEffectPacket_HasStrength
@@ -19258,6 +19318,281 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerDirectMessagePacket.WriteTo
   nameWithType: PlayerDirectMessagePacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect
+  name: PlayerEffect
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect
+  nameWithType: PlayerEffect
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.#ctor
+  name: PlayerEffect()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.PlayerEffect()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.New()
+  nameWithType: PlayerEffect.PlayerEffect()
+  nameWithType.vb: PlayerEffect.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  name: PlayerEffect(PlayerEffect)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  name.vb: New(PlayerEffect)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.PlayerEffect(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  nameWithType: PlayerEffect.PlayerEffect(PlayerEffect)
+  nameWithType.vb: PlayerEffect.New(PlayerEffect)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.#ctor*
+  name: PlayerEffect
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.PlayerEffect
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.New
+  nameWithType: PlayerEffect.PlayerEffect
+  nameWithType.vb: PlayerEffect.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.CalculateSize()
+  nameWithType: PlayerEffect.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.CalculateSize
+  nameWithType: PlayerEffect.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearDuration
+  name: ClearDuration()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_ClearDuration
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearDuration
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearDuration()
+  nameWithType: PlayerEffect.ClearDuration()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearDuration*
+  name: ClearDuration
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_ClearDuration_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearDuration
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearDuration
+  nameWithType: PlayerEffect.ClearDuration
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearStrength
+  name: ClearStrength()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_ClearStrength
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearStrength
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearStrength()
+  nameWithType: PlayerEffect.ClearStrength()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearStrength*
+  name: ClearStrength
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_ClearStrength_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearStrength
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ClearStrength
+  nameWithType: PlayerEffect.ClearStrength
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Clone()
+  nameWithType: PlayerEffect.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Clone
+  nameWithType: PlayerEffect.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Descriptor
+  nameWithType: PlayerEffect.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Descriptor
+  nameWithType: PlayerEffect.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Duration
+  name: Duration
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Duration
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Duration
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Duration
+  nameWithType: PlayerEffect.Duration
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Duration*
+  name: Duration
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Duration_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Duration
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Duration
+  nameWithType: PlayerEffect.Duration
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.DurationFieldNumber
+  name: DurationFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_DurationFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.DurationFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.DurationFieldNumber
+  nameWithType: PlayerEffect.DurationFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  name: Equals(PlayerEffect)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  nameWithType: PlayerEffect.Equals(PlayerEffect)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals(Object)
+  nameWithType: PlayerEffect.Equals(object)
+  nameWithType.vb: PlayerEffect.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Equals
+  nameWithType: PlayerEffect.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.GetHashCode()
+  nameWithType: PlayerEffect.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.GetHashCode
+  nameWithType: PlayerEffect.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasDuration
+  name: HasDuration
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_HasDuration
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasDuration
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasDuration
+  nameWithType: PlayerEffect.HasDuration
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasDuration*
+  name: HasDuration
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_HasDuration_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasDuration
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasDuration
+  nameWithType: PlayerEffect.HasDuration
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasStrength
+  name: HasStrength
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_HasStrength
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasStrength
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasStrength
+  nameWithType: PlayerEffect.HasStrength
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasStrength*
+  name: HasStrength
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_HasStrength_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasStrength
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.HasStrength
+  nameWithType: PlayerEffect.HasStrength
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PlayerEffect.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  name: MergeFrom(PlayerEffect)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect)
+  nameWithType: PlayerEffect.MergeFrom(PlayerEffect)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.MergeFrom
+  nameWithType: PlayerEffect.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Parser
+  nameWithType: PlayerEffect.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Parser
+  nameWithType: PlayerEffect.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Strength
+  name: Strength
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Strength
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Strength
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Strength
+  nameWithType: PlayerEffect.Strength
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Strength*
+  name: Strength
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Strength_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Strength
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Strength
+  nameWithType: PlayerEffect.Strength
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.StrengthFieldNumber
+  name: StrengthFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_StrengthFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.StrengthFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.StrengthFieldNumber
+  nameWithType: PlayerEffect.StrengthFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ToString()
+  nameWithType: PlayerEffect.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.ToString
+  nameWithType: PlayerEffect.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Type
+  name: Type
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Type
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Type
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Type
+  nameWithType: PlayerEffect.Type
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Type*
+  name: Type
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_Type_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Type
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.Type
+  nameWithType: PlayerEffect.Type
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.TypeFieldNumber
+  name: TypeFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_TypeFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.TypeFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.TypeFieldNumber
+  nameWithType: PlayerEffect.TypeFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PlayerEffect.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerEffect_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.WriteTo
+  nameWithType: PlayerEffect.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket
   name: PlayerEnterSecretEditKeyPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html
@@ -19443,6 +19778,191 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.WriteTo
   nameWithType: PlayerEnterSecretEditKeyPacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket
+  name: PlayerExchangeEffectsPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket
+  nameWithType: PlayerExchangeEffectsPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.#ctor
+  name: PlayerExchangeEffectsPacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.PlayerExchangeEffectsPacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.New()
+  nameWithType: PlayerExchangeEffectsPacket.PlayerExchangeEffectsPacket()
+  nameWithType.vb: PlayerExchangeEffectsPacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  name: PlayerExchangeEffectsPacket(PlayerExchangeEffectsPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  name.vb: New(PlayerExchangeEffectsPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.PlayerExchangeEffectsPacket(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  nameWithType: PlayerExchangeEffectsPacket.PlayerExchangeEffectsPacket(PlayerExchangeEffectsPacket)
+  nameWithType.vb: PlayerExchangeEffectsPacket.New(PlayerExchangeEffectsPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.#ctor*
+  name: PlayerExchangeEffectsPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.PlayerExchangeEffectsPacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.New
+  nameWithType: PlayerExchangeEffectsPacket.PlayerExchangeEffectsPacket
+  nameWithType.vb: PlayerExchangeEffectsPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.CalculateSize()
+  nameWithType: PlayerExchangeEffectsPacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.CalculateSize
+  nameWithType: PlayerExchangeEffectsPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Clone()
+  nameWithType: PlayerExchangeEffectsPacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Clone
+  nameWithType: PlayerExchangeEffectsPacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Descriptor
+  nameWithType: PlayerExchangeEffectsPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Descriptor
+  nameWithType: PlayerExchangeEffectsPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  name: Equals(PlayerExchangeEffectsPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  nameWithType: PlayerExchangeEffectsPacket.Equals(PlayerExchangeEffectsPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals(Object)
+  nameWithType: PlayerExchangeEffectsPacket.Equals(object)
+  nameWithType.vb: PlayerExchangeEffectsPacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Equals
+  nameWithType: PlayerExchangeEffectsPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.GetHashCode()
+  nameWithType: PlayerExchangeEffectsPacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.GetHashCode
+  nameWithType: PlayerExchangeEffectsPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PlayerExchangeEffectsPacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  name: MergeFrom(PlayerExchangeEffectsPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket)
+  nameWithType: PlayerExchangeEffectsPacket.MergeFrom(PlayerExchangeEffectsPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.MergeFrom
+  nameWithType: PlayerExchangeEffectsPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Parser
+  nameWithType: PlayerExchangeEffectsPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.Parser
+  nameWithType: PlayerExchangeEffectsPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerId
+  name: TargetPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_TargetPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerId
+  nameWithType: PlayerExchangeEffectsPacket.TargetPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerId*
+  name: TargetPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_TargetPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerId
+  nameWithType: PlayerExchangeEffectsPacket.TargetPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerIdFieldNumber
+  name: TargetPlayerIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_TargetPlayerIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.TargetPlayerIdFieldNumber
+  nameWithType: PlayerExchangeEffectsPacket.TargetPlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.ToString()
+  nameWithType: PlayerExchangeEffectsPacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.ToString
+  nameWithType: PlayerExchangeEffectsPacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PlayerExchangeEffectsPacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerExchangeEffectsPacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.WriteTo
+  nameWithType: PlayerExchangeEffectsPacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerFacePacket.html
@@ -22270,19 +22790,19 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.CalculateSize
   nameWithType: PlayerRemoveEffectPacket.CalculateSize
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearPlayerId
-  name: ClearPlayerId()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ClearPlayerId
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearPlayerId()
-  nameWithType: PlayerRemoveEffectPacket.ClearPlayerId()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearPlayerId*
-  name: ClearPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ClearPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearToPlayerId
+  name: ClearToPlayerId()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ClearToPlayerId
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearToPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearToPlayerId()
+  nameWithType: PlayerRemoveEffectPacket.ClearToPlayerId()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearToPlayerId*
+  name: ClearToPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ClearToPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearToPlayerId
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearPlayerId
-  nameWithType: PlayerRemoveEffectPacket.ClearPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ClearToPlayerId
+  nameWithType: PlayerRemoveEffectPacket.ClearToPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.Clone
   name: Clone()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_Clone
@@ -22363,19 +22883,19 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.GetHashCode
   nameWithType: PlayerRemoveEffectPacket.GetHashCode
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasPlayerId
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_HasPlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasPlayerId
-  nameWithType: PlayerRemoveEffectPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasPlayerId*
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_HasPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasToPlayerId
+  name: HasToPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_HasToPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasToPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasToPlayerId
+  nameWithType: PlayerRemoveEffectPacket.HasToPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasToPlayerId*
+  name: HasToPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_HasToPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasToPlayerId
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasPlayerId
-  nameWithType: PlayerRemoveEffectPacket.HasPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.HasToPlayerId
+  nameWithType: PlayerRemoveEffectPacket.HasToPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -22427,6 +22947,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.PlayerIdFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.PlayerIdFieldNumber
   nameWithType: PlayerRemoveEffectPacket.PlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerId
+  name: ToPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ToPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerId
+  nameWithType: PlayerRemoveEffectPacket.ToPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerId*
+  name: ToPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ToPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerId
+  nameWithType: PlayerRemoveEffectPacket.ToPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerIdFieldNumber
+  name: ToPlayerIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ToPlayerIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToPlayerIdFieldNumber
+  nameWithType: PlayerRemoveEffectPacket.ToPlayerIdFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.ToString
   name: ToString()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerRemoveEffectPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerRemoveEffectPacket_ToString
@@ -22500,19 +23039,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.CalculateSize
   nameWithType: PlayerResetEffectsPacket.CalculateSize
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.ClearPlayerId
-  name: ClearPlayerId()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_ClearPlayerId
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.ClearPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.ClearPlayerId()
-  nameWithType: PlayerResetEffectsPacket.ClearPlayerId()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.ClearPlayerId*
-  name: ClearPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_ClearPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.ClearPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.ClearPlayerId
-  nameWithType: PlayerResetEffectsPacket.ClearPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.Clone
   name: Clone()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_Clone
@@ -22561,25 +23087,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.Equals
   nameWithType: PlayerResetEffectsPacket.Equals
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServer
-  name: FromServer
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_FromServer
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServer
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServer
-  nameWithType: PlayerResetEffectsPacket.FromServer
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServer*
-  name: FromServer
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_FromServer_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServer
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServer
-  nameWithType: PlayerResetEffectsPacket.FromServer
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServerFieldNumber
-  name: FromServerFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_FromServerFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServerFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.FromServerFieldNumber
-  nameWithType: PlayerResetEffectsPacket.FromServerFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_GetHashCode
@@ -22593,19 +23100,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.GetHashCode
   nameWithType: PlayerResetEffectsPacket.GetHashCode
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.HasPlayerId
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_HasPlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.HasPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.HasPlayerId
-  nameWithType: PlayerResetEffectsPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.HasPlayerId*
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_HasPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.HasPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.HasPlayerId
-  nameWithType: PlayerResetEffectsPacket.HasPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerResetEffectsPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerResetEffectsPacket_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -23404,6 +23898,236 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerRights.WriteTo
   nameWithType: PlayerRights.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket
+  name: PlayerSetCollectiblesPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket
+  nameWithType: PlayerSetCollectiblesPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.#ctor
+  name: PlayerSetCollectiblesPacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerSetCollectiblesPacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.New()
+  nameWithType: PlayerSetCollectiblesPacket.PlayerSetCollectiblesPacket()
+  nameWithType.vb: PlayerSetCollectiblesPacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  name: PlayerSetCollectiblesPacket(PlayerSetCollectiblesPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  name.vb: New(PlayerSetCollectiblesPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerSetCollectiblesPacket(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  nameWithType: PlayerSetCollectiblesPacket.PlayerSetCollectiblesPacket(PlayerSetCollectiblesPacket)
+  nameWithType.vb: PlayerSetCollectiblesPacket.New(PlayerSetCollectiblesPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.#ctor*
+  name: PlayerSetCollectiblesPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerSetCollectiblesPacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.New
+  nameWithType: PlayerSetCollectiblesPacket.PlayerSetCollectiblesPacket
+  nameWithType.vb: PlayerSetCollectiblesPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CalculateSize()
+  nameWithType: PlayerSetCollectiblesPacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CalculateSize
+  nameWithType: PlayerSetCollectiblesPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ClearPlayerId
+  name: ClearPlayerId()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_ClearPlayerId
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ClearPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ClearPlayerId()
+  nameWithType: PlayerSetCollectiblesPacket.ClearPlayerId()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ClearPlayerId*
+  name: ClearPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_ClearPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ClearPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ClearPlayerId
+  nameWithType: PlayerSetCollectiblesPacket.ClearPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Clone()
+  nameWithType: PlayerSetCollectiblesPacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Clone
+  nameWithType: PlayerSetCollectiblesPacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Collected
+  name: Collected
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Collected
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Collected
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Collected
+  nameWithType: PlayerSetCollectiblesPacket.Collected
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Collected*
+  name: Collected
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Collected_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Collected
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Collected
+  nameWithType: PlayerSetCollectiblesPacket.Collected
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CollectedFieldNumber
+  name: CollectedFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_CollectedFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CollectedFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.CollectedFieldNumber
+  nameWithType: PlayerSetCollectiblesPacket.CollectedFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Descriptor
+  nameWithType: PlayerSetCollectiblesPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Descriptor
+  nameWithType: PlayerSetCollectiblesPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  name: Equals(PlayerSetCollectiblesPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  nameWithType: PlayerSetCollectiblesPacket.Equals(PlayerSetCollectiblesPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals(Object)
+  nameWithType: PlayerSetCollectiblesPacket.Equals(object)
+  nameWithType.vb: PlayerSetCollectiblesPacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Equals
+  nameWithType: PlayerSetCollectiblesPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.GetHashCode()
+  nameWithType: PlayerSetCollectiblesPacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.GetHashCode
+  nameWithType: PlayerSetCollectiblesPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.HasPlayerId
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_HasPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.HasPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.HasPlayerId
+  nameWithType: PlayerSetCollectiblesPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.HasPlayerId*
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_HasPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.HasPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.HasPlayerId
+  nameWithType: PlayerSetCollectiblesPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PlayerSetCollectiblesPacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  name: MergeFrom(PlayerSetCollectiblesPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket)
+  nameWithType: PlayerSetCollectiblesPacket.MergeFrom(PlayerSetCollectiblesPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.MergeFrom
+  nameWithType: PlayerSetCollectiblesPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Parser
+  nameWithType: PlayerSetCollectiblesPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.Parser
+  nameWithType: PlayerSetCollectiblesPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerId
+  name: PlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_PlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerId
+  nameWithType: PlayerSetCollectiblesPacket.PlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerId*
+  name: PlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_PlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerId
+  nameWithType: PlayerSetCollectiblesPacket.PlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerIdFieldNumber
+  name: PlayerIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_PlayerIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.PlayerIdFieldNumber
+  nameWithType: PlayerSetCollectiblesPacket.PlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ToString()
+  nameWithType: PlayerSetCollectiblesPacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.ToString
+  nameWithType: PlayerSetCollectiblesPacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PlayerSetCollectiblesPacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerSetCollectiblesPacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.WriteTo
+  nameWithType: PlayerSetCollectiblesPacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerSpectatePacket
   name: PlayerSpectatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSpectatePacket.html
@@ -24247,6 +24971,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.HasPlayerId
   nameWithType: PlayerTouchBlockPacket.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.Layer
+  name: Layer
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchBlockPacket_Layer
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.Layer
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.Layer
+  nameWithType: PlayerTouchBlockPacket.Layer
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.Layer*
+  name: Layer
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchBlockPacket_Layer_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.Layer
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.Layer
+  nameWithType: PlayerTouchBlockPacket.Layer
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.LayerFieldNumber
+  name: LayerFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchBlockPacket_LayerFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.LayerFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.LayerFieldNumber
+  nameWithType: PlayerTouchBlockPacket.LayerFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchBlockPacket_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -24343,279 +25086,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.WriteTo
   nameWithType: PlayerTouchBlockPacket.WriteTo
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket
-  name: PlayerTouchPlayerPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html
-  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket
-  nameWithType: PlayerTouchPlayerPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.#ctor
-  name: PlayerTouchPlayerPacket()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket__ctor
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.#ctor
-  name.vb: New()
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerTouchPlayerPacket()
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.New()
-  nameWithType: PlayerTouchPlayerPacket.PlayerTouchPlayerPacket()
-  nameWithType.vb: PlayerTouchPlayerPacket.New()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  name: PlayerTouchPlayerPacket(PlayerTouchPlayerPacket)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  name.vb: New(PlayerTouchPlayerPacket)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerTouchPlayerPacket(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  nameWithType: PlayerTouchPlayerPacket.PlayerTouchPlayerPacket(PlayerTouchPlayerPacket)
-  nameWithType.vb: PlayerTouchPlayerPacket.New(PlayerTouchPlayerPacket)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.#ctor*
-  name: PlayerTouchPlayerPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket__ctor_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerTouchPlayerPacket
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.New
-  nameWithType: PlayerTouchPlayerPacket.PlayerTouchPlayerPacket
-  nameWithType.vb: PlayerTouchPlayerPacket.New
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.CalculateSize
-  name: CalculateSize()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_CalculateSize
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.CalculateSize
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.CalculateSize()
-  nameWithType: PlayerTouchPlayerPacket.CalculateSize()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.CalculateSize*
-  name: CalculateSize
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_CalculateSize_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.CalculateSize
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.CalculateSize
-  nameWithType: PlayerTouchPlayerPacket.CalculateSize
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ClearPlayerId
-  name: ClearPlayerId()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_ClearPlayerId
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ClearPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ClearPlayerId()
-  nameWithType: PlayerTouchPlayerPacket.ClearPlayerId()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ClearPlayerId*
-  name: ClearPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_ClearPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ClearPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ClearPlayerId
-  nameWithType: PlayerTouchPlayerPacket.ClearPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Clone
-  name: Clone()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Clone
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Clone
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Clone()
-  nameWithType: PlayerTouchPlayerPacket.Clone()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Clone*
-  name: Clone
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Clone_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Clone
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Clone
-  nameWithType: PlayerTouchPlayerPacket.Clone
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Descriptor
-  name: Descriptor
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Descriptor
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Descriptor
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Descriptor
-  nameWithType: PlayerTouchPlayerPacket.Descriptor
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Descriptor*
-  name: Descriptor
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Descriptor_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Descriptor
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Descriptor
-  nameWithType: PlayerTouchPlayerPacket.Descriptor
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  name: Equals(PlayerTouchPlayerPacket)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  nameWithType: PlayerTouchPlayerPacket.Equals(PlayerTouchPlayerPacket)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(System.Object)
-  name: Equals(object)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Equals_System_Object_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(System.Object)
-  name.vb: Equals(Object)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(object)
-  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals(Object)
-  nameWithType: PlayerTouchPlayerPacket.Equals(object)
-  nameWithType.vb: PlayerTouchPlayerPacket.Equals(Object)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals*
-  name: Equals
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Equals_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Equals
-  nameWithType: PlayerTouchPlayerPacket.Equals
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.GetHashCode
-  name: GetHashCode()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_GetHashCode
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.GetHashCode
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.GetHashCode()
-  nameWithType: PlayerTouchPlayerPacket.GetHashCode()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.GetHashCode*
-  name: GetHashCode
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_GetHashCode_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.GetHashCode
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.GetHashCode
-  nameWithType: PlayerTouchPlayerPacket.GetHashCode
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.HasPlayerId
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_HasPlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.HasPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.HasPlayerId
-  nameWithType: PlayerTouchPlayerPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.HasPlayerId*
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_HasPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.HasPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.HasPlayerId
-  nameWithType: PlayerTouchPlayerPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom(Google.Protobuf.CodedInputStream)
-  name: MergeFrom(CodedInputStream)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_MergeFrom_Google_Protobuf_CodedInputStream_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom(Google.Protobuf.CodedInputStream)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom(Google.Protobuf.CodedInputStream)
-  nameWithType: PlayerTouchPlayerPacket.MergeFrom(CodedInputStream)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  name: MergeFrom(PlayerTouchPlayerPacket)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket)
-  nameWithType: PlayerTouchPlayerPacket.MergeFrom(PlayerTouchPlayerPacket)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom*
-  name: MergeFrom
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_MergeFrom_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.MergeFrom
-  nameWithType: PlayerTouchPlayerPacket.MergeFrom
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Parser
-  name: Parser
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Parser
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Parser
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Parser
-  nameWithType: PlayerTouchPlayerPacket.Parser
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Parser*
-  name: Parser
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Parser_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Parser
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Parser
-  nameWithType: PlayerTouchPlayerPacket.Parser
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerId
-  name: PlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_PlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerId
-  nameWithType: PlayerTouchPlayerPacket.PlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerId*
-  name: PlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_PlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerId
-  nameWithType: PlayerTouchPlayerPacket.PlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerIdFieldNumber
-  name: PlayerIdFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_PlayerIdFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerIdFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.PlayerIdFieldNumber
-  nameWithType: PlayerTouchPlayerPacket.PlayerIdFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ToString
-  name: ToString()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_ToString
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ToString
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ToString()
-  nameWithType: PlayerTouchPlayerPacket.ToString()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ToString*
-  name: ToString
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_ToString_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ToString
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.ToString
-  nameWithType: PlayerTouchPlayerPacket.ToString
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchType
-  name: TouchType
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_TouchType
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchType
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchType
-  nameWithType: PlayerTouchPlayerPacket.TouchType
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchType*
-  name: TouchType
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_TouchType_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchType
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchType
-  nameWithType: PlayerTouchPlayerPacket.TouchType
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchTypeFieldNumber
-  name: TouchTypeFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_TouchTypeFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchTypeFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchTypeFieldNumber
-  nameWithType: PlayerTouchPlayerPacket.TouchTypeFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayer
-  name: TouchedPlayer
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_TouchedPlayer
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayer
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayer
-  nameWithType: PlayerTouchPlayerPacket.TouchedPlayer
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayer*
-  name: TouchedPlayer
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_TouchedPlayer_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayer
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayer
-  nameWithType: PlayerTouchPlayerPacket.TouchedPlayer
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayerFieldNumber
-  name: TouchedPlayerFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_TouchedPlayerFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayerFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.TouchedPlayerFieldNumber
-  nameWithType: PlayerTouchPlayerPacket.TouchedPlayerFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types
-  name: PlayerTouchPlayerPacket.Types
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.html
-  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types
-  nameWithType: PlayerTouchPlayerPacket.Types
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType
-  name: PlayerTouchPlayerPacket.Types.TouchType
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.html
-  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType
-  nameWithType: PlayerTouchPlayerPacket.Types.TouchType
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.End
-  name: End
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Types_TouchType_End
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.End
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.End
-  nameWithType: PlayerTouchPlayerPacket.Types.TouchType.End
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.Start
-  name: Start
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_Types_TouchType_Start
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.Start
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.Start
-  nameWithType: PlayerTouchPlayerPacket.Types.TouchType.Start
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.WriteTo(Google.Protobuf.CodedOutputStream)
-  name: WriteTo(CodedOutputStream)
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_WriteTo_Google_Protobuf_CodedOutputStream_
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.WriteTo(Google.Protobuf.CodedOutputStream)
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.WriteTo(Google.Protobuf.CodedOutputStream)
-  nameWithType: PlayerTouchPlayerPacket.WriteTo(CodedOutputStream)
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.WriteTo*
-  name: WriteTo
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerTouchPlayerPacket_WriteTo_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.WriteTo
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.WriteTo
-  nameWithType: PlayerTouchPlayerPacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket
   name: PlayerUpdateRightsPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html
@@ -26259,25 +26729,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.HasPlayerId
   nameWithType: WorldBlockPlacedPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperation
-  name: IsFillOperation
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_IsFillOperation
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperation
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperation
-  nameWithType: WorldBlockPlacedPacket.IsFillOperation
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperation*
-  name: IsFillOperation
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_IsFillOperation_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperation
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperation
-  nameWithType: WorldBlockPlacedPacket.IsFillOperation
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperationFieldNumber
-  name: IsFillOperationFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_IsFillOperationFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperationFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.IsFillOperationFieldNumber
-  nameWithType: WorldBlockPlacedPacket.IsFillOperationFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Layer
   name: Layer
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_Layer
@@ -27462,6 +27913,12 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
   nameWithType: WorldPacket.PacketOneofCase.PlayerEnterSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerExchangeEffectsPacket
+  name: PlayerExchangeEffectsPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerExchangeEffectsPacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerExchangeEffectsPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerExchangeEffectsPacket
+  nameWithType: WorldPacket.PacketOneofCase.PlayerExchangeEffectsPacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerFacePacket
@@ -27546,6 +28003,12 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerRespawnPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerRespawnPacket
   nameWithType: WorldPacket.PacketOneofCase.PlayerRespawnPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerSetCollectiblesPacket
+  name: PlayerSetCollectiblesPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerSetCollectiblesPacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerSetCollectiblesPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerSetCollectiblesPacket
+  nameWithType: WorldPacket.PacketOneofCase.PlayerSetCollectiblesPacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerSpectatePacket
   name: PlayerSpectatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerSpectatePacket
@@ -27570,12 +28033,6 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerTouchBlockPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerTouchBlockPacket
   nameWithType: WorldPacket.PacketOneofCase.PlayerTouchBlockPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerTouchPlayerPacket
-  name: PlayerTouchPlayerPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerTouchPlayerPacket
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerTouchPlayerPacket
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerTouchPlayerPacket
-  nameWithType: WorldPacket.PacketOneofCase.PlayerTouchPlayerPacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerUpdateRightsPacket
   name: PlayerUpdateRightsPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerUpdateRightsPacket
@@ -27783,6 +28240,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
   nameWithType: WorldPacket.PlayerEnterSecretEditKeyPacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacket
+  name: PlayerExchangeEffectsPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerExchangeEffectsPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacket
+  nameWithType: WorldPacket.PlayerExchangeEffectsPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacket*
+  name: PlayerExchangeEffectsPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerExchangeEffectsPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacket
+  nameWithType: WorldPacket.PlayerExchangeEffectsPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacketFieldNumber
+  name: PlayerExchangeEffectsPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerExchangeEffectsPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerExchangeEffectsPacketFieldNumber
+  nameWithType: WorldPacket.PlayerExchangeEffectsPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerFacePacket
   name: PlayerFacePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerFacePacket
@@ -28049,6 +28525,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerRespawnPacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerRespawnPacketFieldNumber
   nameWithType: WorldPacket.PlayerRespawnPacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacket
+  name: PlayerSetCollectiblesPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerSetCollectiblesPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacket
+  nameWithType: WorldPacket.PlayerSetCollectiblesPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacket*
+  name: PlayerSetCollectiblesPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerSetCollectiblesPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacket
+  nameWithType: WorldPacket.PlayerSetCollectiblesPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacketFieldNumber
+  name: PlayerSetCollectiblesPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerSetCollectiblesPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSetCollectiblesPacketFieldNumber
+  nameWithType: WorldPacket.PlayerSetCollectiblesPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerSpectatePacket
   name: PlayerSpectatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerSpectatePacket
@@ -28125,25 +28620,6 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchBlockPacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchBlockPacketFieldNumber
   nameWithType: WorldPacket.PlayerTouchBlockPacketFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacket
-  name: PlayerTouchPlayerPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerTouchPlayerPacket
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacket
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacket
-  nameWithType: WorldPacket.PlayerTouchPlayerPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacket*
-  name: PlayerTouchPlayerPacket
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerTouchPlayerPacket_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacket
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacket
-  nameWithType: WorldPacket.PlayerTouchPlayerPacket
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacketFieldNumber
-  name: PlayerTouchPlayerPacketFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerTouchPlayerPacketFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacketFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerTouchPlayerPacketFieldNumber
-  nameWithType: WorldPacket.PlayerTouchPlayerPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerUpdateRightsPacket
   name: PlayerUpdateRightsPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerUpdateRightsPacket

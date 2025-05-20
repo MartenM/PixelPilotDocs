@@ -1512,10 +1512,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.yml",
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerEnterSecretEditKeyPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerExchangeEffectsPacket.html"
         }
       },
       "version": ""
@@ -1682,6 +1702,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSetCollectiblesPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerSpectatePacket.yml",
       "output": {
         ".html": {
@@ -1716,36 +1746,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchBlockPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.TouchType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.Types.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerTouchPlayerPacket.html"
         }
       },
       "version": ""
@@ -1924,11 +1924,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -2027,11 +2027,11 @@
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "guides/toc.json"
-        },
         ".html": {
           "relative_path": "guides/toc.html"
+        },
+        ".json": {
+          "relative_path": "guides/toc.json"
         }
       },
       "version": ""
@@ -2060,11 +2060,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
