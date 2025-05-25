@@ -5516,24 +5516,6 @@ references:
   fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New(PixelPilot.Client.World.Constants.PixelBlock, System.Drawing.Color)
   nameWithType: ColoredBlock.ColoredBlock(PixelBlock, Color)
   nameWithType.vb: ColoredBlock.New(PixelBlock, Color)
-- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.UInt32)
-  name: ColoredBlock(PixelBlock, uint)
-  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_UInt32_
-  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.UInt32)
-  name.vb: New(PixelBlock, UInteger)
-  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.ColoredBlock(PixelPilot.Client.World.Constants.PixelBlock, uint)
-  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New(PixelPilot.Client.World.Constants.PixelBlock, UInteger)
-  nameWithType: ColoredBlock.ColoredBlock(PixelBlock, uint)
-  nameWithType.vb: ColoredBlock.New(PixelBlock, UInteger)
-- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(System.Int32,System.UInt32)
-  name: ColoredBlock(int, uint)
-  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_System_Int32_System_UInt32_
-  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor(System.Int32,System.UInt32)
-  name.vb: New(Integer, UInteger)
-  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.ColoredBlock(int, uint)
-  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.New(Integer, UInteger)
-  nameWithType: ColoredBlock.ColoredBlock(int, uint)
-  nameWithType.vb: ColoredBlock.New(Integer, UInteger)
 - uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.#ctor*
   name: ColoredBlock
   href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock__ctor_
@@ -5585,32 +5567,54 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.AsWorldBuffer
   nameWithType: ColoredBlock.AsWorldBuffer
-- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
-  name: BlockColor
-  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_BlockColor
-  commentId: P:PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
-  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
-  nameWithType: ColoredBlock.BlockColor
-- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor*
-  name: BlockColor
-  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_BlockColor_
-  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(PixelPilot.Client.World.Blocks.Types.ColoredBlock)
+  name: Equals(ColoredBlock)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_Equals_PixelPilot_Client_World_Blocks_Types_ColoredBlock_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(PixelPilot.Client.World.Blocks.Types.ColoredBlock)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(PixelPilot.Client.World.Blocks.Types.ColoredBlock)
+  nameWithType: ColoredBlock.Equals(ColoredBlock)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_Equals_System_Object_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(object?)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals(Object)
+  nameWithType: ColoredBlock.Equals(object?)
+  nameWithType.vb: ColoredBlock.Equals(Object)
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_Equals_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals
   isSpec: "True"
-  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.BlockColor
-  nameWithType: ColoredBlock.BlockColor
-- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
-  name: RawBlockColor
-  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_RawBlockColor
-  commentId: P:PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
-  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
-  nameWithType: ColoredBlock.RawBlockColor
-- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor*
-  name: RawBlockColor
-  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_RawBlockColor_
-  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.Equals
+  nameWithType: ColoredBlock.Equals
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_GetHashCode
+  commentId: M:PixelPilot.Client.World.Blocks.Types.ColoredBlock.GetHashCode
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.GetHashCode()
+  nameWithType: ColoredBlock.GetHashCode()
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_GetHashCode_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.GetHashCode
   isSpec: "True"
-  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.RawBlockColor
-  nameWithType: ColoredBlock.RawBlockColor
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.GetHashCode
+  nameWithType: ColoredBlock.GetHashCode
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.PrimaryColor
+  name: PrimaryColor
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_PrimaryColor
+  commentId: P:PixelPilot.Client.World.Blocks.Types.ColoredBlock.PrimaryColor
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.PrimaryColor
+  nameWithType: ColoredBlock.PrimaryColor
+- uid: PixelPilot.Client.World.Blocks.Types.ColoredBlock.PrimaryColor*
+  name: PrimaryColor
+  href: api/PixelPilot.Client.World.Blocks.Types.ColoredBlock.html#PixelPilot_Client_World_Blocks_Types_ColoredBlock_PrimaryColor_
+  commentId: Overload:PixelPilot.Client.World.Blocks.Types.ColoredBlock.PrimaryColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.Types.ColoredBlock.PrimaryColor
+  nameWithType: ColoredBlock.PrimaryColor
 - uid: PixelPilot.Client.World.Blocks.Types.Effects
   name: PixelPilot.Client.World.Blocks.Types.Effects
   href: api/PixelPilot.Client.World.Blocks.Types.Effects.html
