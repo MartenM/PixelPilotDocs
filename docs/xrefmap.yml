@@ -6118,24 +6118,24 @@ references:
   commentId: T:PixelPilot.Client.World.Blocks.Types.PortalBlock
   fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock
   nameWithType: PortalBlock
-- uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Int32,System.Int32,System.Int32)
-  name: PortalBlock(PixelBlock, int, int, int)
-  href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_Int32_System_Int32_System_Int32_
-  commentId: M:PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Int32,System.Int32,System.Int32)
-  name.vb: New(PixelBlock, Integer, Integer, Integer)
-  fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.PortalBlock(PixelPilot.Client.World.Constants.PixelBlock, int, int, int)
-  fullName.vb: PixelPilot.Client.World.Blocks.Types.PortalBlock.New(PixelPilot.Client.World.Constants.PixelBlock, Integer, Integer, Integer)
-  nameWithType: PortalBlock.PortalBlock(PixelBlock, int, int, int)
-  nameWithType.vb: PortalBlock.New(PixelBlock, Integer, Integer, Integer)
-- uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
-  name: PortalBlock(int, int, int, int)
-  href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: New(Integer, Integer, Integer, Integer)
-  fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.PortalBlock(int, int, int, int)
-  fullName.vb: PixelPilot.Client.World.Blocks.Types.PortalBlock.New(Integer, Integer, Integer, Integer)
-  nameWithType: PortalBlock.PortalBlock(int, int, int, int)
-  nameWithType.vb: PortalBlock.New(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.String,System.String)
+  name: PortalBlock(PixelBlock, string, string)
+  href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_String_System_String_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.String,System.String)
+  name.vb: New(PixelBlock, String, String)
+  fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.PortalBlock(PixelPilot.Client.World.Constants.PixelBlock, string, string)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.PortalBlock.New(PixelPilot.Client.World.Constants.PixelBlock, String, String)
+  nameWithType: PortalBlock.PortalBlock(PixelBlock, string, string)
+  nameWithType.vb: PortalBlock.New(PixelBlock, String, String)
+- uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(System.Int32,System.String,System.String)
+  name: PortalBlock(int, string, string)
+  href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock__ctor_System_Int32_System_String_System_String_
+  commentId: M:PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor(System.Int32,System.String,System.String)
+  name.vb: New(Integer, String, String)
+  fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.PortalBlock(int, string, string)
+  fullName.vb: PixelPilot.Client.World.Blocks.Types.PortalBlock.New(Integer, String, String)
+  nameWithType: PortalBlock.PortalBlock(int, string, string)
+  nameWithType.vb: PortalBlock.New(Integer, String, String)
 - uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.#ctor*
   name: PortalBlock
   href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock__ctor_
@@ -6187,19 +6187,6 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.AsWorldBuffer
   nameWithType: PortalBlock.AsWorldBuffer
-- uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.Direction
-  name: Direction
-  href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock_Direction
-  commentId: P:PixelPilot.Client.World.Blocks.Types.PortalBlock.Direction
-  fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.Direction
-  nameWithType: PortalBlock.Direction
-- uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.Direction*
-  name: Direction
-  href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock_Direction_
-  commentId: Overload:PixelPilot.Client.World.Blocks.Types.PortalBlock.Direction
-  isSpec: "True"
-  fullName: PixelPilot.Client.World.Blocks.Types.PortalBlock.Direction
-  nameWithType: PortalBlock.Direction
 - uid: PixelPilot.Client.World.Blocks.Types.PortalBlock.Equals(PixelPilot.Client.World.Blocks.Types.PortalBlock)
   name: Equals(PortalBlock)
   href: api/PixelPilot.Client.World.Blocks.Types.PortalBlock.html#PixelPilot_Client_World_Blocks_Types_PortalBlock_Equals_PixelPilot_Client_World_Blocks_Types_PortalBlock_
@@ -10499,6 +10486,282 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlassYellow
   fullName: PixelPilot.Client.World.Constants.PixelBlock.GlassYellow
   nameWithType: PixelBlock.GlassYellow
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCenterHollow
+  name: GlowCenterHollow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCenterHollow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCenterHollow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCenterHollow
+  nameWithType: PixelBlock.GlowCenterHollow
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCenterSolid
+  name: GlowCenterSolid
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCenterSolid
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCenterSolid
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCenterSolid
+  nameWithType: PixelBlock.GlowCenterSolid
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomLeft
+  name: GlowCornerBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomLeft
+  nameWithType: PixelBlock.GlowCornerBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomLeftPointTopRight
+  name: GlowCornerBottomLeftPointTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerBottomLeftPointTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomLeftPointTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomLeftPointTopRight
+  nameWithType: PixelBlock.GlowCornerBottomLeftPointTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomRight
+  name: GlowCornerBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomRight
+  nameWithType: PixelBlock.GlowCornerBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomRightPointTopLeft
+  name: GlowCornerBottomRightPointTopLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerBottomRightPointTopLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomRightPointTopLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerBottomRightPointTopLeft
+  nameWithType: PixelBlock.GlowCornerBottomRightPointTopLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopLeft
+  name: GlowCornerTopLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerTopLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopLeft
+  nameWithType: PixelBlock.GlowCornerTopLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopLeftPointBottomRight
+  name: GlowCornerTopLeftPointBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerTopLeftPointBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopLeftPointBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopLeftPointBottomRight
+  nameWithType: PixelBlock.GlowCornerTopLeftPointBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopRight
+  name: GlowCornerTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopRight
+  nameWithType: PixelBlock.GlowCornerTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopRightPointBottomLeft
+  name: GlowCornerTopRightPointBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCornerTopRightPointBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopRightPointBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCornerTopRightPointBottomLeft
+  nameWithType: PixelBlock.GlowCornerTopRightPointBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCupBottom
+  name: GlowCupBottom
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCupBottom
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCupBottom
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCupBottom
+  nameWithType: PixelBlock.GlowCupBottom
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCupLeft
+  name: GlowCupLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCupLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCupLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCupLeft
+  nameWithType: PixelBlock.GlowCupLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCupRight
+  name: GlowCupRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCupRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCupRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCupRight
+  nameWithType: PixelBlock.GlowCupRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowCupTop
+  name: GlowCupTop
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowCupTop
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowCupTop
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowCupTop
+  nameWithType: PixelBlock.GlowCupTop
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottom
+  name: GlowLineBottom
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineBottom
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottom
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottom
+  nameWithType: PixelBlock.GlowLineBottom
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopLeft
+  name: GlowLineBottomPointTopLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineBottomPointTopLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopLeft
+  nameWithType: PixelBlock.GlowLineBottomPointTopLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopLeftTopRight
+  name: GlowLineBottomPointTopLeftTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineBottomPointTopLeftTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopLeftTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopLeftTopRight
+  nameWithType: PixelBlock.GlowLineBottomPointTopLeftTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopRight
+  name: GlowLineBottomPointTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineBottomPointTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineBottomPointTopRight
+  nameWithType: PixelBlock.GlowLineBottomPointTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeft
+  name: GlowLineLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeft
+  nameWithType: PixelBlock.GlowLineLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointBottomRight
+  name: GlowLineLeftPointBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineLeftPointBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointBottomRight
+  nameWithType: PixelBlock.GlowLineLeftPointBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointTopLeftBottomRight
+  name: GlowLineLeftPointTopLeftBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineLeftPointTopLeftBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointTopLeftBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointTopLeftBottomRight
+  nameWithType: PixelBlock.GlowLineLeftPointTopLeftBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointTopRight
+  name: GlowLineLeftPointTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineLeftPointTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineLeftPointTopRight
+  nameWithType: PixelBlock.GlowLineLeftPointTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRight
+  name: GlowLineRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRight
+  nameWithType: PixelBlock.GlowLineRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointBottomLeft
+  name: GlowLineRightPointBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineRightPointBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointBottomLeft
+  nameWithType: PixelBlock.GlowLineRightPointBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointTopLeft
+  name: GlowLineRightPointTopLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineRightPointTopLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointTopLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointTopLeft
+  nameWithType: PixelBlock.GlowLineRightPointTopLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointTopLeftBottomLeft
+  name: GlowLineRightPointTopLeftBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineRightPointTopLeftBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointTopLeftBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineRightPointTopLeftBottomLeft
+  nameWithType: PixelBlock.GlowLineRightPointTopLeftBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTop
+  name: GlowLineTop
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineTop
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineTop
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTop
+  nameWithType: PixelBlock.GlowLineTop
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomLeft
+  name: GlowLineTopPointBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineTopPointBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomLeft
+  nameWithType: PixelBlock.GlowLineTopPointBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomLeftBottomRight
+  name: GlowLineTopPointBottomLeftBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineTopPointBottomLeftBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomLeftBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomLeftBottomRight
+  nameWithType: PixelBlock.GlowLineTopPointBottomLeftBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomRight
+  name: GlowLineTopPointBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowLineTopPointBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowLineTopPointBottomRight
+  nameWithType: PixelBlock.GlowLineTopPointBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomLeft
+  name: GlowPointBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomLeft
+  nameWithType: PixelBlock.GlowPointBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomLeftBottomRight
+  name: GlowPointBottomLeftBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointBottomLeftBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomLeftBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomLeftBottomRight
+  nameWithType: PixelBlock.GlowPointBottomLeftBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomRight
+  name: GlowPointBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointBottomRight
+  nameWithType: PixelBlock.GlowPointBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeft
+  name: GlowPointTopLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeft
+  nameWithType: PixelBlock.GlowPointTopLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomLeft
+  name: GlowPointTopLeftBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeftBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomLeft
+  nameWithType: PixelBlock.GlowPointTopLeftBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomLeftBottomRight
+  name: GlowPointTopLeftBottomLeftBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeftBottomLeftBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomLeftBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomLeftBottomRight
+  nameWithType: PixelBlock.GlowPointTopLeftBottomLeftBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomRight
+  name: GlowPointTopLeftBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeftBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftBottomRight
+  nameWithType: PixelBlock.GlowPointTopLeftBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRight
+  name: GlowPointTopLeftTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeftTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRight
+  nameWithType: PixelBlock.GlowPointTopLeftTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRightBottomLeft
+  name: GlowPointTopLeftTopRightBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeftTopRightBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRightBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRightBottomLeft
+  nameWithType: PixelBlock.GlowPointTopLeftTopRightBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRightBottomRight
+  name: GlowPointTopLeftTopRightBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopLeftTopRightBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRightBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopLeftTopRightBottomRight
+  nameWithType: PixelBlock.GlowPointTopLeftTopRightBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRight
+  name: GlowPointTopRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRight
+  nameWithType: PixelBlock.GlowPointTopRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomLeft
+  name: GlowPointTopRightBottomLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopRightBottomLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomLeft
+  nameWithType: PixelBlock.GlowPointTopRightBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomLeftBottomRight
+  name: GlowPointTopRightBottomLeftBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopRightBottomLeftBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomLeftBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomLeftBottomRight
+  nameWithType: PixelBlock.GlowPointTopRightBottomLeftBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomRight
+  name: GlowPointTopRightBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowPointTopRightBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowPointTopRightBottomRight
+  nameWithType: PixelBlock.GlowPointTopRightBottomRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowStraightHorizontal
+  name: GlowStraightHorizontal
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowStraightHorizontal
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowStraightHorizontal
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowStraightHorizontal
+  nameWithType: PixelBlock.GlowStraightHorizontal
+- uid: PixelPilot.Client.World.Constants.PixelBlock.GlowStraightVertical
+  name: GlowStraightVertical
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GlowStraightVertical
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.GlowStraightVertical
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.GlowStraightVertical
+  nameWithType: PixelBlock.GlowStraightVertical
 - uid: PixelPilot.Client.World.Constants.PixelBlock.GrassBrickLeft
   name: GrassBrickLeft
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_GrassBrickLeft
@@ -12269,6 +12532,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MetalSilver
   fullName: PixelPilot.Client.World.Constants.PixelBlock.MetalSilver
   nameWithType: PixelBlock.MetalSilver
+- uid: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalBlack
+  name: MineCrystalBlack
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineCrystalBlack
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineCrystalBlack
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalBlack
+  nameWithType: PixelBlock.MineCrystalBlack
 - uid: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalBlue
   name: MineCrystalBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineCrystalBlue
@@ -12299,6 +12568,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineCrystalRed
   fullName: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalRed
   nameWithType: PixelBlock.MineCrystalRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalWhite
+  name: MineCrystalWhite
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineCrystalWhite
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineCrystalWhite
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalWhite
+  nameWithType: PixelBlock.MineCrystalWhite
 - uid: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalYellow
   name: MineCrystalYellow
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineCrystalYellow
@@ -13343,18 +13618,54 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PlasticYellow
   fullName: PixelPilot.Client.World.Constants.PixelBlock.PlasticYellow
   nameWithType: PixelBlock.PlasticYellow
-- uid: PixelPilot.Client.World.Constants.PixelBlock.Portal
-  name: Portal
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_Portal
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.Portal
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.Portal
-  nameWithType: PixelBlock.Portal
-- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisible
-  name: PortalInvisible
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalInvisible
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalInvisible
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisible
-  nameWithType: PixelBlock.PortalInvisible
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleDown
+  name: PortalInvisibleDown
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalInvisibleDown
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleDown
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleDown
+  nameWithType: PixelBlock.PortalInvisibleDown
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleLeft
+  name: PortalInvisibleLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalInvisibleLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleLeft
+  nameWithType: PixelBlock.PortalInvisibleLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleRight
+  name: PortalInvisibleRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalInvisibleRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleRight
+  nameWithType: PixelBlock.PortalInvisibleRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleUp
+  name: PortalInvisibleUp
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalInvisibleUp
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleUp
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalInvisibleUp
+  nameWithType: PixelBlock.PortalInvisibleUp
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleDown
+  name: PortalVisibleDown
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalVisibleDown
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleDown
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleDown
+  nameWithType: PixelBlock.PortalVisibleDown
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleLeft
+  name: PortalVisibleLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalVisibleLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleLeft
+  nameWithType: PixelBlock.PortalVisibleLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleRight
+  name: PortalVisibleRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalVisibleRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleRight
+  nameWithType: PixelBlock.PortalVisibleRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleUp
+  name: PortalVisibleUp
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalVisibleUp
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleUp
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.PortalVisibleUp
+  nameWithType: PixelBlock.PortalVisibleUp
 - uid: PixelPilot.Client.World.Constants.PixelBlock.PortalWorld
   name: PortalWorld
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_PortalWorld
@@ -15956,82 +16267,120 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2024_12_04.DoUpdate
   nameWithType: Migration_2024_12_04.DoUpdate
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04
-  name: Migration_2025_08_04
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html
-  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04
-  nameWithType: Migration_2025_08_04
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor
-  name: Migration_2025_08_04()
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04__ctor
-  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08
+  name: Migration_2025_04_08
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08
+  nameWithType: Migration_2025_04_08
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.#ctor
+  name: Migration_2025_04_08()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_04_08__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.#ctor
   name.vb: New()
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.Migration_2025_08_04()
-  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.New()
-  nameWithType: Migration_2025_08_04.Migration_2025_08_04()
-  nameWithType.vb: Migration_2025_08_04.New()
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor*
-  name: Migration_2025_08_04
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04__ctor_
-  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.#ctor
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.Migration_2025_04_08()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.New()
+  nameWithType: Migration_2025_04_08.Migration_2025_04_08()
+  nameWithType.vb: Migration_2025_04_08.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.#ctor*
+  name: Migration_2025_04_08
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_04_08__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.Migration_2025_08_04
-  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.New
-  nameWithType: Migration_2025_08_04.Migration_2025_08_04
-  nameWithType.vb: Migration_2025_08_04.New
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.Migration_2025_04_08
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.New
+  nameWithType: Migration_2025_04_08.Migration_2025_04_08
+  nameWithType.vb: Migration_2025_04_08.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
   name: DoUpdate(MappedBlockData)
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
-  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
-  nameWithType: Migration_2025_08_04.DoUpdate(MappedBlockData)
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate*
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_04_08_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_04_08.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.DoUpdate*
   name: DoUpdate
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_04_DoUpdate_
-  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_04_08_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.DoUpdate
   isSpec: "True"
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.DoUpdate
-  nameWithType: Migration_2025_08_04.DoUpdate
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05
-  name: Migration_2025_08_05
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html
-  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05
-  nameWithType: Migration_2025_08_05
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor
-  name: Migration_2025_08_05()
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05__ctor
-  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.DoUpdate
+  nameWithType: Migration_2025_04_08.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08
+  name: Migration_2025_05_08
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08
+  nameWithType: Migration_2025_05_08
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.#ctor
+  name: Migration_2025_05_08()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_05_08__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.#ctor
   name.vb: New()
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.Migration_2025_08_05()
-  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.New()
-  nameWithType: Migration_2025_08_05.Migration_2025_08_05()
-  nameWithType.vb: Migration_2025_08_05.New()
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor*
-  name: Migration_2025_08_05
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05__ctor_
-  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.#ctor
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.Migration_2025_05_08()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.New()
+  nameWithType: Migration_2025_05_08.Migration_2025_05_08()
+  nameWithType.vb: Migration_2025_05_08.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.#ctor*
+  name: Migration_2025_05_08
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_05_08__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.Migration_2025_08_05
-  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.New
-  nameWithType: Migration_2025_08_05.Migration_2025_08_05
-  nameWithType.vb: Migration_2025_08_05.New
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.Migration_2025_05_08
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.New
+  nameWithType: Migration_2025_05_08.Migration_2025_05_08
+  nameWithType.vb: Migration_2025_05_08.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
   name: DoUpdate(MappedBlockData)
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
-  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
-  nameWithType: Migration_2025_08_05.DoUpdate(MappedBlockData)
-- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate*
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_05_08_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_05_08.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.DoUpdate*
   name: DoUpdate
-  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_05_DoUpdate_
-  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_05_08_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.DoUpdate
   isSpec: "True"
-  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.DoUpdate
-  nameWithType: Migration_2025_08_05.DoUpdate
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.DoUpdate
+  nameWithType: Migration_2025_05_08.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06
+  name: Migration_2025_07_06
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06
+  nameWithType: Migration_2025_07_06
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.#ctor
+  name: Migration_2025_07_06()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_07_06__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.Migration_2025_07_06()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.New()
+  nameWithType: Migration_2025_07_06.Migration_2025_07_06()
+  nameWithType.vb: Migration_2025_07_06.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.#ctor*
+  name: Migration_2025_07_06
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_07_06__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.Migration_2025_07_06
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.New
+  nameWithType: Migration_2025_07_06.Migration_2025_07_06
+  nameWithType.vb: Migration_2025_07_06.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_07_06_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_07_06.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_07_06_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.DoUpdate
+  nameWithType: Migration_2025_07_06.DoUpdate
 - uid: PixelPilot.Structures.Converters.PilotSimple
   name: PixelPilot.Structures.Converters.PilotSimple
   href: api/PixelPilot.Structures.Converters.PilotSimple.html
@@ -16832,25 +17181,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Descriptor
   nameWithType: GlobalSwitchChangedPacket.Descriptor
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Enabled
-  name: Enabled
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_Enabled
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Enabled
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Enabled
-  nameWithType: GlobalSwitchChangedPacket.Enabled
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Enabled*
-  name: Enabled
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_Enabled_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Enabled
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Enabled
-  nameWithType: GlobalSwitchChangedPacket.Enabled
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.EnabledFieldNumber
-  name: EnabledFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_EnabledFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.EnabledFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.EnabledFieldNumber
-  nameWithType: GlobalSwitchChangedPacket.EnabledFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket)
   name: Equals(GlobalSwitchChangedPacket)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_
@@ -16937,6 +17267,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.PlayerIdFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.PlayerIdFieldNumber
   nameWithType: GlobalSwitchChangedPacket.PlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabled
+  name: SwitchEnabled
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_SwitchEnabled
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabled
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabled
+  nameWithType: GlobalSwitchChangedPacket.SwitchEnabled
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabled*
+  name: SwitchEnabled
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_SwitchEnabled_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabled
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabled
+  nameWithType: GlobalSwitchChangedPacket.SwitchEnabled
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabledFieldNumber
+  name: SwitchEnabledFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_SwitchEnabledFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabledFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchEnabledFieldNumber
+  nameWithType: GlobalSwitchChangedPacket.SwitchEnabledFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.SwitchId
   name: SwitchId
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchChangedPacket_SwitchId
@@ -17055,25 +17404,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Descriptor
   nameWithType: GlobalSwitchResetPacket.Descriptor
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Enabled
-  name: Enabled
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_Enabled
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Enabled
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Enabled
-  nameWithType: GlobalSwitchResetPacket.Enabled
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Enabled*
-  name: Enabled
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_Enabled_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Enabled
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Enabled
-  nameWithType: GlobalSwitchResetPacket.Enabled
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.EnabledFieldNumber
-  name: EnabledFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_EnabledFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.EnabledFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.EnabledFieldNumber
-  nameWithType: GlobalSwitchResetPacket.EnabledFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket)
   name: Equals(GlobalSwitchResetPacket)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_
@@ -17160,6 +17490,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.PlayerIdFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.PlayerIdFieldNumber
   nameWithType: GlobalSwitchResetPacket.PlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabled
+  name: SwitchEnabled
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_SwitchEnabled
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabled
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabled
+  nameWithType: GlobalSwitchResetPacket.SwitchEnabled
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabled*
+  name: SwitchEnabled
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_SwitchEnabled_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabled
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabled
+  nameWithType: GlobalSwitchResetPacket.SwitchEnabled
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabledFieldNumber
+  name: SwitchEnabledFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_SwitchEnabledFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabledFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.SwitchEnabledFieldNumber
+  nameWithType: GlobalSwitchResetPacket.SwitchEnabledFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.ToString
   name: ToString()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GlobalSwitchResetPacket_ToString
@@ -20605,6 +20954,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerPropertiesFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerPropertiesFieldNumber
   nameWithType: PlayerInitPacket.PlayerPropertiesFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWoot
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_PlayerWoot
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWoot
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWoot
+  nameWithType: PlayerInitPacket.PlayerWoot
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWoot*
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_PlayerWoot_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWoot
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWoot
+  nameWithType: PlayerInitPacket.PlayerWoot
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWootFieldNumber
+  name: PlayerWootFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_PlayerWootFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWootFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWootFieldNumber
+  nameWithType: PlayerInitPacket.PlayerWootFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ToString
   name: ToString()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_ToString
@@ -21558,19 +21926,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.CalculateSize
   nameWithType: PlayerLocalSwitchResetPacket.CalculateSize
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ClearPlayerId
-  name: ClearPlayerId()
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_ClearPlayerId
-  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ClearPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ClearPlayerId()
-  nameWithType: PlayerLocalSwitchResetPacket.ClearPlayerId()
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ClearPlayerId*
-  name: ClearPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_ClearPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ClearPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ClearPlayerId
-  nameWithType: PlayerLocalSwitchResetPacket.ClearPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.Clone
   name: Clone()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_Clone
@@ -21632,19 +21987,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.GetHashCode
   nameWithType: PlayerLocalSwitchResetPacket.GetHashCode
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.HasPlayerId
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_HasPlayerId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.HasPlayerId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.HasPlayerId
-  nameWithType: PlayerLocalSwitchResetPacket.HasPlayerId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.HasPlayerId*
-  name: HasPlayerId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_HasPlayerId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.HasPlayerId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.HasPlayerId
-  nameWithType: PlayerLocalSwitchResetPacket.HasPlayerId
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -21715,25 +22057,6 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchEnabledFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchEnabledFieldNumber
   nameWithType: PlayerLocalSwitchResetPacket.SwitchEnabledFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchId
-  name: SwitchId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_SwitchId
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchId
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchId
-  nameWithType: PlayerLocalSwitchResetPacket.SwitchId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchId*
-  name: SwitchId
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_SwitchId_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchId
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchId
-  nameWithType: PlayerLocalSwitchResetPacket.SwitchId
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchIdFieldNumber
-  name: SwitchIdFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_SwitchIdFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchIdFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.SwitchIdFieldNumber
-  nameWithType: PlayerLocalSwitchResetPacket.SwitchIdFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.ToString
   name: ToString()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerLocalSwitchResetPacket_ToString
@@ -25294,6 +25617,236 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.WriteTo
   nameWithType: PlayerUpdateRightsPacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot
+  nameWithType: PlayerWoot
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.#ctor
+  name: PlayerWoot()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerWoot()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.New()
+  nameWithType: PlayerWoot.PlayerWoot()
+  nameWithType.vb: PlayerWoot.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  name: PlayerWoot(PlayerWoot)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  name.vb: New(PlayerWoot)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerWoot(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  nameWithType: PlayerWoot.PlayerWoot(PlayerWoot)
+  nameWithType.vb: PlayerWoot.New(PlayerWoot)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.#ctor*
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerWoot
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.New
+  nameWithType: PlayerWoot.PlayerWoot
+  nameWithType.vb: PlayerWoot.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Active
+  name: Active
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Active
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Active
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Active
+  nameWithType: PlayerWoot.Active
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Active*
+  name: Active
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Active_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Active
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Active
+  nameWithType: PlayerWoot.Active
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ActiveFieldNumber
+  name: ActiveFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_ActiveFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ActiveFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ActiveFieldNumber
+  nameWithType: PlayerWoot.ActiveFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.CalculateSize()
+  nameWithType: PlayerWoot.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.CalculateSize
+  nameWithType: PlayerWoot.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ClearPlayerId
+  name: ClearPlayerId()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_ClearPlayerId
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ClearPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ClearPlayerId()
+  nameWithType: PlayerWoot.ClearPlayerId()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ClearPlayerId*
+  name: ClearPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_ClearPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ClearPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ClearPlayerId
+  nameWithType: PlayerWoot.ClearPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Clone()
+  nameWithType: PlayerWoot.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Clone
+  nameWithType: PlayerWoot.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Descriptor
+  nameWithType: PlayerWoot.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Descriptor
+  nameWithType: PlayerWoot.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  name: Equals(PlayerWoot)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Equals_PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  nameWithType: PlayerWoot.Equals(PlayerWoot)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals(Object)
+  nameWithType: PlayerWoot.Equals(object)
+  nameWithType.vb: PlayerWoot.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Equals
+  nameWithType: PlayerWoot.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.GetHashCode()
+  nameWithType: PlayerWoot.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.GetHashCode
+  nameWithType: PlayerWoot.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.HasPlayerId
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_HasPlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.HasPlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.HasPlayerId
+  nameWithType: PlayerWoot.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.HasPlayerId*
+  name: HasPlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_HasPlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.HasPlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.HasPlayerId
+  nameWithType: PlayerWoot.HasPlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PlayerWoot.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  name: MergeFrom(PlayerWoot)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot)
+  nameWithType: PlayerWoot.MergeFrom(PlayerWoot)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.MergeFrom
+  nameWithType: PlayerWoot.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Parser
+  nameWithType: PlayerWoot.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.Parser
+  nameWithType: PlayerWoot.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerId
+  name: PlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_PlayerId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerId
+  nameWithType: PlayerWoot.PlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerId*
+  name: PlayerId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_PlayerId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerId
+  nameWithType: PlayerWoot.PlayerId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerIdFieldNumber
+  name: PlayerIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_PlayerIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.PlayerIdFieldNumber
+  nameWithType: PlayerWoot.PlayerIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ToString()
+  nameWithType: PlayerWoot.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.ToString
+  nameWithType: PlayerWoot.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PlayerWoot.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerWoot_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.WriteTo
+  nameWithType: PlayerWoot.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerWorldState
   name: PlayerWorldState
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWorldState.html
@@ -27387,6 +27940,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VisibilityFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VisibilityFieldNumber
   nameWithType: WorldMeta.VisibilityFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots
+  name: Woots
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_Woots
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots
+  nameWithType: WorldMeta.Woots
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots*
+  name: Woots
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_Woots_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots
+  nameWithType: WorldMeta.Woots
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.WootsFieldNumber
+  name: WootsFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_WootsFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.WootsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.WootsFieldNumber
+  nameWithType: WorldMeta.WootsFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.WorldType
   name: WorldType
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_WorldType
@@ -28043,6 +28615,12 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerUpdateRightsPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerUpdateRightsPacket
   nameWithType: WorldPacket.PacketOneofCase.PlayerUpdateRightsPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerWoot
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_PlayerWoot
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerWoot
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.PlayerWoot
+  nameWithType: WorldPacket.PacketOneofCase.PlayerWoot
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.SystemMessagePacket
   name: SystemMessagePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_SystemMessagePacket
@@ -28643,6 +29221,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerUpdateRightsPacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerUpdateRightsPacketFieldNumber
   nameWithType: WorldPacket.PlayerUpdateRightsPacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWoot
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerWoot
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWoot
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWoot
+  nameWithType: WorldPacket.PlayerWoot
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWoot*
+  name: PlayerWoot
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerWoot_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWoot
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWoot
+  nameWithType: WorldPacket.PlayerWoot
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWootFieldNumber
+  name: PlayerWootFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PlayerWootFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWootFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PlayerWootFieldNumber
+  nameWithType: WorldPacket.PlayerWootFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.SystemMessagePacket
   name: SystemMessagePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_SystemMessagePacket

@@ -1242,20 +1242,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.yml",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_04.html"
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_04_08.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.yml",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_05.html"
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_05_08.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_06.html"
         }
       },
       "version": ""
@@ -1756,6 +1766,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerUpdateRightsPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerWoot.html"
         }
       },
       "version": ""
