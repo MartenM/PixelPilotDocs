@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Delegate PixelWorld.BlockPlaced | PixelPilot </title>
+      <title>Enum PlayerMagicPacket.Types.MagicType | PixelPilot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Delegate PixelWorld.BlockPlaced | PixelPilot ">
+      <meta name="title" content="Enum PlayerMagicPacket.Types.MagicType | PixelPilot ">
       
-      <meta name="description" content="Represents a delegate for the BlockPlaced event.">
+      
       <link rel="icon" href="../images/pixel_pilot.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.12.6/apiSpec/new?filename=PixelPilot_Client_World_PixelWorld_BlockPlaced.md&amp;value=---%0Auid%3A%20PixelPilot.Client.World.PixelWorld.BlockPlaced%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.12.6/apiSpec/new?filename=PixelWalker_Networking_Protobuf_WorldPackets_PlayerMagicPacket_Types_MagicType.md&amp;value=---%0Auid%3A%20PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.MagicType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,59 +84,49 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PixelPilot.Client.World.PixelWorld.BlockPlaced">
+        <article data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.MagicType">
 
 
 
-  <h1 id="PixelPilot_Client_World_PixelWorld_BlockPlaced" data-uid="PixelPilot.Client.World.PixelWorld.BlockPlaced" class="text-break">
-Delegate PixelWorld.BlockPlaced  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.12.6/src/PixelPilot.Core/Client/World/PixelWorld.cs/#L53"><i class="bi bi-code-slash"></i></a>
+
+  <h1 id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerMagicPacket_Types_MagicType" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.MagicType" class="text-break">
+Enum PlayerMagicPacket.Types.MagicType  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.12.6/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L13366"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.Client.html">Client</a>.<a class="xref" href="PixelPilot.Client.World.html">World</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelWalker.html">PixelWalker</a>.<a class="xref" href="PixelWalker.Networking.html">Networking</a>.<a class="xref" href="PixelWalker.Networking.Protobuf.html">Protobuf</a>.<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.html">WorldPackets</a></dd></dl>
   <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents a delegate for the BlockPlaced event.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void PixelWorld.BlockPlaced(object sender, int userId, IPlacedBlock oldBlock, IPlacedBlock newBlock)</code></pre>
+    <pre><code class="lang-csharp hljs">public enum PlayerMagicPacket.Types.MagicType</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
   <dl class="parameters">
-    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd><p>The object that triggered the event.</p>
-</dd>
-    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The ID of the user who placed the block.</p>
-</dd>
-    <dt><code>oldBlock</code> <a class="xref" href="PixelPilot.Client.World.Blocks.Placed.IPlacedBlock.html">IPlacedBlock</a></dt>
-    <dd><p>The previous state of the block.</p>
-</dd>
-    <dt><code>newBlock</code> <a class="xref" href="PixelPilot.Client.World.Blocks.Placed.IPlacedBlock.html">IPlacedBlock</a></dt>
-    <dd><p>The new state of the block after being placed. Includes X, Y, Layer.</p>
-</dd>
+    <dt id="PixelWalker_Networking_Protobuf_WorldPackets_PlayerMagicPacket_Types_MagicType_Small"><code>[OriginalName(&quot;SMALL&quot;)]
+Small = 0</code></dt>
+    <dd></dd>
   </dl>
-
-
-
-
-
-
-
-
-
-
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.12.6/src/PixelPilot.Core/Client/World/PixelWorld.cs/#L53" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.12.6/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L13366" class="edit-link">Edit this page</a>
         </div>
 
 

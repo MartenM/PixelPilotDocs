@@ -1272,6 +1272,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_24.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_24.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.yml",
       "output": {
         ".html": {
@@ -1426,36 +1436,6 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.OldChatMessagesPacket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.Action.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.Action.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.Types.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PerformWorldActionPacket.html"
         }
       },
       "version": ""
@@ -1626,6 +1606,36 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLocalSwitchResetPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.MagicType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.MagicType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerMagicPacket.html"
         }
       },
       "version": ""
@@ -1816,6 +1826,36 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.SystemMessagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.Types.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.Types.Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.html"
         }
       },
       "version": ""
