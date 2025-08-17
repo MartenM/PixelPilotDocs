@@ -3539,12 +3539,6 @@ references:
   commentId: T:PixelPilot.Client.PixelPilotClient.PacketSend
   fullName: PixelPilot.Client.PixelPilotClient.PacketSend
   nameWithType: PixelPilotClient.PacketSend
-- uid: PixelPilot.Client.PixelPilotClient.SecondsBeforeGatewayTimeout
-  name: SecondsBeforeGatewayTimeout
-  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_SecondsBeforeGatewayTimeout
-  commentId: F:PixelPilot.Client.PixelPilotClient.SecondsBeforeGatewayTimeout
-  fullName: PixelPilot.Client.PixelPilotClient.SecondsBeforeGatewayTimeout
-  nameWithType: PixelPilotClient.SecondsBeforeGatewayTimeout
 - uid: PixelPilot.Client.PixelPilotClient.Send(Google.Protobuf.IMessage)
   name: Send(IMessage)
   href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_Send_Google_Protobuf_IMessage_
