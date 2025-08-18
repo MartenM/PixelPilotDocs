@@ -16983,6 +16983,44 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_07_24.DoUpdate
   nameWithType: Migration_2025_07_24.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18
+  name: Migration_2025_08_18
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18
+  nameWithType: Migration_2025_08_18
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.#ctor
+  name: Migration_2025_08_18()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_18__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.Migration_2025_08_18()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.New()
+  nameWithType: Migration_2025_08_18.Migration_2025_08_18()
+  nameWithType.vb: Migration_2025_08_18.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.#ctor*
+  name: Migration_2025_08_18
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_18__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.Migration_2025_08_18
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.New
+  nameWithType: Migration_2025_08_18.Migration_2025_08_18
+  nameWithType.vb: Migration_2025_08_18.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_18_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_08_18.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_08_18_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate
+  nameWithType: Migration_2025_08_18.DoUpdate
 - uid: PixelPilot.Structures.Converters.PilotSimple
   name: PixelPilot.Structures.Converters.PilotSimple
   href: api/PixelPilot.Structures.Converters.PilotSimple.html
@@ -23545,6 +23583,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.IsWorldOwnerFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.IsWorldOwnerFieldNumber
   nameWithType: PlayerProperties.IsWorldOwnerFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacket
+  name: LastMovementPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_LastMovementPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacket
+  nameWithType: PlayerProperties.LastMovementPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacket*
+  name: LastMovementPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_LastMovementPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacket
+  nameWithType: PlayerProperties.LastMovementPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacketFieldNumber
+  name: LastMovementPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_LastMovementPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.LastMovementPacketFieldNumber
+  nameWithType: PlayerProperties.LastMovementPacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.MergeFrom(Google.Protobuf.CodedInputStream)
   name: MergeFrom(CodedInputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_MergeFrom_Google_Protobuf_CodedInputStream_
@@ -23596,25 +23653,6 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.PlayerIdFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.PlayerIdFieldNumber
   nameWithType: PlayerProperties.PlayerIdFieldNumber
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Position
-  name: Position
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_Position
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Position
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Position
-  nameWithType: PlayerProperties.Position
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Position*
-  name: Position
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_Position_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Position
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Position
-  nameWithType: PlayerProperties.Position
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.PositionFieldNumber
-  name: PositionFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_PositionFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.PositionFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.PositionFieldNumber
-  nameWithType: PlayerProperties.PositionFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.Rights
   name: Rights
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerProperties.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerProperties_Rights

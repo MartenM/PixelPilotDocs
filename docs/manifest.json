@@ -1282,6 +1282,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.yml",
       "output": {
         ".html": {
