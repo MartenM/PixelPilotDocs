@@ -3490,6 +3490,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.PixelPilotClient.IsConnected
   nameWithType: PixelPilotClient.IsConnected
+- uid: PixelPilot.Client.PixelPilotClient.LastException
+  name: LastException
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_LastException
+  commentId: P:PixelPilot.Client.PixelPilotClient.LastException
+  fullName: PixelPilot.Client.PixelPilotClient.LastException
+  nameWithType: PixelPilotClient.LastException
+- uid: PixelPilot.Client.PixelPilotClient.LastException*
+  name: LastException
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_LastException_
+  commentId: Overload:PixelPilot.Client.PixelPilotClient.LastException
+  isSpec: "True"
+  fullName: PixelPilot.Client.PixelPilotClient.LastException
+  nameWithType: PixelPilotClient.LastException
 - uid: PixelPilot.Client.PixelPilotClient.OnClientConnected
   name: OnClientConnected
   href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_OnClientConnected
