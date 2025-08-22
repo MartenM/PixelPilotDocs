@@ -392,6 +392,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Abstract.IPixelPilotClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Abstract.IPixelPilotClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Abstract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Abstract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Events.BlocksPlacedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Events.BlocksPlacedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Events.EventBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Events.EventBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.JoinData.yml",
       "output": {
         ".html": {
@@ -1072,6 +1142,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.BlocksPlaced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.BlocksPlaced.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.WorldCleared.yml",
       "output": {
         ".html": {
@@ -1352,10 +1432,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.yml",
+      "source_relative_path": "api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html"
+          "relative_path": "api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html"
         }
       },
       "version": ""

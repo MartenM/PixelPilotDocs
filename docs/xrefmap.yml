@@ -2139,6 +2139,257 @@ references:
   commentId: N:PixelPilot.Client
   fullName: PixelPilot.Client
   nameWithType: PixelPilot.Client
+- uid: PixelPilot.Client.Abstract
+  name: PixelPilot.Client.Abstract
+  href: api/PixelPilot.Client.Abstract.html
+  commentId: N:PixelPilot.Client.Abstract
+  fullName: PixelPilot.Client.Abstract
+  nameWithType: PixelPilot.Client.Abstract
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient
+  name: IPixelPilotClient
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html
+  commentId: T:PixelPilot.Client.Abstract.IPixelPilotClient
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient
+  nameWithType: IPixelPilotClient
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.BotId
+  name: BotId
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_BotId
+  commentId: P:PixelPilot.Client.Abstract.IPixelPilotClient.BotId
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.BotId
+  nameWithType: IPixelPilotClient.BotId
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.BotId*
+  name: BotId
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_BotId_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.BotId
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.BotId
+  nameWithType: IPixelPilotClient.BotId
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Connect(System.String,PixelPilot.Client.JoinData)
+  name: Connect(string, JoinData?)
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Connect_System_String_PixelPilot_Client_JoinData_
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.Connect(System.String,PixelPilot.Client.JoinData)
+  name.vb: Connect(String, JoinData)
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Connect(string, PixelPilot.Client.JoinData?)
+  fullName.vb: PixelPilot.Client.Abstract.IPixelPilotClient.Connect(String, PixelPilot.Client.JoinData)
+  nameWithType: IPixelPilotClient.Connect(string, JoinData?)
+  nameWithType.vb: IPixelPilotClient.Connect(String, JoinData)
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Connect*
+  name: Connect
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Connect_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.Connect
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Connect
+  nameWithType: IPixelPilotClient.Connect
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect
+  name: Disconnect()
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Disconnect
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect()
+  nameWithType: IPixelPilotClient.Disconnect()
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect*
+  name: Disconnect
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Disconnect_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect
+  nameWithType: IPixelPilotClient.Disconnect
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Send(Google.Protobuf.IMessage)
+  name: Send(IMessage)
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Send_Google_Protobuf_IMessage_
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.Send(Google.Protobuf.IMessage)
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Send(Google.Protobuf.IMessage)
+  nameWithType: IPixelPilotClient.Send(IMessage)
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Send*
+  name: Send
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Send_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.Send
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Send
+  nameWithType: IPixelPilotClient.Send
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendChat(System.String,System.Boolean)
+  name: SendChat(string, bool)
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendChat_System_String_System_Boolean_
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.SendChat(System.String,System.Boolean)
+  name.vb: SendChat(String, Boolean)
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendChat(string, bool)
+  fullName.vb: PixelPilot.Client.Abstract.IPixelPilotClient.SendChat(String, Boolean)
+  nameWithType: IPixelPilotClient.SendChat(string, bool)
+  nameWithType.vb: IPixelPilotClient.SendChat(String, Boolean)
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendChat*
+  name: SendChat
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendChat_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.SendChat
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendChat
+  nameWithType: IPixelPilotClient.SendChat
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer,System.String,System.Boolean)
+  name: SendPm(IPixelPlayer, string, bool)
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendPm_PixelPilot_Client_Players_IPixelPlayer_System_String_System_Boolean_
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer,System.String,System.Boolean)
+  name.vb: SendPm(IPixelPlayer, String, Boolean)
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer, string, bool)
+  fullName.vb: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer, String, Boolean)
+  nameWithType: IPixelPilotClient.SendPm(IPixelPlayer, string, bool)
+  nameWithType.vb: IPixelPilotClient.SendPm(IPixelPlayer, String, Boolean)
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(System.String,System.String,System.Boolean)
+  name: SendPm(string, string, bool)
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendPm_System_String_System_String_System_Boolean_
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(System.String,System.String,System.Boolean)
+  name.vb: SendPm(String, String, Boolean)
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(string, string, bool)
+  fullName.vb: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm(String, String, Boolean)
+  nameWithType: IPixelPilotClient.SendPm(string, string, bool)
+  nameWithType.vb: IPixelPilotClient.SendPm(String, String, Boolean)
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm*
+  name: SendPm
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendPm_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.SendPm
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendPm
+  nameWithType: IPixelPilotClient.SendPm
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendRange(System.Collections.Generic.IEnumerable{Google.Protobuf.IMessage})
+  name: SendRange(IEnumerable<IMessage>)
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendRange_System_Collections_Generic_IEnumerable_Google_Protobuf_IMessage__
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.SendRange(System.Collections.Generic.IEnumerable{Google.Protobuf.IMessage})
+  name.vb: SendRange(IEnumerable(Of IMessage))
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendRange(System.Collections.Generic.IEnumerable<Google.Protobuf.IMessage>)
+  fullName.vb: PixelPilot.Client.Abstract.IPixelPilotClient.SendRange(System.Collections.Generic.IEnumerable(Of Google.Protobuf.IMessage))
+  nameWithType: IPixelPilotClient.SendRange(IEnumerable<IMessage>)
+  nameWithType.vb: IPixelPilotClient.SendRange(IEnumerable(Of IMessage))
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.SendRange*
+  name: SendRange
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_SendRange_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.SendRange
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.SendRange
+  nameWithType: IPixelPilotClient.SendRange
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Username
+  name: Username
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Username
+  commentId: P:PixelPilot.Client.Abstract.IPixelPilotClient.Username
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Username
+  nameWithType: IPixelPilotClient.Username
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.Username*
+  name: Username
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Username_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.Username
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Username
+  nameWithType: IPixelPilotClient.Username
+- uid: PixelPilot.Client.Events
+  name: PixelPilot.Client.Events
+  href: api/PixelPilot.Client.Events.html
+  commentId: N:PixelPilot.Client.Events
+  fullName: PixelPilot.Client.Events
+  nameWithType: PixelPilot.Client.Events
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent
+  name: BlocksPlacedEvent
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html
+  commentId: T:PixelPilot.Client.Events.BlocksPlacedEvent
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent
+  nameWithType: BlocksPlacedEvent
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock
+  name: NewBlock
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_NewBlock
+  commentId: P:PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock
+  nameWithType: BlocksPlacedEvent.NewBlock
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock*
+  name: NewBlock
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_NewBlock_
+  commentId: Overload:PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock
+  isSpec: "True"
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock
+  nameWithType: BlocksPlacedEvent.NewBlock
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.Positions
+  name: Positions
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_Positions
+  commentId: P:PixelPilot.Client.Events.BlocksPlacedEvent.Positions
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.Positions
+  nameWithType: BlocksPlacedEvent.Positions
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.Positions*
+  name: Positions
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_Positions_
+  commentId: Overload:PixelPilot.Client.Events.BlocksPlacedEvent.Positions
+  isSpec: "True"
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.Positions
+  nameWithType: BlocksPlacedEvent.Positions
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.UserId
+  name: UserId
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_UserId
+  commentId: P:PixelPilot.Client.Events.BlocksPlacedEvent.UserId
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.UserId
+  nameWithType: BlocksPlacedEvent.UserId
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.UserId*
+  name: UserId
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_UserId_
+  commentId: Overload:PixelPilot.Client.Events.BlocksPlacedEvent.UserId
+  isSpec: "True"
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.UserId
+  nameWithType: BlocksPlacedEvent.UserId
+- uid: PixelPilot.Client.Events.EventBase
+  name: EventBase
+  href: api/PixelPilot.Client.Events.EventBase.html
+  commentId: T:PixelPilot.Client.Events.EventBase
+  fullName: PixelPilot.Client.Events.EventBase
+  nameWithType: EventBase
+- uid: PixelPilot.Client.Events.EventBase.Cancelled
+  name: Cancelled
+  href: api/PixelPilot.Client.Events.EventBase.html#PixelPilot_Client_Events_EventBase_Cancelled
+  commentId: P:PixelPilot.Client.Events.EventBase.Cancelled
+  fullName: PixelPilot.Client.Events.EventBase.Cancelled
+  nameWithType: EventBase.Cancelled
+- uid: PixelPilot.Client.Events.EventBase.Cancelled*
+  name: Cancelled
+  href: api/PixelPilot.Client.Events.EventBase.html#PixelPilot_Client_Events_EventBase_Cancelled_
+  commentId: Overload:PixelPilot.Client.Events.EventBase.Cancelled
+  isSpec: "True"
+  fullName: PixelPilot.Client.Events.EventBase.Cancelled
+  nameWithType: EventBase.Cancelled
+- uid: PixelPilot.Client.Extensions
+  name: PixelPilot.Client.Extensions
+  href: api/PixelPilot.Client.Extensions.html
+  commentId: N:PixelPilot.Client.Extensions
+  fullName: PixelPilot.Client.Extensions
+  nameWithType: PixelPilot.Client.Extensions
+- uid: PixelPilot.Client.Extensions.PlacedBlockListExtensions
+  name: PlacedBlockListExtensions
+  href: api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.html
+  commentId: T:PixelPilot.Client.Extensions.PlacedBlockListExtensions
+  fullName: PixelPilot.Client.Extensions.PlacedBlockListExtensions
+  nameWithType: PlacedBlockListExtensions
+- uid: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
+  name: ToChunkedPacket(List<IPlacedBlock>)
+  href: api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.html#PixelPilot_Client_Extensions_PlacedBlockListExtensions_ToChunkedPacket_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__
+  commentId: M:PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
+  name.vb: ToChunkedPacket(List(Of IPlacedBlock))
+  fullName: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>)
+  fullName.vb: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock))
+  nameWithType: PlacedBlockListExtensions.ToChunkedPacket(List<IPlacedBlock>)
+  nameWithType.vb: PlacedBlockListExtensions.ToChunkedPacket(List(Of IPlacedBlock))
+- uid: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket*
+  name: ToChunkedPacket
+  href: api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.html#PixelPilot_Client_Extensions_PlacedBlockListExtensions_ToChunkedPacket_
+  commentId: Overload:PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket
+  isSpec: "True"
+  fullName: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPacket
+  nameWithType: PlacedBlockListExtensions.ToChunkedPacket
+- uid: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
+  name: ToChunkedPackets(IEnumerable<IPlacedBlock>)
+  href: api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.html#PixelPilot_Client_Extensions_PlacedBlockListExtensions_ToChunkedPackets_System_Collections_Generic_IEnumerable_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__
+  commentId: M:PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
+  name.vb: ToChunkedPackets(IEnumerable(Of IPlacedBlock))
+  fullName: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>)
+  fullName.vb: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock))
+  nameWithType: PlacedBlockListExtensions.ToChunkedPackets(IEnumerable<IPlacedBlock>)
+  nameWithType.vb: PlacedBlockListExtensions.ToChunkedPackets(IEnumerable(Of IPlacedBlock))
+- uid: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets*
+  name: ToChunkedPackets
+  href: api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.html#PixelPilot_Client_Extensions_PlacedBlockListExtensions_ToChunkedPackets_
+  commentId: Overload:PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets
+  isSpec: "True"
+  fullName: PixelPilot.Client.Extensions.PlacedBlockListExtensions.ToChunkedPackets
+  nameWithType: PlacedBlockListExtensions.ToChunkedPackets
 - uid: PixelPilot.Client.JoinData
   name: JoinData
   href: api/PixelPilot.Client.JoinData.html
@@ -3594,6 +3845,15 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.PixelPilotClient.SendDirect
   nameWithType: PixelPilotClient.SendDirect
+- uid: PixelPilot.Client.PixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer,System.String,System.Boolean)
+  name: SendPm(IPixelPlayer, string, bool)
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_SendPm_PixelPilot_Client_Players_IPixelPlayer_System_String_System_Boolean_
+  commentId: M:PixelPilot.Client.PixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer,System.String,System.Boolean)
+  name.vb: SendPm(IPixelPlayer, String, Boolean)
+  fullName: PixelPilot.Client.PixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer, string, bool)
+  fullName.vb: PixelPilot.Client.PixelPilotClient.SendPm(PixelPilot.Client.Players.IPixelPlayer, String, Boolean)
+  nameWithType: PixelPilotClient.SendPm(IPixelPlayer, string, bool)
+  nameWithType.vb: PixelPilotClient.SendPm(IPixelPlayer, String, Boolean)
 - uid: PixelPilot.Client.PixelPilotClient.SendPm(System.String,System.String,System.Boolean)
   name: SendPm(string, string, bool)
   href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_SendPm_System_String_System_String_System_Boolean_
@@ -16231,33 +16491,15 @@ references:
   commentId: T:PixelPilot.Client.World.PixelWorld
   fullName: PixelPilot.Client.World.PixelWorld
   nameWithType: PixelWorld
-- uid: PixelPilot.Client.World.PixelWorld.#ctor
-  name: PixelWorld()
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld__ctor
-  commentId: M:PixelPilot.Client.World.PixelWorld.#ctor
-  name.vb: New()
-  fullName: PixelPilot.Client.World.PixelWorld.PixelWorld()
-  fullName.vb: PixelPilot.Client.World.PixelWorld.New()
-  nameWithType: PixelWorld.PixelWorld()
-  nameWithType.vb: PixelWorld.New()
-- uid: PixelPilot.Client.World.PixelWorld.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket)
-  name: PixelWorld(PlayerInitPacket)
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld__ctor_PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_
-  commentId: M:PixelPilot.Client.World.PixelWorld.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket)
-  name.vb: New(PlayerInitPacket)
-  fullName: PixelPilot.Client.World.PixelWorld.PixelWorld(PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket)
-  fullName.vb: PixelPilot.Client.World.PixelWorld.New(PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket)
-  nameWithType: PixelWorld.PixelWorld(PlayerInitPacket)
-  nameWithType.vb: PixelWorld.New(PlayerInitPacket)
-- uid: PixelPilot.Client.World.PixelWorld.#ctor(System.Int32,System.Int32)
-  name: PixelWorld(int, int)
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld__ctor_System_Int32_System_Int32_
-  commentId: M:PixelPilot.Client.World.PixelWorld.#ctor(System.Int32,System.Int32)
-  name.vb: New(Integer, Integer)
-  fullName: PixelPilot.Client.World.PixelWorld.PixelWorld(int, int)
-  fullName.vb: PixelPilot.Client.World.PixelWorld.New(Integer, Integer)
-  nameWithType: PixelWorld.PixelWorld(int, int)
-  nameWithType.vb: PixelWorld.New(Integer, Integer)
+- uid: PixelPilot.Client.World.PixelWorld.#ctor(PixelPilot.Client.Abstract.IPixelPilotClient)
+  name: PixelWorld(IPixelPilotClient)
+  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld__ctor_PixelPilot_Client_Abstract_IPixelPilotClient_
+  commentId: M:PixelPilot.Client.World.PixelWorld.#ctor(PixelPilot.Client.Abstract.IPixelPilotClient)
+  name.vb: New(IPixelPilotClient)
+  fullName: PixelPilot.Client.World.PixelWorld.PixelWorld(PixelPilot.Client.Abstract.IPixelPilotClient)
+  fullName.vb: PixelPilot.Client.World.PixelWorld.New(PixelPilot.Client.Abstract.IPixelPilotClient)
+  nameWithType: PixelWorld.PixelWorld(IPixelPilotClient)
+  nameWithType.vb: PixelWorld.New(IPixelPilotClient)
 - uid: PixelPilot.Client.World.PixelWorld.#ctor*
   name: PixelWorld
   href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld__ctor_
@@ -16299,6 +16541,12 @@ references:
   commentId: T:PixelPilot.Client.World.PixelWorld.BlockPlaced
   fullName: PixelPilot.Client.World.PixelWorld.BlockPlaced
   nameWithType: PixelWorld.BlockPlaced
+- uid: PixelPilot.Client.World.PixelWorld.BlocksPlaced
+  name: PixelWorld.BlocksPlaced
+  href: api/PixelPilot.Client.World.PixelWorld.BlocksPlaced.html
+  commentId: T:PixelPilot.Client.World.PixelWorld.BlocksPlaced
+  fullName: PixelPilot.Client.World.PixelWorld.BlocksPlaced
+  nameWithType: PixelWorld.BlocksPlaced
 - uid: PixelPilot.Client.World.PixelWorld.DeserializeBlock(PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket)
   name: DeserializeBlock(WorldBlockPlacedPacket)
   href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_DeserializeBlock_PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_
@@ -16404,6 +16652,12 @@ references:
   commentId: E:PixelPilot.Client.World.PixelWorld.OnBlockPlaced
   fullName: PixelPilot.Client.World.PixelWorld.OnBlockPlaced
   nameWithType: PixelWorld.OnBlockPlaced
+- uid: PixelPilot.Client.World.PixelWorld.OnBlocksPlaced
+  name: OnBlocksPlaced
+  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_OnBlocksPlaced
+  commentId: E:PixelPilot.Client.World.PixelWorld.OnBlocksPlaced
+  fullName: PixelPilot.Client.World.PixelWorld.OnBlocksPlaced
+  nameWithType: PixelWorld.OnBlocksPlaced
 - uid: PixelPilot.Client.World.PixelWorld.OnWorldCleared
   name: OnWorldCleared
   href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_OnWorldCleared
@@ -17321,76 +17575,44 @@ references:
   commentId: N:PixelPilot.Structures.Extensions
   fullName: PixelPilot.Structures.Extensions
   nameWithType: PixelPilot.Structures.Extensions
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions
-  name: PlacedBlockListExtensions
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html
-  commentId: T:PixelPilot.Structures.Extensions.PlacedBlockListExtensions
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions
-  nameWithType: PlacedBlockListExtensions
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
+- uid: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions
+  name: ExtraPlacedBlockListExtensions
+  href: api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html
+  commentId: T:PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions
+  fullName: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions
+  nameWithType: ExtraPlacedBlockListExtensions
+- uid: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
   name: PasteInOrder(List<IPlacedBlock>, PixelPilotClient, Point, int)
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_PasteInOrder_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__PixelPilot_Client_PixelPilotClient_System_Drawing_Point_System_Int32_
-  commentId: M:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
+  href: api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_ExtraPlacedBlockListExtensions_PasteInOrder_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__PixelPilot_Client_PixelPilotClient_System_Drawing_Point_System_Int32_
+  commentId: M:PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
   name.vb: PasteInOrder(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>, PixelPilot.Client.PixelPilotClient, System.Drawing.Point, int)
-  fullName.vb: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock), PixelPilot.Client.PixelPilotClient, System.Drawing.Point, Integer)
-  nameWithType: PlacedBlockListExtensions.PasteInOrder(List<IPlacedBlock>, PixelPilotClient, Point, int)
-  nameWithType.vb: PlacedBlockListExtensions.PasteInOrder(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder*
+  fullName: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>, PixelPilot.Client.PixelPilotClient, System.Drawing.Point, int)
+  fullName.vb: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder(System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock), PixelPilot.Client.PixelPilotClient, System.Drawing.Point, Integer)
+  nameWithType: ExtraPlacedBlockListExtensions.PasteInOrder(List<IPlacedBlock>, PixelPilotClient, Point, int)
+  nameWithType.vb: ExtraPlacedBlockListExtensions.PasteInOrder(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
+- uid: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder*
   name: PasteInOrder
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_PasteInOrder_
-  commentId: Overload:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder
+  href: api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_ExtraPlacedBlockListExtensions_PasteInOrder_
+  commentId: Overload:PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder
   isSpec: "True"
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteInOrder
-  nameWithType: PlacedBlockListExtensions.PasteInOrder
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
+  fullName: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteInOrder
+  nameWithType: ExtraPlacedBlockListExtensions.PasteInOrder
+- uid: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
   name: PasteShuffled(List<IPlacedBlock>, PixelPilotClient, Point, int)
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_PasteShuffled_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__PixelPilot_Client_PixelPilotClient_System_Drawing_Point_System_Int32_
-  commentId: M:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
+  href: api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_ExtraPlacedBlockListExtensions_PasteShuffled_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__PixelPilot_Client_PixelPilotClient_System_Drawing_Point_System_Int32_
+  commentId: M:PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
   name.vb: PasteShuffled(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>, PixelPilot.Client.PixelPilotClient, System.Drawing.Point, int)
-  fullName.vb: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock), PixelPilot.Client.PixelPilotClient, System.Drawing.Point, Integer)
-  nameWithType: PlacedBlockListExtensions.PasteShuffled(List<IPlacedBlock>, PixelPilotClient, Point, int)
-  nameWithType.vb: PlacedBlockListExtensions.PasteShuffled(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled*
+  fullName: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>, PixelPilot.Client.PixelPilotClient, System.Drawing.Point, int)
+  fullName.vb: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled(System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock), PixelPilot.Client.PixelPilotClient, System.Drawing.Point, Integer)
+  nameWithType: ExtraPlacedBlockListExtensions.PasteShuffled(List<IPlacedBlock>, PixelPilotClient, Point, int)
+  nameWithType.vb: ExtraPlacedBlockListExtensions.PasteShuffled(List(Of IPlacedBlock), PixelPilotClient, Point, Integer)
+- uid: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled*
   name: PasteShuffled
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_PasteShuffled_
-  commentId: Overload:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled
+  href: api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_ExtraPlacedBlockListExtensions_PasteShuffled_
+  commentId: Overload:PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled
   isSpec: "True"
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.PasteShuffled
-  nameWithType: PlacedBlockListExtensions.PasteShuffled
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
-  name: ToChunkedPacket(List<IPlacedBlock>)
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_ToChunkedPacket_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__
-  commentId: M:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
-  name.vb: ToChunkedPacket(List(Of IPlacedBlock))
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>)
-  fullName.vb: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket(System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock))
-  nameWithType: PlacedBlockListExtensions.ToChunkedPacket(List<IPlacedBlock>)
-  nameWithType.vb: PlacedBlockListExtensions.ToChunkedPacket(List(Of IPlacedBlock))
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket*
-  name: ToChunkedPacket
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_ToChunkedPacket_
-  commentId: Overload:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket
-  isSpec: "True"
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPacket
-  nameWithType: PlacedBlockListExtensions.ToChunkedPacket
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
-  name: ToChunkedPackets(IEnumerable<IPlacedBlock>)
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_ToChunkedPackets_System_Collections_Generic_IEnumerable_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__
-  commentId: M:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock})
-  name.vb: ToChunkedPackets(IEnumerable(Of IPlacedBlock))
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>)
-  fullName.vb: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets(System.Collections.Generic.IEnumerable(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock))
-  nameWithType: PlacedBlockListExtensions.ToChunkedPackets(IEnumerable<IPlacedBlock>)
-  nameWithType.vb: PlacedBlockListExtensions.ToChunkedPackets(IEnumerable(Of IPlacedBlock))
-- uid: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets*
-  name: ToChunkedPackets
-  href: api/PixelPilot.Structures.Extensions.PlacedBlockListExtensions.html#PixelPilot_Structures_Extensions_PlacedBlockListExtensions_ToChunkedPackets_
-  commentId: Overload:PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets
-  isSpec: "True"
-  fullName: PixelPilot.Structures.Extensions.PlacedBlockListExtensions.ToChunkedPackets
-  nameWithType: PlacedBlockListExtensions.ToChunkedPackets
+  fullName: PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.PasteShuffled
+  nameWithType: ExtraPlacedBlockListExtensions.PasteShuffled
 - uid: PixelPilot.Structures.Extensions.WorldExtensions
   name: WorldExtensions
   href: api/PixelPilot.Structures.Extensions.WorldExtensions.html
