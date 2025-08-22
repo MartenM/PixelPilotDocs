@@ -2288,6 +2288,19 @@ references:
   commentId: T:PixelPilot.Client.Events.BlocksPlacedEvent
   fullName: PixelPilot.Client.Events.BlocksPlacedEvent
   nameWithType: BlocksPlacedEvent
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.Layer
+  name: Layer
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_Layer
+  commentId: P:PixelPilot.Client.Events.BlocksPlacedEvent.Layer
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.Layer
+  nameWithType: BlocksPlacedEvent.Layer
+- uid: PixelPilot.Client.Events.BlocksPlacedEvent.Layer*
+  name: Layer
+  href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_Layer_
+  commentId: Overload:PixelPilot.Client.Events.BlocksPlacedEvent.Layer
+  isSpec: "True"
+  fullName: PixelPilot.Client.Events.BlocksPlacedEvent.Layer
+  nameWithType: BlocksPlacedEvent.Layer
 - uid: PixelPilot.Client.Events.BlocksPlacedEvent.NewBlock
   name: NewBlock
   href: api/PixelPilot.Client.Events.BlocksPlacedEvent.html#PixelPilot_Client_Events_BlocksPlacedEvent_NewBlock
