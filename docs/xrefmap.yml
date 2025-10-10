@@ -174,6 +174,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Api.PixelApiClient.GetOwnedWorlds
   nameWithType: PixelApiClient.GetOwnedWorlds
+- uid: PixelPilot.Api.PixelApiClient.GetPixelBlockMeta
+  name: GetPixelBlockMeta()
+  href: api/PixelPilot.Api.PixelApiClient.html#PixelPilot_Api_PixelApiClient_GetPixelBlockMeta
+  commentId: M:PixelPilot.Api.PixelApiClient.GetPixelBlockMeta
+  fullName: PixelPilot.Api.PixelApiClient.GetPixelBlockMeta()
+  nameWithType: PixelApiClient.GetPixelBlockMeta()
+- uid: PixelPilot.Api.PixelApiClient.GetPixelBlockMeta*
+  name: GetPixelBlockMeta
+  href: api/PixelPilot.Api.PixelApiClient.html#PixelPilot_Api_PixelApiClient_GetPixelBlockMeta_
+  commentId: Overload:PixelPilot.Api.PixelApiClient.GetPixelBlockMeta
+  isSpec: "True"
+  fullName: PixelPilot.Api.PixelApiClient.GetPixelBlockMeta
+  nameWithType: PixelApiClient.GetPixelBlockMeta
 - uid: PixelPilot.Api.PixelApiClient.GetPlayer(System.String)
   name: GetPlayer(string)
   href: api/PixelPilot.Api.PixelApiClient.html#PixelPilot_Api_PixelApiClient_GetPlayer_System_String_
@@ -983,6 +996,77 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Api.Responses.MappingsResponse.mappings
   nameWithType: MappingsResponse.mappings
+- uid: PixelPilot.Api.Responses.PixelBlockMeta
+  name: PixelBlockMeta
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html
+  commentId: T:PixelPilot.Api.Responses.PixelBlockMeta
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta
+  nameWithType: PixelBlockMeta
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.Id
+  name: Id
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Id
+  commentId: P:PixelPilot.Api.Responses.PixelBlockMeta.Id
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.Id
+  nameWithType: PixelBlockMeta.Id
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.Id*
+  name: Id
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Id_
+  commentId: Overload:PixelPilot.Api.Responses.PixelBlockMeta.Id
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.Id
+  nameWithType: PixelBlockMeta.Id
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.Layer
+  name: Layer
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Layer
+  commentId: P:PixelPilot.Api.Responses.PixelBlockMeta.Layer
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.Layer
+  nameWithType: PixelBlockMeta.Layer
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.Layer*
+  name: Layer
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Layer_
+  commentId: Overload:PixelPilot.Api.Responses.PixelBlockMeta.Layer
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.Layer
+  nameWithType: PixelBlockMeta.Layer
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.LegacyId
+  name: LegacyId
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_LegacyId
+  commentId: P:PixelPilot.Api.Responses.PixelBlockMeta.LegacyId
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.LegacyId
+  nameWithType: PixelBlockMeta.LegacyId
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.LegacyId*
+  name: LegacyId
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_LegacyId_
+  commentId: Overload:PixelPilot.Api.Responses.PixelBlockMeta.LegacyId
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.LegacyId
+  nameWithType: PixelBlockMeta.LegacyId
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.MinimapColor
+  name: MinimapColor
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_MinimapColor
+  commentId: P:PixelPilot.Api.Responses.PixelBlockMeta.MinimapColor
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.MinimapColor
+  nameWithType: PixelBlockMeta.MinimapColor
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.MinimapColor*
+  name: MinimapColor
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_MinimapColor_
+  commentId: Overload:PixelPilot.Api.Responses.PixelBlockMeta.MinimapColor
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.MinimapColor
+  nameWithType: PixelBlockMeta.MinimapColor
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.PaletteId
+  name: PaletteId
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_PaletteId
+  commentId: P:PixelPilot.Api.Responses.PixelBlockMeta.PaletteId
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.PaletteId
+  nameWithType: PixelBlockMeta.PaletteId
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.PaletteId*
+  name: PaletteId
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_PaletteId_
+  commentId: Overload:PixelPilot.Api.Responses.PixelBlockMeta.PaletteId
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.PaletteId
+  nameWithType: PixelBlockMeta.PaletteId
 - uid: PixelPilot.Api.Responses.PlayerData
   name: PlayerData
   href: api/PixelPilot.Api.Responses.PlayerData.html
@@ -7112,12 +7196,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.BeachParasol
   fullName: PixelPilot.Client.World.Constants.PixelBlock.BeachParasol
   nameWithType: PixelBlock.BeachParasol
-- uid: PixelPilot.Client.World.Constants.PixelBlock.BeachRock
-  name: BeachRock
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_BeachRock
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.BeachRock
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.BeachRock
-  nameWithType: PixelBlock.BeachRock
+- uid: PixelPilot.Client.World.Constants.PixelBlock.BeachRockGrayLarge
+  name: BeachRockGrayLarge
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_BeachRockGrayLarge
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.BeachRockGrayLarge
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.BeachRockGrayLarge
+  nameWithType: PixelBlock.BeachRockGrayLarge
+- uid: PixelPilot.Client.World.Constants.PixelBlock.BeachRockGraySmall
+  name: BeachRockGraySmall
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_BeachRockGraySmall
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.BeachRockGraySmall
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.BeachRockGraySmall
+  nameWithType: PixelBlock.BeachRockGraySmall
 - uid: PixelPilot.Client.World.Constants.PixelBlock.BeachSand
   name: BeachSand
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_BeachSand
@@ -10046,12 +10136,6 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DojoWindowDark
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DojoWindowDark
   nameWithType: PixelBlock.DojoWindowDark
-- uid: PixelPilot.Client.World.Constants.PixelBlock.DomesticBottomRight
-  name: DomesticBottomRight
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DomesticBottomRight
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DomesticBottomRight
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.DomesticBottomRight
-  nameWithType: PixelBlock.DomesticBottomRight
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DomesticFrameBorderBottom
   name: DomesticFrameBorderBottom
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DomesticFrameBorderBottom
@@ -10250,6 +10334,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DomesticPipeBottomLeft
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DomesticPipeBottomLeft
   nameWithType: PixelBlock.DomesticPipeBottomLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DomesticPipeBottomRight
+  name: DomesticPipeBottomRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DomesticPipeBottomRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DomesticPipeBottomRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DomesticPipeBottomRight
+  nameWithType: PixelBlock.DomesticPipeBottomRight
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DomesticPipeCross
   name: DomesticPipeCross
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DomesticPipeCross
@@ -10688,6 +10778,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityDown
   fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityDown
   nameWithType: PixelBlock.EffectsGravityDown
+- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityForce
+  name: EffectsGravityForce
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsGravityForce
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityForce
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityForce
+  nameWithType: PixelBlock.EffectsGravityForce
 - uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityLeft
   name: EffectsGravityLeft
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsGravityLeft
@@ -10712,12 +10808,6 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityUp
   fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityUp
   nameWithType: PixelBlock.EffectsGravityUp
-- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityforce
-  name: EffectsGravityforce
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsGravityforce
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityforce
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsGravityforce
-  nameWithType: PixelBlock.EffectsGravityforce
 - uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsInvulnerability
   name: EffectsInvulnerability
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsInvulnerability
@@ -10742,6 +10832,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsOff
   fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsOff
   nameWithType: PixelBlock.EffectsOff
+- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoison
+  name: EffectsPoison
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsPoison
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsPoison
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoison
+  nameWithType: PixelBlock.EffectsPoison
 - uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsSpeed
   name: EffectsSpeed
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsSpeed
@@ -13406,18 +13502,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineCrystalYellow
   fullName: PixelPilot.Client.World.Constants.PixelBlock.MineCrystalYellow
   nameWithType: PixelBlock.MineCrystalYellow
+- uid: PixelPilot.Client.World.Constants.PixelBlock.MineStalactite
+  name: MineStalactite
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineStalactite
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineStalactite
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.MineStalactite
+  nameWithType: PixelBlock.MineStalactite
 - uid: PixelPilot.Client.World.Constants.PixelBlock.MineStalagmite
   name: MineStalagmite
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineStalagmite
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineStalagmite
   fullName: PixelPilot.Client.World.Constants.PixelBlock.MineStalagmite
   nameWithType: PixelBlock.MineStalagmite
-- uid: PixelPilot.Client.World.Constants.PixelBlock.MineStalagtite
-  name: MineStalagtite
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineStalagtite
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.MineStalagtite
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.MineStalagtite
-  nameWithType: PixelBlock.MineStalagtite
 - uid: PixelPilot.Client.World.Constants.PixelBlock.MineStoneBrown
   name: MineStoneBrown
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_MineStoneBrown
@@ -14198,12 +14294,6 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.OuterspaceRedBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.OuterspaceRedBg
   nameWithType: PixelBlock.OuterspaceRedBg
-- uid: PixelPilot.Client.World.Constants.PixelBlock.OuterspaceRockGray
-  name: OuterspaceRockGray
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_OuterspaceRockGray
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.OuterspaceRockGray
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.OuterspaceRockGray
-  nameWithType: PixelBlock.OuterspaceRockGray
 - uid: PixelPilot.Client.World.Constants.PixelBlock.OuterspaceSand
   name: OuterspaceSand
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_OuterspaceSand
@@ -14966,12 +15056,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightHorizontal
   fullName: PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightHorizontal
   nameWithType: PixelBlock.ScifiLaserOrangeStraightHorizontal
-- uid: PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightVeritical
-  name: ScifiLaserOrangeStraightVeritical
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_ScifiLaserOrangeStraightVeritical
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightVeritical
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightVeritical
-  nameWithType: PixelBlock.ScifiLaserOrangeStraightVeritical
+- uid: PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightVertical
+  name: ScifiLaserOrangeStraightVertical
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_ScifiLaserOrangeStraightVertical
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightVertical
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserOrangeStraightVertical
+  nameWithType: PixelBlock.ScifiLaserOrangeStraightVertical
 - uid: PixelPilot.Client.World.Constants.PixelBlock.ScifiLaserRedCornerBottomleft
   name: ScifiLaserRedCornerBottomleft
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_ScifiLaserRedCornerBottomleft
@@ -15350,12 +15440,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamMint
   fullName: PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamMint
   nameWithType: PixelBlock.SummerIceCreamMint
-- uid: PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamSrawberry
-  name: SummerIceCreamSrawberry
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_SummerIceCreamSrawberry
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamSrawberry
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamSrawberry
-  nameWithType: PixelBlock.SummerIceCreamSrawberry
+- uid: PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamStrawberry
+  name: SummerIceCreamStrawberry
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_SummerIceCreamStrawberry
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamStrawberry
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamStrawberry
+  nameWithType: PixelBlock.SummerIceCreamStrawberry
 - uid: PixelPilot.Client.World.Constants.PixelBlock.SummerIceCreamVanilla
   name: SummerIceCreamVanilla
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_SummerIceCreamVanilla
@@ -15398,12 +15488,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.SummerPlankPurpleBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.SummerPlankPurpleBg
   nameWithType: PixelBlock.SummerPlankPurpleBg
-- uid: PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYelllow
-  name: SummerPlankYelllow
-  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_SummerPlankYelllow
-  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYelllow
-  fullName: PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYelllow
-  nameWithType: PixelBlock.SummerPlankYelllow
+- uid: PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYellow
+  name: SummerPlankYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_SummerPlankYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYellow
+  nameWithType: PixelBlock.SummerPlankYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.SummerPlankYellowBg
   name: SummerPlankYellowBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_SummerPlankYellowBg
@@ -16876,6 +16966,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Changes.VersionManager.ApplyMigrations
   nameWithType: VersionManager.ApplyMigrations
+- uid: PixelPilot.Structures.Converters.Changes.VersionManager.CurrentVersion
+  name: CurrentVersion()
+  href: api/PixelPilot.Structures.Converters.Changes.VersionManager.html#PixelPilot_Structures_Converters_Changes_VersionManager_CurrentVersion
+  commentId: M:PixelPilot.Structures.Converters.Changes.VersionManager.CurrentVersion
+  fullName: PixelPilot.Structures.Converters.Changes.VersionManager.CurrentVersion()
+  nameWithType: VersionManager.CurrentVersion()
+- uid: PixelPilot.Structures.Converters.Changes.VersionManager.CurrentVersion*
+  name: CurrentVersion
+  href: api/PixelPilot.Structures.Converters.Changes.VersionManager.html#PixelPilot_Structures_Converters_Changes_VersionManager_CurrentVersion_
+  commentId: Overload:PixelPilot.Structures.Converters.Changes.VersionManager.CurrentVersion
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Changes.VersionManager.CurrentVersion
+  nameWithType: VersionManager.CurrentVersion
 - uid: PixelPilot.Structures.Converters.Changes.VersionMigration
   name: VersionMigration
   href: api/PixelPilot.Structures.Converters.Changes.VersionMigration.html
@@ -17301,6 +17404,120 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_08_18.DoUpdate
   nameWithType: Migration_2025_08_18.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A
+  name: Migration_2025_10_10A
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A
+  nameWithType: Migration_2025_10_10A
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.#ctor
+  name: Migration_2025_10_10A()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10A__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.Migration_2025_10_10A()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.New()
+  nameWithType: Migration_2025_10_10A.Migration_2025_10_10A()
+  nameWithType.vb: Migration_2025_10_10A.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.#ctor*
+  name: Migration_2025_10_10A
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10A__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.Migration_2025_10_10A
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.New
+  nameWithType: Migration_2025_10_10A.Migration_2025_10_10A
+  nameWithType.vb: Migration_2025_10_10A.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10A_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_10_10A.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10A_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.DoUpdate
+  nameWithType: Migration_2025_10_10A.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B
+  name: Migration_2025_10_10B
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B
+  nameWithType: Migration_2025_10_10B
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.#ctor
+  name: Migration_2025_10_10B()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10B__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.Migration_2025_10_10B()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.New()
+  nameWithType: Migration_2025_10_10B.Migration_2025_10_10B()
+  nameWithType.vb: Migration_2025_10_10B.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.#ctor*
+  name: Migration_2025_10_10B
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10B__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.Migration_2025_10_10B
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.New
+  nameWithType: Migration_2025_10_10B.Migration_2025_10_10B
+  nameWithType.vb: Migration_2025_10_10B.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10B_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_10_10B.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10B_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.DoUpdate
+  nameWithType: Migration_2025_10_10B.DoUpdate
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C
+  name: Migration_2025_10_10C
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.html
+  commentId: T:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C
+  nameWithType: Migration_2025_10_10C
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.#ctor
+  name: Migration_2025_10_10C()
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10C__ctor
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.Migration_2025_10_10C()
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.New()
+  nameWithType: Migration_2025_10_10C.Migration_2025_10_10C()
+  nameWithType.vb: Migration_2025_10_10C.New()
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.#ctor*
+  name: Migration_2025_10_10C
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10C__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.Migration_2025_10_10C
+  fullName.vb: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.New
+  nameWithType: Migration_2025_10_10C.Migration_2025_10_10C
+  nameWithType.vb: Migration_2025_10_10C.New
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  name: DoUpdate(MappedBlockData)
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10C_DoUpdate_PixelPilot_Structures_Converters_PilotSimple_MappedBlockData_
+  commentId: M:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate(PixelPilot.Structures.Converters.PilotSimple.MappedBlockData)
+  nameWithType: Migration_2025_10_10C.DoUpdate(MappedBlockData)
+- uid: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate*
+  name: DoUpdate
+  href: api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.html#PixelPilot_Structures_Converters_Migrations_Migrations_Migration_2025_10_10C_DoUpdate_
+  commentId: Overload:PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate
+  nameWithType: Migration_2025_10_10C.DoUpdate
 - uid: PixelPilot.Structures.Converters.PilotSimple
   name: PixelPilot.Structures.Converters.PilotSimple
   href: api/PixelPilot.Structures.Converters.PilotSimple.html
@@ -21646,6 +21863,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWootFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.PlayerWootFieldNumber
   nameWithType: PlayerInitPacket.PlayerWootFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabels
+  name: TextLabels
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_TextLabels
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabels
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabels
+  nameWithType: PlayerInitPacket.TextLabels
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabels*
+  name: TextLabels
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_TextLabels_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabels
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabels
+  nameWithType: PlayerInitPacket.TextLabels
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabelsFieldNumber
+  name: TextLabelsFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_TextLabelsFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabelsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.TextLabelsFieldNumber
+  nameWithType: PlayerInitPacket.TextLabelsFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ToString
   name: ToString()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_ToString
@@ -27767,6 +28003,329 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.SystemMessagePacket.WriteTo
   nameWithType: SystemMessagePacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment
+  name: TextAlignment
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment
+  nameWithType: TextAlignment
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Center
+  name: Center
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.html#PixelWalker_Networking_Protobuf_WorldPackets_TextAlignment_Center
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Center
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Center
+  nameWithType: TextAlignment.Center
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Left
+  name: Left
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.html#PixelWalker_Networking_Protobuf_WorldPackets_TextAlignment_Left
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Left
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Left
+  nameWithType: TextAlignment.Left
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Right
+  name: Right
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.html#PixelWalker_Networking_Protobuf_WorldPackets_TextAlignment_Right
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Right
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.Right
+  nameWithType: TextAlignment.Right
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel
+  name: TextLabel
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel
+  nameWithType: TextLabel
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.#ctor
+  name: TextLabel()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextLabel()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.New()
+  nameWithType: TextLabel.TextLabel()
+  nameWithType.vb: TextLabel.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  name: TextLabel(TextLabel)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel__ctor_PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  name.vb: New(TextLabel)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextLabel(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.New(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  nameWithType: TextLabel.TextLabel(TextLabel)
+  nameWithType.vb: TextLabel.New(TextLabel)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.#ctor*
+  name: TextLabel
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextLabel
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.New
+  nameWithType: TextLabel.TextLabel
+  nameWithType.vb: TextLabel.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.CalculateSize()
+  nameWithType: TextLabel.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.CalculateSize
+  nameWithType: TextLabel.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Clone()
+  nameWithType: TextLabel.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Clone
+  nameWithType: TextLabel.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Color
+  name: Color
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Color
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Color
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Color
+  nameWithType: TextLabel.Color
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Color*
+  name: Color
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Color_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Color
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Color
+  nameWithType: TextLabel.Color
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ColorFieldNumber
+  name: ColorFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_ColorFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ColorFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ColorFieldNumber
+  nameWithType: TextLabel.ColorFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Descriptor
+  nameWithType: TextLabel.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Descriptor
+  nameWithType: TextLabel.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  name: Equals(TextLabel)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Equals_PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  nameWithType: TextLabel.Equals(TextLabel)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals(Object)
+  nameWithType: TextLabel.Equals(object)
+  nameWithType.vb: TextLabel.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Equals
+  nameWithType: TextLabel.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSize
+  name: FontSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_FontSize
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSize
+  nameWithType: TextLabel.FontSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSize*
+  name: FontSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_FontSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSize
+  nameWithType: TextLabel.FontSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSizeFieldNumber
+  name: FontSizeFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_FontSizeFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSizeFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.FontSizeFieldNumber
+  nameWithType: TextLabel.FontSizeFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.GetHashCode()
+  nameWithType: TextLabel.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.GetHashCode
+  nameWithType: TextLabel.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidth
+  name: MaxWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_MaxWidth
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidth
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidth
+  nameWithType: TextLabel.MaxWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidth*
+  name: MaxWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_MaxWidth_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidth
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidth
+  nameWithType: TextLabel.MaxWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidthFieldNumber
+  name: MaxWidthFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_MaxWidthFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidthFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MaxWidthFieldNumber
+  nameWithType: TextLabel.MaxWidthFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: TextLabel.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  name: MergeFrom(TextLabel)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.TextLabel)
+  nameWithType: TextLabel.MergeFrom(TextLabel)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.MergeFrom
+  nameWithType: TextLabel.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Parser
+  nameWithType: TextLabel.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Parser
+  nameWithType: TextLabel.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Position
+  name: Position
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Position
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Position
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Position
+  nameWithType: TextLabel.Position
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Position*
+  name: Position
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Position_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Position
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Position
+  nameWithType: TextLabel.Position
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.PositionFieldNumber
+  name: PositionFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_PositionFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.PositionFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.PositionFieldNumber
+  nameWithType: TextLabel.PositionFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Shadow
+  name: Shadow
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Shadow
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Shadow
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Shadow
+  nameWithType: TextLabel.Shadow
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Shadow*
+  name: Shadow
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Shadow_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Shadow
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Shadow
+  nameWithType: TextLabel.Shadow
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ShadowFieldNumber
+  name: ShadowFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_ShadowFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ShadowFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ShadowFieldNumber
+  nameWithType: TextLabel.ShadowFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Text
+  name: Text
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Text
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Text
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Text
+  nameWithType: TextLabel.Text
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Text*
+  name: Text
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_Text_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Text
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.Text
+  nameWithType: TextLabel.Text
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignment
+  name: TextAlignment
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_TextAlignment
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignment
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignment
+  nameWithType: TextLabel.TextAlignment
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignment*
+  name: TextAlignment
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_TextAlignment_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignment
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignment
+  nameWithType: TextLabel.TextAlignment
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignmentFieldNumber
+  name: TextAlignmentFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_TextAlignmentFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignmentFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextAlignmentFieldNumber
+  nameWithType: TextLabel.TextAlignmentFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextFieldNumber
+  name: TextFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_TextFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.TextFieldNumber
+  nameWithType: TextLabel.TextFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ToString()
+  nameWithType: TextLabel.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.ToString
+  nameWithType: TextLabel.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: TextLabel.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_TextLabel_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.WriteTo
+  nameWithType: TextLabel.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket
   name: WorldActionUpdatePacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldActionUpdatePacket.html
@@ -28950,6 +29509,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MergeFrom
   nameWithType: WorldMeta.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidth
+  name: MinimapEdgeFadeWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapEdgeFadeWidth
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidth
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidth
+  nameWithType: WorldMeta.MinimapEdgeFadeWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidth*
+  name: MinimapEdgeFadeWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapEdgeFadeWidth_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidth
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidth
+  nameWithType: WorldMeta.MinimapEdgeFadeWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidthFieldNumber
+  name: MinimapEdgeFadeWidthFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapEdgeFadeWidthFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidthFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEdgeFadeWidthFieldNumber
+  nameWithType: WorldMeta.MinimapEdgeFadeWidthFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEnabled
   name: MinimapEnabled
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapEnabled
@@ -28969,6 +29547,63 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEnabledFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapEnabledFieldNumber
   nameWithType: WorldMeta.MinimapEnabledFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeight
+  name: MinimapMaxHeight
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapMaxHeight
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeight
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeight
+  nameWithType: WorldMeta.MinimapMaxHeight
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeight*
+  name: MinimapMaxHeight
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapMaxHeight_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeight
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeight
+  nameWithType: WorldMeta.MinimapMaxHeight
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeightFieldNumber
+  name: MinimapMaxHeightFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapMaxHeightFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeightFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxHeightFieldNumber
+  nameWithType: WorldMeta.MinimapMaxHeightFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidth
+  name: MinimapMaxWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapMaxWidth
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidth
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidth
+  nameWithType: WorldMeta.MinimapMaxWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidth*
+  name: MinimapMaxWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapMaxWidth_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidth
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidth
+  nameWithType: WorldMeta.MinimapMaxWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidthFieldNumber
+  name: MinimapMaxWidthFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapMaxWidthFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidthFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapMaxWidthFieldNumber
+  nameWithType: WorldMeta.MinimapMaxWidthFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaled
+  name: MinimapScaled
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapScaled
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaled
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaled
+  nameWithType: WorldMeta.MinimapScaled
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaled*
+  name: MinimapScaled
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapScaled_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaled
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaled
+  nameWithType: WorldMeta.MinimapScaled
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaledFieldNumber
+  name: MinimapScaledFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MinimapScaledFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaledFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MinimapScaledFieldNumber
+  nameWithType: WorldMeta.MinimapScaledFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Owner
   name: Owner
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_Owner

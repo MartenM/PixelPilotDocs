@@ -152,6 +152,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.PixelBlockMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.PixelBlockMeta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Api.Responses.PlayerData.yml",
       "output": {
         ".html": {
@@ -1372,6 +1382,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10A.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10B.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Migrations.Migrations.yml",
       "output": {
         ".html": {
@@ -1916,6 +1956,26 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.SystemMessagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.TextAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.TextLabel.html"
         }
       },
       "version": ""
