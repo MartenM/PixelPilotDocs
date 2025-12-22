@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/v1.14.0/docs/guides/getting_started/manipulating_the_world.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/blob/main/docs/guides/getting_started/manipulating_the_world.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,6 +92,10 @@
 <p>In order to make World manipulation a bit easier <code>PixelPilot.Core</code> exposes a <code>PixelWorld</code> class.
 To parse the block packets can be quite complicated, so if you don't want to do this yourself, I highly recommend you use this class.</p>
 <p>To get started with the <code>PixelWorld</code> class, create an instance of it and ensure it receives packet updates from the client.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Setup your world and <code>client.OnPacketReceived</code> handlers <strong>BEFORE</strong> connecting the bot to your world.</p>
+</div>
 <pre><code class="lang-csharp">// Create a PixelWorld class and attach the client to it.
 // Allow it to listen to client updates. Not required!
 var world = new PixelWorld();
@@ -118,6 +122,11 @@ The world has several layers. Each layer is used for a specific type of block. C
 <td>Foreground</td>
 <td>WorldLayer.Foreground</td>
 </tr>
+<tr>
+<td>2</td>
+<td>Overlay</td>
+<td>WorldLayer.Overlay</td>
+</tr>
 </tbody>
 </table>
 <p>In order to get a block at a specific coordinate and layer you can use the following snippet.
@@ -128,25 +137,14 @@ Console.WriteLine($&quot;It is a: {worldBlock.Block} with ID {block.BlockId}&quo
 </code></pre>
 <h3 id="blocks-with-additional-data">Blocks with additional data.</h3>
 <p>Some blocks contain additional data. Think about portals, gates, signs, etc.
-To access this data, you can simply cast the IPixelBlock to it's desired type. In this example we will check for portal block.</p>
+To access this data, you can simply cast the IPixelBlock a FlexBlock. This is the underlying type of all blocks. In the future better support for blocks will be added again.</p>
 <pre><code class="lang-csharp">var worldBlock = world.BlockAt(layer, x, y);
-if (worldBlock is PortalBlock portalBlock)
-{
-    Console.WriteLine($&quot;It is a portal with target {portalBlock.TargetId}&quot;);
-}
-else
-{
-    Console.WriteLine(&quot;The block is not a portal.&quot;);
-}
+var flexBlock = (FlexBlock) worldBlock;
 </code></pre>
-<div class="TIP">
-<h5>Tip</h5>
-<p>The 'is' keyword is used to cast the object. For more information about casting check <a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions">here</a></p>
-</div>
 <h3 id="sending-blocks">Sending blocks</h3>
 <p>In order to send your own blocks you can simply create an instance of the class.
 A block placement also needs a location, so we wrap the block with the <code>PlacedBlock</code> class.</p>
-<pre><code class="lang-csharp">BasicBlock block = new BasicBlock(PixelBlock.CrownGold);
+<pre><code class="lang-csharp">var block = new FlexBlock(PixelBlock.CrownGold);
 PlacedBlock placedBlock = new PlacedBlock(x, y, WorldLayer.Foreground, block);
 client.Send(placedBlock.AsPacketOut());
 </code></pre>
@@ -154,20 +152,22 @@ client.Send(placedBlock.AsPacketOut());
 <h3 id="example-blocking-the-crown">Example: Blocking the crown!</h3>
 <p>Lets say we want to disable people from placing a crown block. In order to do this, we need to listen to any blocks being placed in our world.
 The following code snippet can be used to achieve the actions we want.</p>
-<pre><code class="lang-csharp">world.OnBlockPlaced += (_, playerId, oldBlock, newBlock) =&gt;
+<pre><code class="lang-csharp">world.OnBlocksPlaced += async (sender, blocksEvent) =&gt;
 {
-    // Ignore our own bot
-    if (client.BotId == playerId) return;
+    if (client.BotId == blocksEvent.UserId) return;
 
-    if (newBlock.Block.Block != PixelBlock.Crown) return;
-    client.Send(oldBlock.AsPacketOut());
+    var replace = new List&lt;IPlacedBlock&gt;();
+    foreach (var pos in blocksEvent.Positions)
+    {
+        replace.Add(new PlacedBlock(pos.X, pos.Y, blocksEvent.Layer, new FlexBlock(PixelBlock.GildedGoldBasic)));
+    }
 };
 </code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/docs/guides/getting_started/manipulating_the_world.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/main/docs/guides/getting_started/manipulating_the_world.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
