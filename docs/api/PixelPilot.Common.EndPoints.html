@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.13.8/apiSpec/new?filename=PixelPilot_Common_EndPoints.md&amp;value=---%0Auid%3A%20PixelPilot.Common.EndPoints%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.14.0/apiSpec/new?filename=PixelPilot_Common_EndPoints.md&amp;value=---%0Auid%3A%20PixelPilot.Common.EndPoints%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_Common_EndPoints" data-uid="PixelPilot.Common.EndPoints" class="text-break">
-Class EndPoints  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.13.8/src/PixelPilot.Core/Common/EndPoints.cs/#L3"><i class="bi bi-code-slash"></i></a>
+Class EndPoints  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L3"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,16 +153,16 @@ Class EndPoints  <a class="header-action link-secondary" title="View source" hre
 
 
 
-  <h3 id="PixelPilot_Common_EndPoints_ApiEndpoint" data-uid="PixelPilot.Common.EndPoints.ApiEndpoint">
-  ApiEndpoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.13.8/src/PixelPilot.Core/Common/EndPoints.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_Common_EndPoints_ProductionUrl" data-uid="PixelPilot.Common.EndPoints.ProductionUrl">
+  ProductionUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string ApiEndpoint = &quot;https://api.pixelwalker.net&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string ProductionUrl = &quot;pixelwalker.net&quot;</code></pre>
   </div>
 
 
@@ -182,23 +182,90 @@ Class EndPoints  <a class="header-action link-secondary" title="View source" hre
 
 
 
+
+  <h3 id="PixelPilot_Common_EndPoints_StagingUrl" data-uid="PixelPilot.Common.EndPoints.StagingUrl">
+  StagingUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string StagingUrl = &quot;pw-staging.rnc.priddle.nl&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PixelPilot_Common_EndPoints_ApiEndpoint_" data-uid="PixelPilot.Common.EndPoints.ApiEndpoint*"></a>
+
+  <h3 id="PixelPilot_Common_EndPoints_ApiEndpoint" data-uid="PixelPilot.Common.EndPoints.ApiEndpoint">
+  ApiEndpoint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ApiEndpoint { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Common_EndPoints_GameHttpEndpoint_" data-uid="PixelPilot.Common.EndPoints.GameHttpEndpoint*"></a>
 
   <h3 id="PixelPilot_Common_EndPoints_GameHttpEndpoint" data-uid="PixelPilot.Common.EndPoints.GameHttpEndpoint">
   GameHttpEndpoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.13.8/src/PixelPilot.Core/Common/EndPoints.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string GameHttpEndpoint = &quot;https://server.pixelwalker.net&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GameHttpEndpoint { get; }</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
@@ -211,29 +278,60 @@ Class EndPoints  <a class="header-action link-secondary" title="View source" hre
 
 
 
-
+  <a id="PixelPilot_Common_EndPoints_GameWebsocketEndpoint_" data-uid="PixelPilot.Common.EndPoints.GameWebsocketEndpoint*"></a>
 
   <h3 id="PixelPilot_Common_EndPoints_GameWebsocketEndpoint" data-uid="PixelPilot.Common.EndPoints.GameWebsocketEndpoint">
   GameWebsocketEndpoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.13.8/src/PixelPilot.Core/Common/EndPoints.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string GameWebsocketEndpoint = &quot;wss://server.pixelwalker.net&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GameWebsocketEndpoint { get; }</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
+
+
+
+
+
+
+
+  <a id="PixelPilot_Common_EndPoints_UseStaging_" data-uid="PixelPilot.Common.EndPoints.UseStaging*"></a>
+
+  <h3 id="PixelPilot_Common_EndPoints_UseStaging" data-uid="PixelPilot.Common.EndPoints.UseStaging">
+  UseStaging
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UseStaging { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -246,7 +344,7 @@ Class EndPoints  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.13.8/src/PixelPilot.Core/Common/EndPoints.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.14.0/src/PixelPilot.Core/Common/EndPoints.cs/#L3" class="edit-link">Edit this page</a>
         </div>
 
 

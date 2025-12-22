@@ -910,6 +910,38 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Api.Responses.Collections.WorldEntry.Width
   nameWithType: WorldEntry.Width
+- uid: PixelPilot.Api.Responses.FieldData
+  name: FieldData
+  href: api/PixelPilot.Api.Responses.FieldData.html
+  commentId: T:PixelPilot.Api.Responses.FieldData
+  fullName: PixelPilot.Api.Responses.FieldData
+  nameWithType: FieldData
+- uid: PixelPilot.Api.Responses.FieldData.Description
+  name: Description
+  href: api/PixelPilot.Api.Responses.FieldData.html#PixelPilot_Api_Responses_FieldData_Description
+  commentId: P:PixelPilot.Api.Responses.FieldData.Description
+  fullName: PixelPilot.Api.Responses.FieldData.Description
+  nameWithType: FieldData.Description
+- uid: PixelPilot.Api.Responses.FieldData.Description*
+  name: Description
+  href: api/PixelPilot.Api.Responses.FieldData.html#PixelPilot_Api_Responses_FieldData_Description_
+  commentId: Overload:PixelPilot.Api.Responses.FieldData.Description
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.FieldData.Description
+  nameWithType: FieldData.Description
+- uid: PixelPilot.Api.Responses.FieldData.Name
+  name: Name
+  href: api/PixelPilot.Api.Responses.FieldData.html#PixelPilot_Api_Responses_FieldData_Name
+  commentId: P:PixelPilot.Api.Responses.FieldData.Name
+  fullName: PixelPilot.Api.Responses.FieldData.Name
+  nameWithType: FieldData.Name
+- uid: PixelPilot.Api.Responses.FieldData.Name*
+  name: Name
+  href: api/PixelPilot.Api.Responses.FieldData.html#PixelPilot_Api_Responses_FieldData_Name_
+  commentId: Overload:PixelPilot.Api.Responses.FieldData.Name
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.FieldData.Name
+  nameWithType: FieldData.Name
 - uid: PixelPilot.Api.Responses.JoinKeyResponse
   name: JoinKeyResponse
   href: api/PixelPilot.Api.Responses.JoinKeyResponse.html
@@ -1002,6 +1034,19 @@ references:
   commentId: T:PixelPilot.Api.Responses.PixelBlockMeta
   fullName: PixelPilot.Api.Responses.PixelBlockMeta
   nameWithType: PixelBlockMeta
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.Fields
+  name: Fields
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Fields
+  commentId: P:PixelPilot.Api.Responses.PixelBlockMeta.Fields
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.Fields
+  nameWithType: PixelBlockMeta.Fields
+- uid: PixelPilot.Api.Responses.PixelBlockMeta.Fields*
+  name: Fields
+  href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Fields_
+  commentId: Overload:PixelPilot.Api.Responses.PixelBlockMeta.Fields
+  isSpec: "True"
+  fullName: PixelPilot.Api.Responses.PixelBlockMeta.Fields
+  nameWithType: PixelBlockMeta.Fields
 - uid: PixelPilot.Api.Responses.PixelBlockMeta.Id
   name: Id
   href: api/PixelPilot.Api.Responses.PixelBlockMeta.html#PixelPilot_Api_Responses_PixelBlockMeta_Id
@@ -2277,6 +2322,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.Abstract.IPixelPilotClient.Disconnect
   nameWithType: IPixelPilotClient.Disconnect
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.GetApiClient
+  name: GetApiClient()
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_GetApiClient
+  commentId: M:PixelPilot.Client.Abstract.IPixelPilotClient.GetApiClient
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.GetApiClient()
+  nameWithType: IPixelPilotClient.GetApiClient()
+- uid: PixelPilot.Client.Abstract.IPixelPilotClient.GetApiClient*
+  name: GetApiClient
+  href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_GetApiClient_
+  commentId: Overload:PixelPilot.Client.Abstract.IPixelPilotClient.GetApiClient
+  isSpec: "True"
+  fullName: PixelPilot.Client.Abstract.IPixelPilotClient.GetApiClient
+  nameWithType: IPixelPilotClient.GetApiClient
 - uid: PixelPilot.Client.Abstract.IPixelPilotClient.Send(Google.Protobuf.IMessage)
   name: Send(IMessage)
   href: api/PixelPilot.Client.Abstract.IPixelPilotClient.html#PixelPilot_Client_Abstract_IPixelPilotClient_Send_Google_Protobuf_IMessage_
@@ -3825,6 +3883,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.PixelPilotClient.DisposeApi
   nameWithType: PixelPilotClient.DisposeApi
+- uid: PixelPilot.Client.PixelPilotClient.GetApiClient
+  name: GetApiClient()
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_GetApiClient
+  commentId: M:PixelPilot.Client.PixelPilotClient.GetApiClient
+  fullName: PixelPilot.Client.PixelPilotClient.GetApiClient()
+  nameWithType: PixelPilotClient.GetApiClient()
+- uid: PixelPilot.Client.PixelPilotClient.GetApiClient*
+  name: GetApiClient
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_GetApiClient_
+  commentId: Overload:PixelPilot.Client.PixelPilotClient.GetApiClient
+  isSpec: "True"
+  fullName: PixelPilot.Client.PixelPilotClient.GetApiClient
+  nameWithType: PixelPilotClient.GetApiClient
 - uid: PixelPilot.Client.PixelPilotClient.IsConnected
   name: IsConnected
   href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_IsConnected
@@ -6950,6 +7021,239 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Blocks.Types.WorldPortalBlock.WorldId
   nameWithType: WorldPortalBlock.WorldId
+- uid: PixelPilot.Client.World.Blocks.V2
+  name: PixelPilot.Client.World.Blocks.V2
+  href: api/PixelPilot.Client.World.Blocks.V2.html
+  commentId: N:PixelPilot.Client.World.Blocks.V2
+  fullName: PixelPilot.Client.World.Blocks.V2
+  nameWithType: PixelPilot.Client.World.Blocks.V2
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock
+  name: FlexBlock
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html
+  commentId: T:PixelPilot.Client.World.Blocks.V2.FlexBlock
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock
+  nameWithType: FlexBlock
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock)
+  name: FlexBlock(PixelBlock)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock)
+  name.vb: New(PixelBlock)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FlexBlock(PixelPilot.Client.World.Constants.PixelBlock)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.New(PixelPilot.Client.World.Constants.PixelBlock)
+  nameWithType: FlexBlock.FlexBlock(PixelBlock)
+  nameWithType.vb: FlexBlock.New(PixelBlock)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name: FlexBlock(PixelBlock, Dictionary<string, object>)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock__ctor_PixelPilot_Client_World_Constants_PixelBlock_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(PixelPilot.Client.World.Constants.PixelBlock,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name.vb: New(PixelBlock, Dictionary(Of String, Object))
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FlexBlock(PixelPilot.Client.World.Constants.PixelBlock, System.Collections.Generic.Dictionary<string, object>)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.New(PixelPilot.Client.World.Constants.PixelBlock, System.Collections.Generic.Dictionary(Of String, Object))
+  nameWithType: FlexBlock.FlexBlock(PixelBlock, Dictionary<string, object>)
+  nameWithType.vb: FlexBlock.New(PixelBlock, Dictionary(Of String, Object))
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(System.Int32)
+  name: FlexBlock(int)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock__ctor_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FlexBlock(int)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.New(Integer)
+  nameWithType: FlexBlock.FlexBlock(int)
+  nameWithType.vb: FlexBlock.New(Integer)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name: FlexBlock(int, Dictionary<string, object>)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock__ctor_System_Int32_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor(System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name.vb: New(Integer, Dictionary(Of String, Object))
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FlexBlock(int, System.Collections.Generic.Dictionary<string, object>)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.New(Integer, System.Collections.Generic.Dictionary(Of String, Object))
+  nameWithType: FlexBlock.FlexBlock(int, Dictionary<string, object>)
+  nameWithType.vb: FlexBlock.New(Integer, Dictionary(Of String, Object))
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor*
+  name: FlexBlock
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock__ctor_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FlexBlock
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.New
+  nameWithType: FlexBlock.FlexBlock
+  nameWithType.vb: FlexBlock.New
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name: AsPacketOut(List<Point>, int)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsPacketOut_System_Collections_Generic_List_System_Drawing_Point__System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(System.Collections.Generic.List{System.Drawing.Point},System.Int32)
+  name.vb: AsPacketOut(List(Of Point), Integer)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(System.Collections.Generic.List<System.Drawing.Point>, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(System.Collections.Generic.List(Of System.Drawing.Point), Integer)
+  nameWithType: FlexBlock.AsPacketOut(List<Point>, int)
+  nameWithType.vb: FlexBlock.AsPacketOut(List(Of Point), Integer)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name: AsPacketOut(int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsPacketOut_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(System.Int32,System.Int32,System.Int32)
+  name.vb: AsPacketOut(Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut(Integer, Integer, Integer)
+  nameWithType: FlexBlock.AsPacketOut(int, int, int)
+  nameWithType.vb: FlexBlock.AsPacketOut(Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut*
+  name: AsPacketOut
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsPacketOut_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPacketOut
+  nameWithType: FlexBlock.AsPacketOut
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock(System.Int32,System.Int32,System.Int32)
+  name: AsPlacedBlock(int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsPlacedBlock_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock(System.Int32,System.Int32,System.Int32)
+  name.vb: AsPlacedBlock(Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock(int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock(Integer, Integer, Integer)
+  nameWithType: FlexBlock.AsPlacedBlock(int, int, int)
+  nameWithType.vb: FlexBlock.AsPlacedBlock(Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock*
+  name: AsPlacedBlock
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsPlacedBlock_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsPlacedBlock
+  nameWithType: FlexBlock.AsPlacedBlock
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(Integer, Integer, Integer)
+  nameWithType: FlexBlock.AsWorldBuffer(int, int, int)
+  nameWithType.vb: FlexBlock.AsWorldBuffer(Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: AsWorldBuffer(int, int, int, int)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsWorldBuffer_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: AsWorldBuffer(Integer, Integer, Integer, Integer)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(int, int, int, int)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+  nameWithType: FlexBlock.AsWorldBuffer(int, int, int, int)
+  nameWithType.vb: FlexBlock.AsWorldBuffer(Integer, Integer, Integer, Integer)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer*
+  name: AsWorldBuffer
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_AsWorldBuffer_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.AsWorldBuffer
+  nameWithType: FlexBlock.AsWorldBuffer
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Block
+  name: Block
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Block
+  commentId: P:PixelPilot.Client.World.Blocks.V2.FlexBlock.Block
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Block
+  nameWithType: FlexBlock.Block
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Block*
+  name: Block
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Block_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.Block
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Block
+  nameWithType: FlexBlock.Block
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.BlockId
+  name: BlockId
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_BlockId
+  commentId: P:PixelPilot.Client.World.Blocks.V2.FlexBlock.BlockId
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.BlockId
+  nameWithType: FlexBlock.BlockId
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.BlockId*
+  name: BlockId
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_BlockId_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.BlockId
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.BlockId
+  nameWithType: FlexBlock.BlockId
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Clone
+  name: Clone()
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Clone
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.Clone
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Clone()
+  nameWithType: FlexBlock.Clone()
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Clone*
+  name: Clone
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Clone_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.Clone
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Clone
+  nameWithType: FlexBlock.Clone
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(PixelPilot.Client.World.Blocks.V2.FlexBlock)
+  name: Equals(FlexBlock)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Equals_PixelPilot_Client_World_Blocks_V2_FlexBlock_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(PixelPilot.Client.World.Blocks.V2.FlexBlock)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(PixelPilot.Client.World.Blocks.V2.FlexBlock)
+  nameWithType: FlexBlock.Equals(FlexBlock)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Equals_System_Object_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(object?)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals(Object)
+  nameWithType: FlexBlock.Equals(object?)
+  nameWithType.vb: FlexBlock.Equals(Object)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals*
+  name: Equals
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Equals_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Equals
+  nameWithType: FlexBlock.Equals
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.Fields
+  name: Fields
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_Fields
+  commentId: F:PixelPilot.Client.World.Blocks.V2.FlexBlock.Fields
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.Fields
+  nameWithType: FlexBlock.Fields
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject(System.Object)
+  name: FromObject(object)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_FromObject_System_Object_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject(System.Object)
+  name.vb: FromObject(Object)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject(object)
+  fullName.vb: PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject(Object)
+  nameWithType: FlexBlock.FromObject(object)
+  nameWithType.vb: FlexBlock.FromObject(Object)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject*
+  name: FromObject
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_FromObject_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.FromObject
+  nameWithType: FlexBlock.FromObject
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_GetHashCode
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.GetHashCode
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.GetHashCode()
+  nameWithType: FlexBlock.GetHashCode()
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_GetHashCode_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.GetHashCode
+  nameWithType: FlexBlock.GetHashCode
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.ToObject(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  name: ToObject(BlockFieldValue)
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_ToObject_PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_
+  commentId: M:PixelPilot.Client.World.Blocks.V2.FlexBlock.ToObject(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.ToObject(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  nameWithType: FlexBlock.ToObject(BlockFieldValue)
+- uid: PixelPilot.Client.World.Blocks.V2.FlexBlock.ToObject*
+  name: ToObject
+  href: api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html#PixelPilot_Client_World_Blocks_V2_FlexBlock_ToObject_
+  commentId: Overload:PixelPilot.Client.World.Blocks.V2.FlexBlock.ToObject
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Blocks.V2.FlexBlock.ToObject
+  nameWithType: FlexBlock.ToObject
 - uid: PixelPilot.Client.World.Constants
   name: PixelPilot.Client.World.Constants
   href: api/PixelPilot.Client.World.Constants.html
@@ -11258,6 +11562,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.FarmWheat
   fullName: PixelPilot.Client.World.Constants.PixelBlock.FarmWheat
   nameWithType: PixelBlock.FarmWheat
+- uid: PixelPilot.Client.World.Constants.PixelBlock.Fireworks
+  name: Fireworks
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_Fireworks
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.Fireworks
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.Fireworks
+  nameWithType: PixelBlock.Fireworks
 - uid: PixelPilot.Client.World.Constants.PixelBlock.FogBottom
   name: FogBottom
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_FogBottom
@@ -12062,6 +12372,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.HalloweenEyesYellow
   fullName: PixelPilot.Client.World.Constants.PixelBlock.HalloweenEyesYellow
   nameWithType: PixelBlock.HalloweenEyesYellow
+- uid: PixelPilot.Client.World.Constants.PixelBlock.HalloweenGoblet
+  name: HalloweenGoblet
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_HalloweenGoblet
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.HalloweenGoblet
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.HalloweenGoblet
+  nameWithType: PixelBlock.HalloweenGoblet
 - uid: PixelPilot.Client.World.Constants.PixelBlock.HalloweenGrassPurple
   name: HalloweenGrassPurple
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_HalloweenGrassPurple
@@ -15884,6 +16200,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.TilesYellowBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.TilesYellowBg
   nameWithType: PixelBlock.TilesYellowBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.TimeDoor
+  name: TimeDoor
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_TimeDoor
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.TimeDoor
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.TimeDoor
+  nameWithType: PixelBlock.TimeDoor
 - uid: PixelPilot.Client.World.Constants.PixelBlock.ToolActivateMinimap
   name: ToolActivateMinimap
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_ToolActivateMinimap
@@ -16650,31 +16972,6 @@ references:
   commentId: T:PixelPilot.Client.World.PixelWorld.BlocksPlaced
   fullName: PixelPilot.Client.World.PixelWorld.BlocksPlaced
   nameWithType: PixelWorld.BlocksPlaced
-- uid: PixelPilot.Client.World.PixelWorld.DeserializeBlock(PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket)
-  name: DeserializeBlock(WorldBlockPlacedPacket)
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_DeserializeBlock_PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_
-  commentId: M:PixelPilot.Client.World.PixelWorld.DeserializeBlock(PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket)
-  fullName: PixelPilot.Client.World.PixelWorld.DeserializeBlock(PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket)
-  nameWithType: PixelWorld.DeserializeBlock(WorldBlockPlacedPacket)
-- uid: PixelPilot.Client.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader)
-  name: DeserializeBlock(BinaryReader)
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_DeserializeBlock_System_IO_BinaryReader_
-  commentId: M:PixelPilot.Client.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader)
-  fullName: PixelPilot.Client.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader)
-  nameWithType: PixelWorld.DeserializeBlock(BinaryReader)
-- uid: PixelPilot.Client.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader,PixelPilot.Client.World.Constants.PixelBlock)
-  name: DeserializeBlock(BinaryReader, PixelBlock)
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_DeserializeBlock_System_IO_BinaryReader_PixelPilot_Client_World_Constants_PixelBlock_
-  commentId: M:PixelPilot.Client.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader,PixelPilot.Client.World.Constants.PixelBlock)
-  fullName: PixelPilot.Client.World.PixelWorld.DeserializeBlock(System.IO.BinaryReader, PixelPilot.Client.World.Constants.PixelBlock)
-  nameWithType: PixelWorld.DeserializeBlock(BinaryReader, PixelBlock)
-- uid: PixelPilot.Client.World.PixelWorld.DeserializeBlock*
-  name: DeserializeBlock
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_DeserializeBlock_
-  commentId: Overload:PixelPilot.Client.World.PixelWorld.DeserializeBlock
-  isSpec: "True"
-  fullName: PixelPilot.Client.World.PixelWorld.DeserializeBlock
-  nameWithType: PixelWorld.DeserializeBlock
 - uid: PixelPilot.Client.World.PixelWorld.GetBlocks(System.Boolean)
   name: GetBlocks(bool)
   href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_GetBlocks_System_Boolean_
@@ -16720,22 +17017,6 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.PixelWorld.Height
   nameWithType: PixelWorld.Height
-- uid: PixelPilot.Client.World.PixelWorld.Init(System.Byte[])
-  name: Init(byte[])
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_Init_System_Byte___
-  commentId: M:PixelPilot.Client.World.PixelWorld.Init(System.Byte[])
-  name.vb: Init(Byte())
-  fullName: PixelPilot.Client.World.PixelWorld.Init(byte[])
-  fullName.vb: PixelPilot.Client.World.PixelWorld.Init(Byte())
-  nameWithType: PixelWorld.Init(byte[])
-  nameWithType.vb: PixelWorld.Init(Byte())
-- uid: PixelPilot.Client.World.PixelWorld.Init*
-  name: Init
-  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_Init_
-  commentId: Overload:PixelPilot.Client.World.PixelWorld.Init
-  isSpec: "True"
-  fullName: PixelPilot.Client.World.PixelWorld.Init
-  nameWithType: PixelWorld.Init
 - uid: PixelPilot.Client.World.PixelWorld.InitTask
   name: InitTask
   href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_InitTask
@@ -16851,21 +17132,67 @@ references:
 - uid: PixelPilot.Common.EndPoints.ApiEndpoint
   name: ApiEndpoint
   href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_ApiEndpoint
-  commentId: F:PixelPilot.Common.EndPoints.ApiEndpoint
+  commentId: P:PixelPilot.Common.EndPoints.ApiEndpoint
+  fullName: PixelPilot.Common.EndPoints.ApiEndpoint
+  nameWithType: EndPoints.ApiEndpoint
+- uid: PixelPilot.Common.EndPoints.ApiEndpoint*
+  name: ApiEndpoint
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_ApiEndpoint_
+  commentId: Overload:PixelPilot.Common.EndPoints.ApiEndpoint
+  isSpec: "True"
   fullName: PixelPilot.Common.EndPoints.ApiEndpoint
   nameWithType: EndPoints.ApiEndpoint
 - uid: PixelPilot.Common.EndPoints.GameHttpEndpoint
   name: GameHttpEndpoint
   href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_GameHttpEndpoint
-  commentId: F:PixelPilot.Common.EndPoints.GameHttpEndpoint
+  commentId: P:PixelPilot.Common.EndPoints.GameHttpEndpoint
+  fullName: PixelPilot.Common.EndPoints.GameHttpEndpoint
+  nameWithType: EndPoints.GameHttpEndpoint
+- uid: PixelPilot.Common.EndPoints.GameHttpEndpoint*
+  name: GameHttpEndpoint
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_GameHttpEndpoint_
+  commentId: Overload:PixelPilot.Common.EndPoints.GameHttpEndpoint
+  isSpec: "True"
   fullName: PixelPilot.Common.EndPoints.GameHttpEndpoint
   nameWithType: EndPoints.GameHttpEndpoint
 - uid: PixelPilot.Common.EndPoints.GameWebsocketEndpoint
   name: GameWebsocketEndpoint
   href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_GameWebsocketEndpoint
-  commentId: F:PixelPilot.Common.EndPoints.GameWebsocketEndpoint
+  commentId: P:PixelPilot.Common.EndPoints.GameWebsocketEndpoint
   fullName: PixelPilot.Common.EndPoints.GameWebsocketEndpoint
   nameWithType: EndPoints.GameWebsocketEndpoint
+- uid: PixelPilot.Common.EndPoints.GameWebsocketEndpoint*
+  name: GameWebsocketEndpoint
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_GameWebsocketEndpoint_
+  commentId: Overload:PixelPilot.Common.EndPoints.GameWebsocketEndpoint
+  isSpec: "True"
+  fullName: PixelPilot.Common.EndPoints.GameWebsocketEndpoint
+  nameWithType: EndPoints.GameWebsocketEndpoint
+- uid: PixelPilot.Common.EndPoints.ProductionUrl
+  name: ProductionUrl
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_ProductionUrl
+  commentId: F:PixelPilot.Common.EndPoints.ProductionUrl
+  fullName: PixelPilot.Common.EndPoints.ProductionUrl
+  nameWithType: EndPoints.ProductionUrl
+- uid: PixelPilot.Common.EndPoints.StagingUrl
+  name: StagingUrl
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_StagingUrl
+  commentId: F:PixelPilot.Common.EndPoints.StagingUrl
+  fullName: PixelPilot.Common.EndPoints.StagingUrl
+  nameWithType: EndPoints.StagingUrl
+- uid: PixelPilot.Common.EndPoints.UseStaging
+  name: UseStaging
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_UseStaging
+  commentId: P:PixelPilot.Common.EndPoints.UseStaging
+  fullName: PixelPilot.Common.EndPoints.UseStaging
+  nameWithType: EndPoints.UseStaging
+- uid: PixelPilot.Common.EndPoints.UseStaging*
+  name: UseStaging
+  href: api/PixelPilot.Common.EndPoints.html#PixelPilot_Common_EndPoints_UseStaging_
+  commentId: Overload:PixelPilot.Common.EndPoints.UseStaging
+  isSpec: "True"
+  fullName: PixelPilot.Common.EndPoints.UseStaging
+  nameWithType: EndPoints.UseStaging
 - uid: PixelPilot.Common.Logging
   name: PixelPilot.Common.Logging
   href: api/PixelPilot.Common.Logging.html
@@ -16922,6 +17249,12 @@ references:
   commentId: N:PixelPilot.Structures
   fullName: PixelPilot.Structures
   nameWithType: PixelPilot.Structures
+- uid: PixelPilot.Structures.Converters
+  name: PixelPilot.Structures.Converters
+  href: api/PixelPilot.Structures.Converters.html
+  commentId: N:PixelPilot.Structures.Converters
+  fullName: PixelPilot.Structures.Converters
+  nameWithType: PixelPilot.Structures.Converters
 - uid: PixelPilot.Structures.Converters.Changes
   name: PixelPilot.Structures.Converters.Changes
   href: api/PixelPilot.Structures.Converters.Changes.html
@@ -17480,6 +17813,351 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.Migrations.Migrations.Migration_2025_10_10C.DoUpdate
   nameWithType: Migration_2025_10_10C.DoUpdate
+- uid: PixelPilot.Structures.Converters.Pilot2
+  name: PixelPilot.Structures.Converters.Pilot2
+  href: api/PixelPilot.Structures.Converters.Pilot2.html
+  commentId: N:PixelPilot.Structures.Converters.Pilot2
+  fullName: PixelPilot.Structures.Converters.Pilot2
+  nameWithType: PixelPilot.Structures.Converters.Pilot2
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping
+  name: PalletMapping
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html
+  commentId: T:PixelPilot.Structures.Converters.Pilot2.PalletMapping
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping
+  nameWithType: PalletMapping
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(PixelPilot.Structures.Converters.Pilot2.PalletMapping)
+  name: Equals(PalletMapping)
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Equals_PixelPilot_Structures_Converters_Pilot2_PalletMapping_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(PixelPilot.Structures.Converters.Pilot2.PalletMapping)
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(PixelPilot.Structures.Converters.Pilot2.PalletMapping)
+  nameWithType: PalletMapping.Equals(PalletMapping)
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(System.Object)
+  name: Equals(object?)
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Equals_System_Object_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(object?)
+  fullName.vb: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals(Object)
+  nameWithType: PalletMapping.Equals(object?)
+  nameWithType.vb: PalletMapping.Equals(Object)
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals*
+  name: Equals
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Equals_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Equals
+  nameWithType: PalletMapping.Equals
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Fields
+  name: Fields
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Fields
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Fields
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Fields
+  nameWithType: PalletMapping.Fields
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Fields*
+  name: Fields
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Fields_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Fields
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Fields
+  nameWithType: PalletMapping.Fields
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.GetHashCode
+  name: GetHashCode()
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_GetHashCode
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.PalletMapping.GetHashCode
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.GetHashCode()
+  nameWithType: PalletMapping.GetHashCode()
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.GetHashCode*
+  name: GetHashCode
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_GetHashCode_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletMapping.GetHashCode
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.GetHashCode
+  nameWithType: PalletMapping.GetHashCode
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Name
+  name: Name
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Name
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Name
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Name
+  nameWithType: PalletMapping.Name
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Name*
+  name: Name
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html#PixelPilot_Structures_Converters_Pilot2_PalletMapping_Name_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletMapping.Name
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletMapping.Name
+  nameWithType: PalletMapping.Name
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference
+  name: PalletReference
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html
+  commentId: T:PixelPilot.Structures.Converters.Pilot2.PalletReference
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference
+  nameWithType: PalletReference
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.Layer
+  name: Layer
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_Layer
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PalletReference.Layer
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.Layer
+  nameWithType: PalletReference.Layer
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.Layer*
+  name: Layer
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_Layer_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletReference.Layer
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.Layer
+  nameWithType: PalletReference.Layer
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.PalletIndex
+  name: PalletIndex
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_PalletIndex
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PalletReference.PalletIndex
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.PalletIndex
+  nameWithType: PalletReference.PalletIndex
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.PalletIndex*
+  name: PalletIndex
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_PalletIndex_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletReference.PalletIndex
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.PalletIndex
+  nameWithType: PalletReference.PalletIndex
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.X
+  name: X
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_X
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PalletReference.X
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.X
+  nameWithType: PalletReference.X
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.X*
+  name: X
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_X_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletReference.X
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.X
+  nameWithType: PalletReference.X
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.Y
+  name: Y
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_Y
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PalletReference.Y
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.Y
+  nameWithType: PalletReference.Y
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReference.Y*
+  name: Y
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html#PixelPilot_Structures_Converters_Pilot2_PalletReference_Y_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletReference.Y
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReference.Y
+  nameWithType: PalletReference.Y
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter
+  name: PalletReferenceConverter
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.html
+  commentId: T:PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter
+  nameWithType: PalletReferenceConverter
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.html#PixelPilot_Structures_Converters_Pilot2_PalletReferenceConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: PalletReferenceConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: PalletReferenceConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read*
+  name: Read
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.html#PixelPilot_Structures_Converters_Pilot2_PalletReferenceConverter_Read_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Read
+  nameWithType: PalletReferenceConverter.Read
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Write(System.Text.Json.Utf8JsonWriter,PixelPilot.Structures.Converters.Pilot2.PalletReference,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, PalletReference, JsonSerializerOptions)
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.html#PixelPilot_Structures_Converters_Pilot2_PalletReferenceConverter_Write_System_Text_Json_Utf8JsonWriter_PixelPilot_Structures_Converters_Pilot2_PalletReference_System_Text_Json_JsonSerializerOptions_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Write(System.Text.Json.Utf8JsonWriter,PixelPilot.Structures.Converters.Pilot2.PalletReference,System.Text.Json.JsonSerializerOptions)
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Write(System.Text.Json.Utf8JsonWriter, PixelPilot.Structures.Converters.Pilot2.PalletReference, System.Text.Json.JsonSerializerOptions)
+  nameWithType: PalletReferenceConverter.Write(Utf8JsonWriter, PalletReference, JsonSerializerOptions)
+- uid: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Write*
+  name: Write
+  href: api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.html#PixelPilot_Structures_Converters_Pilot2_PalletReferenceConverter_Write_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Write
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.Write
+  nameWithType: PalletReferenceConverter.Write
+- uid: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer
+  name: Pilot2Serializer
+  href: api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html
+  commentId: T:PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer
+  fullName: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer
+  nameWithType: Pilot2Serializer
+- uid: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Converters.Pilot2.PilotStructureSave,System.Boolean)
+  name: ToJson(PilotStructureSave, bool)
+  href: api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html#PixelPilot_Structures_Converters_Pilot2_Pilot2Serializer_ToJson_PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_System_Boolean_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Converters.Pilot2.PilotStructureSave,System.Boolean)
+  name.vb: ToJson(PilotStructureSave, Boolean)
+  fullName: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Converters.Pilot2.PilotStructureSave, bool)
+  fullName.vb: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Converters.Pilot2.PilotStructureSave, Boolean)
+  nameWithType: Pilot2Serializer.ToJson(PilotStructureSave, bool)
+  nameWithType.vb: Pilot2Serializer.ToJson(PilotStructureSave, Boolean)
+- uid: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Structure,System.Boolean)
+  name: ToJson(Structure, bool)
+  href: api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html#PixelPilot_Structures_Converters_Pilot2_Pilot2Serializer_ToJson_PixelPilot_Structures_Structure_System_Boolean_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Structure,System.Boolean)
+  name.vb: ToJson(Structure, Boolean)
+  fullName: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Structure, bool)
+  fullName.vb: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson(PixelPilot.Structures.Structure, Boolean)
+  nameWithType: Pilot2Serializer.ToJson(Structure, bool)
+  nameWithType.vb: Pilot2Serializer.ToJson(Structure, Boolean)
+- uid: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson*
+  name: ToJson
+  href: api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html#PixelPilot_Structures_Converters_Pilot2_Pilot2Serializer_ToJson_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToJson
+  nameWithType: Pilot2Serializer.ToJson
+- uid: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure(System.String)
+  name: ToStructure(string)
+  href: api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html#PixelPilot_Structures_Converters_Pilot2_Pilot2Serializer_ToStructure_System_String_
+  commentId: M:PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure(System.String)
+  name.vb: ToStructure(String)
+  fullName: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure(string)
+  fullName.vb: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure(String)
+  nameWithType: Pilot2Serializer.ToStructure(string)
+  nameWithType.vb: Pilot2Serializer.ToStructure(String)
+- uid: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure*
+  name: ToStructure
+  href: api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html#PixelPilot_Structures_Converters_Pilot2_Pilot2Serializer_ToStructure_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.ToStructure
+  nameWithType: Pilot2Serializer.ToStructure
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave
+  name: PilotStructureSave
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html
+  commentId: T:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave
+  nameWithType: PilotStructureSave
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockPallet
+  name: BlockPallet
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_BlockPallet
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockPallet
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockPallet
+  nameWithType: PilotStructureSave.BlockPallet
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockPallet*
+  name: BlockPallet
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_BlockPallet_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockPallet
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockPallet
+  nameWithType: PilotStructureSave.BlockPallet
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockReferences
+  name: BlockReferences
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_BlockReferences
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockReferences
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockReferences
+  nameWithType: PilotStructureSave.BlockReferences
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockReferences*
+  name: BlockReferences
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_BlockReferences_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockReferences
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlockReferences
+  nameWithType: PilotStructureSave.BlockReferences
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlocksVersion
+  name: BlocksVersion
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_BlocksVersion
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlocksVersion
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlocksVersion
+  nameWithType: PilotStructureSave.BlocksVersion
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlocksVersion*
+  name: BlocksVersion
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_BlocksVersion_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlocksVersion
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.BlocksVersion
+  nameWithType: PilotStructureSave.BlocksVersion
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Height
+  name: Height
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Height
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Height
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Height
+  nameWithType: PilotStructureSave.Height
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Height*
+  name: Height
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Height_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Height
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Height
+  nameWithType: PilotStructureSave.Height
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Meta
+  name: Meta
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Meta
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Meta
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Meta
+  nameWithType: PilotStructureSave.Meta
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Meta*
+  name: Meta
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Meta_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Meta
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Meta
+  nameWithType: PilotStructureSave.Meta
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Version
+  name: Version
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Version
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Version
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Version
+  nameWithType: PilotStructureSave.Version
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Version*
+  name: Version
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Version_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Version
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Version
+  nameWithType: PilotStructureSave.Version
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Width
+  name: Width
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Width
+  commentId: P:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Width
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Width
+  nameWithType: PilotStructureSave.Width
+- uid: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Width*
+  name: Width
+  href: api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html#PixelPilot_Structures_Converters_Pilot2_PilotStructureSave_Width_
+  commentId: Overload:PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Width
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.Width
+  nameWithType: PilotStructureSave.Width
+- uid: PixelPilot.Structures.Converters.PilotSaveSerializer
+  name: PilotSaveSerializer
+  href: api/PixelPilot.Structures.Converters.PilotSaveSerializer.html
+  commentId: T:PixelPilot.Structures.Converters.PilotSaveSerializer
+  fullName: PixelPilot.Structures.Converters.PilotSaveSerializer
+  nameWithType: PilotSaveSerializer
+- uid: PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize(System.String)
+  name: Deserialize(string)
+  href: api/PixelPilot.Structures.Converters.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSaveSerializer_Deserialize_System_String_
+  commentId: M:PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize(System.String)
+  name.vb: Deserialize(String)
+  fullName: PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize(string)
+  fullName.vb: PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize(String)
+  nameWithType: PilotSaveSerializer.Deserialize(string)
+  nameWithType.vb: PilotSaveSerializer.Deserialize(String)
+- uid: PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize*
+  name: Deserialize
+  href: api/PixelPilot.Structures.Converters.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSaveSerializer_Deserialize_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSaveSerializer.Deserialize
+  nameWithType: PilotSaveSerializer.Deserialize
+- uid: PixelPilot.Structures.Converters.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
+  name: Serialize(Structure)
+  href: api/PixelPilot.Structures.Converters.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSaveSerializer_Serialize_PixelPilot_Structures_Structure_
+  commentId: M:PixelPilot.Structures.Converters.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
+  fullName: PixelPilot.Structures.Converters.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
+  nameWithType: PilotSaveSerializer.Serialize(Structure)
+- uid: PixelPilot.Structures.Converters.PilotSaveSerializer.Serialize*
+  name: Serialize
+  href: api/PixelPilot.Structures.Converters.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSaveSerializer_Serialize_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSaveSerializer.Serialize
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSaveSerializer.Serialize
+  nameWithType: PilotSaveSerializer.Serialize
 - uid: PixelPilot.Structures.Converters.PilotSimple
   name: PixelPilot.Structures.Converters.PilotSimple
   href: api/PixelPilot.Structures.Converters.PilotSimple.html
@@ -17492,6 +18170,38 @@ references:
   commentId: T:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter
   fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter
   nameWithType: JsonBlockListConverter
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.#ctor
+  name: JsonBlockListConverter()
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter__ctor
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.JsonBlockListConverter()
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.New()
+  nameWithType: JsonBlockListConverter.JsonBlockListConverter()
+  nameWithType.vb: JsonBlockListConverter.New()
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.#ctor*
+  name: JsonBlockListConverter
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter__ctor_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.JsonBlockListConverter
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.New
+  nameWithType: JsonBlockListConverter.JsonBlockListConverter
+  nameWithType.vb: JsonBlockListConverter.New
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.LegacyStructureSerializer(System.IO.BinaryReader,PixelPilot.Client.World.Constants.PixelBlock)
+  name: LegacyStructureSerializer(BinaryReader, PixelBlock)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_LegacyStructureSerializer_System_IO_BinaryReader_PixelPilot_Client_World_Constants_PixelBlock_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.LegacyStructureSerializer(System.IO.BinaryReader,PixelPilot.Client.World.Constants.PixelBlock)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.LegacyStructureSerializer(System.IO.BinaryReader, PixelPilot.Client.World.Constants.PixelBlock)
+  nameWithType: JsonBlockListConverter.LegacyStructureSerializer(BinaryReader, PixelBlock)
+- uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.LegacyStructureSerializer*
+  name: LegacyStructureSerializer
+  href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_LegacyStructureSerializer_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.LegacyStructureSerializer
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.LegacyStructureSerializer
+  nameWithType: JsonBlockListConverter.LegacyStructureSerializer
 - uid: PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
   name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
   href: api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.html#PixelPilot_Structures_Converters_PilotSimple_JsonBlockListConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
@@ -17597,41 +18307,28 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Converters.PilotSimple.MappedBlockData.Version
   nameWithType: MappedBlockData.Version
-- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer
-  name: PilotSaveSerializer
-  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html
-  commentId: T:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer
-  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer
-  nameWithType: PilotSaveSerializer
-- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(System.String)
-  name: Deserialize(string)
-  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Deserialize_System_String_
-  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(System.String)
-  name.vb: Deserialize(String)
-  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(string)
-  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize(String)
-  nameWithType: PilotSaveSerializer.Deserialize(string)
-  nameWithType.vb: PilotSaveSerializer.Deserialize(String)
-- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize*
-  name: Deserialize
-  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Deserialize_
-  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer
+  name: PilotSimpleSerializer
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.html
+  commentId: T:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer
+  nameWithType: PilotSimpleSerializer
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure(System.String)
+  name: ToStructure(string)
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleSerializer_ToStructure_System_String_
+  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure(System.String)
+  name.vb: ToStructure(String)
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure(string)
+  fullName.vb: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure(String)
+  nameWithType: PilotSimpleSerializer.ToStructure(string)
+  nameWithType.vb: PilotSimpleSerializer.ToStructure(String)
+- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure*
+  name: ToStructure
+  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSimpleSerializer_ToStructure_
+  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure
   isSpec: "True"
-  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Deserialize
-  nameWithType: PilotSaveSerializer.Deserialize
-- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
-  name: Serialize(Structure)
-  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Serialize_PixelPilot_Structures_Structure_
-  commentId: M:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
-  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize(PixelPilot.Structures.Structure)
-  nameWithType: PilotSaveSerializer.Serialize(Structure)
-- uid: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize*
-  name: Serialize
-  href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html#PixelPilot_Structures_Converters_PilotSimple_PilotSaveSerializer_Serialize_
-  commentId: Overload:PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize
-  isSpec: "True"
-  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.Serialize
-  nameWithType: PilotSaveSerializer.Serialize
+  fullName: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.ToStructure
+  nameWithType: PilotSimpleSerializer.ToStructure
 - uid: PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure
   name: PilotSimpleStructure
   href: api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleStructure.html
@@ -17919,6 +18616,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Structure.Blocks
   nameWithType: Structure.Blocks
+- uid: PixelPilot.Structures.Structure.BlocksMatrix
+  name: BlocksMatrix
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_BlocksMatrix
+  commentId: P:PixelPilot.Structures.Structure.BlocksMatrix
+  fullName: PixelPilot.Structures.Structure.BlocksMatrix
+  nameWithType: Structure.BlocksMatrix
+- uid: PixelPilot.Structures.Structure.BlocksMatrix*
+  name: BlocksMatrix
+  href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_BlocksMatrix_
+  commentId: Overload:PixelPilot.Structures.Structure.BlocksMatrix
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Structure.BlocksMatrix
+  nameWithType: Structure.BlocksMatrix
 - uid: PixelPilot.Structures.Structure.BlocksWithEmpty
   name: BlocksWithEmpty
   href: api/PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_BlocksWithEmpty
@@ -17990,6 +18700,669 @@ references:
   commentId: N:PixelWalker.Networking.Protobuf.WorldPackets
   fullName: PixelWalker.Networking.Protobuf.WorldPackets
   nameWithType: PixelWalker.Networking.Protobuf.WorldPackets
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo
+  name: BlockDataInfo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo
+  nameWithType: BlockDataInfo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.#ctor
+  name: BlockDataInfo()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockDataInfo()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.New()
+  nameWithType: BlockDataInfo.BlockDataInfo()
+  nameWithType.vb: BlockDataInfo.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  name: BlockDataInfo(BlockDataInfo)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo__ctor_PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  name.vb: New(BlockDataInfo)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockDataInfo(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.New(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  nameWithType: BlockDataInfo.BlockDataInfo(BlockDataInfo)
+  nameWithType.vb: BlockDataInfo.New(BlockDataInfo)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.#ctor*
+  name: BlockDataInfo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockDataInfo
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.New
+  nameWithType: BlockDataInfo.BlockDataInfo
+  nameWithType.vb: BlockDataInfo.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockId
+  name: BlockId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_BlockId
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockId
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockId
+  nameWithType: BlockDataInfo.BlockId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockId*
+  name: BlockId
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_BlockId_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockId
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockId
+  nameWithType: BlockDataInfo.BlockId
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockIdFieldNumber
+  name: BlockIdFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_BlockIdFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockIdFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.BlockIdFieldNumber
+  nameWithType: BlockDataInfo.BlockIdFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.CalculateSize()
+  nameWithType: BlockDataInfo.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.CalculateSize
+  nameWithType: BlockDataInfo.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Clone()
+  nameWithType: BlockDataInfo.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Clone
+  nameWithType: BlockDataInfo.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Descriptor
+  nameWithType: BlockDataInfo.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Descriptor
+  nameWithType: BlockDataInfo.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  name: Equals(BlockDataInfo)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Equals_PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  nameWithType: BlockDataInfo.Equals(BlockDataInfo)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals(Object)
+  nameWithType: BlockDataInfo.Equals(object)
+  nameWithType.vb: BlockDataInfo.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Equals
+  nameWithType: BlockDataInfo.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Fields
+  name: Fields
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Fields
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Fields
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Fields
+  nameWithType: BlockDataInfo.Fields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Fields*
+  name: Fields
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Fields_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Fields
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Fields
+  nameWithType: BlockDataInfo.Fields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.FieldsFieldNumber
+  name: FieldsFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_FieldsFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.FieldsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.FieldsFieldNumber
+  nameWithType: BlockDataInfo.FieldsFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.GetHashCode()
+  nameWithType: BlockDataInfo.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.GetHashCode
+  nameWithType: BlockDataInfo.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: BlockDataInfo.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  name: MergeFrom(BlockDataInfo)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo)
+  nameWithType: BlockDataInfo.MergeFrom(BlockDataInfo)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.MergeFrom
+  nameWithType: BlockDataInfo.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Parser
+  nameWithType: BlockDataInfo.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.Parser
+  nameWithType: BlockDataInfo.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.ToString()
+  nameWithType: BlockDataInfo.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.ToString
+  nameWithType: BlockDataInfo.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: BlockDataInfo.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockDataInfo_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.WriteTo
+  nameWithType: BlockDataInfo.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue
+  name: BlockFieldValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue
+  nameWithType: BlockFieldValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.#ctor
+  name: BlockFieldValue()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BlockFieldValue()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.New()
+  nameWithType: BlockFieldValue.BlockFieldValue()
+  nameWithType.vb: BlockFieldValue.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  name: BlockFieldValue(BlockFieldValue)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue__ctor_PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  name.vb: New(BlockFieldValue)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BlockFieldValue(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.New(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  nameWithType: BlockFieldValue.BlockFieldValue(BlockFieldValue)
+  nameWithType.vb: BlockFieldValue.New(BlockFieldValue)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.#ctor*
+  name: BlockFieldValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BlockFieldValue
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.New
+  nameWithType: BlockFieldValue.BlockFieldValue
+  nameWithType.vb: BlockFieldValue.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValue
+  name: BoolValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_BoolValue
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValue
+  nameWithType: BlockFieldValue.BoolValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValue*
+  name: BoolValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_BoolValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValue
+  nameWithType: BlockFieldValue.BoolValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValueFieldNumber
+  name: BoolValueFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_BoolValueFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValueFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.BoolValueFieldNumber
+  nameWithType: BlockFieldValue.BoolValueFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValue
+  name: ByteArrayValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ByteArrayValue
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValue
+  nameWithType: BlockFieldValue.ByteArrayValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValue*
+  name: ByteArrayValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ByteArrayValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValue
+  nameWithType: BlockFieldValue.ByteArrayValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValueFieldNumber
+  name: ByteArrayValueFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ByteArrayValueFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValueFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ByteArrayValueFieldNumber
+  nameWithType: BlockFieldValue.ByteArrayValueFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.CalculateSize()
+  nameWithType: BlockFieldValue.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.CalculateSize
+  nameWithType: BlockFieldValue.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearBoolValue
+  name: ClearBoolValue()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearBoolValue
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearBoolValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearBoolValue()
+  nameWithType: BlockFieldValue.ClearBoolValue()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearBoolValue*
+  name: ClearBoolValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearBoolValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearBoolValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearBoolValue
+  nameWithType: BlockFieldValue.ClearBoolValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearByteArrayValue
+  name: ClearByteArrayValue()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearByteArrayValue
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearByteArrayValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearByteArrayValue()
+  nameWithType: BlockFieldValue.ClearByteArrayValue()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearByteArrayValue*
+  name: ClearByteArrayValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearByteArrayValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearByteArrayValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearByteArrayValue
+  nameWithType: BlockFieldValue.ClearByteArrayValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearInt32Value
+  name: ClearInt32Value()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearInt32Value
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearInt32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearInt32Value()
+  nameWithType: BlockFieldValue.ClearInt32Value()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearInt32Value*
+  name: ClearInt32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearInt32Value_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearInt32Value
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearInt32Value
+  nameWithType: BlockFieldValue.ClearInt32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearStringValue
+  name: ClearStringValue()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearStringValue
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearStringValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearStringValue()
+  nameWithType: BlockFieldValue.ClearStringValue()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearStringValue*
+  name: ClearStringValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearStringValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearStringValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearStringValue
+  nameWithType: BlockFieldValue.ClearStringValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearUint32Value
+  name: ClearUint32Value()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearUint32Value
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearUint32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearUint32Value()
+  nameWithType: BlockFieldValue.ClearUint32Value()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearUint32Value*
+  name: ClearUint32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearUint32Value_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearUint32Value
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearUint32Value
+  nameWithType: BlockFieldValue.ClearUint32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearValue
+  name: ClearValue()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearValue
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearValue()
+  nameWithType: BlockFieldValue.ClearValue()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearValue*
+  name: ClearValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ClearValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ClearValue
+  nameWithType: BlockFieldValue.ClearValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Clone()
+  nameWithType: BlockFieldValue.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Clone
+  nameWithType: BlockFieldValue.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Descriptor
+  nameWithType: BlockFieldValue.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Descriptor
+  nameWithType: BlockFieldValue.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  name: Equals(BlockFieldValue)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Equals_PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  nameWithType: BlockFieldValue.Equals(BlockFieldValue)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals(Object)
+  nameWithType: BlockFieldValue.Equals(object)
+  nameWithType.vb: BlockFieldValue.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Equals
+  nameWithType: BlockFieldValue.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.GetHashCode()
+  nameWithType: BlockFieldValue.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.GetHashCode
+  nameWithType: BlockFieldValue.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasBoolValue
+  name: HasBoolValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasBoolValue
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasBoolValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasBoolValue
+  nameWithType: BlockFieldValue.HasBoolValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasBoolValue*
+  name: HasBoolValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasBoolValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasBoolValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasBoolValue
+  nameWithType: BlockFieldValue.HasBoolValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasByteArrayValue
+  name: HasByteArrayValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasByteArrayValue
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasByteArrayValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasByteArrayValue
+  nameWithType: BlockFieldValue.HasByteArrayValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasByteArrayValue*
+  name: HasByteArrayValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasByteArrayValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasByteArrayValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasByteArrayValue
+  nameWithType: BlockFieldValue.HasByteArrayValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasInt32Value
+  name: HasInt32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasInt32Value
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasInt32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasInt32Value
+  nameWithType: BlockFieldValue.HasInt32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasInt32Value*
+  name: HasInt32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasInt32Value_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasInt32Value
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasInt32Value
+  nameWithType: BlockFieldValue.HasInt32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasStringValue
+  name: HasStringValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasStringValue
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasStringValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasStringValue
+  nameWithType: BlockFieldValue.HasStringValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasStringValue*
+  name: HasStringValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasStringValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasStringValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasStringValue
+  nameWithType: BlockFieldValue.HasStringValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasUint32Value
+  name: HasUint32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasUint32Value
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasUint32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasUint32Value
+  nameWithType: BlockFieldValue.HasUint32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasUint32Value*
+  name: HasUint32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_HasUint32Value_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasUint32Value
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.HasUint32Value
+  nameWithType: BlockFieldValue.HasUint32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32Value
+  name: Int32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Int32Value
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32Value
+  nameWithType: BlockFieldValue.Int32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32Value*
+  name: Int32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Int32Value_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32Value
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32Value
+  nameWithType: BlockFieldValue.Int32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32ValueFieldNumber
+  name: Int32ValueFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Int32ValueFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32ValueFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Int32ValueFieldNumber
+  nameWithType: BlockFieldValue.Int32ValueFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: BlockFieldValue.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  name: MergeFrom(BlockFieldValue)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue)
+  nameWithType: BlockFieldValue.MergeFrom(BlockFieldValue)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.MergeFrom
+  nameWithType: BlockFieldValue.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Parser
+  nameWithType: BlockFieldValue.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Parser
+  nameWithType: BlockFieldValue.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValue
+  name: StringValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_StringValue
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValue
+  nameWithType: BlockFieldValue.StringValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValue*
+  name: StringValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_StringValue_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValue
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValue
+  nameWithType: BlockFieldValue.StringValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValueFieldNumber
+  name: StringValueFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_StringValueFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValueFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.StringValueFieldNumber
+  nameWithType: BlockFieldValue.StringValueFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ToString()
+  nameWithType: BlockFieldValue.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ToString
+  nameWithType: BlockFieldValue.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32Value
+  name: Uint32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Uint32Value
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32Value
+  nameWithType: BlockFieldValue.Uint32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32Value*
+  name: Uint32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Uint32Value_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32Value
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32Value
+  nameWithType: BlockFieldValue.Uint32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32ValueFieldNumber
+  name: Uint32ValueFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_Uint32ValueFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32ValueFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.Uint32ValueFieldNumber
+  nameWithType: BlockFieldValue.Uint32ValueFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueCase
+  name: ValueCase
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueCase
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueCase
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueCase
+  nameWithType: BlockFieldValue.ValueCase
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueCase*
+  name: ValueCase
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueCase_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueCase
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueCase
+  nameWithType: BlockFieldValue.ValueCase
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase
+  name: BlockFieldValue.ValueOneofCase
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase
+  nameWithType: BlockFieldValue.ValueOneofCase
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.BoolValue
+  name: BoolValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueOneofCase_BoolValue
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.BoolValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.BoolValue
+  nameWithType: BlockFieldValue.ValueOneofCase.BoolValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.ByteArrayValue
+  name: ByteArrayValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueOneofCase_ByteArrayValue
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.ByteArrayValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.ByteArrayValue
+  nameWithType: BlockFieldValue.ValueOneofCase.ByteArrayValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.Int32Value
+  name: Int32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueOneofCase_Int32Value
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.Int32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.Int32Value
+  nameWithType: BlockFieldValue.ValueOneofCase.Int32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.None
+  name: None
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueOneofCase_None
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.None
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.None
+  nameWithType: BlockFieldValue.ValueOneofCase.None
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.StringValue
+  name: StringValue
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueOneofCase_StringValue
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.StringValue
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.StringValue
+  nameWithType: BlockFieldValue.ValueOneofCase.StringValue
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.Uint32Value
+  name: Uint32Value
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_ValueOneofCase_Uint32Value
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.Uint32Value
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.Uint32Value
+  nameWithType: BlockFieldValue.ValueOneofCase.Uint32Value
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: BlockFieldValue.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html#PixelWalker_Networking_Protobuf_WorldPackets_BlockFieldValue_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.WriteTo
+  nameWithType: BlockFieldValue.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket
   name: ChangeSecretEditKeyPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html
@@ -18175,6 +19548,376 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.WriteTo
   nameWithType: ChangeSecretEditKeyPacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket
+  name: GameTicksSyncRequestPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket
+  nameWithType: GameTicksSyncRequestPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.#ctor
+  name: GameTicksSyncRequestPacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GameTicksSyncRequestPacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.New()
+  nameWithType: GameTicksSyncRequestPacket.GameTicksSyncRequestPacket()
+  nameWithType.vb: GameTicksSyncRequestPacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  name: GameTicksSyncRequestPacket(GameTicksSyncRequestPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  name.vb: New(GameTicksSyncRequestPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GameTicksSyncRequestPacket(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.New(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  nameWithType: GameTicksSyncRequestPacket.GameTicksSyncRequestPacket(GameTicksSyncRequestPacket)
+  nameWithType.vb: GameTicksSyncRequestPacket.New(GameTicksSyncRequestPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.#ctor*
+  name: GameTicksSyncRequestPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GameTicksSyncRequestPacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.New
+  nameWithType: GameTicksSyncRequestPacket.GameTicksSyncRequestPacket
+  nameWithType.vb: GameTicksSyncRequestPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.CalculateSize()
+  nameWithType: GameTicksSyncRequestPacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.CalculateSize
+  nameWithType: GameTicksSyncRequestPacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Clone()
+  nameWithType: GameTicksSyncRequestPacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Clone
+  nameWithType: GameTicksSyncRequestPacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Descriptor
+  nameWithType: GameTicksSyncRequestPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Descriptor
+  nameWithType: GameTicksSyncRequestPacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  name: Equals(GameTicksSyncRequestPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  nameWithType: GameTicksSyncRequestPacket.Equals(GameTicksSyncRequestPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals(Object)
+  nameWithType: GameTicksSyncRequestPacket.Equals(object)
+  nameWithType.vb: GameTicksSyncRequestPacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Equals
+  nameWithType: GameTicksSyncRequestPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GetHashCode()
+  nameWithType: GameTicksSyncRequestPacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.GetHashCode
+  nameWithType: GameTicksSyncRequestPacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: GameTicksSyncRequestPacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  name: MergeFrom(GameTicksSyncRequestPacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket)
+  nameWithType: GameTicksSyncRequestPacket.MergeFrom(GameTicksSyncRequestPacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.MergeFrom
+  nameWithType: GameTicksSyncRequestPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Parser
+  nameWithType: GameTicksSyncRequestPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.Parser
+  nameWithType: GameTicksSyncRequestPacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.ToString()
+  nameWithType: GameTicksSyncRequestPacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.ToString
+  nameWithType: GameTicksSyncRequestPacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: GameTicksSyncRequestPacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncRequestPacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.WriteTo
+  nameWithType: GameTicksSyncRequestPacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket
+  name: GameTicksSyncResponsePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket
+  nameWithType: GameTicksSyncResponsePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.#ctor
+  name: GameTicksSyncResponsePacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameTicksSyncResponsePacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.New()
+  nameWithType: GameTicksSyncResponsePacket.GameTicksSyncResponsePacket()
+  nameWithType.vb: GameTicksSyncResponsePacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  name: GameTicksSyncResponsePacket(GameTicksSyncResponsePacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  name.vb: New(GameTicksSyncResponsePacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameTicksSyncResponsePacket(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.New(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  nameWithType: GameTicksSyncResponsePacket.GameTicksSyncResponsePacket(GameTicksSyncResponsePacket)
+  nameWithType.vb: GameTicksSyncResponsePacket.New(GameTicksSyncResponsePacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.#ctor*
+  name: GameTicksSyncResponsePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameTicksSyncResponsePacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.New
+  nameWithType: GameTicksSyncResponsePacket.GameTicksSyncResponsePacket
+  nameWithType.vb: GameTicksSyncResponsePacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.CalculateSize()
+  nameWithType: GameTicksSyncResponsePacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.CalculateSize
+  nameWithType: GameTicksSyncResponsePacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Clone()
+  nameWithType: GameTicksSyncResponsePacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Clone
+  nameWithType: GameTicksSyncResponsePacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Descriptor
+  nameWithType: GameTicksSyncResponsePacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Descriptor
+  nameWithType: GameTicksSyncResponsePacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  name: Equals(GameTicksSyncResponsePacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  nameWithType: GameTicksSyncResponsePacket.Equals(GameTicksSyncResponsePacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals(Object)
+  nameWithType: GameTicksSyncResponsePacket.Equals(object)
+  nameWithType.vb: GameTicksSyncResponsePacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Equals
+  nameWithType: GameTicksSyncResponsePacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTime
+  name: GameElapsedTime
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_GameElapsedTime
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTime
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTime
+  nameWithType: GameTicksSyncResponsePacket.GameElapsedTime
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTime*
+  name: GameElapsedTime
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_GameElapsedTime_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTime
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTime
+  nameWithType: GameTicksSyncResponsePacket.GameElapsedTime
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTimeFieldNumber
+  name: GameElapsedTimeFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_GameElapsedTimeFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTimeFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GameElapsedTimeFieldNumber
+  nameWithType: GameTicksSyncResponsePacket.GameElapsedTimeFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GetHashCode()
+  nameWithType: GameTicksSyncResponsePacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.GetHashCode
+  nameWithType: GameTicksSyncResponsePacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPaused
+  name: IsPaused
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_IsPaused
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPaused
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPaused
+  nameWithType: GameTicksSyncResponsePacket.IsPaused
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPaused*
+  name: IsPaused
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_IsPaused_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPaused
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPaused
+  nameWithType: GameTicksSyncResponsePacket.IsPaused
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPausedFieldNumber
+  name: IsPausedFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_IsPausedFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPausedFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.IsPausedFieldNumber
+  nameWithType: GameTicksSyncResponsePacket.IsPausedFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: GameTicksSyncResponsePacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  name: MergeFrom(GameTicksSyncResponsePacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket)
+  nameWithType: GameTicksSyncResponsePacket.MergeFrom(GameTicksSyncResponsePacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.MergeFrom
+  nameWithType: GameTicksSyncResponsePacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Parser
+  nameWithType: GameTicksSyncResponsePacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.Parser
+  nameWithType: GameTicksSyncResponsePacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.ToString()
+  nameWithType: GameTicksSyncResponsePacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.ToString
+  nameWithType: GameTicksSyncResponsePacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: GameTicksSyncResponsePacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_GameTicksSyncResponsePacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.WriteTo
+  nameWithType: GameTicksSyncResponsePacket.WriteTo
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket
   name: GlobalSwitchChangedPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.GlobalSwitchChangedPacket.html
@@ -21662,6 +23405,44 @@ references:
   fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.New
   nameWithType: PlayerInitPacket.PlayerInitPacket
   nameWithType.vb: PlayerInitPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerData
+  name: BackgroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_BackgroundLayerData
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerData
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerData
+  nameWithType: PlayerInitPacket.BackgroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerData*
+  name: BackgroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_BackgroundLayerData_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerData
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerData
+  nameWithType: PlayerInitPacket.BackgroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerDataFieldNumber
+  name: BackgroundLayerDataFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_BackgroundLayerDataFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerDataFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BackgroundLayerDataFieldNumber
+  nameWithType: PlayerInitPacket.BackgroundLayerDataFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPalette
+  name: BlockDataPalette
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_BlockDataPalette
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPalette
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPalette
+  nameWithType: PlayerInitPacket.BlockDataPalette
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPalette*
+  name: BlockDataPalette
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_BlockDataPalette_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPalette
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPalette
+  nameWithType: PlayerInitPacket.BlockDataPalette
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPaletteFieldNumber
+  name: BlockDataPaletteFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_BlockDataPaletteFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPaletteFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.BlockDataPaletteFieldNumber
+  nameWithType: PlayerInitPacket.BlockDataPaletteFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.CalculateSize
   name: CalculateSize()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_CalculateSize
@@ -21723,6 +23504,44 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.Equals
   nameWithType: PlayerInitPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerData
+  name: ForegroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_ForegroundLayerData
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerData
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerData
+  nameWithType: PlayerInitPacket.ForegroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerData*
+  name: ForegroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_ForegroundLayerData_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerData
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerData
+  nameWithType: PlayerInitPacket.ForegroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerDataFieldNumber
+  name: ForegroundLayerDataFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_ForegroundLayerDataFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerDataFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ForegroundLayerDataFieldNumber
+  nameWithType: PlayerInitPacket.ForegroundLayerDataFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTime
+  name: GameElapsedTime
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_GameElapsedTime
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTime
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTime
+  nameWithType: PlayerInitPacket.GameElapsedTime
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTime*
+  name: GameElapsedTime
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_GameElapsedTime_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTime
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTime
+  nameWithType: PlayerInitPacket.GameElapsedTime
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTimeFieldNumber
+  name: GameElapsedTimeFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_GameElapsedTimeFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTimeFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GameElapsedTimeFieldNumber
+  nameWithType: PlayerInitPacket.GameElapsedTimeFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_GetHashCode
@@ -21774,6 +23593,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.MergeFrom
   nameWithType: PlayerInitPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerData
+  name: OverlayLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_OverlayLayerData
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerData
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerData
+  nameWithType: PlayerInitPacket.OverlayLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerData*
+  name: OverlayLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_OverlayLayerData_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerData
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerData
+  nameWithType: PlayerInitPacket.OverlayLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerDataFieldNumber
+  name: OverlayLayerDataFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_OverlayLayerDataFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerDataFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.OverlayLayerDataFieldNumber
+  nameWithType: PlayerInitPacket.OverlayLayerDataFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.Parser
   name: Parser
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_Parser
@@ -21857,25 +23695,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.ToString
   nameWithType: PlayerInitPacket.ToString
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldData
-  name: WorldData
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_WorldData
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldData
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldData
-  nameWithType: PlayerInitPacket.WorldData
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldData*
-  name: WorldData
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_WorldData_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldData
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldData
-  nameWithType: PlayerInitPacket.WorldData
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldDataFieldNumber
-  name: WorldDataFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_WorldDataFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldDataFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldDataFieldNumber
-  nameWithType: PlayerInitPacket.WorldDataFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.WorldHeight
   name: WorldHeight
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerInitPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_PlayerInitPacket_WorldHeight
@@ -28668,25 +30487,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Equals
   nameWithType: WorldBlockFilledPacket.Equals
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFields
-  name: ExtraFields
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_ExtraFields
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFields
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFields
-  nameWithType: WorldBlockFilledPacket.ExtraFields
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFields*
-  name: ExtraFields
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_ExtraFields_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Fields
+  name: Fields
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_Fields
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Fields
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Fields
+  nameWithType: WorldBlockFilledPacket.Fields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Fields*
+  name: Fields
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_Fields_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Fields
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFields
-  nameWithType: WorldBlockFilledPacket.ExtraFields
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFieldsFieldNumber
-  name: ExtraFieldsFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_ExtraFieldsFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFieldsFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.ExtraFieldsFieldNumber
-  nameWithType: WorldBlockFilledPacket.ExtraFieldsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.Fields
+  nameWithType: WorldBlockFilledPacket.Fields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.FieldsFieldNumber
+  name: FieldsFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_FieldsFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.FieldsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.FieldsFieldNumber
+  nameWithType: WorldBlockFilledPacket.FieldsFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockFilledPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockFilledPacket_GetHashCode
@@ -28942,25 +30761,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Equals
   nameWithType: WorldBlockPlacedPacket.Equals
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFields
-  name: ExtraFields
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_ExtraFields
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFields
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFields
-  nameWithType: WorldBlockPlacedPacket.ExtraFields
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFields*
-  name: ExtraFields
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_ExtraFields_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Fields
+  name: Fields
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_Fields
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Fields
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Fields
+  nameWithType: WorldBlockPlacedPacket.Fields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Fields*
+  name: Fields
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_Fields_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Fields
   isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFields
-  nameWithType: WorldBlockPlacedPacket.ExtraFields
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFieldsFieldNumber
-  name: ExtraFieldsFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_ExtraFieldsFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFieldsFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.ExtraFieldsFieldNumber
-  nameWithType: WorldBlockPlacedPacket.ExtraFieldsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.Fields
+  nameWithType: WorldBlockPlacedPacket.Fields
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.FieldsFieldNumber
+  name: FieldsFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_FieldsFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.FieldsFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.FieldsFieldNumber
+  nameWithType: WorldBlockPlacedPacket.FieldsFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldBlockPlacedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldBlockPlacedPacket_GetHashCode
@@ -30080,6 +31899,44 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.Equals
   nameWithType: WorldPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacket
+  name: GameTicksSyncRequestPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GameTicksSyncRequestPacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacket
+  nameWithType: WorldPacket.GameTicksSyncRequestPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacket*
+  name: GameTicksSyncRequestPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GameTicksSyncRequestPacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacket
+  nameWithType: WorldPacket.GameTicksSyncRequestPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacketFieldNumber
+  name: GameTicksSyncRequestPacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GameTicksSyncRequestPacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncRequestPacketFieldNumber
+  nameWithType: WorldPacket.GameTicksSyncRequestPacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacket
+  name: GameTicksSyncResponsePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GameTicksSyncResponsePacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacket
+  nameWithType: WorldPacket.GameTicksSyncResponsePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacket*
+  name: GameTicksSyncResponsePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GameTicksSyncResponsePacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacket
+  nameWithType: WorldPacket.GameTicksSyncResponsePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacketFieldNumber
+  name: GameTicksSyncResponsePacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GameTicksSyncResponsePacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GameTicksSyncResponsePacketFieldNumber
+  nameWithType: WorldPacket.GameTicksSyncResponsePacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_GetHashCode
@@ -30194,6 +32051,18 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
   nameWithType: WorldPacket.PacketOneofCase.ChangeSecretEditKeyPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GameTicksSyncRequestPacket
+  name: GameTicksSyncRequestPacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_GameTicksSyncRequestPacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GameTicksSyncRequestPacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GameTicksSyncRequestPacket
+  nameWithType: WorldPacket.PacketOneofCase.GameTicksSyncRequestPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GameTicksSyncResponsePacket
+  name: GameTicksSyncResponsePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_GameTicksSyncResponsePacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GameTicksSyncResponsePacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GameTicksSyncResponsePacket
+  nameWithType: WorldPacket.PacketOneofCase.GameTicksSyncResponsePacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.GlobalSwitchChangedPacket
   name: GlobalSwitchChangedPacket
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_GlobalSwitchChangedPacket
@@ -31235,6 +33104,44 @@ references:
   fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.New
   nameWithType: WorldReloadedPacket.WorldReloadedPacket
   nameWithType.vb: WorldReloadedPacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerData
+  name: BackgroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_BackgroundLayerData
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerData
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerData
+  nameWithType: WorldReloadedPacket.BackgroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerData*
+  name: BackgroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_BackgroundLayerData_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerData
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerData
+  nameWithType: WorldReloadedPacket.BackgroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerDataFieldNumber
+  name: BackgroundLayerDataFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_BackgroundLayerDataFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerDataFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BackgroundLayerDataFieldNumber
+  nameWithType: WorldReloadedPacket.BackgroundLayerDataFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPalette
+  name: BlockDataPalette
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_BlockDataPalette
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPalette
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPalette
+  nameWithType: WorldReloadedPacket.BlockDataPalette
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPalette*
+  name: BlockDataPalette
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_BlockDataPalette_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPalette
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPalette
+  nameWithType: WorldReloadedPacket.BlockDataPalette
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPaletteFieldNumber
+  name: BlockDataPaletteFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_BlockDataPaletteFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPaletteFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.BlockDataPaletteFieldNumber
+  nameWithType: WorldReloadedPacket.BlockDataPaletteFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.CalculateSize
   name: CalculateSize()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_CalculateSize
@@ -31296,6 +33203,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.Equals
   nameWithType: WorldReloadedPacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerData
+  name: ForegroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_ForegroundLayerData
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerData
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerData
+  nameWithType: WorldReloadedPacket.ForegroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerData*
+  name: ForegroundLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_ForegroundLayerData_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerData
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerData
+  nameWithType: WorldReloadedPacket.ForegroundLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerDataFieldNumber
+  name: ForegroundLayerDataFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_ForegroundLayerDataFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerDataFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ForegroundLayerDataFieldNumber
+  nameWithType: WorldReloadedPacket.ForegroundLayerDataFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.GetHashCode
   name: GetHashCode()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_GetHashCode
@@ -31328,6 +33254,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.MergeFrom
   nameWithType: WorldReloadedPacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerData
+  name: OverlayLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_OverlayLayerData
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerData
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerData
+  nameWithType: WorldReloadedPacket.OverlayLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerData*
+  name: OverlayLayerData
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_OverlayLayerData_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerData
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerData
+  nameWithType: WorldReloadedPacket.OverlayLayerData
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerDataFieldNumber
+  name: OverlayLayerDataFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_OverlayLayerDataFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerDataFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.OverlayLayerDataFieldNumber
+  nameWithType: WorldReloadedPacket.OverlayLayerDataFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.Parser
   name: Parser
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_Parser
@@ -31354,25 +33299,6 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.ToString
   nameWithType: WorldReloadedPacket.ToString
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldData
-  name: WorldData
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_WorldData
-  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldData
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldData
-  nameWithType: WorldReloadedPacket.WorldData
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldData*
-  name: WorldData
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_WorldData_
-  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldData
-  isSpec: "True"
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldData
-  nameWithType: WorldReloadedPacket.WorldData
-- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldDataFieldNumber
-  name: WorldDataFieldNumber
-  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_WorldDataFieldNumber
-  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldDataFieldNumber
-  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WorldDataFieldNumber
-  nameWithType: WorldReloadedPacket.WorldDataFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WriteTo(Google.Protobuf.CodedOutputStream)
   name: WriteTo(CodedOutputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldReloadedPacket_WriteTo_Google_Protobuf_CodedOutputStream_

@@ -132,6 +132,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.FieldData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.FieldData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Api.Responses.JoinKeyResponse.yml",
       "output": {
         ".html": {
@@ -1082,6 +1092,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.V2.FlexBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.V2.FlexBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Blocks.V2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Blocks.V2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.World.Blocks.yml",
       "output": {
         ".html": {
@@ -1412,6 +1442,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletReferenceConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.Pilot2Serializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PilotStructureSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSaveSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSaveSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.JsonBlockListConverter.yml",
       "output": {
         ".html": {
@@ -1432,10 +1532,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.yml",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSaveSerializer.html"
+          "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.PilotSimpleSerializer.html"
         }
       },
       "version": ""
@@ -1456,6 +1556,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Structures.Converters.PilotSimple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.html"
         }
       },
       "version": ""
@@ -1512,10 +1622,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.BlockDataInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.ValueOneofCase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.BlockFieldValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.yml",
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ChangeSecretEditKeyPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncRequestPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.GameTicksSyncResponsePacket.html"
         }
       },
       "version": ""
