@@ -94,6 +94,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Api.PixelApiClient.GetAuth
   nameWithType: PixelApiClient.GetAuth
+- uid: PixelPilot.Api.PixelApiClient.GetGameVersion
+  name: GetGameVersion()
+  href: api/PixelPilot.Api.PixelApiClient.html#PixelPilot_Api_PixelApiClient_GetGameVersion
+  commentId: M:PixelPilot.Api.PixelApiClient.GetGameVersion
+  fullName: PixelPilot.Api.PixelApiClient.GetGameVersion()
+  nameWithType: PixelApiClient.GetGameVersion()
+- uid: PixelPilot.Api.PixelApiClient.GetGameVersion*
+  name: GetGameVersion
+  href: api/PixelPilot.Api.PixelApiClient.html#PixelPilot_Api_PixelApiClient_GetGameVersion_
+  commentId: Overload:PixelPilot.Api.PixelApiClient.GetGameVersion
+  isSpec: "True"
+  fullName: PixelPilot.Api.PixelApiClient.GetGameVersion
+  nameWithType: PixelApiClient.GetGameVersion
 - uid: PixelPilot.Api.PixelApiClient.GetJoinKey(System.String,System.String)
   name: GetJoinKey(string, string)
   href: api/PixelPilot.Api.PixelApiClient.html#PixelPilot_Api_PixelApiClient_GetJoinKey_System_String_System_String_
