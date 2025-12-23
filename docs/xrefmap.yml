@@ -3547,6 +3547,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.PixelGameClientBuilder.ConfigurePacketQueue
   nameWithType: PixelGameClientBuilder.ConfigurePacketQueue
+- uid: PixelPilot.Client.PixelGameClientBuilder.ConnectTimeout
+  name: ConnectTimeout
+  href: api/PixelPilot.Client.PixelGameClientBuilder.html#PixelPilot_Client_PixelGameClientBuilder_ConnectTimeout
+  commentId: P:PixelPilot.Client.PixelGameClientBuilder.ConnectTimeout
+  fullName: PixelPilot.Client.PixelGameClientBuilder.ConnectTimeout
+  nameWithType: PixelGameClientBuilder.ConnectTimeout
+- uid: PixelPilot.Client.PixelGameClientBuilder.ConnectTimeout*
+  name: ConnectTimeout
+  href: api/PixelPilot.Client.PixelGameClientBuilder.html#PixelPilot_Client_PixelGameClientBuilder_ConnectTimeout_
+  commentId: Overload:PixelPilot.Client.PixelGameClientBuilder.ConnectTimeout
+  isSpec: "True"
+  fullName: PixelPilot.Client.PixelGameClientBuilder.ConnectTimeout
+  nameWithType: PixelGameClientBuilder.ConnectTimeout
 - uid: PixelPilot.Client.PixelGameClientBuilder.DisablePacketQueue
   name: DisablePacketQueue()
   href: api/PixelPilot.Client.PixelGameClientBuilder.html#PixelPilot_Client_PixelGameClientBuilder_DisablePacketQueue
@@ -3615,6 +3628,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.PixelGameClientBuilder.SetAutomaticReconnect
   nameWithType: PixelGameClientBuilder.SetAutomaticReconnect
+- uid: PixelPilot.Client.PixelGameClientBuilder.SetConnectTimeout(System.TimeSpan)
+  name: SetConnectTimeout(TimeSpan)
+  href: api/PixelPilot.Client.PixelGameClientBuilder.html#PixelPilot_Client_PixelGameClientBuilder_SetConnectTimeout_System_TimeSpan_
+  commentId: M:PixelPilot.Client.PixelGameClientBuilder.SetConnectTimeout(System.TimeSpan)
+  fullName: PixelPilot.Client.PixelGameClientBuilder.SetConnectTimeout(System.TimeSpan)
+  nameWithType: PixelGameClientBuilder.SetConnectTimeout(TimeSpan)
+- uid: PixelPilot.Client.PixelGameClientBuilder.SetConnectTimeout*
+  name: SetConnectTimeout
+  href: api/PixelPilot.Client.PixelGameClientBuilder.html#PixelPilot_Client_PixelGameClientBuilder_SetConnectTimeout_
+  commentId: Overload:PixelPilot.Client.PixelGameClientBuilder.SetConnectTimeout
+  isSpec: "True"
+  fullName: PixelPilot.Client.PixelGameClientBuilder.SetConnectTimeout
+  nameWithType: PixelGameClientBuilder.SetConnectTimeout
 - uid: PixelPilot.Client.PixelGameClientBuilder.SetEmail(System.String)
   name: SetEmail(string)
   href: api/PixelPilot.Client.PixelGameClientBuilder.html#PixelPilot_Client_PixelGameClientBuilder_SetEmail_System_String_
@@ -3739,15 +3765,15 @@ references:
   commentId: T:PixelPilot.Client.PixelPilotClient
   fullName: PixelPilot.Client.PixelPilotClient
   nameWithType: PixelPilotClient
-- uid: PixelPilot.Client.PixelPilotClient.#ctor(PixelPilot.Api.PixelApiClient,System.Boolean,System.String,System.Func{PixelPilot.Client.PixelPilotClient,PixelPilot.Client.Messages.Queue.IPixelPacketQueue})
-  name: PixelPilotClient(PixelApiClient, bool, string?, Func<PixelPilotClient, IPixelPacketQueue?>)
-  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient__ctor_PixelPilot_Api_PixelApiClient_System_Boolean_System_String_System_Func_PixelPilot_Client_PixelPilotClient_PixelPilot_Client_Messages_Queue_IPixelPacketQueue__
-  commentId: M:PixelPilot.Client.PixelPilotClient.#ctor(PixelPilot.Api.PixelApiClient,System.Boolean,System.String,System.Func{PixelPilot.Client.PixelPilotClient,PixelPilot.Client.Messages.Queue.IPixelPacketQueue})
-  name.vb: New(PixelApiClient, Boolean, String, Func(Of PixelPilotClient, IPixelPacketQueue))
-  fullName: PixelPilot.Client.PixelPilotClient.PixelPilotClient(PixelPilot.Api.PixelApiClient, bool, string?, System.Func<PixelPilot.Client.PixelPilotClient, PixelPilot.Client.Messages.Queue.IPixelPacketQueue?>)
-  fullName.vb: PixelPilot.Client.PixelPilotClient.New(PixelPilot.Api.PixelApiClient, Boolean, String, System.Func(Of PixelPilot.Client.PixelPilotClient, PixelPilot.Client.Messages.Queue.IPixelPacketQueue))
-  nameWithType: PixelPilotClient.PixelPilotClient(PixelApiClient, bool, string?, Func<PixelPilotClient, IPixelPacketQueue?>)
-  nameWithType.vb: PixelPilotClient.New(PixelApiClient, Boolean, String, Func(Of PixelPilotClient, IPixelPacketQueue))
+- uid: PixelPilot.Client.PixelPilotClient.#ctor(PixelPilot.Api.PixelApiClient,System.Boolean,System.String,System.Func{PixelPilot.Client.PixelPilotClient,PixelPilot.Client.Messages.Queue.IPixelPacketQueue},System.TimeSpan)
+  name: PixelPilotClient(PixelApiClient, bool, string?, Func<PixelPilotClient, IPixelPacketQueue?>, TimeSpan)
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient__ctor_PixelPilot_Api_PixelApiClient_System_Boolean_System_String_System_Func_PixelPilot_Client_PixelPilotClient_PixelPilot_Client_Messages_Queue_IPixelPacketQueue__System_TimeSpan_
+  commentId: M:PixelPilot.Client.PixelPilotClient.#ctor(PixelPilot.Api.PixelApiClient,System.Boolean,System.String,System.Func{PixelPilot.Client.PixelPilotClient,PixelPilot.Client.Messages.Queue.IPixelPacketQueue},System.TimeSpan)
+  name.vb: New(PixelApiClient, Boolean, String, Func(Of PixelPilotClient, IPixelPacketQueue), TimeSpan)
+  fullName: PixelPilot.Client.PixelPilotClient.PixelPilotClient(PixelPilot.Api.PixelApiClient, bool, string?, System.Func<PixelPilot.Client.PixelPilotClient, PixelPilot.Client.Messages.Queue.IPixelPacketQueue?>, System.TimeSpan)
+  fullName.vb: PixelPilot.Client.PixelPilotClient.New(PixelPilot.Api.PixelApiClient, Boolean, String, System.Func(Of PixelPilot.Client.PixelPilotClient, PixelPilot.Client.Messages.Queue.IPixelPacketQueue), System.TimeSpan)
+  nameWithType: PixelPilotClient.PixelPilotClient(PixelApiClient, bool, string?, Func<PixelPilotClient, IPixelPacketQueue?>, TimeSpan)
+  nameWithType.vb: PixelPilotClient.New(PixelApiClient, Boolean, String, Func(Of PixelPilotClient, IPixelPacketQueue), TimeSpan)
 - uid: PixelPilot.Client.PixelPilotClient.#ctor*
   name: PixelPilotClient
   href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient__ctor_
@@ -3857,6 +3883,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.PixelPilotClient.Connect
   nameWithType: PixelPilotClient.Connect
+- uid: PixelPilot.Client.PixelPilotClient.ConnectionTimeout
+  name: ConnectionTimeout
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_ConnectionTimeout
+  commentId: P:PixelPilot.Client.PixelPilotClient.ConnectionTimeout
+  fullName: PixelPilot.Client.PixelPilotClient.ConnectionTimeout
+  nameWithType: PixelPilotClient.ConnectionTimeout
+- uid: PixelPilot.Client.PixelPilotClient.ConnectionTimeout*
+  name: ConnectionTimeout
+  href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_ConnectionTimeout_
+  commentId: Overload:PixelPilot.Client.PixelPilotClient.ConnectionTimeout
+  isSpec: "True"
+  fullName: PixelPilot.Client.PixelPilotClient.ConnectionTimeout
+  nameWithType: PixelPilotClient.ConnectionTimeout
 - uid: PixelPilot.Client.PixelPilotClient.Disconnect
   name: Disconnect()
   href: api/PixelPilot.Client.PixelPilotClient.html#PixelPilot_Client_PixelPilotClient_Disconnect
