@@ -1492,6 +1492,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletFieldsConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletFieldsConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletMapping.yml",
       "output": {
         ".html": {
@@ -2272,10 +2282,40 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelsUpdatePacket.yml",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelDeletePacket.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelsUpdatePacket.html"
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelDeletePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelDeleteRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelDeleteRequestPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelUpsertPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelUpsertPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelUpsertRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldLabelUpsertRequestPacket.html"
         }
       },
       "version": ""
