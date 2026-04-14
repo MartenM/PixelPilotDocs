@@ -10234,6 +10234,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CrownSilverGate
   fullName: PixelPilot.Client.World.Constants.PixelBlock.CrownSilverGate
   nameWithType: PixelBlock.CrownSilverGate
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CustomCanvasBg
+  name: CustomCanvasBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CustomCanvasBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CustomCanvasBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CustomCanvasBg
+  nameWithType: PixelBlock.CustomCanvasBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.CustomCaveBg
+  name: CustomCaveBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CustomCaveBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.CustomCaveBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.CustomCaveBg
+  nameWithType: PixelBlock.CustomCaveBg
 - uid: PixelPilot.Client.World.Constants.PixelBlock.CustomCheckerBg
   name: CustomCheckerBg
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_CustomCheckerBg
@@ -10936,6 +10948,30 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestonePurpleBg
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestonePurpleBg
   nameWithType: PixelBlock.DungeonCobblestonePurpleBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneRed
+  name: DungeonCobblestoneRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonCobblestoneRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneRed
+  nameWithType: PixelBlock.DungeonCobblestoneRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneRedBg
+  name: DungeonCobblestoneRedBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonCobblestoneRedBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneRedBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneRedBg
+  nameWithType: PixelBlock.DungeonCobblestoneRedBg
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneYellow
+  name: DungeonCobblestoneYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonCobblestoneYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneYellow
+  nameWithType: PixelBlock.DungeonCobblestoneYellow
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneYellowBg
+  name: DungeonCobblestoneYellowBg
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonCobblestoneYellowBg
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneYellowBg
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonCobblestoneYellowBg
+  nameWithType: PixelBlock.DungeonCobblestoneYellowBg
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopBlue
   name: DungeonOnewayPillarTopBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonOnewayPillarTopBlue
@@ -10960,6 +10996,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopPurple
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopPurple
   nameWithType: PixelBlock.DungeonOnewayPillarTopPurple
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopRed
+  name: DungeonOnewayPillarTopRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonOnewayPillarTopRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopRed
+  nameWithType: PixelBlock.DungeonOnewayPillarTopRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopYellow
+  name: DungeonOnewayPillarTopYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonOnewayPillarTopYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonOnewayPillarTopYellow
+  nameWithType: PixelBlock.DungeonOnewayPillarTopYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightBlue
   name: DungeonPillarArcRightBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarArcRightBlue
@@ -10984,6 +11032,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightPurple
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightPurple
   nameWithType: PixelBlock.DungeonPillarArcRightPurple
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightRed
+  name: DungeonPillarArcRightRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarArcRightRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightRed
+  nameWithType: PixelBlock.DungeonPillarArcRightRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightYellow
+  name: DungeonPillarArcRightYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarArcRightYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarArcRightYellow
+  nameWithType: PixelBlock.DungeonPillarArcRightYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomBlue
   name: DungeonPillarBottomBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarBottomBlue
@@ -11008,6 +11068,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomPurple
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomPurple
   nameWithType: PixelBlock.DungeonPillarBottomPurple
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomRed
+  name: DungeonPillarBottomRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarBottomRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomRed
+  nameWithType: PixelBlock.DungeonPillarBottomRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomYellow
+  name: DungeonPillarBottomYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarBottomYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarBottomYellow
+  nameWithType: PixelBlock.DungeonPillarBottomYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleBlue
   name: DungeonPillarMiddleBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarMiddleBlue
@@ -11032,6 +11104,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddlePurple
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddlePurple
   nameWithType: PixelBlock.DungeonPillarMiddlePurple
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleRed
+  name: DungeonPillarMiddleRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarMiddleRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleRed
+  nameWithType: PixelBlock.DungeonPillarMiddleRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleYellow
+  name: DungeonPillarMiddleYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonPillarMiddleYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonPillarMiddleYellow
+  nameWithType: PixelBlock.DungeonPillarMiddleYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftBlue
   name: DungeonSteelArcLeftBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonSteelArcLeftBlue
@@ -11056,6 +11140,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftPurple
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftPurple
   nameWithType: PixelBlock.DungeonSteelArcLeftPurple
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftRed
+  name: DungeonSteelArcLeftRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonSteelArcLeftRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftRed
+  nameWithType: PixelBlock.DungeonSteelArcLeftRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftYellow
+  name: DungeonSteelArcLeftYellow
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonSteelArcLeftYellow
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftYellow
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonSteelArcLeftYellow
+  nameWithType: PixelBlock.DungeonSteelArcLeftYellow
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchBlue
   name: DungeonTorchBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonTorchBlue
