@@ -462,6 +462,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.Extensions.ColorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.Extensions.PlacedBlockListExtensions.yml",
       "output": {
         ".html": {
@@ -1172,6 +1182,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.IPlacedTextLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.IPlacedTextLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.ITextLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.ITextLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.LabelTextAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.LabelTextAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.LabelTextAlignmentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.LabelTextAlignmentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.PlacedTextLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.PlacedTextLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.TextLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.TextLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Labels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Labels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.BlockPlaced.yml",
       "output": {
         ".html": {
@@ -1492,6 +1572,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.ColorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.ColorConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.PalletFieldsConverter.yml",
       "output": {
         ".html": {
@@ -1636,6 +1726,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Structures.Extensions.ExtraPlacedBlockListExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.html"
         }
       },
       "version": ""
