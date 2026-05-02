@@ -11211,6 +11211,12 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchPurple
   fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchPurple
   nameWithType: PixelBlock.DungeonTorchPurple
+- uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchRed
+  name: DungeonTorchRed
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonTorchRed
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchRed
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchRed
+  nameWithType: PixelBlock.DungeonTorchRed
 - uid: PixelPilot.Client.World.Constants.PixelBlock.DungeonTorchYellow
   name: DungeonTorchYellow
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_DungeonTorchYellow
@@ -11259,6 +11265,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsCurse
   fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsCurse
   nameWithType: PixelBlock.EffectsCurse
+- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsCurseDoor
+  name: EffectsCurseDoor
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsCurseDoor
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsCurseDoor
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsCurseDoor
+  nameWithType: PixelBlock.EffectsCurseDoor
+- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsCurseGate
+  name: EffectsCurseGate
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsCurseGate
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsCurseGate
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsCurseGate
+  nameWithType: PixelBlock.EffectsCurseGate
 - uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsFly
   name: EffectsFly
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsFly
@@ -11331,6 +11349,18 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsPoison
   fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoison
   nameWithType: PixelBlock.EffectsPoison
+- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoisonDoor
+  name: EffectsPoisonDoor
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsPoisonDoor
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsPoisonDoor
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoisonDoor
+  nameWithType: PixelBlock.EffectsPoisonDoor
+- uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoisonGate
+  name: EffectsPoisonGate
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsPoisonGate
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.EffectsPoisonGate
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.EffectsPoisonGate
+  nameWithType: PixelBlock.EffectsPoisonGate
 - uid: PixelPilot.Client.World.Constants.PixelBlock.EffectsSpeed
   name: EffectsSpeed
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_EffectsSpeed
@@ -16611,6 +16641,30 @@ references:
   commentId: F:PixelPilot.Client.World.Constants.PixelBlock.ValentinesHeartRed
   fullName: PixelPilot.Client.World.Constants.PixelBlock.ValentinesHeartRed
   nameWithType: PixelBlock.ValentinesHeartRed
+- uid: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostDown
+  name: WeakBoostDown
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_WeakBoostDown
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.WeakBoostDown
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostDown
+  nameWithType: PixelBlock.WeakBoostDown
+- uid: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostLeft
+  name: WeakBoostLeft
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_WeakBoostLeft
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.WeakBoostLeft
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostLeft
+  nameWithType: PixelBlock.WeakBoostLeft
+- uid: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostRight
+  name: WeakBoostRight
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_WeakBoostRight
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.WeakBoostRight
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostRight
+  nameWithType: PixelBlock.WeakBoostRight
+- uid: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostUp
+  name: WeakBoostUp
+  href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_WeakBoostUp
+  commentId: F:PixelPilot.Client.World.Constants.PixelBlock.WeakBoostUp
+  fullName: PixelPilot.Client.World.Constants.PixelBlock.WeakBoostUp
+  nameWithType: PixelBlock.WeakBoostUp
 - uid: PixelPilot.Client.World.Constants.PixelBlock.WildwestDoorLeftBlue
   name: WildwestDoorLeftBlue
   href: api/PixelPilot.Client.World.Constants.PixelBlock.html#PixelPilot_Client_World_Constants_PixelBlock_WildwestDoorLeftBlue
