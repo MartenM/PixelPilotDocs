@@ -1252,6 +1252,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Meta.PixelWorldMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Meta.PixelWorldMeta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Meta.PixelWorldSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Meta.PixelWorldSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Meta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Meta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.BlockPlaced.yml",
       "output": {
         ".html": {
@@ -1766,6 +1796,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Structures.Structure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.WorldStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.WorldStructure.html"
         }
       },
       "version": ""
@@ -2502,6 +2542,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.yml",
       "output": {
         ".html": {
@@ -2514,11 +2564,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -2617,11 +2667,11 @@
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "guides/toc.html"
-        },
         ".json": {
           "relative_path": "guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "guides/toc.html"
         }
       },
       "version": ""
@@ -2650,11 +2700,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

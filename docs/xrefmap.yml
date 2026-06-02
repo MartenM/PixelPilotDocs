@@ -2526,6 +2526,15 @@ references:
   commentId: T:PixelPilot.Client.Extensions.ColorExtensions
   fullName: PixelPilot.Client.Extensions.ColorExtensions
   nameWithType: ColorExtensions
+- uid: PixelPilot.Client.Extensions.ColorExtensions.ToColor(System.Int32)
+  name: ToColor(int)
+  href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_ToColor_System_Int32_
+  commentId: M:PixelPilot.Client.Extensions.ColorExtensions.ToColor(System.Int32)
+  name.vb: ToColor(Integer)
+  fullName: PixelPilot.Client.Extensions.ColorExtensions.ToColor(int)
+  fullName.vb: PixelPilot.Client.Extensions.ColorExtensions.ToColor(Integer)
+  nameWithType: ColorExtensions.ToColor(int)
+  nameWithType.vb: ColorExtensions.ToColor(Integer)
 - uid: PixelPilot.Client.Extensions.ColorExtensions.ToColor(System.UInt32)
   name: ToColor(uint)
   href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_ToColor_System_UInt32_
@@ -2542,6 +2551,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.Extensions.ColorExtensions.ToColor
   nameWithType: ColorExtensions.ToColor
+- uid: PixelPilot.Client.Extensions.ColorExtensions.ToInt(System.Drawing.Color)
+  name: ToInt(Color)
+  href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_ToInt_System_Drawing_Color_
+  commentId: M:PixelPilot.Client.Extensions.ColorExtensions.ToInt(System.Drawing.Color)
+  fullName: PixelPilot.Client.Extensions.ColorExtensions.ToInt(System.Drawing.Color)
+  nameWithType: ColorExtensions.ToInt(Color)
+- uid: PixelPilot.Client.Extensions.ColorExtensions.ToInt*
+  name: ToInt
+  href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_ToInt_
+  commentId: Overload:PixelPilot.Client.Extensions.ColorExtensions.ToInt
+  isSpec: "True"
+  fullName: PixelPilot.Client.Extensions.ColorExtensions.ToInt
+  nameWithType: ColorExtensions.ToInt
 - uid: PixelPilot.Client.Extensions.ColorExtensions.ToUint(System.Drawing.Color)
   name: ToUint(Color)
   href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_ToUint_System_Drawing_Color_
@@ -17824,6 +17846,234 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Labels.TextLabel.UpdateWithProtoTextLabel
   nameWithType: TextLabel.UpdateWithProtoTextLabel
+- uid: PixelPilot.Client.World.Meta
+  name: PixelPilot.Client.World.Meta
+  href: api/PixelPilot.Client.World.Meta.html
+  commentId: N:PixelPilot.Client.World.Meta
+  fullName: PixelPilot.Client.World.Meta
+  nameWithType: PixelPilot.Client.World.Meta
+- uid: PixelPilot.Client.World.Meta.PixelWorldMeta
+  name: PixelWorldMeta
+  href: api/PixelPilot.Client.World.Meta.PixelWorldMeta.html
+  commentId: T:PixelPilot.Client.World.Meta.PixelWorldMeta
+  fullName: PixelPilot.Client.World.Meta.PixelWorldMeta
+  nameWithType: PixelWorldMeta
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings
+  name: PixelWorldSettings
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html
+  commentId: T:PixelPilot.Client.World.Meta.PixelWorldSettings
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings
+  nameWithType: PixelWorldSettings
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.#ctor
+  name: PixelWorldSettings()
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings__ctor
+  commentId: M:PixelPilot.Client.World.Meta.PixelWorldSettings.#ctor
+  name.vb: New()
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.PixelWorldSettings()
+  fullName.vb: PixelPilot.Client.World.Meta.PixelWorldSettings.New()
+  nameWithType: PixelWorldSettings.PixelWorldSettings()
+  nameWithType.vb: PixelWorldSettings.New()
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta)
+  name: PixelWorldSettings(WorldMeta)
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings__ctor_PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_
+  commentId: M:PixelPilot.Client.World.Meta.PixelWorldSettings.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta)
+  name.vb: New(WorldMeta)
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.PixelWorldSettings(PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta)
+  fullName.vb: PixelPilot.Client.World.Meta.PixelWorldSettings.New(PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta)
+  nameWithType: PixelWorldSettings.PixelWorldSettings(WorldMeta)
+  nameWithType.vb: PixelWorldSettings.New(WorldMeta)
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.#ctor*
+  name: PixelWorldSettings
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings__ctor_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.PixelWorldSettings
+  fullName.vb: PixelPilot.Client.World.Meta.PixelWorldSettings.New
+  nameWithType: PixelWorldSettings.PixelWorldSettings
+  nameWithType.vb: PixelWorldSettings.New
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.AsUpdatePacket
+  name: AsUpdatePacket()
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_AsUpdatePacket
+  commentId: M:PixelPilot.Client.World.Meta.PixelWorldSettings.AsUpdatePacket
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.AsUpdatePacket()
+  nameWithType: PixelWorldSettings.AsUpdatePacket()
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.AsUpdatePacket*
+  name: AsUpdatePacket
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_AsUpdatePacket_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.AsUpdatePacket
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.AsUpdatePacket
+  nameWithType: PixelWorldSettings.AsUpdatePacket
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.BackgroundColor
+  name: BackgroundColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_BackgroundColor
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.BackgroundColor
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.BackgroundColor
+  nameWithType: PixelWorldSettings.BackgroundColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.BackgroundColor*
+  name: BackgroundColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_BackgroundColor_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.BackgroundColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.BackgroundColor
+  nameWithType: PixelWorldSettings.BackgroundColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.Description
+  name: Description
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_Description
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.Description
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.Description
+  nameWithType: PixelWorldSettings.Description
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.Description*
+  name: Description
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_Description_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.Description
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.Description
+  nameWithType: PixelWorldSettings.Description
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.HasBackgroundColor
+  name: HasBackgroundColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_HasBackgroundColor
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.HasBackgroundColor
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.HasBackgroundColor
+  nameWithType: PixelWorldSettings.HasBackgroundColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.HasBackgroundColor*
+  name: HasBackgroundColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_HasBackgroundColor_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.HasBackgroundColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.HasBackgroundColor
+  nameWithType: PixelWorldSettings.HasBackgroundColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.HasVoidColor
+  name: HasVoidColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_HasVoidColor
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.HasVoidColor
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.HasVoidColor
+  nameWithType: PixelWorldSettings.HasVoidColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.HasVoidColor*
+  name: HasVoidColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_HasVoidColor_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.HasVoidColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.HasVoidColor
+  nameWithType: PixelWorldSettings.HasVoidColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MaxPlayers
+  name: MaxPlayers
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MaxPlayers
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.MaxPlayers
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MaxPlayers
+  nameWithType: PixelWorldSettings.MaxPlayers
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MaxPlayers*
+  name: MaxPlayers
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MaxPlayers_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.MaxPlayers
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MaxPlayers
+  nameWithType: PixelWorldSettings.MaxPlayers
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEdgeFadeWidth
+  name: MinimapEdgeFadeWidth
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapEdgeFadeWidth
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEdgeFadeWidth
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEdgeFadeWidth
+  nameWithType: PixelWorldSettings.MinimapEdgeFadeWidth
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEdgeFadeWidth*
+  name: MinimapEdgeFadeWidth
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapEdgeFadeWidth_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEdgeFadeWidth
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEdgeFadeWidth
+  nameWithType: PixelWorldSettings.MinimapEdgeFadeWidth
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEnabled
+  name: MinimapEnabled
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapEnabled
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEnabled
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEnabled
+  nameWithType: PixelWorldSettings.MinimapEnabled
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEnabled*
+  name: MinimapEnabled
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapEnabled_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEnabled
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapEnabled
+  nameWithType: PixelWorldSettings.MinimapEnabled
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxHeight
+  name: MinimapMaxHeight
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapMaxHeight
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxHeight
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxHeight
+  nameWithType: PixelWorldSettings.MinimapMaxHeight
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxHeight*
+  name: MinimapMaxHeight
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapMaxHeight_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxHeight
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxHeight
+  nameWithType: PixelWorldSettings.MinimapMaxHeight
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxWidth
+  name: MinimapMaxWidth
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapMaxWidth
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxWidth
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxWidth
+  nameWithType: PixelWorldSettings.MinimapMaxWidth
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxWidth*
+  name: MinimapMaxWidth
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapMaxWidth_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxWidth
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapMaxWidth
+  nameWithType: PixelWorldSettings.MinimapMaxWidth
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapScaled
+  name: MinimapScaled
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapScaled
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapScaled
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapScaled
+  nameWithType: PixelWorldSettings.MinimapScaled
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapScaled*
+  name: MinimapScaled
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_MinimapScaled_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapScaled
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.MinimapScaled
+  nameWithType: PixelWorldSettings.MinimapScaled
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.Title
+  name: Title
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_Title
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.Title
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.Title
+  nameWithType: PixelWorldSettings.Title
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.Title*
+  name: Title
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_Title_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.Title
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.Title
+  nameWithType: PixelWorldSettings.Title
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.Visibility
+  name: Visibility
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_Visibility
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.Visibility
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.Visibility
+  nameWithType: PixelWorldSettings.Visibility
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.Visibility*
+  name: Visibility
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_Visibility_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.Visibility
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.Visibility
+  nameWithType: PixelWorldSettings.Visibility
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.VoidColor
+  name: VoidColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_VoidColor
+  commentId: P:PixelPilot.Client.World.Meta.PixelWorldSettings.VoidColor
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.VoidColor
+  nameWithType: PixelWorldSettings.VoidColor
+- uid: PixelPilot.Client.World.Meta.PixelWorldSettings.VoidColor*
+  name: VoidColor
+  href: api/PixelPilot.Client.World.Meta.PixelWorldSettings.html#PixelPilot_Client_World_Meta_PixelWorldSettings_VoidColor_
+  commentId: Overload:PixelPilot.Client.World.Meta.PixelWorldSettings.VoidColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Meta.PixelWorldSettings.VoidColor
+  nameWithType: PixelWorldSettings.VoidColor
 - uid: PixelPilot.Client.World.PixelWorld
   name: PixelWorld
   href: api/PixelPilot.Client.World.PixelWorld.html
@@ -17960,6 +18210,19 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.PixelWorld.Height
   nameWithType: PixelWorld.Height
+- uid: PixelPilot.Client.World.PixelWorld.InternalWorldMeta
+  name: InternalWorldMeta
+  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_InternalWorldMeta
+  commentId: P:PixelPilot.Client.World.PixelWorld.InternalWorldMeta
+  fullName: PixelPilot.Client.World.PixelWorld.InternalWorldMeta
+  nameWithType: PixelWorld.InternalWorldMeta
+- uid: PixelPilot.Client.World.PixelWorld.InternalWorldMeta*
+  name: InternalWorldMeta
+  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_InternalWorldMeta_
+  commentId: Overload:PixelPilot.Client.World.PixelWorld.InternalWorldMeta
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.PixelWorld.InternalWorldMeta
+  nameWithType: PixelWorld.InternalWorldMeta
 - uid: PixelPilot.Client.World.PixelWorld.OnBlockPlaced
   name: OnBlockPlaced
   href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_OnBlockPlaced
@@ -18047,6 +18310,19 @@ references:
   commentId: T:PixelPilot.Client.World.PixelWorld.WorldReloaded
   fullName: PixelPilot.Client.World.PixelWorld.WorldReloaded
   nameWithType: PixelWorld.WorldReloaded
+- uid: PixelPilot.Client.World.PixelWorld.WorldSettings
+  name: WorldSettings
+  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_WorldSettings
+  commentId: P:PixelPilot.Client.World.PixelWorld.WorldSettings
+  fullName: PixelPilot.Client.World.PixelWorld.WorldSettings
+  nameWithType: PixelWorld.WorldSettings
+- uid: PixelPilot.Client.World.PixelWorld.WorldSettings*
+  name: WorldSettings
+  href: api/PixelPilot.Client.World.PixelWorld.html#PixelPilot_Client_World_PixelWorld_WorldSettings_
+  commentId: Overload:PixelPilot.Client.World.PixelWorld.WorldSettings
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.PixelWorld.WorldSettings
+  nameWithType: PixelWorld.WorldSettings
 - uid: PixelPilot.Common
   name: PixelPilot.Common
   href: api/PixelPilot.Common.html
@@ -19730,6 +20006,22 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetStructure
   nameWithType: WorldExtensions.GetStructure
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure(PixelPilot.Client.World.PixelWorld,System.Boolean)
+  name: GetWorldStructure(PixelWorld, bool)
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetWorldStructure_PixelPilot_Client_World_PixelWorld_System_Boolean_
+  commentId: M:PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure(PixelPilot.Client.World.PixelWorld,System.Boolean)
+  name.vb: GetWorldStructure(PixelWorld, Boolean)
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure(PixelPilot.Client.World.PixelWorld, bool)
+  fullName.vb: PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure(PixelPilot.Client.World.PixelWorld, Boolean)
+  nameWithType: WorldExtensions.GetWorldStructure(PixelWorld, bool)
+  nameWithType.vb: WorldExtensions.GetWorldStructure(PixelWorld, Boolean)
+- uid: PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure*
+  name: GetWorldStructure
+  href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_GetWorldStructure_
+  commentId: Overload:PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure
+  isSpec: "True"
+  fullName: PixelPilot.Structures.Extensions.WorldExtensions.GetWorldStructure
+  nameWithType: WorldExtensions.GetWorldStructure
 - uid: PixelPilot.Structures.Extensions.WorldExtensions.PasteSafe(PixelPilot.Client.World.PixelWorld,PixelPilot.Structures.Structure,PixelPilot.Client.PixelPilotClient,System.Drawing.Point,System.Int32)
   name: PasteSafe(PixelWorld, Structure, PixelPilotClient, Point, int)
   href: api/PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteSafe_PixelPilot_Client_World_PixelWorld_PixelPilot_Structures_Structure_PixelPilot_Client_PixelPilotClient_System_Drawing_Point_System_Int32_
@@ -19933,6 +20225,59 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Structures.Structure.Width
   nameWithType: Structure.Width
+- uid: PixelPilot.Structures.WorldStructure
+  name: WorldStructure
+  href: api/PixelPilot.Structures.WorldStructure.html
+  commentId: T:PixelPilot.Structures.WorldStructure
+  fullName: PixelPilot.Structures.WorldStructure
+  nameWithType: WorldStructure
+- uid: PixelPilot.Structures.WorldStructure.#ctor(PixelPilot.Structures.Structure)
+  name: WorldStructure(Structure)
+  href: api/PixelPilot.Structures.WorldStructure.html#PixelPilot_Structures_WorldStructure__ctor_PixelPilot_Structures_Structure_
+  commentId: M:PixelPilot.Structures.WorldStructure.#ctor(PixelPilot.Structures.Structure)
+  name.vb: New(Structure)
+  fullName: PixelPilot.Structures.WorldStructure.WorldStructure(PixelPilot.Structures.Structure)
+  fullName.vb: PixelPilot.Structures.WorldStructure.New(PixelPilot.Structures.Structure)
+  nameWithType: WorldStructure.WorldStructure(Structure)
+  nameWithType.vb: WorldStructure.New(Structure)
+- uid: PixelPilot.Structures.WorldStructure.#ctor(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},System.Collections.Generic.List{PixelPilot.Client.World.Labels.ITextLabel})
+  name: WorldStructure(int, int, Dictionary<string, string>, bool, List<IPlacedBlock>, List<ITextLabel>)
+  href: api/PixelPilot.Structures.WorldStructure.html#PixelPilot_Structures_WorldStructure__ctor_System_Int32_System_Int32_System_Collections_Generic_Dictionary_System_String_System_String__System_Boolean_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__System_Collections_Generic_List_PixelPilot_Client_World_Labels_ITextLabel__
+  commentId: M:PixelPilot.Structures.WorldStructure.#ctor(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},System.Collections.Generic.List{PixelPilot.Client.World.Labels.ITextLabel})
+  name.vb: New(Integer, Integer, Dictionary(Of String, String), Boolean, List(Of IPlacedBlock), List(Of ITextLabel))
+  fullName: PixelPilot.Structures.WorldStructure.WorldStructure(int, int, System.Collections.Generic.Dictionary<string, string>, bool, System.Collections.Generic.List<PixelPilot.Client.World.Blocks.Placed.IPlacedBlock>, System.Collections.Generic.List<PixelPilot.Client.World.Labels.ITextLabel>)
+  fullName.vb: PixelPilot.Structures.WorldStructure.New(Integer, Integer, System.Collections.Generic.Dictionary(Of String, String), Boolean, System.Collections.Generic.List(Of PixelPilot.Client.World.Blocks.Placed.IPlacedBlock), System.Collections.Generic.List(Of PixelPilot.Client.World.Labels.ITextLabel))
+  nameWithType: WorldStructure.WorldStructure(int, int, Dictionary<string, string>, bool, List<IPlacedBlock>, List<ITextLabel>)
+  nameWithType.vb: WorldStructure.New(Integer, Integer, Dictionary(Of String, String), Boolean, List(Of IPlacedBlock), List(Of ITextLabel))
+- uid: PixelPilot.Structures.WorldStructure.#ctor*
+  name: WorldStructure
+  href: api/PixelPilot.Structures.WorldStructure.html#PixelPilot_Structures_WorldStructure__ctor_
+  commentId: Overload:PixelPilot.Structures.WorldStructure.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelPilot.Structures.WorldStructure.WorldStructure
+  fullName.vb: PixelPilot.Structures.WorldStructure.New
+  nameWithType: WorldStructure.WorldStructure
+  nameWithType.vb: WorldStructure.New
+- uid: PixelPilot.Structures.WorldStructure.WorldSettings
+  name: WorldSettings
+  href: api/PixelPilot.Structures.WorldStructure.html#PixelPilot_Structures_WorldStructure_WorldSettings
+  commentId: P:PixelPilot.Structures.WorldStructure.WorldSettings
+  fullName: PixelPilot.Structures.WorldStructure.WorldSettings
+  nameWithType: WorldStructure.WorldSettings
+- uid: PixelPilot.Structures.WorldStructure.WorldSettings*
+  name: WorldSettings
+  href: api/PixelPilot.Structures.WorldStructure.html#PixelPilot_Structures_WorldStructure_WorldSettings_
+  commentId: Overload:PixelPilot.Structures.WorldStructure.WorldSettings
+  isSpec: "True"
+  fullName: PixelPilot.Structures.WorldStructure.WorldSettings
+  nameWithType: WorldStructure.WorldSettings
+- uid: PixelPilot.Structures.WorldStructure.WorldSettingsKey
+  name: WorldSettingsKey
+  href: api/PixelPilot.Structures.WorldStructure.html#PixelPilot_Structures_WorldStructure_WorldSettingsKey
+  commentId: F:PixelPilot.Structures.WorldStructure.WorldSettingsKey
+  fullName: PixelPilot.Structures.WorldStructure.WorldSettingsKey
+  nameWithType: WorldStructure.WorldSettingsKey
 - uid: PixelWalker.Networking.Protobuf.WorldPackets
   name: PixelWalker.Networking.Protobuf.WorldPackets
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.html
@@ -33756,6 +34101,25 @@ references:
   fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.New
   nameWithType: WorldMeta.WorldMeta
   nameWithType.vb: WorldMeta.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColor
+  name: BackgroundColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_BackgroundColor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColor
+  nameWithType: WorldMeta.BackgroundColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColor*
+  name: BackgroundColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_BackgroundColor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColor
+  nameWithType: WorldMeta.BackgroundColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColorFieldNumber
+  name: BackgroundColorFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_BackgroundColorFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColorFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.BackgroundColorFieldNumber
+  nameWithType: WorldMeta.BackgroundColorFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.CalculateSize
   name: CalculateSize()
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_CalculateSize
@@ -33849,6 +34213,25 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.GetHashCode
   nameWithType: WorldMeta.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColor
+  name: HasBackgroundColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasBackgroundColor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColor
+  nameWithType: WorldMeta.HasBackgroundColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColor*
+  name: HasBackgroundColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasBackgroundColor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColor
+  nameWithType: WorldMeta.HasBackgroundColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColorFieldNumber
+  name: HasBackgroundColorFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasBackgroundColorFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColorFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasBackgroundColorFieldNumber
+  nameWithType: WorldMeta.HasBackgroundColorFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasSecretEditKey
   name: HasSecretEditKey
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasSecretEditKey
@@ -33887,6 +34270,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasUnsavedChangesFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasUnsavedChangesFieldNumber
   nameWithType: WorldMeta.HasUnsavedChangesFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColor
+  name: HasVoidColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasVoidColor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColor
+  nameWithType: WorldMeta.HasVoidColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColor*
+  name: HasVoidColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasVoidColor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColor
+  nameWithType: WorldMeta.HasVoidColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColorFieldNumber
+  name: HasVoidColorFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_HasVoidColorFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColorFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.HasVoidColorFieldNumber
+  nameWithType: WorldMeta.HasVoidColorFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.MaxPlayers
   name: MaxPlayers
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_MaxPlayers
@@ -34171,6 +34573,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VisibilityFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VisibilityFieldNumber
   nameWithType: WorldMeta.VisibilityFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColor
+  name: VoidColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_VoidColor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColor
+  nameWithType: WorldMeta.VoidColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColor*
+  name: VoidColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_VoidColor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColor
+  nameWithType: WorldMeta.VoidColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColorFieldNumber
+  name: VoidColorFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_VoidColorFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColorFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.VoidColorFieldNumber
+  nameWithType: WorldMeta.VoidColorFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.Woots
   name: Woots
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldMeta.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldMeta_Woots
@@ -34974,6 +35395,12 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.WorldReloadedPacket
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.WorldReloadedPacket
   nameWithType: WorldPacket.PacketOneofCase.WorldReloadedPacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.WorldResizePacket
+  name: WorldResizePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_PacketOneofCase_WorldResizePacket
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.WorldResizePacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.PacketOneofCase.WorldResizePacket
+  nameWithType: WorldPacket.PacketOneofCase.WorldResizePacket
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.Parser
   name: Parser
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_Parser
@@ -35798,6 +36225,25 @@ references:
   commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldReloadedPacketFieldNumber
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldReloadedPacketFieldNumber
   nameWithType: WorldPacket.WorldReloadedPacketFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacket
+  name: WorldResizePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_WorldResizePacket
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacket
+  nameWithType: WorldPacket.WorldResizePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacket*
+  name: WorldResizePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_WorldResizePacket_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacket
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacket
+  nameWithType: WorldPacket.WorldResizePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacketFieldNumber
+  name: WorldResizePacketFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_WorldResizePacketFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacketFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WorldResizePacketFieldNumber
+  nameWithType: WorldPacket.WorldResizePacketFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.WriteTo(Google.Protobuf.CodedOutputStream)
   name: WriteTo(CodedOutputStream)
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldPacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldPacket_WriteTo_Google_Protobuf_CodedOutputStream_
@@ -36091,3 +36537,245 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldReloadedPacket.WriteTo
   nameWithType: WorldReloadedPacket.WriteTo
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket
+  name: WorldResizePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html
+  commentId: T:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket
+  nameWithType: WorldResizePacket
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.#ctor
+  name: WorldResizePacket()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket__ctor
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.#ctor
+  name.vb: New()
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WorldResizePacket()
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.New()
+  nameWithType: WorldResizePacket.WorldResizePacket()
+  nameWithType.vb: WorldResizePacket.New()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  name: WorldResizePacket(WorldResizePacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket__ctor_PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  name.vb: New(WorldResizePacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WorldResizePacket(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.New(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  nameWithType: WorldResizePacket.WorldResizePacket(WorldResizePacket)
+  nameWithType.vb: WorldResizePacket.New(WorldResizePacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.#ctor*
+  name: WorldResizePacket
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket__ctor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WorldResizePacket
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.New
+  nameWithType: WorldResizePacket.WorldResizePacket
+  nameWithType.vb: WorldResizePacket.New
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Bottom
+  name: Bottom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Bottom
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Bottom
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Bottom
+  nameWithType: WorldResizePacket.Bottom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Bottom*
+  name: Bottom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Bottom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Bottom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Bottom
+  nameWithType: WorldResizePacket.Bottom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.BottomFieldNumber
+  name: BottomFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_BottomFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.BottomFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.BottomFieldNumber
+  nameWithType: WorldResizePacket.BottomFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.CalculateSize
+  name: CalculateSize()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_CalculateSize
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.CalculateSize
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.CalculateSize()
+  nameWithType: WorldResizePacket.CalculateSize()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.CalculateSize*
+  name: CalculateSize
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_CalculateSize_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.CalculateSize
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.CalculateSize
+  nameWithType: WorldResizePacket.CalculateSize
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Clone
+  name: Clone()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Clone
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Clone
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Clone()
+  nameWithType: WorldResizePacket.Clone()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Clone*
+  name: Clone
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Clone_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Clone
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Clone
+  nameWithType: WorldResizePacket.Clone
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Descriptor
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Descriptor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Descriptor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Descriptor
+  nameWithType: WorldResizePacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Descriptor*
+  name: Descriptor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Descriptor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Descriptor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Descriptor
+  nameWithType: WorldResizePacket.Descriptor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  name: Equals(WorldResizePacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Equals_PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  nameWithType: WorldResizePacket.Equals(WorldResizePacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(System.Object)
+  name: Equals(object)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Equals_System_Object_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(object)
+  fullName.vb: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals(Object)
+  nameWithType: WorldResizePacket.Equals(object)
+  nameWithType.vb: WorldResizePacket.Equals(Object)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals*
+  name: Equals
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Equals_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Equals
+  nameWithType: WorldResizePacket.Equals
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.GetHashCode
+  name: GetHashCode()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_GetHashCode
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.GetHashCode
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.GetHashCode()
+  nameWithType: WorldResizePacket.GetHashCode()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.GetHashCode*
+  name: GetHashCode
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_GetHashCode_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.GetHashCode
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.GetHashCode
+  nameWithType: WorldResizePacket.GetHashCode
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Left
+  name: Left
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Left
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Left
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Left
+  nameWithType: WorldResizePacket.Left
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Left*
+  name: Left
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Left_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Left
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Left
+  nameWithType: WorldResizePacket.Left
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.LeftFieldNumber
+  name: LeftFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_LeftFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.LeftFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.LeftFieldNumber
+  nameWithType: WorldResizePacket.LeftFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: WorldResizePacket.MergeFrom(CodedInputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  name: MergeFrom(WorldResizePacket)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket)
+  nameWithType: WorldResizePacket.MergeFrom(WorldResizePacket)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom*
+  name: MergeFrom
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_MergeFrom_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.MergeFrom
+  nameWithType: WorldResizePacket.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Parser
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Parser
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Parser
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Parser
+  nameWithType: WorldResizePacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Parser*
+  name: Parser
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Parser_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Parser
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Parser
+  nameWithType: WorldResizePacket.Parser
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Right
+  name: Right
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Right
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Right
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Right
+  nameWithType: WorldResizePacket.Right
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Right*
+  name: Right
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Right_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Right
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Right
+  nameWithType: WorldResizePacket.Right
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.RightFieldNumber
+  name: RightFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_RightFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.RightFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.RightFieldNumber
+  nameWithType: WorldResizePacket.RightFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.ToString
+  name: ToString()
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_ToString
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.ToString
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.ToString()
+  nameWithType: WorldResizePacket.ToString()
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.ToString*
+  name: ToString
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_ToString_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.ToString
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.ToString
+  nameWithType: WorldResizePacket.ToString
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Top
+  name: Top
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Top
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Top
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Top
+  nameWithType: WorldResizePacket.Top
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Top*
+  name: Top
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_Top_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Top
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.Top
+  nameWithType: WorldResizePacket.Top
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.TopFieldNumber
+  name: TopFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_TopFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.TopFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.TopFieldNumber
+  nameWithType: WorldResizePacket.TopFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: WorldResizePacket.WriteTo(CodedOutputStream)
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WriteTo*
+  name: WriteTo
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html#PixelWalker_Networking_Protobuf_WorldPackets_WorldResizePacket_WriteTo_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WriteTo
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.WriteTo
+  nameWithType: WorldResizePacket.WriteTo
