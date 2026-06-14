@@ -2526,6 +2526,19 @@ references:
   commentId: T:PixelPilot.Client.Extensions.ColorExtensions
   fullName: PixelPilot.Client.Extensions.ColorExtensions
   nameWithType: ColorExtensions
+- uid: PixelPilot.Client.Extensions.ColorExtensions.EqualColor(System.Drawing.Color,System.Drawing.Color)
+  name: EqualColor(Color, Color)
+  href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_EqualColor_System_Drawing_Color_System_Drawing_Color_
+  commentId: M:PixelPilot.Client.Extensions.ColorExtensions.EqualColor(System.Drawing.Color,System.Drawing.Color)
+  fullName: PixelPilot.Client.Extensions.ColorExtensions.EqualColor(System.Drawing.Color, System.Drawing.Color)
+  nameWithType: ColorExtensions.EqualColor(Color, Color)
+- uid: PixelPilot.Client.Extensions.ColorExtensions.EqualColor*
+  name: EqualColor
+  href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_EqualColor_
+  commentId: Overload:PixelPilot.Client.Extensions.ColorExtensions.EqualColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.Extensions.ColorExtensions.EqualColor
+  nameWithType: ColorExtensions.EqualColor
 - uid: PixelPilot.Client.Extensions.ColorExtensions.ToColor(System.Int32)
   name: ToColor(int)
   href: api/PixelPilot.Client.Extensions.ColorExtensions.html#PixelPilot_Client_Extensions_ColorExtensions_ToColor_System_Int32_
