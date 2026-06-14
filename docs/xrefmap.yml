@@ -17345,6 +17345,45 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Labels.ITextLabel.MaxWidth
   nameWithType: ITextLabel.MaxWidth
+- uid: PixelPilot.Client.World.Labels.ITextLabel.OutlineColor
+  name: OutlineColor
+  href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_OutlineColor
+  commentId: P:PixelPilot.Client.World.Labels.ITextLabel.OutlineColor
+  fullName: PixelPilot.Client.World.Labels.ITextLabel.OutlineColor
+  nameWithType: ITextLabel.OutlineColor
+- uid: PixelPilot.Client.World.Labels.ITextLabel.OutlineColor*
+  name: OutlineColor
+  href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_OutlineColor_
+  commentId: Overload:PixelPilot.Client.World.Labels.ITextLabel.OutlineColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Labels.ITextLabel.OutlineColor
+  nameWithType: ITextLabel.OutlineColor
+- uid: PixelPilot.Client.World.Labels.ITextLabel.OutlineEnabled
+  name: OutlineEnabled
+  href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_OutlineEnabled
+  commentId: P:PixelPilot.Client.World.Labels.ITextLabel.OutlineEnabled
+  fullName: PixelPilot.Client.World.Labels.ITextLabel.OutlineEnabled
+  nameWithType: ITextLabel.OutlineEnabled
+- uid: PixelPilot.Client.World.Labels.ITextLabel.OutlineEnabled*
+  name: OutlineEnabled
+  href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_OutlineEnabled_
+  commentId: Overload:PixelPilot.Client.World.Labels.ITextLabel.OutlineEnabled
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Labels.ITextLabel.OutlineEnabled
+  nameWithType: ITextLabel.OutlineEnabled
+- uid: PixelPilot.Client.World.Labels.ITextLabel.OutlineWidth
+  name: OutlineWidth
+  href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_OutlineWidth
+  commentId: P:PixelPilot.Client.World.Labels.ITextLabel.OutlineWidth
+  fullName: PixelPilot.Client.World.Labels.ITextLabel.OutlineWidth
+  nameWithType: ITextLabel.OutlineWidth
+- uid: PixelPilot.Client.World.Labels.ITextLabel.OutlineWidth*
+  name: OutlineWidth
+  href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_OutlineWidth_
+  commentId: Overload:PixelPilot.Client.World.Labels.ITextLabel.OutlineWidth
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Labels.ITextLabel.OutlineWidth
+  nameWithType: ITextLabel.OutlineWidth
 - uid: PixelPilot.Client.World.Labels.ITextLabel.Position
   name: Position
   href: api/PixelPilot.Client.World.Labels.ITextLabel.html#PixelPilot_Client_World_Labels_ITextLabel_Position
@@ -17713,6 +17752,45 @@ references:
   isSpec: "True"
   fullName: PixelPilot.Client.World.Labels.TextLabel.MaxWidth
   nameWithType: TextLabel.MaxWidth
+- uid: PixelPilot.Client.World.Labels.TextLabel.OutlineColor
+  name: OutlineColor
+  href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_OutlineColor
+  commentId: P:PixelPilot.Client.World.Labels.TextLabel.OutlineColor
+  fullName: PixelPilot.Client.World.Labels.TextLabel.OutlineColor
+  nameWithType: TextLabel.OutlineColor
+- uid: PixelPilot.Client.World.Labels.TextLabel.OutlineColor*
+  name: OutlineColor
+  href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_OutlineColor_
+  commentId: Overload:PixelPilot.Client.World.Labels.TextLabel.OutlineColor
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Labels.TextLabel.OutlineColor
+  nameWithType: TextLabel.OutlineColor
+- uid: PixelPilot.Client.World.Labels.TextLabel.OutlineEnabled
+  name: OutlineEnabled
+  href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_OutlineEnabled
+  commentId: P:PixelPilot.Client.World.Labels.TextLabel.OutlineEnabled
+  fullName: PixelPilot.Client.World.Labels.TextLabel.OutlineEnabled
+  nameWithType: TextLabel.OutlineEnabled
+- uid: PixelPilot.Client.World.Labels.TextLabel.OutlineEnabled*
+  name: OutlineEnabled
+  href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_OutlineEnabled_
+  commentId: Overload:PixelPilot.Client.World.Labels.TextLabel.OutlineEnabled
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Labels.TextLabel.OutlineEnabled
+  nameWithType: TextLabel.OutlineEnabled
+- uid: PixelPilot.Client.World.Labels.TextLabel.OutlineWidth
+  name: OutlineWidth
+  href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_OutlineWidth
+  commentId: P:PixelPilot.Client.World.Labels.TextLabel.OutlineWidth
+  fullName: PixelPilot.Client.World.Labels.TextLabel.OutlineWidth
+  nameWithType: TextLabel.OutlineWidth
+- uid: PixelPilot.Client.World.Labels.TextLabel.OutlineWidth*
+  name: OutlineWidth
+  href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_OutlineWidth_
+  commentId: Overload:PixelPilot.Client.World.Labels.TextLabel.OutlineWidth
+  isSpec: "True"
+  fullName: PixelPilot.Client.World.Labels.TextLabel.OutlineWidth
+  nameWithType: TextLabel.OutlineWidth
 - uid: PixelPilot.Client.World.Labels.TextLabel.Position
   name: Position
   href: api/PixelPilot.Client.World.Labels.TextLabel.html#PixelPilot_Client_World_Labels_TextLabel_Position
@@ -31725,6 +31803,63 @@ references:
   isSpec: "True"
   fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.MergeFrom
   nameWithType: ProtoTextLabel.MergeFrom
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Outline
+  name: Outline
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_Outline
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Outline
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Outline
+  nameWithType: ProtoTextLabel.Outline
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Outline*
+  name: Outline
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_Outline_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Outline
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Outline
+  nameWithType: ProtoTextLabel.Outline
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColor
+  name: OutlineColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineColor
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColor
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColor
+  nameWithType: ProtoTextLabel.OutlineColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColor*
+  name: OutlineColor
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineColor_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColor
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColor
+  nameWithType: ProtoTextLabel.OutlineColor
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColorFieldNumber
+  name: OutlineColorFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineColorFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColorFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineColorFieldNumber
+  nameWithType: ProtoTextLabel.OutlineColorFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineFieldNumber
+  name: OutlineFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineFieldNumber
+  nameWithType: ProtoTextLabel.OutlineFieldNumber
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidth
+  name: OutlineWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineWidth
+  commentId: P:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidth
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidth
+  nameWithType: ProtoTextLabel.OutlineWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidth*
+  name: OutlineWidth
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineWidth_
+  commentId: Overload:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidth
+  isSpec: "True"
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidth
+  nameWithType: ProtoTextLabel.OutlineWidth
+- uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidthFieldNumber
+  name: OutlineWidthFieldNumber
+  href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_OutlineWidthFieldNumber
+  commentId: F:PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidthFieldNumber
+  fullName: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.OutlineWidthFieldNumber
+  nameWithType: ProtoTextLabel.OutlineWidthFieldNumber
 - uid: PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.Parser
   name: Parser
   href: api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoTextLabel.html#PixelWalker_Networking_Protobuf_WorldPackets_ProtoTextLabel_Parser
