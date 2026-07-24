@@ -1332,10 +1332,250 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.ZoneUpserted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.PixelWorld.ZoneUpserted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Client.World.PixelWorld.yml",
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Client.World.PixelWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.IPlacedZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.IPlacedZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.IZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.IZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.MembershipRle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.MembershipRle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.PlacedZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.PlacedZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.Zone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.Zone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraModeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraModeState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraModeStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraModeStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraMovementState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraMovementState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraMovementStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraMovementStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraTargetState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraTargetState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraTargetStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneCameraTargetStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneDistortionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneDistortionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneDistortionStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneDistortionStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneFogState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneFogState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneFogStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneFogStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneLightingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneLightingState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneLightingStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneLightingStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneMembershipRects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneMembershipRects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZonePlayerLightState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZonePlayerLightState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZonePlayerLightStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZonePlayerLightStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneVisionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneVisionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.ZoneVisionStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.ZoneVisionStateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Client.World.Zones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Client.World.Zones.html"
         }
       },
       "version": ""
@@ -1672,6 +1912,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.ZoneMembershipConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Converters.Pilot2.ZoneMembershipConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Structures.Converters.Pilot2.yml",
       "output": {
         ".html": {
@@ -1766,6 +2016,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.ZoneCreation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Structures.Extensions.WorldExtensions.ZoneCreation.html"
         }
       },
       "version": ""
@@ -2322,6 +2582,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.SystemMessagePacket.Types.Type.yml",
       "output": {
         ".html": {
@@ -2546,6 +2816,166 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldResizePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneAreaEditPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneAreaEditPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneAreaEditRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneAreaEditRequestPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneDeletePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneDeletePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneDeleteRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneDeleteRequestPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneReorderPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneReorderPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneReorderRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneReorderRequestPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneUpsertPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneUpsertPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneUpsertRequestPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneUpsertRequestPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMovement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraTarget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneDistortion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneDistortion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneFog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneFog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneLighting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneLighting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZonePlayerLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZonePlayerLight.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneVision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.ZoneVision.html"
         }
       },
       "version": ""

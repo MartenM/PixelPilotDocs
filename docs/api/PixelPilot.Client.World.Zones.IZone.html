@@ -1,0 +1,2221 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IZone | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IZone | PixelPilot ">
+      
+      
+      <link rel="icon" href="../images/pixel_pilot.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.16.0/apiSpec/new?filename=PixelPilot_Client_World_Zones_IZone.md&amp;value=---%0Auid%3A%20PixelPilot.Client.World.Zones.IZone%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PixelPilot.Client.World.Zones.IZone">
+
+
+
+  <h1 id="PixelPilot_Client_World_Zones_IZone" data-uid="PixelPilot.Client.World.Zones.IZone" class="text-break">
+Interface IZone  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelPilot.html">PixelPilot</a>.<a class="xref" href="PixelPilot.Client.html">Client</a>.<a class="xref" href="PixelPilot.Client.World.html">World</a>.<a class="xref" href="PixelPilot.Client.World.Zones.html">Zones</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IZone</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_CameraFollowMovement_" data-uid="PixelPilot.Client.World.Zones.IZone.CameraFollowMovement*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_CameraFollowMovement" data-uid="PixelPilot.Client.World.Zones.IZone.CameraFollowMovement">
+  CameraFollowMovement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Camera follow smoothing while not locked to this zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneCameraMovementState CameraFollowMovement { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneCameraMovementState.html">ZoneCameraMovementState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_CameraModeX_" data-uid="PixelPilot.Client.World.Zones.IZone.CameraModeX*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_CameraModeX" data-uid="PixelPilot.Client.World.Zones.IZone.CameraModeX">
+  CameraModeX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneCameraModeState CameraModeX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneCameraModeState.html">ZoneCameraModeState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_CameraModeY_" data-uid="PixelPilot.Client.World.Zones.IZone.CameraModeY*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_CameraModeY" data-uid="PixelPilot.Client.World.Zones.IZone.CameraModeY">
+  CameraModeY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneCameraModeState CameraModeY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneCameraModeState.html">ZoneCameraModeState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_CameraMovement_" data-uid="PixelPilot.Client.World.Zones.IZone.CameraMovement*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_CameraMovement" data-uid="PixelPilot.Client.World.Zones.IZone.CameraMovement">
+  CameraMovement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneCameraMovementState CameraMovement { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneCameraMovementState.html">ZoneCameraMovementState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_CameraTarget_" data-uid="PixelPilot.Client.World.Zones.IZone.CameraTarget*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_CameraTarget" data-uid="PixelPilot.Client.World.Zones.IZone.CameraTarget">
+  CameraTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneCameraTargetState CameraTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneCameraTargetState.html">ZoneCameraTargetState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Distortion_" data-uid="PixelPilot.Client.World.Zones.IZone.Distortion*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Distortion" data-uid="PixelPilot.Client.World.Zones.IZone.Distortion">
+  Distortion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneDistortionState Distortion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneDistortionState.html">ZoneDistortionState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherBottom_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherBottom*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherBottom" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherBottom">
+  DistortionFeatherBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionFeatherBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherLeft_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherLeft*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherLeft" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherLeft">
+  DistortionFeatherLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionFeatherLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherRight_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherRight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherRight" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherRight">
+  DistortionFeatherRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionFeatherRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherTop_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherTop*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionFeatherTop" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionFeatherTop">
+  DistortionFeatherTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionFeatherTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionMarginBottom_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginBottom*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionMarginBottom" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginBottom">
+  DistortionMarginBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionMarginBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionMarginLeft_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginLeft*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionMarginLeft" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginLeft">
+  DistortionMarginLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionMarginLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionMarginRight_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginRight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionMarginRight" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginRight">
+  DistortionMarginRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionMarginRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionMarginTop_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginTop*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionMarginTop" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionMarginTop">
+  DistortionMarginTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionMarginTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionScale_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionScale*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionScale" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionScale">
+  DistortionScale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionScale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionSmoothing_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionSmoothing*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionSmoothing" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionSmoothing">
+  DistortionSmoothing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionSmoothing { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionSpeed_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionSpeed*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionSpeed" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionSpeed">
+  DistortionSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_DistortionStrength_" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionStrength*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_DistortionStrength" data-uid="PixelPilot.Client.World.Zones.IZone.DistortionStrength">
+  DistortionStrength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DistortionStrength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Fog_" data-uid="PixelPilot.Client.World.Zones.IZone.Fog*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Fog" data-uid="PixelPilot.Client.World.Zones.IZone.Fog">
+  Fog
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneFogState Fog { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneFogState.html">ZoneFogState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogDensity_" data-uid="PixelPilot.Client.World.Zones.IZone.FogDensity*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogDensity" data-uid="PixelPilot.Client.World.Zones.IZone.FogDensity">
+  FogDensity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogDensity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogDirection_" data-uid="PixelPilot.Client.World.Zones.IZone.FogDirection*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogDirection" data-uid="PixelPilot.Client.World.Zones.IZone.FogDirection">
+  FogDirection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogDirection { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogFeatherBottom_" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherBottom*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogFeatherBottom" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherBottom">
+  FogFeatherBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogFeatherBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogFeatherLeft_" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherLeft*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogFeatherLeft" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherLeft">
+  FogFeatherLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogFeatherLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogFeatherRight_" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherRight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogFeatherRight" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherRight">
+  FogFeatherRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogFeatherRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogFeatherTop_" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherTop*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogFeatherTop" data-uid="PixelPilot.Client.World.Zones.IZone.FogFeatherTop">
+  FogFeatherTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogFeatherTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogHue_" data-uid="PixelPilot.Client.World.Zones.IZone.FogHue*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogHue" data-uid="PixelPilot.Client.World.Zones.IZone.FogHue">
+  FogHue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogHue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogMarginBottom_" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginBottom*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogMarginBottom" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginBottom">
+  FogMarginBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogMarginBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogMarginLeft_" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginLeft*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogMarginLeft" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginLeft">
+  FogMarginLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogMarginLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogMarginRight_" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginRight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogMarginRight" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginRight">
+  FogMarginRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogMarginRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogMarginTop_" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginTop*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogMarginTop" data-uid="PixelPilot.Client.World.Zones.IZone.FogMarginTop">
+  FogMarginTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogMarginTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogOpacity_" data-uid="PixelPilot.Client.World.Zones.IZone.FogOpacity*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogOpacity" data-uid="PixelPilot.Client.World.Zones.IZone.FogOpacity">
+  FogOpacity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogOpacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogSaturation_" data-uid="PixelPilot.Client.World.Zones.IZone.FogSaturation*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogSaturation" data-uid="PixelPilot.Client.World.Zones.IZone.FogSaturation">
+  FogSaturation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogSaturation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogSmoothing_" data-uid="PixelPilot.Client.World.Zones.IZone.FogSmoothing*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogSmoothing" data-uid="PixelPilot.Client.World.Zones.IZone.FogSmoothing">
+  FogSmoothing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogSmoothing { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_FogSpeed_" data-uid="PixelPilot.Client.World.Zones.IZone.FogSpeed*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_FogSpeed" data-uid="PixelPilot.Client.World.Zones.IZone.FogSpeed">
+  FogSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FogSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_HasVisionColor_" data-uid="PixelPilot.Client.World.Zones.IZone.HasVisionColor*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_HasVisionColor" data-uid="PixelPilot.Client.World.Zones.IZone.HasVisionColor">
+  HasVisionColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasVisionColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Height_" data-uid="PixelPilot.Client.World.Zones.IZone.Height*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Height" data-uid="PixelPilot.Client.World.Zones.IZone.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Height { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Hue_" data-uid="PixelPilot.Client.World.Zones.IZone.Hue*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Hue" data-uid="PixelPilot.Client.World.Zones.IZone.Hue">
+  Hue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Display color as a hue (0-359).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Hue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightDarkness_" data-uid="PixelPilot.Client.World.Zones.IZone.LightDarkness*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightDarkness" data-uid="PixelPilot.Client.World.Zones.IZone.LightDarkness">
+  LightDarkness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightDarkness { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightFeatherBottom_" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherBottom*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightFeatherBottom" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherBottom">
+  LightFeatherBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightFeatherBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightFeatherLeft_" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherLeft*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightFeatherLeft" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherLeft">
+  LightFeatherLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightFeatherLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightFeatherRight_" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherRight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightFeatherRight" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherRight">
+  LightFeatherRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightFeatherRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightFeatherTop_" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherTop*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightFeatherTop" data-uid="PixelPilot.Client.World.Zones.IZone.LightFeatherTop">
+  LightFeatherTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightFeatherTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightHue_" data-uid="PixelPilot.Client.World.Zones.IZone.LightHue*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightHue" data-uid="PixelPilot.Client.World.Zones.IZone.LightHue">
+  LightHue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightHue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightMarginBottom_" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginBottom*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightMarginBottom" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginBottom">
+  LightMarginBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightMarginBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightMarginLeft_" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginLeft*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightMarginLeft" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginLeft">
+  LightMarginLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightMarginLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightMarginRight_" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginRight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightMarginRight" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginRight">
+  LightMarginRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightMarginRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightMarginTop_" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginTop*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightMarginTop" data-uid="PixelPilot.Client.World.Zones.IZone.LightMarginTop">
+  LightMarginTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightMarginTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightSmoothing_" data-uid="PixelPilot.Client.World.Zones.IZone.LightSmoothing*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightSmoothing" data-uid="PixelPilot.Client.World.Zones.IZone.LightSmoothing">
+  LightSmoothing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightSmoothing { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_LightTint_" data-uid="PixelPilot.Client.World.Zones.IZone.LightTint*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_LightTint" data-uid="PixelPilot.Client.World.Zones.IZone.LightTint">
+  LightTint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LightTint { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Lighting_" data-uid="PixelPilot.Client.World.Zones.IZone.Lighting*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Lighting" data-uid="PixelPilot.Client.World.Zones.IZone.Lighting">
+  Lighting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneLightingState Lighting { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneLightingState.html">ZoneLightingState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Membership_" data-uid="PixelPilot.Client.World.Zones.IZone.Membership*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Membership" data-uid="PixelPilot.Client.World.Zones.IZone.Membership">
+  Membership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Per-block membership mask, indexed [x, y].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool[,] Membership { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Name_" data-uid="PixelPilot.Client.World.Zones.IZone.Name*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Name" data-uid="PixelPilot.Client.World.Zones.IZone.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_PlayerLight_" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLight*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_PlayerLight" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLight">
+  PlayerLight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Personal light carried by players inside the zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZonePlayerLightState PlayerLight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZonePlayerLightState.html">ZonePlayerLightState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_PlayerLightHue_" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightHue*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_PlayerLightHue" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightHue">
+  PlayerLightHue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PlayerLightHue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_PlayerLightRadius_" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightRadius*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_PlayerLightRadius" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightRadius">
+  PlayerLightRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PlayerLightRadius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_PlayerLightSaturation_" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightSaturation*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_PlayerLightSaturation" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightSaturation">
+  PlayerLightSaturation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PlayerLightSaturation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_PlayerLightStrength_" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightStrength*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_PlayerLightStrength" data-uid="PixelPilot.Client.World.Zones.IZone.PlayerLightStrength">
+  PlayerLightStrength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PlayerLightStrength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Priority_" data-uid="PixelPilot.Client.World.Zones.IZone.Priority*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Priority" data-uid="PixelPilot.Client.World.Zones.IZone.Priority">
+  Priority
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Priority { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Size_" data-uid="PixelPilot.Client.World.Zones.IZone.Size*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Size" data-uid="PixelPilot.Client.World.Zones.IZone.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The number of blocks that are a member of this zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Size { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Vision_" data-uid="PixelPilot.Client.World.Zones.IZone.Vision*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Vision" data-uid="PixelPilot.Client.World.Zones.IZone.Vision">
+  Vision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneVisionState Vision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneVisionState.html">ZoneVisionState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_VisionColor_" data-uid="PixelPilot.Client.World.Zones.IZone.VisionColor*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_VisionColor" data-uid="PixelPilot.Client.World.Zones.IZone.VisionColor">
+  VisionColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fill color for hidden areas; overrides the world's void color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Color VisionColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_VisionOutside_" data-uid="PixelPilot.Client.World.Zones.IZone.VisionOutside*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_VisionOutside" data-uid="PixelPilot.Client.World.Zones.IZone.VisionOutside">
+  VisionOutside
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hides the zone's interior from players outside it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ZoneVisionState VisionOutside { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelPilot.Client.World.Zones.ZoneVisionState.html">ZoneVisionState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_Width_" data-uid="PixelPilot.Client.World.Zones.IZone.Width*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_Width" data-uid="PixelPilot.Client.World.Zones.IZone.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Width { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_AsProtoZone_" data-uid="PixelPilot.Client.World.Zones.IZone.AsProtoZone*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_AsProtoZone" data-uid="PixelPilot.Client.World.Zones.IZone.AsProtoZone">
+  AsProtoZone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ProtoZone AsProtoZone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_SettingsEqual_" data-uid="PixelPilot.Client.World.Zones.IZone.SettingsEqual*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_SettingsEqual_PixelPilot_Client_World_Zones_IZone_" data-uid="PixelPilot.Client.World.Zones.IZone.SettingsEqual(PixelPilot.Client.World.Zones.IZone)">
+  SettingsEqual(IZone)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares every setting except <a class="xref" href="PixelPilot.Client.World.Zones.IZone.html#PixelPilot_Client_World_Zones_IZone_Membership">Membership</a> (and its Width/Height, which only
+describe the membership grid's dimensions).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool SettingsEqual(IZone other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelPilot.Client.World.Zones.IZone.html">IZone</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Client_World_Zones_IZone_ToUpsertPacket_" data-uid="PixelPilot.Client.World.Zones.IZone.ToUpsertPacket*"></a>
+
+  <h3 id="PixelPilot_Client_World_Zones_IZone_ToUpsertPacket_System_String_" data-uid="PixelPilot.Client.World.Zones.IZone.ToUpsertPacket(System.String)">
+  ToUpsertPacket(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Builds a create/update-settings request. Pass an existing zone's id to update its
+settings; omit it to create a new zone (server-assigned id). The server ignores
+Width/Height/MembershipRle on this packet — membership can only be changed via area-edit
+requests (see <a class="xref" href="PixelPilot.Client.World.Zones.ZoneMembershipRects.html">ZoneMembershipRects</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMessage ToUpsertPacket(string? id = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IMessage</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/World/Zones/Abstract/IZone.cs/#L7" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.15.11/apiSpec/new?filename=PixelPilot_Structures_WorldStructure.md&amp;value=---%0Auid%3A%20PixelPilot.Structures.WorldStructure%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.16.0/apiSpec/new?filename=PixelPilot_Structures_WorldStructure.md&amp;value=---%0Auid%3A%20PixelPilot.Structures.WorldStructure%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_Structures_WorldStructure" data-uid="PixelPilot.Structures.WorldStructure" class="text-break">
-Class WorldStructure  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/WorldStructure.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class WorldStructure  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/WorldStructure.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -141,6 +141,9 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
       <a class="xref" href="PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Labels">Structure.Labels</a>
     </div>
     <div>
+      <a class="xref" href="PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_Zones">Structure.Zones</a>
+    </div>
+    <div>
       <a class="xref" href="PixelPilot.Structures.Structure.html#PixelPilot_Structures_Structure_BlocksWithEmpty">Structure.BlocksWithEmpty</a>
     </div>
     <div>
@@ -185,7 +188,7 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
 
   <h3 id="PixelPilot_Structures_WorldStructure__ctor_PixelPilot_Structures_Structure_" data-uid="PixelPilot.Structures.WorldStructure.#ctor(PixelPilot.Structures.Structure)">
   WorldStructure(Structure)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/WorldStructure.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/WorldStructure.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -214,16 +217,16 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
 
   <a id="PixelPilot_Structures_WorldStructure__ctor_" data-uid="PixelPilot.Structures.WorldStructure.#ctor*"></a>
 
-  <h3 id="PixelPilot_Structures_WorldStructure__ctor_System_Int32_System_Int32_System_Collections_Generic_Dictionary_System_String_System_String__System_Boolean_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__System_Collections_Generic_List_PixelPilot_Client_World_Labels_ITextLabel__" data-uid="PixelPilot.Structures.WorldStructure.#ctor(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},System.Collections.Generic.List{PixelPilot.Client.World.Labels.ITextLabel})">
-  WorldStructure(int, int, Dictionary&lt;string, string&gt;, bool, List&lt;IPlacedBlock&gt;, List&lt;ITextLabel&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/WorldStructure.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PixelPilot_Structures_WorldStructure__ctor_System_Int32_System_Int32_System_Collections_Generic_Dictionary_System_String_System_String__System_Boolean_System_Collections_Generic_List_PixelPilot_Client_World_Blocks_Placed_IPlacedBlock__System_Collections_Generic_List_PixelPilot_Client_World_Labels_ITextLabel__System_Collections_Generic_List_PixelPilot_Client_World_Zones_IZone__" data-uid="PixelPilot.Structures.WorldStructure.#ctor(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.Collections.Generic.List{PixelPilot.Client.World.Blocks.Placed.IPlacedBlock},System.Collections.Generic.List{PixelPilot.Client.World.Labels.ITextLabel},System.Collections.Generic.List{PixelPilot.Client.World.Zones.IZone})">
+  WorldStructure(int, int, Dictionary&lt;string, string&gt;, bool, List&lt;IPlacedBlock&gt;, List&lt;ITextLabel&gt;, List&lt;IZone&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/WorldStructure.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WorldStructure(int width, int height, Dictionary&lt;string, string&gt; meta, bool containsEmpty, List&lt;IPlacedBlock&gt; blocks, List&lt;ITextLabel&gt; labels)</code></pre>
+    <pre><code class="lang-csharp hljs">public WorldStructure(int width, int height, Dictionary&lt;string, string&gt; meta, bool containsEmpty, List&lt;IPlacedBlock&gt; blocks, List&lt;ITextLabel&gt; labels, List&lt;IZone&gt;? zones = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -239,6 +242,8 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
     <dt><code>blocks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PixelPilot.Client.World.Blocks.Placed.IPlacedBlock.html">IPlacedBlock</a>&gt;</dt>
     <dd></dd>
     <dt><code>labels</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PixelPilot.Client.World.Labels.ITextLabel.html">ITextLabel</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>zones</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PixelPilot.Client.World.Zones.IZone.html">IZone</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -260,7 +265,7 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
 
   <h3 id="PixelPilot_Structures_WorldStructure_WorldSettingsKey" data-uid="PixelPilot.Structures.WorldStructure.WorldSettingsKey">
   WorldSettingsKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/WorldStructure.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/WorldStructure.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -295,7 +300,7 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
 
   <h3 id="PixelPilot_Structures_WorldStructure_WorldSettings" data-uid="PixelPilot.Structures.WorldStructure.WorldSettings">
   WorldSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/WorldStructure.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/WorldStructure.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -326,7 +331,7 @@ Class WorldStructure  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/WorldStructure.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/WorldStructure.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

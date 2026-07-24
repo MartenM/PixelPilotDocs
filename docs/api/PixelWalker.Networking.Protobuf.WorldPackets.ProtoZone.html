@@ -1,0 +1,4569 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ProtoZone | PixelPilot </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ProtoZone | PixelPilot ">
+      
+      
+      <link rel="icon" href="../images/pixel_pilot.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.16.0/apiSpec/new?filename=PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone.md&amp;value=---%0Auid%3A%20PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/pixel_pilot.png" alt="PixelPilot Documentation">
+            PixelPilot Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone">
+
+
+
+  <h1 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone" class="text-break">
+Class ProtoZone  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24201"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PixelWalker.html">PixelWalker</a>.<a class="xref" href="PixelWalker.Networking.html">Networking</a>.<a class="xref" href="PixelWalker.Networking.Protobuf.html">Protobuf</a>.<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.html">WorldPackets</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PixelPilot.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ProtoZone : IMessage&lt;ProtoZone&gt;, IEquatable&lt;ProtoZone&gt;, IDeepCloneable&lt;ProtoZone&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ProtoZone</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_GetPlayerId_Google_Protobuf_IMessage_">WorldPacketExtensions.GetPlayerId(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_IsReplayable_Google_Protobuf_IMessage_">WorldPacketExtensions.IsReplayable(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_RemovePlayerId_Google_Protobuf_IMessage_">WorldPacketExtensions.RemovePlayerId(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="PixelPilot.Client.Messages.Packets.Extensions.WorldPacketExtensions.html#PixelPilot_Client_Messages_Packets_Extensions_WorldPacketExtensions_ToWorldPacket_Google_Protobuf_IMessage_">WorldPacketExtensions.ToWorldPacket(IMessage)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone__ctor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.#ctor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone__ctor" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.#ctor">
+  ProtoZone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProtoZone()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone__ctor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.#ctor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone__ctor_PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.#ctor(PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone)">
+  ProtoZone(ProtoZone)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProtoZone(ProtoZone other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraFollowMovementFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraFollowMovementFieldNumber">
+  CameraFollowMovementFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24501"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;camera_follow_movement&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CameraFollowMovementFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraModeXFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraModeXFieldNumber">
+  CameraModeXFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;camera_mode_x&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CameraModeXFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraModeYFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraModeYFieldNumber">
+  CameraModeYFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;camera_mode_y&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CameraModeYFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraMovementFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraMovementFieldNumber">
+  CameraMovementFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24489"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;camera_movement&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CameraMovementFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraTargetFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraTargetFieldNumber">
+  CameraTargetFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24477"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;camera_target&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CameraTargetFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherBottomFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherBottomFieldNumber">
+  DistortionFeatherBottomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25056"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_feather_bottom&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionFeatherBottomFieldNumber = 57</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherLeftFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherLeftFieldNumber">
+  DistortionFeatherLeftFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25068"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_feather_left&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionFeatherLeftFieldNumber = 58</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherRightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherRightFieldNumber">
+  DistortionFeatherRightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25044"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_feather_right&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionFeatherRightFieldNumber = 56</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherTopFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherTopFieldNumber">
+  DistortionFeatherTopFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25032"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_feather_top&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionFeatherTopFieldNumber = 55</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFieldNumber">
+  DistortionFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24972"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionFieldNumber = 51</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginBottomFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginBottomFieldNumber">
+  DistortionMarginBottomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_margin_bottom&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionMarginBottomFieldNumber = 61</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginLeftFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginLeftFieldNumber">
+  DistortionMarginLeftFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_margin_left&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionMarginLeftFieldNumber = 62</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginRightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginRightFieldNumber">
+  DistortionMarginRightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25092"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_margin_right&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionMarginRightFieldNumber = 60</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginTopFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginTopFieldNumber">
+  DistortionMarginTopFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25080"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_margin_top&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionMarginTopFieldNumber = 59</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionScaleFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionScaleFieldNumber">
+  DistortionScaleFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25002"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_scale&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionScaleFieldNumber = 53</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionSmoothingFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionSmoothingFieldNumber">
+  DistortionSmoothingFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_smoothing&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionSmoothingFieldNumber = 63</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionSpeedFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionSpeedFieldNumber">
+  DistortionSpeedFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25017"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_speed&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionSpeedFieldNumber = 54</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionStrengthFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionStrengthFieldNumber">
+  DistortionStrengthFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24987"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;distortion_strength&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistortionStrengthFieldNumber = 52</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogDensityFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogDensityFieldNumber">
+  FogDensityFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24819"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_density&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogDensityFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogDirectionFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogDirectionFieldNumber">
+  FogDirectionFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24834"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_direction&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogDirectionFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherBottomFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherBottomFieldNumber">
+  FogFeatherBottomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24888"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_feather_bottom&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogFeatherBottomFieldNumber = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherLeftFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherLeftFieldNumber">
+  FogFeatherLeftFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24900"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_feather_left&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogFeatherLeftFieldNumber = 45</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherRightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherRightFieldNumber">
+  FogFeatherRightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24876"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_feather_right&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogFeatherRightFieldNumber = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherTopFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherTopFieldNumber">
+  FogFeatherTopFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24864"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_feather_top&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogFeatherTopFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFieldNumber">
+  FogFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24759"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogHueFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogHueFieldNumber">
+  FogHueFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24774"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_hue&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogHueFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginBottomFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginBottomFieldNumber">
+  FogMarginBottomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24936"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_margin_bottom&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogMarginBottomFieldNumber = 48</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginLeftFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginLeftFieldNumber">
+  FogMarginLeftFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24948"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_margin_left&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogMarginLeftFieldNumber = 49</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginRightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginRightFieldNumber">
+  FogMarginRightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24924"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_margin_right&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogMarginRightFieldNumber = 47</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginTopFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginTopFieldNumber">
+  FogMarginTopFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24912"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_margin_top&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogMarginTopFieldNumber = 46</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogOpacityFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogOpacityFieldNumber">
+  FogOpacityFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24804"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_opacity&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogOpacityFieldNumber = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSaturationFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSaturationFieldNumber">
+  FogSaturationFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24789"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_saturation&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogSaturationFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSmoothingFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSmoothingFieldNumber">
+  FogSmoothingFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24960"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_smoothing&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogSmoothingFieldNumber = 50</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSpeedFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSpeedFieldNumber">
+  FogSpeedFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24849"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;fog_speed&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FogSpeedFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_HasVisionColorFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.HasVisionColorFieldNumber">
+  HasVisionColorFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24426"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;has_vision_color&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasVisionColorFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_HeightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.HeightFieldNumber">
+  HeightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;height&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeightFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_HueFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.HueFieldNumber">
+  HueFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;hue&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HueFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_IdFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.IdFieldNumber">
+  IdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightDarknessFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightDarknessFieldNumber">
+  LightDarknessFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24531"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_darkness&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightDarknessFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherBottomFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherBottomFieldNumber">
+  LightFeatherBottomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24600"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_feather_bottom&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightFeatherBottomFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherLeftFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherLeftFieldNumber">
+  LightFeatherLeftFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24612"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_feather_left&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightFeatherLeftFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherRightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherRightFieldNumber">
+  LightFeatherRightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_feather_right&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightFeatherRightFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherTopFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherTopFieldNumber">
+  LightFeatherTopFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24576"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_feather_top&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightFeatherTopFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightHueFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightHueFieldNumber">
+  LightHueFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24546"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_hue&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightHueFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginBottomFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginBottomFieldNumber">
+  LightMarginBottomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24648"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_margin_bottom&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightMarginBottomFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginLeftFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginLeftFieldNumber">
+  LightMarginLeftFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24660"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_margin_left&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightMarginLeftFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginRightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginRightFieldNumber">
+  LightMarginRightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24636"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_margin_right&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightMarginRightFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginTopFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginTopFieldNumber">
+  LightMarginTopFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24624"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_margin_top&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightMarginTopFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightSmoothingFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightSmoothingFieldNumber">
+  LightSmoothingFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24672"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_smoothing&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightSmoothingFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightTintFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightTintFieldNumber">
+  LightTintFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24561"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;light_tint&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightTintFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightingFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightingFieldNumber">
+  LightingFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24516"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;lighting&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LightingFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MembershipRleFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MembershipRleFieldNumber">
+  MembershipRleFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;membership_rle&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MembershipRleFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_NameFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.NameFieldNumber">
+  NameFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;name&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NameFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightFieldNumber">
+  PlayerLightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24684"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;player_light&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerLightFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightHueFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightHueFieldNumber">
+  PlayerLightHueFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24729"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;player_light_hue&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerLightHueFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightRadiusFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightRadiusFieldNumber">
+  PlayerLightRadiusFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24699"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;player_light_radius&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerLightRadiusFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightSaturationFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightSaturationFieldNumber">
+  PlayerLightSaturationFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24744"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;player_light_saturation&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerLightSaturationFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightStrengthFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightStrengthFieldNumber">
+  PlayerLightStrengthFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24714"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;player_light_strength&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerLightStrengthFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PriorityFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PriorityFieldNumber">
+  PriorityFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;priority&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PriorityFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionColorFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionColorFieldNumber">
+  VisionColorFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24441"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;vision_color&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VisionColorFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionFieldNumber">
+  VisionFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;vision&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VisionFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionOutsideFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionOutsideFieldNumber">
+  VisionOutsideFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24411"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;vision_outside&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VisionOutsideFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_WidthFieldNumber" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.WidthFieldNumber">
+  WidthFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;width&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WidthFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraFollowMovement_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraFollowMovement*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraFollowMovement" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraFollowMovement">
+  CameraFollowMovement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24506"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Camera follow smoothing while not locked to this zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneCameraMovement CameraFollowMovement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMovement.html">ZoneCameraMovement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraModeX_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraModeX*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraModeX" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraModeX">
+  CameraModeX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneCameraMode CameraModeX { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMode.html">ZoneCameraMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraModeY_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraModeY*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraModeY" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraModeY">
+  CameraModeY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneCameraMode CameraModeY { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMode.html">ZoneCameraMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraMovement_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraMovement*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraMovement" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraMovement">
+  CameraMovement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24491"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneCameraMovement CameraMovement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraMovement.html">ZoneCameraMovement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraTarget_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraTarget*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CameraTarget" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CameraTarget">
+  CameraTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24479"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneCameraTarget CameraTarget { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneCameraTarget.html">ZoneCameraTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Descriptor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Descriptor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Descriptor" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Distortion_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Distortion*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Distortion" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Distortion">
+  Distortion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24977"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Distortion</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneDistortion Distortion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneDistortion.html">ZoneDistortion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherBottom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherBottom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherBottom" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherBottom">
+  DistortionFeatherBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25058"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionFeatherBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherLeft_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherLeft*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherLeft" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherLeft">
+  DistortionFeatherLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25070"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionFeatherLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherRight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherRight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherRight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherRight">
+  DistortionFeatherRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25046"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionFeatherRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherTop_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherTop*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionFeatherTop" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionFeatherTop">
+  DistortionFeatherTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25034"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionFeatherTop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginBottom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginBottom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginBottom" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginBottom">
+  DistortionMarginBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionMarginBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginLeft_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginLeft*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginLeft" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginLeft">
+  DistortionMarginLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionMarginLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginRight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginRight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginRight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginRight">
+  DistortionMarginRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25094"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionMarginRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginTop_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginTop*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionMarginTop" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionMarginTop">
+  DistortionMarginTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25082"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionMarginTop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionScale_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionScale*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionScale" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionScale">
+  DistortionScale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25007"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionScale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionSmoothing_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionSmoothing*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionSmoothing" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionSmoothing">
+  DistortionSmoothing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionSmoothing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionSpeed_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionSpeed*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionSpeed" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionSpeed">
+  DistortionSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25022"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionStrength_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionStrength*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_DistortionStrength" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.DistortionStrength">
+  DistortionStrength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24992"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DistortionStrength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Fog_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Fog*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Fog" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Fog">
+  Fog
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24764"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fog</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneFog Fog { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneFog.html">ZoneFog</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogDensity_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogDensity*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogDensity" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogDensity">
+  FogDensity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24824"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogDensity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogDirection_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogDirection*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogDirection" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogDirection">
+  FogDirection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24839"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-359 degrees, clockwise from east</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherBottom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherBottom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherBottom" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherBottom">
+  FogFeatherBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24890"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogFeatherBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherLeft_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherLeft*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherLeft" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherLeft">
+  FogFeatherLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24902"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogFeatherLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherRight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherRight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherRight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherRight">
+  FogFeatherRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24878"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogFeatherRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherTop_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherTop*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogFeatherTop" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogFeatherTop">
+  FogFeatherTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24866"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogFeatherTop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogHue_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogHue*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogHue" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogHue">
+  FogHue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24779"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-359</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogHue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginBottom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginBottom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginBottom" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginBottom">
+  FogMarginBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24938"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogMarginBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginLeft_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginLeft*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginLeft" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginLeft">
+  FogMarginLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24950"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogMarginLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginRight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginRight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginRight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginRight">
+  FogMarginRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24926"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogMarginRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginTop_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginTop*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogMarginTop" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogMarginTop">
+  FogMarginTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24914"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogMarginTop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogOpacity_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogOpacity*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogOpacity" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogOpacity">
+  FogOpacity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24809"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogOpacity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSaturation_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSaturation*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSaturation" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSaturation">
+  FogSaturation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24794"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogSaturation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSmoothing_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSmoothing*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSmoothing" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSmoothing">
+  FogSmoothing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24962"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogSmoothing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSpeed_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSpeed*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_FogSpeed" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.FogSpeed">
+  FogSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24854"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FogSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_HasVisionColor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.HasVisionColor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_HasVisionColor" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.HasVisionColor">
+  HasVisionColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24431"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fill color (0xRRGGBB) for hidden areas; overrides the world's void color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasVisionColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Height_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Height*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Height" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Hue_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Hue*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Hue" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Hue">
+  Hue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Display color as a hue (0-359)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Hue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Id_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Id*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Id" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightDarkness_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightDarkness*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightDarkness" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightDarkness">
+  LightDarkness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24536"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightDarkness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherBottom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherBottom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherBottom" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherBottom">
+  LightFeatherBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24602"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightFeatherBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherLeft_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherLeft*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherLeft" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherLeft">
+  LightFeatherLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24614"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightFeatherLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherRight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherRight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherRight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherRight">
+  LightFeatherRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24590"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightFeatherRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherTop_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherTop*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightFeatherTop" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightFeatherTop">
+  LightFeatherTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24578"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightFeatherTop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightHue_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightHue*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightHue" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightHue">
+  LightHue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24551"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-359</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightHue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginBottom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginBottom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginBottom" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginBottom">
+  LightMarginBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24650"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightMarginBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginLeft_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginLeft*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginLeft" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginLeft">
+  LightMarginLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24662"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightMarginLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginRight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginRight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginRight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginRight">
+  LightMarginRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24638"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightMarginRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginTop_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginTop*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightMarginTop" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightMarginTop">
+  LightMarginTop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24626"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightMarginTop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightSmoothing_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightSmoothing*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightSmoothing" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightSmoothing">
+  LightSmoothing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24674"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightSmoothing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightTint_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightTint*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_LightTint" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.LightTint">
+  LightTint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24566"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightTint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Lighting_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Lighting*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Lighting" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Lighting">
+  Lighting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24521"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lighting (darken + tint)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneLighting Lighting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneLighting.html">ZoneLighting</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MembershipRle_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MembershipRle*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MembershipRle" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MembershipRle">
+  MembershipRle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24389"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>per-block 0/1 mask, RLE-compressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString MembershipRle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Name_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Name*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Name" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Parser_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Parser*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Parser" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;ProtoZone&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLight_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLight*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLight" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLight">
+  PlayerLight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24689"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Personal light carried by players inside the zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZonePlayerLight PlayerLight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZonePlayerLight.html">ZonePlayerLight</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightHue_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightHue*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightHue" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightHue">
+  PlayerLightHue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24734"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-359</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerLightHue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightRadius_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightRadius*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightRadius" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightRadius">
+  PlayerLightRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24704"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>px</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerLightRadius { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightSaturation_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightSaturation*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightSaturation" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightSaturation">
+  PlayerLightSaturation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24749"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerLightSaturation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightStrength_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightStrength*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_PlayerLightStrength" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.PlayerLightStrength">
+  PlayerLightStrength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24719"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>0-100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerLightStrength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Priority_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Priority*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Priority" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Priority">
+  Priority
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Priority { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Vision_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Vision*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Vision" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Vision">
+  Vision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneVision Vision { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneVision.html">ZoneVision</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionColor_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionColor*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionColor" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionColor">
+  VisionColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24443"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int VisionColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionOutside_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionOutside*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_VisionOutside" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.VisionOutside">
+  VisionOutside
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hides the zone's interior from players outside it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZoneVision VisionOutside { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ZoneVision.html">ZoneVision</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Width_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Width*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Width" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CalculateSize_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CalculateSize*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_CalculateSize" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25825"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Clone_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Clone*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Clone" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProtoZone Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Equals_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Equals*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Equals_PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Equals(PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone)">
+  Equals(ProtoZone)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(ProtoZone other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Equals_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Equals*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_Equals_System_Object_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_GetHashCode_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.GetHashCode*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_GetHashCode" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MergeFrom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MergeFrom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L26222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MergeFrom_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MergeFrom*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.MergeFrom(PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone)">
+  MergeFrom(ProtoZone)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L26024"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(ProtoZone other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.html">ProtoZone</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_MergeFrom_PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_ToString_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.ToString*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_ToString" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_WriteTo_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.WriteTo*"></a>
+
+  <h3 id="PixelWalker_Networking_Protobuf_WorldPackets_ProtoZone_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="PixelWalker.Networking.Protobuf.WorldPackets.ProtoZone.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L25299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Core/Client/Messages/Packets/World.g.cs/#L24201" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          PixelPilot © 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

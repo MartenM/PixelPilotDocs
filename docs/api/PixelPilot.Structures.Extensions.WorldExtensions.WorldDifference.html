@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.15.11/apiSpec/new?filename=PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference.md&amp;value=---%0Auid%3A%20PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MartenM/PixelPilot/new/v1.16.0/apiSpec/new?filename=PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference.md&amp;value=---%0Auid%3A%20PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference" class="text-break">
-Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L95"><i class="bi bi-code-slash"></i></a>
+Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -156,7 +156,7 @@ Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" t
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_Blocks" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.Blocks">
   Blocks
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -187,7 +187,7 @@ Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" t
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_Labels" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.Labels">
   Labels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -214,6 +214,108 @@ Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" t
 
 
 
+  <a id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_ZoneAreaEdits_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.ZoneAreaEdits*"></a>
+
+  <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_ZoneAreaEdits" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.ZoneAreaEdits">
+  ZoneAreaEdits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zone membership add/remove requests for zones that already exist in the target world
+(only the cells that changed).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required List&lt;IMessage&gt; ZoneAreaEdits { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">IMessage</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_ZoneCreations_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.ZoneCreations*"></a>
+
+  <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_ZoneCreations" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.ZoneCreations">
+  ZoneCreations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zones that don't exist in the target world yet and need to be created. See
+<a class="xref" href="PixelPilot.Structures.Extensions.WorldExtensions.ZoneCreation.html">WorldExtensions.ZoneCreation</a> — creating one and then populating its membership requires
+waiting for the server to echo back its assigned id (<a class="xref" href="PixelPilot.Structures.Extensions.WorldExtensions.html#PixelPilot_Structures_Extensions_WorldExtensions_PasteDifference_PixelPilot_Client_World_PixelWorld_PixelPilot_Client_PixelPilotClient_PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_System_Int32_">PasteDifference(PixelWorld, PixelPilotClient, WorldDifference, int)</a>
+does this; <a class="xref" href="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.html#PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_AsPackets">AsPackets()</a> cannot, since it's synchronous, so it only sends the
+create request and leaves the new zone's membership empty).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required List&lt;WorldExtensions.ZoneCreation&gt; ZoneCreations { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PixelPilot.Structures.Extensions.WorldExtensions.html">WorldExtensions</a>.<a class="xref" href="PixelPilot.Structures.Extensions.WorldExtensions.ZoneCreation.html">ZoneCreation</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_ZoneUpserts_" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.ZoneUpserts*"></a>
+
+  <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_ZoneUpserts" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.ZoneUpserts">
+  ZoneUpserts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update-settings requests for zones that already exist in the target world (only sent
+when a setting actually differs).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required List&lt;IMessage&gt; ZoneUpserts { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">IMessage</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -222,7 +324,7 @@ Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" t
 
   <h3 id="PixelPilot_Structures_Extensions_WorldExtensions_WorldDifference_AsPackets" data-uid="PixelPilot.Structures.Extensions.WorldExtensions.WorldDifference.AsPackets">
   AsPackets()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -253,7 +355,7 @@ Class WorldExtensions.WorldDifference  <a class="header-action link-secondary" t
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MartenM/PixelPilot/blob/v1.15.11/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L95" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MartenM/PixelPilot/blob/v1.16.0/src/PixelPilot.Structures/Extensions/WorldExtensions.cs/#L133" class="edit-link">Edit this page</a>
         </div>
 
 
