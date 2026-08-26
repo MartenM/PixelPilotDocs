@@ -82,6 +82,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.Expanded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.Expanded.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelPilot.Api.Responses.Collections.ICollectionEntry.yml",
       "output": {
         ".html": {
@@ -106,6 +116,16 @@
       "output": {
         ".html": {
           "relative_path": "api/PixelPilot.Api.Responses.Collections.QueryArgumentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PixelPilot.Api.Responses.Collections.WorldData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelPilot.Api.Responses.Collections.WorldData.html"
         }
       },
       "version": ""
@@ -2322,6 +2342,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLeaderboardUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLeaderboardUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.PlayerLeftPacket.yml",
       "output": {
         ".html": {
@@ -2822,6 +2852,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldVerifyPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldVerifyPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PixelWalker.Networking.Protobuf.WorldPackets.WorldZoneAreaEditPacket.yml",
       "output": {
         ".html": {
@@ -2994,11 +3034,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -3097,11 +3137,11 @@
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "guides/toc.html"
-        },
         ".json": {
           "relative_path": "guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "guides/toc.html"
         }
       },
       "version": ""
@@ -3130,11 +3170,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
